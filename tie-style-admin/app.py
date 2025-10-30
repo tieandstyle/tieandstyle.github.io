@@ -88,24 +88,71 @@ def publish_to_github():
         
         # Add and commit changes
         repo.git.add(all=True)
-        repo.index.commit(commit_message)
+        commit_result = repo.index.commit(commit_message)
         
-        # Temporarily set remote URL with token
+        # Temporarily set remote URL with token and push
         remote = repo.remote(name=remote_name)
         original_url = remote.url
-        remote.set_url(push_url)
-        remote.push(refspec=f"{branch}:{branch}")
-        remote.set_url(original_url)
+        
+        try:
+            remote.set_url(push_url)
+            
+            # Try to push with detailed error handling
+            try:
+                push_info = remote.push(refspec=f"{branch}:{branch}")
+                
+                # Check if push was successful
+                if push_info and len(push_info) > 0:
+                    push_result = push_info[0]
+                    if push_result.flags & push_result.ERROR:
+                        error_msg = f"Push failed: {push_result.summary}"
+                        remote.set_url(original_url)
+                        return jsonify({"ok": False, "error": error_msg}), 500
+                    elif push_result.flags & push_result.REJECTED:
+                        error_msg = "Push rejected - pull latest changes first"
+                        remote.set_url(original_url)
+                        return jsonify({"ok": False, "error": error_msg}), 500
+                
+            except GitCommandError as git_err:
+                remote.set_url(original_url)
+                error_msg = str(git_err)
+                
+                # Provide helpful error messages
+                if "Could not resolve host" in error_msg:
+                    error_msg = "❌ Cannot connect to GitHub. Check your internet connection."
+                elif "Authentication failed" in error_msg or "Invalid username or password" in error_msg:
+                    error_msg = "❌ GitHub authentication failed. Check your GITHUB_TOKEN in .env file."
+                elif "Repository not found" in error_msg:
+                    error_msg = "❌ Repository not found. Check GITHUB_REPO_URL in .env file."
+                elif "failed to push" in error_msg:
+                    error_msg = f"❌ Push failed: {error_msg}"
+                
+                return jsonify({"ok": False, "error": error_msg}), 500
+                
+            # Restore original URL
+            remote.set_url(original_url)
+            
+        except Exception as push_error:
+            # Make sure to restore original URL even if something goes wrong
+            try:
+                remote.set_url(original_url)
+            except:
+                pass
+            raise push_error
         
         return jsonify({
             "ok": True, 
             "message": f"✅ Successfully Published to GitHub! ({len(changed_files)} files)", 
             "branch": branch,
+            "commit": str(commit_result)[:8],
             "changes": changed_files[:10]  # Show first 10 changed files
         })
+    except GitCommandError as git_e:
+        traceback.print_exc(file=sys.stderr)
+        return jsonify({"ok": False, "error": f"Git error: {str(git_e)}"}), 500
     except Exception as e:
         traceback.print_exc(file=sys.stderr)
-        return jsonify({"ok": False, "error": str(e)}), 500
+        return jsonify({"ok": False, "error": f"Unexpected error: {str(e)}"}), 500
 
 # Configuration - Use parent directory's assets and image folders
 PARENT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
