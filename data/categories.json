@@ -28,15 +28,5 @@
     "parentId": null,
     "order": 3,
     "active": true
-  },
-  {
-    "id": "cat-04",
-    "name": "test",
-    "slug": "test",
-    "description": "test 1",
-    "image": "assets/categories/test.png",
-    "parentId": null,
-    "order": 4,
-    "active": true
   }
 ]
