@@ -99,6 +99,7 @@ def publish_to_github():
             
             # Try to push with detailed error handling
             try:
+                # First try normal push
                 push_info = remote.push(refspec=f"{branch}:{branch}")
                 
                 # Check if push was successful
@@ -109,9 +110,14 @@ def publish_to_github():
                         remote.set_url(original_url)
                         return jsonify({"ok": False, "error": error_msg}), 500
                     elif push_result.flags & push_result.REJECTED:
-                        error_msg = "Push rejected - pull latest changes first"
-                        remote.set_url(original_url)
-                        return jsonify({"ok": False, "error": error_msg}), 500
+                        # If rejected, try force push
+                        try:
+                            push_info = remote.push(refspec=f"{branch}:{branch}", force=True)
+                            print(f"⚠️ Force pushed to {branch}")
+                        except Exception as force_err:
+                            error_msg = f"Push rejected and force push failed: {str(force_err)}"
+                            remote.set_url(original_url)
+                            return jsonify({"ok": False, "error": error_msg}), 500
                 
             except GitCommandError as git_err:
                 remote.set_url(original_url)
