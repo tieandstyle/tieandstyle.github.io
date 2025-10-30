@@ -807,12 +807,52 @@ def store_settings():
         store_info['delivery']['returnsPolicy'] = request.form.get('returns_policy')
         
         # Update pricing
-        store_info['pricing']['taxRatePct'] = float(request.form.get('tax_rate', 18))
-        store_info['pricing']['freeShippingMin'] = float(request.form.get('free_shipping_min', 999))
-        store_info['pricing']['shippingFlat'] = float(request.form.get('shipping_flat', 60))
+        tax_rate_value = request.form.get('tax_rate', '0').strip()
+        store_info['pricing']['taxRatePct'] = float(tax_rate_value) if tax_rate_value else 0.0
+        
+        free_shipping_value = request.form.get('free_shipping_min', '999').strip()
+        store_info['pricing']['freeShippingMin'] = float(free_shipping_value) if free_shipping_value else 999.0
+        
+        # Remove shippingFlat if it exists (we now use state-based shipping)
+        if 'shippingFlat' in store_info['pricing']:
+            del store_info['pricing']['shippingFlat']
         
         # Update social
         store_info['social']['instagram'] = request.form.get('instagram')
+
+        # Parse delivery rates table entries from the form and persist them
+        try:
+            states = request.form.getlist('delivery_state[]')
+            regions = request.form.getlist('delivery_region[]')
+            charges = request.form.getlist('delivery_charge[]')
+        except Exception:
+            states = []
+            regions = []
+            charges = []
+
+        rates = []
+        # Use zip to iterate safely over the shortest list; ignore empty state entries
+        for s, r, c in zip(states, regions, charges):
+            state_val = (s or '').strip()
+            if not state_val:
+                continue
+            region_val = (r or '').strip()
+            # Parse charge, default to 0.0 on failure
+            try:
+                charge_val = float(c) if (c is not None and str(c).strip() != '') else 0.0
+            except Exception:
+                charge_val = 0.0
+
+            rates.append({
+                'state': state_val,
+                'region': region_val,
+                'charge_inr': charge_val
+            })
+
+        # Ensure delivery key exists and assign rates
+        if 'delivery' not in store_info or not isinstance(store_info['delivery'], dict):
+            store_info['delivery'] = {}
+        store_info['delivery']['rates'] = rates
         
         # Handle logo upload
         if 'logo' in request.files:

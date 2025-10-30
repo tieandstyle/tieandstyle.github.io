@@ -109,7 +109,10 @@
     <div class="bg-white dark:bg-background-dark border border-gray-200 dark:border-gray-700 rounded-lg mb-8 overflow-hidden">
       <nav class="flex border-b border-gray-200 dark:border-gray-700">
         <button onclick="switchTab('orders')" id="ordersTab" class="flex-1 px-6 py-4 text-sm font-medium border-b-2 border-primary text-primary">
-          📦 Orders
+          📦 All Orders
+        </button>
+        <button onclick="switchTab('abroad')" id="abroadTab" class="flex-1 px-6 py-4 text-sm font-medium border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600">
+          🌍 Abroad Orders
         </button>
         <button onclick="switchTab('analytics')" id="analyticsTab" class="flex-1 px-6 py-4 text-sm font-medium border-b-2 border-transparent hover:border-gray-300 dark:hover:border-gray-600">
           📈 Analytics
@@ -118,13 +121,21 @@
     </div>
 
     <!-- Stats Cards -->
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-6 mb-8">
       <div class="stat-card bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-lg p-6 shadow-lg">
         <div class="flex items-center justify-between mb-2">
           <p class="text-sm opacity-90">Today's Orders</p>
           <span class="text-2xl">📦</span>
         </div>
         <p class="text-3xl font-bold" id="todayOrdersCount">0</p>
+      </div>
+      
+      <div class="stat-card bg-gradient-to-br from-indigo-500 to-indigo-600 text-white rounded-lg p-6 shadow-lg">
+        <div class="flex items-center justify-between mb-2">
+          <p class="text-sm opacity-90">Abroad Orders</p>
+          <span class="text-2xl">🌍</span>
+        </div>
+        <p class="text-3xl font-bold" id="abroadOrdersCount">0</p>
       </div>
       
       <div class="stat-card bg-gradient-to-br from-green-500 to-green-600 text-white rounded-lg p-6 shadow-lg">

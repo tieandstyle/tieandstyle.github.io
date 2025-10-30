@@ -26,16 +26,43 @@
   function calculateTotals(cart) {
     const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
     
-    // Get shipping settings from store data
-    const freeShippingMin = store?.pricing?.freeShippingMin || 999;
-    const shippingFlat = store?.pricing?.shippingFlat || 50;
-    const shipping = subtotal >= freeShippingMin ? 0 : shippingFlat;
+    // Check if cart has abroad orders
+    const hasAbroadOrder = cart.some(item => item.isAbroadOrder === true);
+    
+    let shipping = 0;
+    
+    if (hasAbroadOrder) {
+      // For abroad orders, shipping will be determined by admin later
+      shipping = 0; // Admin will add delivery charge manually
+    } else {
+      // Regular domestic shipping - lookup by customer's selected state
+      const stateInput = document.getElementById('state');
+      const customerState = stateInput ? (stateInput.value || '').trim() : '';
+
+      const rates = store?.delivery?.rates || [];
+      let matchedRate = null;
+      
+      if (customerState) {
+        // Find exact match by state name
+        matchedRate = rates.find(r => r.state && r.state.toLowerCase() === customerState.toLowerCase());
+      }
+
+      const freeShippingMin = store?.pricing?.freeShippingMin || 999;
+
+      if (matchedRate) {
+        // Use state-specific charge, but honor free shipping threshold
+        shipping = subtotal >= freeShippingMin ? 0 : Number(matchedRate.charge_inr) || 0;
+      } else {
+        // If no state selected or no match, show 0 until state is selected
+        shipping = 0;
+      }
+    }
     
     // Tax removed - set to 0
     const tax = 0;
     
     const total = subtotal + shipping + tax;
-    return { subtotal, shipping, tax, total };
+    return { subtotal, shipping, tax, total, hasAbroadOrder };
   }
 
   function renderCart() {
@@ -55,11 +82,15 @@
     }
 
     orderItems.innerHTML = cart.map(item => `
-      <div class="flex items-center gap-4">
+      <div class="flex items-center gap-4 ${item.isAbroadOrder ? 'bg-blue-50 dark:bg-blue-900/10 p-3 rounded-lg border border-blue-200 dark:border-blue-700' : ''}">
         <div class="w-20 h-20 bg-cover bg-center rounded-lg flex-shrink-0" style="background-image: url('${item.image || 'data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' fill=\'%23ddd\' viewBox=\'0 0 24 24\'%3E%3Cpath d=\'M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z\'/%3E%3C/svg%3E'}');"></div>
         <div class="flex-grow">
-          <p class="font-medium">${item.title}</p>
+          <p class="font-medium flex items-center gap-2">
+            ${item.isAbroadOrder ? '<span class="text-blue-600" title="International Order">🌍</span>' : ''}
+            ${item.title}
+          </p>
           ${item.color ? `<p class="text-xs text-gray-600 dark:text-gray-400">Color: <span class="font-medium">${item.color}</span></p>` : ''}
+          ${item.isAbroadOrder ? '<p class="text-xs text-blue-600 font-semibold">International Order</p>' : ''}
           <p class="text-sm text-subtle-light dark:text-subtle-dark">Quantity: ${item.quantity}</p>
           <p class="text-sm text-primary font-semibold mt-1">${money(item.price)} each</p>
         </div>
@@ -70,16 +101,94 @@
     const totals = calculateTotals(cart);
     document.getElementById('subtotalAmount').textContent = money(totals.subtotal);
     
+    // Show abroad order notification (admin will add delivery charge later)
+    if (totals.hasAbroadOrder) {
+      const abroadNotification = document.getElementById('abroadDeliveryNotification');
+      if (abroadNotification) {
+        abroadNotification.innerHTML = `
+          <div class="bg-blue-50 dark:bg-blue-900/20 border border-blue-300 dark:border-blue-700 rounded-lg p-4 mb-4">
+            <div class="flex items-start gap-3">
+              <span class="text-2xl">🌍</span>
+              <div class="flex-1">
+                <h4 class="font-bold text-blue-900 dark:text-blue-100 mb-1">International Order</h4>
+                <p class="text-sm text-blue-800 dark:text-blue-200">
+                  This is an international order. Our admin will contact you to confirm the delivery charges based on your location before processing the order.
+                </p>
+              </div>
+            </div>
+          </div>
+        `;
+        abroadNotification.style.display = 'block';
+      }
+    } else {
+      const abroadNotification = document.getElementById('abroadDeliveryNotification');
+      if (abroadNotification) {
+        abroadNotification.style.display = 'none';
+      }
+    }
+    
     // Show shipping amount and free shipping message
     const shippingElement = document.getElementById('shippingAmount');
     const shippingRow = shippingElement?.parentElement;
+    const stateInput = document.getElementById('state');
+    const stateSelected = stateInput && stateInput.value;
     
-    if (totals.shipping === 0) {
+    if (totals.hasAbroadOrder) {
+      // Show pending delivery charge for abroad orders
+      shippingElement.textContent = 'Pending';
+      shippingElement.classList.add('text-blue-600', 'font-medium');
+      shippingElement.classList.remove('text-green-600', 'font-bold', 'text-orange-600');
+      const shippingLabel = document.querySelector('[data-shipping-label]');
+      if (shippingLabel) {
+        shippingLabel.textContent = 'International Delivery';
+      }
+      // Remove free shipping message for abroad orders
+      const messageElement = shippingRow?.querySelector('.shipping-message');
+      if (messageElement) {
+        messageElement.remove();
+      }
+    } else if (!stateSelected) {
+      // No state selected yet
+      shippingElement.textContent = 'Select State';
+      shippingElement.classList.add('text-orange-600', 'font-medium');
+      shippingElement.classList.remove('text-green-600', 'font-bold', 'text-blue-600');
+      const shippingLabel = document.querySelector('[data-shipping-label]');
+      if (shippingLabel) {
+        shippingLabel.textContent = 'Shipping';
+      }
+      // Show message to select state
+      if (shippingRow) {
+        const messageElement = shippingRow.querySelector('.shipping-message') || document.createElement('p');
+        messageElement.className = 'shipping-message text-xs text-orange-600 mt-1 col-span-2';
+        messageElement.textContent = '⚠️ Please select your state to calculate shipping charges';
+        if (!shippingRow.querySelector('.shipping-message')) {
+          shippingRow.appendChild(messageElement);
+        }
+      }
+    } else if (totals.shipping === 0) {
       shippingElement.textContent = 'FREE';
       shippingElement.classList.add('text-green-600', 'font-bold');
+      shippingElement.classList.remove('text-blue-600', 'font-medium', 'text-orange-600');
+      const shippingLabel = document.querySelector('[data-shipping-label]');
+      if (shippingLabel) {
+        shippingLabel.textContent = 'Shipping';
+      }
+      // Show congrats message
+      if (shippingRow) {
+        const messageElement = shippingRow.querySelector('.shipping-message') || document.createElement('p');
+        messageElement.className = 'shipping-message text-xs text-green-600 mt-1 col-span-2';
+        messageElement.textContent = '🎉 Congratulations! You got FREE shipping!';
+        if (!shippingRow.querySelector('.shipping-message')) {
+          shippingRow.appendChild(messageElement);
+        }
+      }
     } else {
       shippingElement.textContent = money(totals.shipping);
-      shippingElement.classList.remove('text-green-600', 'font-bold');
+      shippingElement.classList.remove('text-green-600', 'font-bold', 'text-blue-600', 'font-medium', 'text-orange-600');
+      const shippingLabel = document.querySelector('[data-shipping-label]');
+      if (shippingLabel) {
+        shippingLabel.textContent = 'Shipping';
+      }
       
       // Show how much more needed for free shipping
       const freeShippingMin = store?.pricing?.freeShippingMin || 999;
@@ -90,6 +199,12 @@
         messageElement.textContent = `Add ${money(remaining)} more for FREE shipping! 🎉`;
         if (!shippingRow.querySelector('.shipping-message')) {
           shippingRow.appendChild(messageElement);
+        }
+      } else {
+        // Remove message if it exists
+        const messageElement = shippingRow?.querySelector('.shipping-message');
+        if (messageElement) {
+          messageElement.remove();
         }
       }
     }
@@ -106,6 +221,45 @@
     document.getElementById('totalAmount').textContent = money(totals.total);
   }
 
+  function populateStateDropdown() {
+    const stateSelect = document.getElementById('state');
+    if (!stateSelect || !store?.delivery?.rates) return;
+
+    // Clear existing options except the first one
+    stateSelect.innerHTML = '<option value="">-- Select Your State --</option>';
+
+    // Sort states alphabetically and populate dropdown
+    const sortedRates = [...store.delivery.rates].sort((a, b) => 
+      a.state.localeCompare(b.state)
+    );
+
+    sortedRates.forEach(rate => {
+      const option = document.createElement('option');
+      option.value = rate.state;
+      option.textContent = `${rate.state} - ₹${rate.charge_inr}`;
+      option.dataset.charge = rate.charge_inr;
+      option.dataset.region = rate.region;
+      stateSelect.appendChild(option);
+    });
+  }
+
+  window.updateShippingOnStateChange = function() {
+    // Recalculate totals when state is selected
+    renderCart();
+    
+    // Save selected state to profile for next time
+    const profile = loadProfile();
+    const stateInput = document.getElementById('state');
+    if (stateInput && stateInput.value) {
+      profile.shipping_state = stateInput.value;
+      try {
+        localStorage.setItem(PROFILE_KEY, JSON.stringify(profile));
+      } catch (e) {
+        console.error('Error saving profile:', e);
+      }
+    }
+  };
+
   function prefillForm() {
     const profile = loadProfile();
     
@@ -114,7 +268,14 @@
     if (profile.email) document.getElementById('email').value = profile.email;
     if (profile.shipping_address) document.getElementById('address').value = profile.shipping_address;
     if (profile.shipping_city) document.getElementById('city').value = profile.shipping_city;
-    if (profile.shipping_state) document.getElementById('state').value = profile.shipping_state;
+    if (profile.shipping_state) {
+      const stateSelect = document.getElementById('state');
+      if (stateSelect) {
+        stateSelect.value = profile.shipping_state;
+        // Trigger change to update shipping
+        updateShippingOnStateChange();
+      }
+    }
     if (profile.shipping_zip) document.getElementById('zip').value = profile.shipping_zip;
   }
 
@@ -151,14 +312,21 @@
     try {
       // Save order to Firebase
       const { saveOrderToFirebase } = await import('./firebase-config.js');
+      
+      // Check if any item in cart is an abroad order
+      const hasAbroadOrder = cart.some(item => item.isAbroadOrder === true);
+      
       const orderData = {
         orderId,
         customer: formData,
         items: cart,
         totals: totals,
+        // For domestic orders set deliveryCharge now; for abroad orders admin will add later
+        deliveryCharge: hasAbroadOrder ? 0 : totals.shipping,
         status: 'pending',
         paymentMethod: 'UPI',
-        paymentStatus: 'pending'
+        paymentStatus: 'pending',
+        isAbroadOrder: hasAbroadOrder // Flag if order contains international items
       };
       
       const result = await saveOrderToFirebase(orderData);
@@ -397,6 +565,7 @@
   // Initialize
   async function init() {
     await loadStore();
+    populateStateDropdown(); // Populate state dropdown after store data is loaded
     renderCart();
     prefillForm();
   }

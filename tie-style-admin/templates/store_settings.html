@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Store Settings - Tie-Style Admin</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/store_settings.css') }}">
 </head>
 <body>
     {% include 'includes/_navbar.html' %}
@@ -162,6 +163,96 @@
                                   name="returns_policy" 
                                   rows="2">{{ store.delivery.returnsPolicy }}</textarea>
                     </div>
+
+                    <div class="form-group">
+                        <label for="delivery_rates">Delivery Rates (by State)</label>
+                        <div class="delivery-rates-scroll">
+                            <div class="delivery-rates-table-wrapper">
+                                <table id="deliveryRatesTable" class="delivery-rates-table">
+                                    <colgroup>
+                                        <col class="state" />
+                                        <col class="region" />
+                                        <col class="charge" />
+                                        <col class="actions" />
+                                    </colgroup>
+                                    <thead>
+                                        <tr>
+                                            <th>State</th>
+                                            <th>Region</th>
+                                            <th>Charge (₹)</th>
+                                            <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for rate in store.delivery.rates | default([]) %}
+                                        <tr>
+                                            <td><input type="text" name="delivery_state[]" value="{{ rate.state }}" class="input" list="stateList" placeholder="Start typing…" required></td>
+                                            <td><input type="text" name="delivery_region[]" value="{{ rate.region }}" class="input" list="regionList" placeholder="e.g., South India"></td>
+                                            <td><input type="number" name="delivery_charge[]" value="{{ rate.charge_inr }}" min="0" step="1" class="input" placeholder="0" required></td>
+                                            <td><button type="button" class="btn btn-danger" onclick="removeRateRow(this)">Remove</button></td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="delivery-rates-actions">
+                            <div class="action-buttons-inline">
+                                <button type="button" class="btn" onclick="addRateRow()">➕ Add Rate</button>
+                                <button type="button" class="btn" onclick="sortRateRows()">🔤 Sort A–Z</button>
+                                <button type="button" class="btn btn-danger" onclick="clearAllRates()">🗑️ Clear All</button>
+                            </div>
+                            <small class="text-muted">Tip: Use the suggestions while typing state and region for cleaner data.</small>
+                        </div>
+
+                        <!-- Suggestions for State and Region -->
+                        <datalist id="stateList">
+                            <option value="Andhra Pradesh"></option>
+                            <option value="Arunachal Pradesh"></option>
+                            <option value="Assam"></option>
+                            <option value="Bihar"></option>
+                            <option value="Chhattisgarh"></option>
+                            <option value="Goa"></option>
+                            <option value="Gujarat"></option>
+                            <option value="Haryana"></option>
+                            <option value="Himachal Pradesh"></option>
+                            <option value="Jharkhand"></option>
+                            <option value="Karnataka"></option>
+                            <option value="Kerala"></option>
+                            <option value="Madhya Pradesh"></option>
+                            <option value="Maharashtra"></option>
+                            <option value="Manipur"></option>
+                            <option value="Meghalaya"></option>
+                            <option value="Mizoram"></option>
+                            <option value="Nagaland"></option>
+                            <option value="Odisha"></option>
+                            <option value="Punjab"></option>
+                            <option value="Rajasthan"></option>
+                            <option value="Sikkim"></option>
+                            <option value="Tamil Nadu"></option>
+                            <option value="Telangana"></option>
+                            <option value="Tripura"></option>
+                            <option value="Uttar Pradesh"></option>
+                            <option value="Uttarakhand"></option>
+                            <option value="West Bengal"></option>
+                            <option value="Andaman and Nicobar Islands"></option>
+                            <option value="Chandigarh"></option>
+                            <option value="Dadra and Nagar Haveli and Daman and Diu"></option>
+                            <option value="Delhi"></option>
+                            <option value="Jammu and Kashmir"></option>
+                            <option value="Ladakh"></option>
+                            <option value="Lakshadweep"></option>
+                            <option value="Puducherry"></option>
+                        </datalist>
+                        <datalist id="regionList">
+                            <option value="North India"></option>
+                            <option value="South India"></option>
+                            <option value="East India"></option>
+                            <option value="West India"></option>
+                            <option value="Central India"></option>
+                            <option value="North East India"></option>
+                        </datalist>
+                    </div>
                 </div>
 
                 <!-- Pricing Settings -->
@@ -186,16 +277,7 @@
                                value="{{ store.pricing.freeShippingMin }}"
                                step="1"
                                min="0">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="shipping_flat">Flat Shipping Rate (₹)</label>
-                        <input type="number" 
-                               id="shipping_flat" 
-                               name="shipping_flat" 
-                               value="{{ store.pricing.shippingFlat }}"
-                               step="1"
-                               min="0">
+                        <small>Orders above this amount get free shipping (calculated based on selected state)</small>
                     </div>
                 </div>
             </div>
@@ -209,5 +291,41 @@
     </div>
 
     {% include 'includes/_footer.html' %}
+    <script>
+        // Delivery rates editor helpers
+        function addRateRow() {
+            const tbody = document.querySelector('#deliveryRatesTable tbody');
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+                <td><input type="text" name="delivery_state[]" value="" class="input" list="stateList" placeholder="Start typing…" required></td>
+                <td><input type="text" name="delivery_region[]" value="" class="input" list="regionList" placeholder="e.g., South India"></td>
+                <td><input type="number" name="delivery_charge[]" value="0" min="0" step="1" class="input" placeholder="0" required></td>
+                <td><button type="button" class="btn btn-danger" onclick="removeRateRow(this)">Remove</button></td>
+            `;
+            tbody.appendChild(tr);
+        }
+
+        function removeRateRow(button) {
+            const tr = button.closest('tr');
+            if (tr) tr.remove();
+        }
+
+        function sortRateRows() {
+            const tbody = document.querySelector('#deliveryRatesTable tbody');
+            const rows = Array.from(tbody.querySelectorAll('tr'));
+            rows.sort((a, b) => {
+                const aState = (a.querySelector('input[name="delivery_state[]"]').value || '').toLowerCase();
+                const bState = (b.querySelector('input[name="delivery_state[]"]').value || '').toLowerCase();
+                return aState.localeCompare(bState);
+            });
+            rows.forEach(r => tbody.appendChild(r));
+        }
+
+        function clearAllRates() {
+            if (!confirm('Remove all delivery rate rows?')) return;
+            const tbody = document.querySelector('#deliveryRatesTable tbody');
+            tbody.innerHTML = '';
+        }
+    </script>
 </body>
 </html>

@@ -103,6 +103,7 @@ async function loadDashboardData() {
 function updateStats(orders) {
   const todayOrders = orders.filter(o => isToday(o.createdAt));
   const pendingOrders = orders.filter(o => o.status === 'pending');
+  const abroadOrders = orders.filter(o => o.isAbroadOrder === true);
   
   // Calculate today's revenue - ONLY from confirmed payments
   const todayRevenue = todayOrders.reduce((sum, order) => {
@@ -116,6 +117,7 @@ function updateStats(orders) {
   const uniqueCustomers = new Set(orders.map(o => o.customer?.phone)).size;
   
   document.getElementById('todayOrdersCount').textContent = todayOrders.length;
+  document.getElementById('abroadOrdersCount').textContent = abroadOrders.length;
   document.getElementById('todayRevenue').textContent = `₹${todayRevenue.toFixed(2)}`;
   document.getElementById('pendingOrdersCount').textContent = pendingOrders.length;
   document.getElementById('totalCustomers').textContent = uniqueCustomers;
@@ -150,11 +152,15 @@ function renderOrdersTable(orders) {
     const itemCount = order.items?.length || 0;
     const total = order.totals?.total || 0;
     const paymentStatus = order.paymentStatus || 'pending';
+    const isAbroad = order.isAbroadOrder === true;
     
     return `
-      <tr class="hover:bg-gray-50 dark:hover:bg-gray-800 cursor-pointer" onclick="viewOrderDetails('${order.id}')">
+      <tr class="hover:bg-gray-50 dark:hover:bg-gray-800 cursor-pointer ${isAbroad ? 'bg-blue-50/30 dark:bg-blue-900/10' : ''}" onclick="viewOrderDetails('${order.id}')">
         <td class="px-6 py-4 whitespace-nowrap">
-          <span class="text-sm font-medium text-primary">${order.orderId || order.id}</span>
+          <div class="flex items-center gap-2">
+            ${isAbroad ? '<span class="text-lg" title="International Order">🌍</span>' : ''}
+            <span class="text-sm font-medium text-primary">${order.orderId || order.id}</span>
+          </div>
         </td>
         <td class="px-6 py-4 whitespace-nowrap">
           <span class="text-sm font-medium">${order.customer?.name || 'N/A'}</span>
@@ -323,14 +329,66 @@ function renderOrderDetails(order) {
             <span>Tax:</span>
             <span>₹${order.totals?.tax?.toFixed(2) || '0.00'}</span>
           </div>
+          ${order.deliveryCharge ? `
+          <div class="flex justify-between text-blue-600 font-semibold">
+            <span>🌍 Delivery Charge:</span>
+            <span>₹${order.deliveryCharge?.toFixed(2)}</span>
+          </div>
+          ` : ''}
           <div class="border-t border-gray-300 dark:border-gray-600 pt-2 mt-2">
             <div class="flex justify-between font-bold text-lg">
               <span>Total:</span>
-              <span class="text-primary">₹${order.totals?.total?.toFixed(2) || '0.00'}</span>
+              <span class="text-primary">₹${((order.totals?.total || 0) + (order.deliveryCharge || 0)).toFixed(2)}</span>
             </div>
           </div>
         </div>
       </div>
+      
+      ${order.isAbroadOrder ? `
+      <!-- Abroad Order - Delivery Charge -->
+      <div>
+        <h4 class="font-bold mb-3">🌍 International Delivery Charge</h4>
+        <div class="bg-blue-50 dark:bg-blue-900/20 border border-blue-300 dark:border-blue-700 rounded-lg p-4">
+          <p class="text-sm text-blue-800 dark:text-blue-200 mb-3">
+            Enter delivery charge based on customer's location
+          </p>
+          <div class="space-y-3">
+            <div>
+              <label class="block text-sm font-medium mb-2">Delivery Charge (₹)</label>
+              <input 
+                type="number" 
+                id="abroadDeliveryCharge"
+                min="0"
+                step="0.01"
+                value="${order.deliveryCharge || 0}"
+                placeholder="Enter amount"
+                class="w-full px-4 py-2 border border-blue-300 dark:border-blue-600 rounded-lg focus:ring-2 focus:ring-blue-500 dark:bg-gray-800 dark:text-white"
+              />
+            </div>
+            <div class="flex gap-2">
+              <button 
+                onclick="saveDeliveryCharge('${order.id}')" 
+                class="flex-1 px-4 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition font-semibold"
+              >
+                💾 Save Delivery Charge
+              </button>
+              <button 
+                onclick="sendDeliveryChargeWhatsApp('${order.id}', '${order.customer?.phone || ''}', '${order.customer?.name || ''}', '${order.orderId || order.id}')" 
+                class="flex-1 px-4 py-3 bg-green-600 text-white rounded-lg hover:bg-green-700 transition font-semibold flex items-center justify-center gap-2"
+              >
+                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+                </svg>
+                Send via WhatsApp
+              </button>
+            </div>
+            <p class="text-xs text-blue-700 dark:text-blue-300">
+              💡 Save the charge first, then send WhatsApp message to customer with delivery details
+            </p>
+          </div>
+        </div>
+      </div>
+      ` : ''}
       
       <!-- Status Update -->
       <div>
@@ -473,6 +531,117 @@ window.sendPaymentLink = async function(phoneNumber, amount, orderId) {
   }
 };
 
+// Save delivery charge for abroad order
+window.saveDeliveryCharge = async function(orderId) {
+  const deliveryChargeInput = document.getElementById('abroadDeliveryCharge');
+  const deliveryCharge = parseFloat(deliveryChargeInput.value);
+  
+  if (isNaN(deliveryCharge) || deliveryCharge < 0) {
+    alert('❌ Please enter a valid delivery charge');
+    return;
+  }
+  
+  if (!confirm(`Save delivery charge of ₹${deliveryCharge.toFixed(2)}?`)) return;
+  
+  try {
+    const { updateDoc, doc } = await import('./firebase-config.js');
+    const { db } = await import('./firebase-config.js');
+    
+    // Update order with delivery charge
+    const orderRef = doc(db, 'orders', orderId);
+    await updateDoc(orderRef, {
+      deliveryCharge: deliveryCharge,
+      updatedAt: new Date()
+    });
+    
+    alert('✅ Delivery charge saved successfully!');
+    
+    // Refresh order details
+    viewOrderDetails(orderId);
+    
+  } catch (error) {
+    console.error('Error saving delivery charge:', error);
+    alert('❌ Error saving delivery charge: ' + error.message);
+  }
+};
+
+// Send delivery charge details via WhatsApp
+window.sendDeliveryChargeWhatsApp = async function(orderId, phoneNumber, customerName, orderIdDisplay) {
+  const deliveryChargeInput = document.getElementById('abroadDeliveryCharge');
+  const deliveryCharge = parseFloat(deliveryChargeInput.value);
+  
+  if (isNaN(deliveryCharge) || deliveryCharge < 0) {
+    alert('❌ Please enter a valid delivery charge first');
+    return;
+  }
+  
+  if (!phoneNumber) {
+    alert('❌ Customer phone number not available');
+    return;
+  }
+  
+  try {
+    // Fetch order details to get the complete information
+    const result = await getOrderById(orderId);
+    if (!result.success) {
+      throw new Error('Could not fetch order details');
+    }
+    
+    const order = result.order;
+    const subtotal = order.totals?.subtotal || 0;
+    const finalTotal = subtotal + deliveryCharge;
+    
+    // Fetch store data
+    const response = await fetch('data/store.json', { cache: 'no-cache' });
+    const storeData = await response.json();
+    const upiID = storeData.payments?.gpayUpiId || 'santhoshsharuk16-1@okhdfcbank';
+    const storeName = storeData.name || 'Tie-Style';
+    const storePhone = storeData.contact?.phoneE164 || '+918110960489';
+    
+    // Clean phone number
+    const cleanPhone = phoneNumber.replace(/[\s\-+]/g, '');
+    
+    // Create WhatsApp message
+    const itemsList = order.items?.map((item, index) => 
+      `${index + 1}. ${item.title}${item.color ? ` (${item.color})` : ''} - ₹${item.price.toFixed(2)} × ${item.quantity} = ₹${(item.price * item.quantity).toFixed(2)}`
+    ).join('\n') || '';
+    
+    const message = encodeURIComponent(
+      `🌍 *INTERNATIONAL ORDER CONFIRMATION*\n\n` +
+      `Hi ${customerName}! 👋\n\n` +
+      `Thank you for your international order!\n\n` +
+      `📦 *Order ID:* ${orderIdDisplay}\n` +
+      `📅 *Date:* ${new Date().toLocaleDateString()}\n\n` +
+      `*ORDER ITEMS:*\n${itemsList}\n\n` +
+      `💰 *PAYMENT DETAILS:*\n` +
+      `━━━━━━━━━━━━━━━━\n` +
+      `Subtotal: ₹${subtotal.toFixed(2)}\n` +
+      `🌍 International Delivery: ₹${deliveryCharge.toFixed(2)}\n` +
+      `━━━━━━━━━━━━━━━━\n` +
+      `*TOTAL AMOUNT: ₹${finalTotal.toFixed(2)}*\n\n` +
+      `📍 Delivery Location: ${order.customer?.city || ''}, ${order.customer?.state || ''}, ${order.customer?.zip || ''}\n\n` +
+      `💳 *PAYMENT INSTRUCTIONS:*\n` +
+      `Please pay ₹${finalTotal.toFixed(2)} to:\n` +
+      `UPI ID: ${upiID}\n\n` +
+      `After payment, please share:\n` +
+      `✅ UTR/Transaction ID\n` +
+      `✅ Payment screenshot\n\n` +
+      `📞 For queries: ${storePhone}\n\n` +
+      `Thank you! We'll process your order once payment is confirmed. 🙏`
+    );
+    
+    // Open WhatsApp
+    const whatsappURL = `https://wa.me/${cleanPhone}?text=${message}`;
+    window.open(whatsappURL, '_blank');
+    
+    alert('✅ WhatsApp message opened! Please send the message to customer.');
+    
+  } catch (error) {
+    console.error('Error sending WhatsApp message:', error);
+    alert('❌ Error: ' + error.message);
+  }
+};
+
 // Close modal
 window.closeOrderModal = function() {
   const modal = document.getElementById('orderModal');
@@ -571,24 +740,54 @@ window.switchTab = function(tab) {
   const ordersView = document.getElementById('ordersView');
   const analyticsView = document.getElementById('analyticsView');
   const ordersTab = document.getElementById('ordersTab');
+  const abroadTab = document.getElementById('abroadTab');
   const analyticsTab = document.getElementById('analyticsTab');
+  
+  // Remove active state from all tabs
+  [ordersTab, abroadTab, analyticsTab].forEach(t => {
+    t.classList.remove('border-primary', 'text-primary');
+    t.classList.add('border-transparent');
+  });
+  
+  // Hide all views
+  ordersView.classList.add('hidden');
+  analyticsView.classList.add('hidden');
   
   if (tab === 'orders') {
     ordersView.classList.remove('hidden');
-    analyticsView.classList.add('hidden');
     ordersTab.classList.add('border-primary', 'text-primary');
     ordersTab.classList.remove('border-transparent');
-    analyticsTab.classList.remove('border-primary', 'text-primary');
-    analyticsTab.classList.add('border-transparent');
+    
+    // Show all orders
+    renderOrdersTable(allOrders);
+  } else if (tab === 'abroad') {
+    ordersView.classList.remove('hidden');
+    abroadTab.classList.add('border-primary', 'text-primary');
+    abroadTab.classList.remove('border-transparent');
+    
+    // Show only abroad orders
+    const abroadOrders = allOrders.filter(order => order.isAbroadOrder === true);
+    renderOrdersTable(abroadOrders);
+    
+    // Update filter message
+    const tableBody = document.getElementById('ordersTableBody');
+    if (abroadOrders.length === 0) {
+      tableBody.innerHTML = `
+        <tr>
+          <td colspan="8" class="px-6 py-12 text-center">
+            <div class="flex flex-col items-center gap-3">
+              <span class="text-6xl">🌍</span>
+              <p class="text-lg font-semibold text-black dark:text-white">No International Orders</p>
+              <p class="text-sm text-gray-500 dark:text-gray-400">Abroad orders will appear here when customers place international orders</p>
+            </div>
+          </td>
+        </tr>
+      `;
+    }
   } else if (tab === 'analytics') {
-    ordersView.classList.add('hidden');
     analyticsView.classList.remove('hidden');
     analyticsTab.classList.add('border-primary', 'text-primary');
     analyticsTab.classList.remove('border-transparent');
-    ordersTab.classList.remove('border-primary', 'text-primary');
-    ordersTab.classList.add('border-transparent');
-    
-    // Load analytics data
     loadAnalytics();
   }
 };
@@ -994,4 +1193,21 @@ function renderSalesByDate(orders) {
   `).join('') : '<tr><td colspan="4" class="px-4 py-8 text-center text-gray-500 dark:text-gray-400">No data available</td></tr>';
   
   document.getElementById('salesByDateTable').innerHTML = html;
+}
+
+// Helper function to show notifications
+function showNotification(message, type = 'info') {
+  const notification = document.createElement('div');
+  notification.className = `fixed top-4 right-4 z-50 px-6 py-4 rounded-lg shadow-lg transition-all duration-300 ${
+    type === 'success' ? 'bg-green-500 text-white' : 
+    type === 'error' ? 'bg-red-500 text-white' : 
+    'bg-blue-500 text-white'
+  }`;
+  notification.textContent = message;
+  document.body.appendChild(notification);
+  
+  setTimeout(() => {
+    notification.style.opacity = '0';
+    setTimeout(() => notification.remove(), 300);
+  }, 3000);
 }

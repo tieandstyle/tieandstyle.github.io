@@ -98,22 +98,11 @@
       </div>
       
       <div class="mt-6 border-t-2 border-primary/20 pt-4 space-y-2">
-        <div class="flex justify-between text-sm">
+        <div class="flex justify-between font-bold text-lg">
           <span>Subtotal</span>
-          <span class="font-semibold">${money(totals.subtotal)}</span>
+          <span>${money(totals.subtotal)}</span>
         </div>
-        <div class="flex justify-between text-sm">
-          <span>Shipping</span>
-          <span class="font-semibold">${money(totals.shipping)}</span>
-        </div>
-        <div class="flex justify-between text-sm">
-          <span>Tax (5%)</span>
-          <span class="font-semibold">${money(totals.tax)}</span>
-        </div>
-        <div class="flex justify-between font-bold text-lg border-t border-primary/20 pt-2">
-          <span>Total</span>
-          <span>${money(totals.total)}</span>
-        </div>
+        <p class="text-xs text-gray-500 dark:text-gray-400 mt-2">Shipping will be calculated at checkout based on your state</p>
       </div>
       
       <div class="mt-6 space-y-3">
@@ -129,10 +118,9 @@
 
   function calculateTotals(cart) {
     const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
-    const shipping = subtotal >= 500 ? 0 : 60;
-    const tax = Math.round(subtotal * 0.05);
-    const total = subtotal + shipping + tax;
-    return { subtotal, shipping, tax, total };
+    // Shipping will be calculated at checkout based on selected state
+    // No tax or shipping shown in cart drawer
+    return { subtotal };
   }
 
   window.updateCartQty = function(sku, delta) {

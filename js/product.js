@@ -105,11 +105,15 @@
     cartContent.innerHTML = `
       <div class="space-y-4">
         ${cart.map(item => `
-          <div class="flex gap-4 p-4 border border-primary/20 rounded-lg">
+          <div class="flex gap-4 p-4 border border-primary/20 rounded-lg ${item.isAbroadOrder ? 'bg-blue-50 dark:bg-blue-900/10 border-blue-300 dark:border-blue-700' : ''}">
             <div class="w-20 h-20 bg-gray-200 rounded-lg bg-cover bg-center" style="background-image: url('${item.image || ''}')"></div>
             <div class="flex-1">
-              <h3 class="font-bold">${item.title}</h3>
+              <h3 class="font-bold flex items-center gap-2">
+                ${item.isAbroadOrder ? '<span class="text-blue-600" title="International Order">🌍</span>' : ''}
+                ${item.title}
+              </h3>
               ${item.color ? `<p class="text-xs text-gray-600">Color: ${item.color}</p>` : ''}
+              ${item.isAbroadOrder ? '<p class="text-xs text-blue-600 font-semibold">International Order</p>' : ''}
               <p class="text-primary text-sm">${money(item.price)}</p>
               <div class="flex items-center gap-2 mt-2">
                 <button class="w-8 h-8 border border-primary/30 rounded hover:bg-primary/20" onclick="updateCartQty('${item.sku}', -1)">-</button>
@@ -523,6 +527,49 @@
       </div>
     `).join('');
   }
+
+  // Handle Abroad Order
+  window.handleAbroadOrder = function() {
+    if (!currentProduct) return;
+    
+    // Check if color is required and selected
+    if (currentProduct.colors && currentProduct.colors.length > 0 && !selectedColor) {
+      showNotification('⚠️ Please select a color before ordering from abroad', 'error');
+      return;
+    }
+    
+    const cart = loadCart();
+    const cartItemKey = selectedColor ? `${currentProduct.sku}-${selectedColor}-abroad` : `${currentProduct.sku}-abroad`;
+    const existing = cart.find(item => item.sku === cartItemKey);
+    
+    if (existing) {
+      existing.quantity += currentQuantity;
+    } else {
+      cart.push({
+        sku: cartItemKey,
+        title: currentProduct.title + (selectedColor ? ` (${selectedColor})` : ''),
+        price: currentProduct.price,
+        image: currentProduct.images?.[0] || '',
+        quantity: currentQuantity,
+        color: selectedColor,
+        isAbroadOrder: true // Special flag for international orders
+      });
+    }
+    
+    saveCart(cart);
+    showNotification(`🌍 Added ${currentQuantity} item(s) to cart as Abroad Order!`);
+    
+    // Reset quantity and color
+    currentQuantity = 1;
+    document.getElementById('quantity').value = 1;
+    selectedColor = null;
+    document.querySelectorAll('.color-option').forEach(btn => {
+      btn.classList.remove('ring-2', 'ring-primary', 'ring-offset-2');
+    });
+    
+    // Open cart drawer to show the added abroad item
+    openCart();
+  };
 
   // Event listeners
   document.getElementById('cartButton').addEventListener('click', openCart);

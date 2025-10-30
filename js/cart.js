@@ -43,16 +43,10 @@
   function calculateTotals(cart) {
     const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
     
-    // Get shipping settings from store data
-    const freeShippingMin = store?.pricing?.freeShippingMin || 999;
-    const shippingFlat = store?.pricing?.shippingFlat || 50;
-    const shipping = subtotal >= freeShippingMin ? 0 : shippingFlat;
+    // Shipping will be calculated at checkout based on selected state
+    // No shipping or tax shown in cart
     
-    // Tax removed - set to 0
-    const tax = 0;
-    
-    const total = subtotal + shipping + tax;
-    return { subtotal, shipping, tax, total };
+    return { subtotal };
   }
 
   function renderCart() {
@@ -67,14 +61,6 @@
       document.getElementById('orderSummary').innerHTML = `
         <div class="flex justify-between text-sm">
           <span class="text-background-dark/60 dark:text-background-light/60">Subtotal</span>
-          <span class="font-medium">₹0.00</span>
-        </div>
-        <div class="flex justify-between text-sm">
-          <span class="text-background-dark/60 dark:text-background-light/60">Shipping</span>
-          <span class="font-medium">₹0.00</span>
-        </div>
-        <div class="flex justify-between text-sm">
-          <span class="text-background-dark/60 dark:text-background-light/60">Tax</span>
           <span class="font-medium">₹0.00</span>
         </div>
       `;
@@ -113,32 +99,14 @@
 
     const totals = calculateTotals(cart);
     
-    const freeShippingMin = store?.pricing?.freeShippingMin || 999;
-    const remaining = freeShippingMin - totals.subtotal;
-    const shippingMessage = totals.shipping === 0 
-      ? '<span class="text-green-600 font-bold">FREE</span>'
-      : remaining > 0 
-        ? `${money(totals.shipping)} <span class="text-xs text-green-600 block">Add ${money(remaining)} more for FREE shipping!</span>`
-        : money(totals.shipping);
-    
     document.getElementById('orderSummary').innerHTML = `
       <div class="flex justify-between text-sm">
         <span class="text-background-dark/60 dark:text-background-light/60">Subtotal</span>
         <span class="font-medium">${money(totals.subtotal)}</span>
       </div>
-      <div class="flex justify-between text-sm">
-        <span class="text-background-dark/60 dark:text-background-light/60">Shipping</span>
-        <span class="font-medium">${shippingMessage}</span>
-      </div>
-      ${totals.tax > 0 ? `
-      <div class="flex justify-between text-sm">
-        <span class="text-background-dark/60 dark:text-background-light/60">Tax</span>
-        <span class="font-medium">${money(totals.tax)}</span>
-      </div>
-      ` : ''}
     `;
     
-    document.getElementById('grandTotal').textContent = money(totals.total);
+    document.getElementById('grandTotal').textContent = money(totals.subtotal);
   }
 
   window.removeItem = removeItem;

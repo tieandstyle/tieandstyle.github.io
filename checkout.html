@@ -173,7 +173,9 @@
 </div>
 <div>
 <label class="block text-sm font-medium mb-2" for="state">State *</label>
-<input class="form-input w-full bg-background-light dark:bg-background-dark border-border-light dark:border-border-dark rounded-lg p-3 focus:border-primary focus:ring-primary/50 transition" id="state" placeholder="Enter your state" type="text" required/>
+<select class="form-input w-full bg-background-light dark:bg-background-dark border-border-light dark:border-border-dark rounded-lg p-3 focus:border-primary focus:ring-primary/50 transition" id="state" required onchange="updateShippingOnStateChange()">
+<option value="">-- Select Your State --</option>
+</select>
 </div>
 <div>
 <label class="block text-sm font-medium mb-2" for="zip">Pin Code *</label>
@@ -229,6 +231,10 @@
 
 <div class="lg:col-span-1 bg-background-light dark:bg-background-dark lg:bg-primary/5 dark:lg:bg-primary/10 p-8 rounded-lg lg:sticky lg:top-24">
 <h2 class="text-2xl font-bold mb-6">Order Review</h2>
+
+<!-- Abroad Delivery Notification -->
+<div id="abroadDeliveryNotification" style="display: none;"></div>
+
 <div class="space-y-6" id="orderItems">
 <div class="text-center py-8 text-subtle-light dark:text-subtle-dark">Loading cart...</div>
 </div>
@@ -239,7 +245,7 @@
 <p class="font-medium" id="subtotalAmount">₹0.00</p>
 </div>
 <div class="flex justify-between">
-<p class="text-subtle-light dark:text-subtle-dark">Shipping</p>
+<p class="text-subtle-light dark:text-subtle-dark" data-shipping-label>Shipping</p>
 <p class="font-medium" id="shippingAmount">₹0.00</p>
 </div>
 <div class="flex justify-between">
