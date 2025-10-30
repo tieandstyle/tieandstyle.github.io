@@ -106,15 +106,29 @@ def publish_to_github():
                 if push_info and len(push_info) > 0:
                     push_result = push_info[0]
                     if push_result.flags & push_result.ERROR:
-                        error_msg = f"Push failed: {push_result.summary}"
-                        remote.set_url(original_url)
-                        return jsonify({"ok": False, "error": error_msg}), 500
+                        # If error contains rejection, try FORCE PUSH
+                        if "rejected" in push_result.summary.lower() or "fetch first" in push_result.summary.lower():
+                            print(f"⚠️ Push rejected: {push_result.summary}")
+                            print(f"⚠️ Attempting FORCE PUSH to {branch}...")
+                            try:
+                                push_info = remote.push(refspec=f"{branch}:{branch}", force=True)
+                                print(f"✅ Successfully FORCE PUSHED to {branch}")
+                                # Continue to success response below
+                            except Exception as force_err:
+                                error_msg = f"Push rejected and force push failed: {str(force_err)}"
+                                remote.set_url(original_url)
+                                return jsonify({"ok": False, "error": error_msg}), 500
+                        else:
+                            error_msg = f"Push failed: {push_result.summary}"
+                            remote.set_url(original_url)
+                            return jsonify({"ok": False, "error": error_msg}), 500
                     elif push_result.flags & push_result.REJECTED:
                         # If rejected, try FORCE PUSH
-                        print(f"⚠️ Normal push rejected, attempting force push to {branch}...")
+                        print(f"⚠️ Normal push rejected, attempting FORCE PUSH to {branch}...")
                         try:
                             push_info = remote.push(refspec=f"{branch}:{branch}", force=True)
-                            print(f"✅ Successfully force pushed to {branch}")
+                            print(f"✅ Successfully FORCE PUSHED to {branch}")
+                            # Continue to success response below
                         except Exception as force_err:
                             error_msg = f"Push rejected and force push failed: {str(force_err)}"
                             remote.set_url(original_url)
