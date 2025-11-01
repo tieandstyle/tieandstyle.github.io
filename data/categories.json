@@ -28,15 +28,5 @@
     "parentId": null,
     "order": 3,
     "active": true
-  },
-  {
-    "id": "cat-04",
-    "name": "Tie-Style",
-    "slug": "tie-style",
-    "description": "GHJ",
-    "image": "assets/categories/tie-style.png",
-    "parentId": null,
-    "order": 1,
-    "active": true
   }
 ]
