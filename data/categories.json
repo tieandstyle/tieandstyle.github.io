@@ -28,5 +28,15 @@
     "parentId": null,
     "order": 3,
     "active": true
+  },
+  {
+    "id": "cat-04",
+    "name": "Hampers",
+    "slug": "hampers",
+    "description": "",
+    "image": "",
+    "parentId": null,
+    "order": 4,
+    "active": true
   }
 ]
