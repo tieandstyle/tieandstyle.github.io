@@ -13,8 +13,8 @@
     "id": "cat-02",
     "name": "Scrunchies",
     "slug": "scrunchies",
-    "description": "Latest scrunchie styles and trends",
-    "image": "assets/categories/scrunchies.png",
+    "description": "Experience the ultimate in hair care accessories. These scrunchies are intentionally designed with a generous, cloud-like fullness that minimizes snagging, creasing, and breakage. Made with delicate, high-quality material, they provide a secure hold without the harsh tension of traditional ties. It's the kindest way to keep your hair up, ensuring your locks remain healthy, smooth, and beautifully held.",
+    "image": "assets/categories/scrunchies.jpg",
     "parentId": null,
     "order": 2,
     "active": true

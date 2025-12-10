@@ -1,570 +1,148 @@
 [
   {
-    "id": "prod-scr-001",
-    "sku": "SCR-SKIN-001",
-    "title": "Skinny Scrunchie",
-    "slug": "skinny-scrunchie",
-    "categoryIds": [
-      "cat-02"
-    ],
-    "subcategoryId": "subcat-scr-01",
-    "price": 20.0,
-    "currency": "INR",
-    "stock": 100,
-    "available": true,
-    "images": [
-      "assets/products/scrunchies/skinny.png"
-    ],
-    "colors": [
-      {
-        "name": "Red",
-        "hex": "#FF0000",
-        "stock": 30,
-        "available": true
-      },
-      {
-        "name": "Blue",
-        "hex": "#0000FF",
-        "stock": 25,
-        "available": true
-      },
-      {
-        "name": "Black",
-        "hex": "#000000",
-        "stock": 45,
-        "available": true
-      }
-    ],
-    "attributes": {
-      "material": "Soft Fabric",
-      "size": "Small"
-    },
-    "shortDescription": "Slim and elegant scrunchie",
-    "description": "Perfect for thin hair or a minimalist look. Gentle on hair and stylish.",
-    "tags": [
-      "scrunchie",
-      "skinny",
-      "minimal"
-    ],
-    "createdAt": "2025-10-14T16:00:00Z",
-    "updatedAt": "2025-10-19T13:28:30.030613Z"
-  },
-  {
-    "id": "prod-scr-002",
-    "sku": "SCR-PLAIN-001",
-    "title": "Plain Scrunchie",
-    "slug": "plain-scrunchie",
+    "id": "prod-002",
+    "sku": "PLAI-SCR-002",
+    "title": "plain scrunchies",
+    "slug": "plain-scrunchies",
     "categoryIds": [
       "cat-02"
     ],
     "subcategoryId": "subcat-scr-02",
-    "price": 45,
+    "price": 100.0,
     "currency": "INR",
-    "stock": 150,
+    "stock": 10000,
     "available": true,
     "images": [
-      "assets/products/scrunchies/plain.png"
+      "assets/products/plain-scrunchies/plain-scrunchies.png"
     ],
+    "attributes": {},
+    "shortDescription": "Classic plain scrunchie in your favourite colour — smooth hold, zero damage",
+    "description": "",
+    "tags": [],
     "colors": [
       {
-        "name": "White",
-        "hex": "#FFFFFF",
-        "stock": 50,
-        "available": true
-      },
-      {
-        "name": "Pink",
-        "hex": "#FFC0CB",
-        "stock": 40,
-        "available": true
-      },
-      {
-        "name": "Beige",
-        "hex": "#F5F5DC",
-        "stock": 60,
-        "available": true
-      }
-    ],
-    "attributes": {
-      "material": "Cotton Blend",
-      "size": "Medium"
-    },
-    "shortDescription": "Classic plain scrunchie",
-    "description": "Versatile and comfortable. Perfect for everyday wear in various colors.",
-    "tags": [
-      "scrunchie",
-      "plain",
-      "classic"
-    ],
-    "createdAt": "2025-10-14T16:00:00Z",
-    "updatedAt": "2025-10-14T16:00:00Z"
-  },
-  {
-    "id": "prod-scr-003",
-    "sku": "SCR-PRINT-001",
-    "title": "Printed Scrunchie",
-    "slug": "printed-scrunchie",
-    "categoryIds": [
-      "cat-02"
-    ],
-    "subcategoryId": "subcat-scr-03",
-    "price": 80,
-    "currency": "INR",
-    "stock": 120,
-    "available": true,
-    "images": [
-      "assets/products/scrunchies/printed.png"
-    ],
-    "colors": [
-      {
-        "name": "Floral Pink",
-        "hex": "#FFB6C1",
-        "stock": 40,
-        "available": true
-      },
-      {
-        "name": "Floral Blue",
-        "hex": "#ADD8E6",
-        "stock": 35,
-        "available": true
-      },
-      {
-        "name": "Abstract Multi",
-        "hex": "#FFD700",
-        "stock": 45,
-        "available": true
-      }
-    ],
-    "attributes": {
-      "material": "Premium Fabric",
-      "pattern": "Floral/Abstract",
-      "size": "Medium"
-    },
-    "shortDescription": "Colorful printed scrunchie",
-    "description": "Add a pop of color and pattern to your hairstyle with our beautiful printed scrunchies.",
-    "tags": [
-      "scrunchie",
-      "printed",
-      "colorful"
-    ],
-    "createdAt": "2025-10-14T16:00:00Z",
-    "updatedAt": "2025-10-14T16:00:00Z"
-  },
-  {
-    "id": "prod-scr-004",
-    "sku": "SCR-CHARM-001",
-    "title": "Scrunchie with Charm",
-    "slug": "scrunchie-charm",
-    "categoryIds": [
-      "cat-02"
-    ],
-    "subcategoryId": "subcat-scr-04",
-    "price": 80,
-    "currency": "INR",
-    "stock": 80,
-    "available": true,
-    "images": [
-      "assets/products/scrunchies/charm.png"
-    ],
-    "colors": [
-      {
-        "name": "Gold Charm",
-        "hex": "#FFD700",
-        "stock": 25,
-        "available": true
-      },
-      {
-        "name": "Silver Charm",
-        "hex": "#C0C0C0",
-        "stock": 30,
-        "available": true
-      },
-      {
-        "name": "Rose Gold",
-        "hex": "#B76E79",
-        "stock": 25,
-        "available": true
-      }
-    ],
-    "attributes": {
-      "material": "Satin",
-      "decoration": "Charm/Bow",
-      "size": "Medium"
-    },
-    "shortDescription": "Scrunchie with decorative charm or bow",
-    "description": "Elegant scrunchie featuring a beautiful charm or bow accent. Perfect for special occasions.",
-    "tags": [
-      "scrunchie",
-      "charm",
-      "bow",
-      "elegant"
-    ],
-    "createdAt": "2025-10-14T16:00:00Z",
-    "updatedAt": "2025-10-14T16:00:00Z"
-  },
-  {
-    "id": "prod-scr-005",
-    "sku": "SCR-TULIP-001",
-    "title": "Tulip Scrunchie",
-    "slug": "tulip-scrunchie",
-    "categoryIds": [
-      "cat-02"
-    ],
-    "subcategoryId": "subcat-scr-05",
-    "price": 100,
-    "currency": "INR",
-    "stock": 60,
-    "available": true,
-    "images": [
-      "assets/products/scrunchies/tulip.png"
-    ],
-    "colors": [
-      {
-        "name": "Purple",
-        "hex": "#800080",
-        "stock": 20,
-        "available": true
-      },
-      {
-        "name": "Lavender",
-        "hex": "#E6E6FA",
-        "stock": 20,
-        "available": true
-      },
-      {
-        "name": "Burgundy",
-        "hex": "#800020",
-        "stock": 20,
-        "available": true
-      }
-    ],
-    "attributes": {
-      "material": "Premium Satin",
-      "design": "Tulip-shaped",
-      "size": "Large"
-    },
-    "shortDescription": "Beautiful tulip-shaped scrunchie",
-    "description": "Unique tulip design adds an elegant touch to any hairstyle. Premium quality.",
-    "tags": [
-      "scrunchie",
-      "tulip",
-      "premium",
-      "unique"
-    ],
-    "createdAt": "2025-10-14T16:00:00Z",
-    "updatedAt": "2025-10-14T16:00:00Z"
-  },
-  {
-    "id": "prod-scr-006",
-    "sku": "SCR-BUNNY-001",
-    "title": "Scrunchie with Bunny Tail",
-    "slug": "scrunchie-bunny-tail",
-    "categoryIds": [
-      "cat-02"
-    ],
-    "subcategoryId": "subcat-scr-06",
-    "price": 80,
-    "currency": "INR",
-    "stock": 90,
-    "available": true,
-    "images": [
-      "assets/products/scrunchies/bunny.png"
-    ],
-    "colors": [
-      {
-        "name": "Cream",
-        "hex": "#FFFDD0",
-        "stock": 30,
-        "available": true
-      },
-      {
-        "name": "Gray",
-        "hex": "#808080",
-        "stock": 30,
-        "available": true
-      },
-      {
-        "name": "Brown",
-        "hex": "#A52A2A",
-        "stock": 30,
-        "available": true
-      }
-    ],
-    "attributes": {
-      "material": "Soft Fabric",
-      "decoration": "Bunny Tail/Mini Tail",
-      "size": "Medium"
-    },
-    "shortDescription": "Scrunchie with cute bunny tail or mini tail",
-    "description": "Playful scrunchie with adorable bunny tail or mini tail detail. Perfect for a fun, youthful look.",
-    "tags": [
-      "scrunchie",
-      "bunny",
-      "cute",
-      "playful"
-    ],
-    "createdAt": "2025-10-14T16:00:00Z",
-    "updatedAt": "2025-10-14T16:00:00Z"
-  },
-  {
-    "id": "prod-bow-001",
-    "sku": "BOW-MINI-001",
-    "title": "Mini Bow Clip",
-    "slug": "mini-bow-clip",
-    "categoryIds": [
-      "cat-03"
-    ],
-    "subcategoryId": "subcat-bow-01",
-    "price": 50,
-    "currency": "INR",
-    "stock": 100,
-    "available": true,
-    "images": [
-      "assets/products/bow-clips/mini.png"
-    ],
-    "colors": [
-      {
-        "name": "Red",
-        "hex": "#FF0000",
-        "stock": 35,
-        "available": true
-      },
-      {
-        "name": "Yellow",
-        "hex": "#FFFF00",
-        "stock": 30,
-        "available": true
-      },
-      {
-        "name": "Green",
-        "hex": "#008000",
-        "stock": 35,
-        "available": true
-      }
-    ],
-    "attributes": {
-      "fabric": "Cotton",
-      "size": "Mini",
-      "clipType": "Alligator Clip"
-    },
-    "shortDescription": "Small and cute handmade bow clip",
-    "description": "Handcrafted mini bow clip perfect for kids or subtle styling. Securely holds hair in place.",
-    "tags": [
-      "bow-clip",
-      "mini",
-      "handmade",
-      "cute"
-    ],
-    "createdAt": "2025-10-14T16:00:00Z",
-    "updatedAt": "2025-10-14T16:00:00Z"
-  },
-  {
-    "id": "prod-bow-002",
-    "sku": "BOW-BUNNY-001",
-    "title": "Bunny Tail Bow Clip",
-    "slug": "bunny-tail-bow-clip",
-    "categoryIds": [
-      "cat-03"
-    ],
-    "subcategoryId": "subcat-bow-02",
-    "price": 90,
-    "currency": "INR",
-    "stock": 75,
-    "available": true,
-    "images": [
-      "assets/products/bow-clips/bunny.png"
-    ],
-    "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF",
-        "stock": 25,
-        "available": true
-      },
-      {
-        "name": "Pastel Pink",
-        "hex": "#FFD1DC",
-        "stock": 25,
-        "available": true
-      },
-      {
-        "name": "Pastel Blue",
-        "hex": "#AEC6CF",
-        "stock": 25,
-        "available": true
-      }
-    ],
-    "attributes": {
-      "fabric": "Satin Blend",
-      "design": "Bunny Tail",
-      "clipType": "Alligator Clip"
-    },
-    "shortDescription": "Handmade bow clip with bunny tail design",
-    "description": "Adorable handmade bow clip featuring a playful bunny tail. Perfect for adding charm to any hairstyle.",
-    "tags": [
-      "bow-clip",
-      "bunny",
-      "handmade",
-      "playful"
-    ],
-    "createdAt": "2025-10-14T16:00:00Z",
-    "updatedAt": "2025-10-14T16:00:00Z"
-  },
-  {
-    "id": "prod-bow-003",
-    "sku": "BOW-DOUBLE-001",
-    "title": "Double Layered Bow Clip",
-    "slug": "double-layered-bow-clip",
-    "categoryIds": [
-      "cat-03"
-    ],
-    "subcategoryId": "subcat-bow-03",
-    "price": 120,
-    "currency": "INR",
-    "stock": 65,
-    "available": true,
-    "images": [
-      "assets/products/bow-clips/double.png"
-    ],
-    "colors": [
-      {
-        "name": "Navy Blue",
-        "hex": "#000080",
-        "stock": 22,
-        "available": true
-      },
-      {
-        "name": "Maroon",
-        "hex": "#800000",
-        "stock": 22,
-        "available": true
-      },
-      {
-        "name": "Emerald",
-        "hex": "#50C878",
-        "stock": 21,
-        "available": true
-      }
-    ],
-    "attributes": {
-      "fabric": "Premium Satin",
-      "design": "Double Layered",
-      "clipType": "Alligator Clip"
-    },
-    "shortDescription": "Elegant double layered handmade bow clip",
-    "description": "Sophisticated handmade bow clip with double layer design. Adds elegance and volume to your hairstyle.",
-    "tags": [
-      "bow-clip",
-      "double-layer",
-      "handmade",
-      "elegant"
-    ],
-    "createdAt": "2025-10-14T16:00:00Z",
-    "updatedAt": "2025-10-14T16:00:00Z"
-  },
-  {
-    "id": "prod-bow-004",
-    "sku": "BOW-SIMPLE-001",
-    "title": "Bow Clip without Tail",
-    "slug": "bow-clip-without-tail",
-    "categoryIds": [
-      "cat-03"
-    ],
-    "subcategoryId": "subcat-bow-04",
-    "price": 60,
-    "currency": "INR",
-    "stock": 85,
-    "available": true,
-    "images": [
-      "assets/products/bow-clips/simple.png"
-    ],
-    "colors": [
-      {
-        "name": "Black",
-        "hex": "#000000",
-        "stock": 30,
-        "available": true
-      },
-      {
-        "name": "White",
-        "hex": "#FFFFFF",
-        "stock": 28,
-        "available": true
-      },
-      {
-        "name": "Red",
-        "hex": "#FF0000",
-        "stock": 27,
-        "available": true
-      }
-    ],
-    "attributes": {
-      "fabric": "Cotton Blend",
-      "design": "Classic Bow",
-      "clipType": "Alligator Clip"
-    },
-    "shortDescription": "Simple handmade bow clip without tail",
-    "description": "Clean and classic handmade bow clip design without tail. Perfect for everyday wear.",
-    "tags": [
-      "bow-clip",
-      "simple",
-      "handmade",
-      "classic"
-    ],
-    "createdAt": "2025-10-14T16:00:00Z",
-    "updatedAt": "2025-10-14T16:00:00Z"
-  },
-  {
-    "id": "prod-bow-005",
-    "sku": "BOW-TULIP-001",
-    "title": "Tulip Bow Clip",
-    "slug": "tulip-bow-clip",
-    "categoryIds": [
-      "cat-03"
-    ],
-    "subcategoryId": "subcat-bow-05",
-    "price": 220,
-    "currency": "INR",
-    "stock": 40,
-    "available": true,
-    "images": [
-      "assets/products/bow-clips/tulip.png"
-    ],
-    "colors": [
-      {
-        "name": "Champagne",
-        "hex": "#F7E7CE",
-        "stock": 13,
+        "name": "Snow",
+        "hex": "#FFFAFA",
+        "stock": 100,
         "available": true
       },
       {
         "name": "Ivory",
         "hex": "#FFFFF0",
-        "stock": 14,
+        "stock": 100,
         "available": true
       },
       {
-        "name": "Deep Purple",
-        "hex": "#663399",
-        "stock": 13,
+        "name": "Beige",
+        "hex": "#F5F5DC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Taupe",
+        "hex": "#483C32",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Silver",
+        "hex": "#C0C0C0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gray",
+        "hex": "#808080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dim Gray",
+        "hex": "#696969",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Gray",
+        "hex": "#D3D3D3",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F",
+        "stock": 100,
         "available": true
       }
     ],
-    "attributes": {
-      "fabric": "Premium Silk",
-      "design": "Tulip-shaped",
-      "clipType": "Alligator Clip"
-    },
-    "shortDescription": "Premium handmade tulip-shaped bow clip",
-    "description": "Exquisite handmade tulip bow clip crafted from premium silk. A luxurious accessory for special occasions.",
-    "tags": [
-      "bow-clip",
-      "tulip",
-      "handmade",
-      "premium",
-      "luxury"
+    "createdAt": "2025-12-10T15:32:19.636499Z",
+    "updatedAt": "2025-12-10T15:32:19.636534Z"
+  },
+  {
+    "id": "prod-003",
+    "sku": "PLAI-SCR-003",
+    "title": "plain scrunchies",
+    "slug": "plain-scrunchies",
+    "categoryIds": [
+      "cat-02"
     ],
-    "createdAt": "2025-10-14T16:00:00Z",
-    "updatedAt": "2025-10-14T16:00:00Z"
+    "subcategoryId": "subcat-scr-02",
+    "price": 45.0,
+    "currency": "INR",
+    "stock": 1000,
+    "available": true,
+    "images": [
+      "assets/products/plain-scrunchies/plain-scrunchies.jpg"
+    ],
+    "attributes": {},
+    "shortDescription": "✨ Soft, stretchy, and gentle on your hair your perfect everyday scrunchie.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Brown",
+        "hex": "#A52A2A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Saddle Brown",
+        "hex": "#8B4513",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coco",
+        "hex": "#3D1C02",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Caramel",
+        "hex": "#C68A5E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Copper",
+        "hex": "#B87333",
+        "stock": 100,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-10T15:50:50.976010Z",
+    "updatedAt": "2025-12-10T15:50:50.976036Z"
   }
 ]
