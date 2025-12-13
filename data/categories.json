@@ -1,35 +1,5 @@
 [
   {
-    "id": "cat-01",
-    "name": "Claw clips",
-    "slug": "claw-clips",
-    "description": "Latest claw clip styles and trends",
-    "image": "assets/categories/claw-clips.png",
-    "parentId": null,
-    "order": 1,
-    "active": true
-  },
-  {
-    "id": "cat-02",
-    "name": "Scrunchies",
-    "slug": "scrunchies",
-    "description": "Experience the ultimate in hair care accessories. These scrunchies are intentionally designed with a generous, cloud-like fullness that minimizes snagging, creasing, and breakage. Made with delicate, high-quality material, they provide a secure hold without the harsh tension of traditional ties. It's the kindest way to keep your hair up, ensuring your locks remain healthy, smooth, and beautifully held.",
-    "image": "assets/categories/scrunchies.jpg",
-    "parentId": null,
-    "order": 2,
-    "active": true
-  },
-  {
-    "id": "cat-03",
-    "name": "Bow clips",
-    "slug": "bow-clips",
-    "description": "Latest bow clip styles and trends",
-    "image": "assets/categories/bow-clips.png",
-    "parentId": null,
-    "order": 3,
-    "active": true
-  },
-  {
     "id": "cat-04",
     "name": "Hampers",
     "slug": "hampers",
@@ -37,6 +7,16 @@
     "image": "",
     "parentId": null,
     "order": 4,
+    "active": true
+  },
+  {
+    "id": "cat-05",
+    "name": "Scrunchies",
+    "slug": "scrunchies",
+    "description": "✨ Soft, stretchy, and gentle on your hair — your perfect everyday scrunchie.",
+    "image": "assets/categories/scrunchies.jpg",
+    "parentId": null,
+    "order": 1,
     "active": true
   }
 ]

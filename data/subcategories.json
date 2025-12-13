@@ -97,5 +97,14 @@
     "parentCategoryId": "cat-03",
     "order": 5,
     "active": true
+  },
+  {
+    "id": "subcat-scr-07",
+    "name": "plain scrunchies",
+    "slug": "plain-scrunchies",
+    "description": "✨ Classic plain scrunchie in your favourite colour — smooth hold, zero damage",
+    "parentCategoryId": "cat-05",
+    "order": 1,
+    "active": true
   }
 ]

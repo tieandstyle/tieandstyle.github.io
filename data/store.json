@@ -2,209 +2,27 @@
   "id": "store-001",
   "name": "Tie-Style",
   "handle": "Tie-Style",
-  "description": "Handpicked products delivered to your door.",
+  "description": "🎀 Tie-Style \r\nthe art of pretty, wrapped in every accessory\r\n",
   "logo": "image/navlogo.png",
   "bannerImage": "image/banner.png",
   "catalogVersion": "2025-10-14-01",
   "contact": {
     "phoneE164": "+918825812199",
-    "email": "yasmineyas0012@gmail.com",
-    "address": "123 Market Street, Chennai, IN"
+    "email": "tieandstyl@gmail.com",
+    "address": "MIG-201 ,Avalapalli Hudco ,Basthi Road , Back side of GKD Nagar,Hosur\r\nIndividual"
   },
   "payments": {
     "gpayUpiId": "yasmineyas0012@okaxis",
     "gpayQrImage": "assets/gpay-qr.png",
-    "instructions": "Pay via GPay UPI or scan the QR. Share the UTR and screenshot on WhatsApp."
+    "instructions": "Pay via GPay UPI or scan the QR. Share the UTR and screenshot on instagram"
   },
   "delivery": {
     "areas": [
       "Chennai",
       "Bengaluru"
     ],
-    "shippingPolicy": "Free delivery above ₹999. Standard delivery 2–5 days.",
-    "returnsPolicy": "7-day return on unused items with original packaging.",
-    "rates": [
-      {
-        "state": "Andaman and Nicobar Islands",
-        "region": "Union Territory (Islands)",
-        "charge_inr": 180.0
-      },
-      {
-        "state": "Andhra Pradesh",
-        "region": "South India",
-        "charge_inr": 100.0
-      },
-      {
-        "state": "Arunachal Pradesh",
-        "region": "North East India",
-        "charge_inr": 180.0
-      },
-      {
-        "state": "Assam",
-        "region": "North East India",
-        "charge_inr": 180.0
-      },
-      {
-        "state": "Bihar",
-        "region": "East India",
-        "charge_inr": 150.0
-      },
-      {
-        "state": "Chandigarh",
-        "region": "Union Territory (North India)",
-        "charge_inr": 200.0
-      },
-      {
-        "state": "Chhattisgarh",
-        "region": "Central India",
-        "charge_inr": 150.0
-      },
-      {
-        "state": "Dadra and Nagar Haveli and Daman and Diu",
-        "region": "Union Territory (West India)",
-        "charge_inr": 130.0
-      },
-      {
-        "state": "Delhi",
-        "region": "Union Territory (North India)",
-        "charge_inr": 200.0
-      },
-      {
-        "state": "Goa",
-        "region": "West India",
-        "charge_inr": 130.0
-      },
-      {
-        "state": "Gujarat",
-        "region": "West India",
-        "charge_inr": 130.0
-      },
-      {
-        "state": "Haryana",
-        "region": "North India",
-        "charge_inr": 200.0
-      },
-      {
-        "state": "Himachal Pradesh",
-        "region": "North India",
-        "charge_inr": 200.0
-      },
-      {
-        "state": "Jammu and Kashmir",
-        "region": "Union Territory (North India)",
-        "charge_inr": 200.0
-      },
-      {
-        "state": "Jharkhand",
-        "region": "East India",
-        "charge_inr": 150.0
-      },
-      {
-        "state": "Karnataka",
-        "region": "South India",
-        "charge_inr": 100.0
-      },
-      {
-        "state": "Kerala",
-        "region": "South India",
-        "charge_inr": 100.0
-      },
-      {
-        "state": "Ladakh",
-        "region": "Union Territory (North India)",
-        "charge_inr": 200.0
-      },
-      {
-        "state": "Lakshadweep",
-        "region": "Union Territory (Islands)",
-        "charge_inr": 180.0
-      },
-      {
-        "state": "Madhya Pradesh",
-        "region": "Central India",
-        "charge_inr": 150.0
-      },
-      {
-        "state": "Maharashtra",
-        "region": "West India",
-        "charge_inr": 130.0
-      },
-      {
-        "state": "Manipur",
-        "region": "North East India",
-        "charge_inr": 180.0
-      },
-      {
-        "state": "Meghalaya",
-        "region": "North East India",
-        "charge_inr": 180.0
-      },
-      {
-        "state": "Mizoram",
-        "region": "North East India",
-        "charge_inr": 180.0
-      },
-      {
-        "state": "Nagaland",
-        "region": "North East India",
-        "charge_inr": 180.0
-      },
-      {
-        "state": "Odisha",
-        "region": "East India",
-        "charge_inr": 150.0
-      },
-      {
-        "state": "Puducherry",
-        "region": "Union Territory (South India)",
-        "charge_inr": 100.0
-      },
-      {
-        "state": "Punjab",
-        "region": "North India",
-        "charge_inr": 200.0
-      },
-      {
-        "state": "Rajasthan",
-        "region": "North India",
-        "charge_inr": 200.0
-      },
-      {
-        "state": "Sikkim",
-        "region": "North East India",
-        "charge_inr": 180.0
-      },
-      {
-        "state": "Tamil Nadu",
-        "region": "South India",
-        "charge_inr": 80.0
-      },
-      {
-        "state": "Telangana",
-        "region": "South India",
-        "charge_inr": 100.0
-      },
-      {
-        "state": "Tripura",
-        "region": "North East India",
-        "charge_inr": 180.0
-      },
-      {
-        "state": "Uttar Pradesh",
-        "region": "North India",
-        "charge_inr": 200.0
-      },
-      {
-        "state": "Uttarakhand",
-        "region": "North India",
-        "charge_inr": 200.0
-      },
-      {
-        "state": "West Bengal",
-        "region": "East India",
-        "charge_inr": 150.0
-      }
-    ]
+    "shippingPolicy": "Free delivery above ₹999. Standard delivery 7-12 working days.",
+    "returnsPolicy": "We offer refunds only for items received in damaged condition, supported by a clear unboxing video.\r\nUnfortunately, we do not accept refunds or exchanges otherwise. Thank you for understanding 🤍\r\n"
   },
   "businessHours": {
     "timezone": "Asia/Kolkata",
@@ -227,10 +45,6 @@
   "pricing": {
     "taxRatePct": 0.0,
     "freeShippingMin": 999.0,
-    "abroadDelivery": {
-      "baseCharge": 500.0,
-      "perItemCharge": 100.0,
-      "description": "Base charge ₹500 + ₹100 per item for international delivery"
-    }
+    "shippingFlat": 80.0
   }
 }
