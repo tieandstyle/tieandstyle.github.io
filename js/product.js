@@ -387,7 +387,7 @@
     const thumbnailContainer = document.getElementById('thumbnailContainer');
     if (product.images && product.images.length > 1) {
       thumbnailContainer.innerHTML = product.images.map((img, index) => `
-        <div class="aspect-square overflow-hidden rounded-lg bg-gray-200 cursor-pointer thumbnail ${index === 0 ? 'active' : ''}" onclick="changeMainImage('${img}', ${index})">
+        <div class="w-20 h-20 flex-shrink-0 overflow-hidden rounded-lg bg-gray-200 cursor-pointer thumbnail ${index === 0 ? 'active' : ''}" style="scroll-snap-align: start;" onclick="changeMainImage('${img}', ${index})">
           <img alt="Thumbnail ${index + 1}" class="h-full w-full object-cover object-center" src="${img}"/>
         </div>
       `).join('');

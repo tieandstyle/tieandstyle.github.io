@@ -193,17 +193,45 @@
                                                    style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px;">
                                         </div>
                                         <div>
-                                            <label style="display: block; font-size: 12px; font-weight: 600; color: #555; margin-bottom: 5px;">Hex Code</label>
-                                            <div style="display: flex; gap: 8px; align-items: center;">
+                                            <label style="display: block; font-size: 12px; font-weight: 600; color: #555; margin-bottom: 5px;">Pick Color</label>
+                                            <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+                                                <!-- Visual Color Picker -->
+                                                <input type="color" 
+                                                       class="color-picker-input"
+                                                       value="{{ color.hex }}"
+                                                       style="width: 50px; height: 50px; border: 2px solid #ddd; border-radius: 8px; cursor: pointer; padding: 0;"
+                                                       onchange="syncColorFromPicker(this)"
+                                                       oninput="syncColorFromPicker(this)">
+                                                <!-- Hex Input -->
                                                 <input type="text" 
                                                        name="color_hex" 
                                                        value="{{ color.hex }}" 
                                                        placeholder="#FF0000"
                                                        pattern="^#[0-9A-Fa-f]{6}$"
-                                                       style="flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; font-family: monospace;"
-                                                       onchange="updateColorPreview(this)"
-                                                       oninput="updateColorPreview(this)">
-                                                <div class="color-preview" style="width: 45px; height: 45px; border-radius: 8px; border: 2px solid #ddd; background-color: {{ color.hex }}; box-shadow: 0 2px 4px rgba(0,0,0,0.1); flex-shrink: 0;"></div>
+                                                       style="width: 100px; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; font-family: monospace; text-transform: uppercase;"
+                                                       onchange="syncColorFromHex(this)"
+                                                       oninput="syncColorFromHex(this)">
+                                            </div>
+                                            <!-- Preset Color Palette -->
+                                            <div class="preset-colors" style="display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap;">
+                                                <button type="button" class="preset-color-btn" data-color="#FF0000" style="width: 28px; height: 28px; background: #FF0000; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Red" onclick="selectPresetColor(this, '#FF0000')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#FF6B6B" style="width: 28px; height: 28px; background: #FF6B6B; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Light Red" onclick="selectPresetColor(this, '#FF6B6B')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#FF69B4" style="width: 28px; height: 28px; background: #FF69B4; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Hot Pink" onclick="selectPresetColor(this, '#FF69B4')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#FF1493" style="width: 28px; height: 28px; background: #FF1493; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Deep Pink" onclick="selectPresetColor(this, '#FF1493')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#800080" style="width: 28px; height: 28px; background: #800080; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Purple" onclick="selectPresetColor(this, '#800080')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#4169E1" style="width: 28px; height: 28px; background: #4169E1; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Royal Blue" onclick="selectPresetColor(this, '#4169E1')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#0000FF" style="width: 28px; height: 28px; background: #0000FF; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Blue" onclick="selectPresetColor(this, '#0000FF')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#00CED1" style="width: 28px; height: 28px; background: #00CED1; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Turquoise" onclick="selectPresetColor(this, '#00CED1')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#008000" style="width: 28px; height: 28px; background: #008000; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Green" onclick="selectPresetColor(this, '#008000')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#32CD32" style="width: 28px; height: 28px; background: #32CD32; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Lime Green" onclick="selectPresetColor(this, '#32CD32')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#FFD700" style="width: 28px; height: 28px; background: #FFD700; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Gold" onclick="selectPresetColor(this, '#FFD700')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#FFA500" style="width: 28px; height: 28px; background: #FFA500; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Orange" onclick="selectPresetColor(this, '#FFA500')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#8B4513" style="width: 28px; height: 28px; background: #8B4513; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Brown" onclick="selectPresetColor(this, '#8B4513')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#000000" style="width: 28px; height: 28px; background: #000000; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Black" onclick="selectPresetColor(this, '#000000')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#808080" style="width: 28px; height: 28px; background: #808080; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Gray" onclick="selectPresetColor(this, '#808080')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#FFFFFF" style="width: 28px; height: 28px; background: #FFFFFF; border: 2px solid #999; border-radius: 6px; cursor: pointer;" title="White" onclick="selectPresetColor(this, '#FFFFFF')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#F5F5DC" style="width: 28px; height: 28px; background: #F5F5DC; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Beige" onclick="selectPresetColor(this, '#F5F5DC')"></button>
+                                                <button type="button" class="preset-color-btn" data-color="#C0C0C0" style="width: 28px; height: 28px; background: #C0C0C0; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Silver" onclick="selectPresetColor(this, '#C0C0C0')"></button>
                                             </div>
                                         </div>
                                     </div>
@@ -245,16 +273,44 @@
                                                style="width: 100%; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px;">
                                     </div>
                                     <div>
-                                        <label style="display: block; font-size: 12px; font-weight: 600; color: #555; margin-bottom: 5px;">Hex Code</label>
-                                        <div style="display: flex; gap: 8px; align-items: center;">
+                                        <label style="display: block; font-size: 12px; font-weight: 600; color: #555; margin-bottom: 5px;">Pick Color</label>
+                                        <div style="display: flex; gap: 8px; align-items: center; flex-wrap: wrap;">
+                                            <!-- Visual Color Picker -->
+                                            <input type="color" 
+                                                   class="color-picker-input"
+                                                   value="#CCCCCC"
+                                                   style="width: 50px; height: 50px; border: 2px solid #ddd; border-radius: 8px; cursor: pointer; padding: 0;"
+                                                   onchange="syncColorFromPicker(this)"
+                                                   oninput="syncColorFromPicker(this)">
+                                            <!-- Hidden Hex Input -->
                                             <input type="text" 
                                                    name="color_hex" 
                                                    placeholder="#FF0000"
                                                    pattern="^#[0-9A-Fa-f]{6}$"
-                                                   style="flex: 1; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; font-family: monospace;"
-                                                   onchange="updateColorPreview(this)"
-                                                   oninput="updateColorPreview(this)">
-                                            <div class="color-preview" style="width: 45px; height: 45px; border-radius: 8px; border: 2px solid #ddd; background-color: #CCCCCC; box-shadow: 0 2px 4px rgba(0,0,0,0.1); flex-shrink: 0;"></div>
+                                                   style="width: 100px; padding: 10px; border: 1px solid #ddd; border-radius: 6px; font-size: 14px; font-family: monospace; text-transform: uppercase;"
+                                                   onchange="syncColorFromHex(this)"
+                                                   oninput="syncColorFromHex(this)">
+                                        </div>
+                                        <!-- Preset Color Palette -->
+                                        <div class="preset-colors" style="display: flex; gap: 6px; margin-top: 10px; flex-wrap: wrap;">
+                                            <button type="button" class="preset-color-btn" data-color="#FF0000" style="width: 28px; height: 28px; background: #FF0000; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Red" onclick="selectPresetColor(this, '#FF0000')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#FF6B6B" style="width: 28px; height: 28px; background: #FF6B6B; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Light Red" onclick="selectPresetColor(this, '#FF6B6B')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#FF69B4" style="width: 28px; height: 28px; background: #FF69B4; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Hot Pink" onclick="selectPresetColor(this, '#FF69B4')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#FF1493" style="width: 28px; height: 28px; background: #FF1493; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Deep Pink" onclick="selectPresetColor(this, '#FF1493')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#800080" style="width: 28px; height: 28px; background: #800080; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Purple" onclick="selectPresetColor(this, '#800080')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#4169E1" style="width: 28px; height: 28px; background: #4169E1; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Royal Blue" onclick="selectPresetColor(this, '#4169E1')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#0000FF" style="width: 28px; height: 28px; background: #0000FF; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Blue" onclick="selectPresetColor(this, '#0000FF')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#00CED1" style="width: 28px; height: 28px; background: #00CED1; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Turquoise" onclick="selectPresetColor(this, '#00CED1')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#008000" style="width: 28px; height: 28px; background: #008000; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Green" onclick="selectPresetColor(this, '#008000')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#32CD32" style="width: 28px; height: 28px; background: #32CD32; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Lime Green" onclick="selectPresetColor(this, '#32CD32')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#FFD700" style="width: 28px; height: 28px; background: #FFD700; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Gold" onclick="selectPresetColor(this, '#FFD700')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#FFA500" style="width: 28px; height: 28px; background: #FFA500; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Orange" onclick="selectPresetColor(this, '#FFA500')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#8B4513" style="width: 28px; height: 28px; background: #8B4513; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Brown" onclick="selectPresetColor(this, '#8B4513')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#000000" style="width: 28px; height: 28px; background: #000000; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Black" onclick="selectPresetColor(this, '#000000')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#808080" style="width: 28px; height: 28px; background: #808080; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Gray" onclick="selectPresetColor(this, '#808080')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#FFFFFF" style="width: 28px; height: 28px; background: #FFFFFF; border: 2px solid #999; border-radius: 6px; cursor: pointer;" title="White" onclick="selectPresetColor(this, '#FFFFFF')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#F5F5DC" style="width: 28px; height: 28px; background: #F5F5DC; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Beige" onclick="selectPresetColor(this, '#F5F5DC')"></button>
+                                            <button type="button" class="preset-color-btn" data-color="#C0C0C0" style="width: 28px; height: 28px; background: #C0C0C0; border: 2px solid #ddd; border-radius: 6px; cursor: pointer;" title="Silver" onclick="selectPresetColor(this, '#C0C0C0')"></button>
                                         </div>
                                     </div>
                                 </div>
