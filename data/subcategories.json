@@ -106,5 +106,14 @@
     "parentCategoryId": "cat-05",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-scr-08",
+    "name": "Skinny Scrunchies",
+    "slug": "skinny-scrunchies",
+    "description": "Handcrafted slimness. Just enough texture for beauty, just the right tension for all-day hold.",
+    "parentCategoryId": "cat-05",
+    "order": 1,
+    "active": true
   }
 ]
