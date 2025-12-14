@@ -1,7 +1,7 @@
 [
   {
-    "id": "prod-002",
-    "sku": "PLAI-SCR-002",
+    "id": "prod-006",
+    "sku": "PLAI-SCR-006",
     "title": "plain scrunchies",
     "slug": "plain-scrunchies",
     "categoryIds": [
@@ -10,13 +10,17 @@
     "subcategoryId": "subcat-scr-07",
     "price": 45.0,
     "currency": "INR",
-    "stock": 30000,
+    "stock": 50000,
     "available": true,
     "images": [
       "assets/products/plain-scrunchies/plain-scrunchies.png"
     ],
     "attributes": {
-      "premium satin": "xtra large"
+      "premium satin": "satin",
+      "Small": "S",
+      "Medium": "M",
+      "Large": "L",
+      "Xtra Large": "XL"
     },
     "shortDescription": "✨ Soft, stretchy, and gentle on your hair your perfect everyday scrunchie.",
     "description": "",
@@ -47,20 +51,8 @@
         "available": true
       },
       {
-        "name": "Taupe",
-        "hex": "#483C32",
-        "stock": 100,
-        "available": true
-      },
-      {
         "name": "Light Gray",
         "hex": "#D3D3D3",
-        "stock": 100,
-        "available": true
-      },
-      {
-        "name": "Silver",
-        "hex": "#C0C0C0",
         "stock": 100,
         "available": true
       },
@@ -71,65 +63,14 @@
         "available": true
       },
       {
-        "name": "Black",
-        "hex": "#000000",
-        "stock": 100,
-        "available": true
-      },
-      {
-        "name": "Dim Gray",
-        "hex": "#696969",
-        "stock": 100,
-        "available": true
-      },
-      {
         "name": "Charcoal",
         "hex": "#36454F",
         "stock": 100,
         "available": true
-      }
-    ],
-    "createdAt": "2025-12-13T05:03:46.710643Z",
-    "updatedAt": "2025-12-13T07:43:49.334800Z"
-  },
-  {
-    "id": "prod-003",
-    "sku": "PLAI-SCR-003",
-    "title": "plain scrunchies",
-    "slug": "plain-scrunchies",
-    "categoryIds": [
-      "cat-05"
-    ],
-    "subcategoryId": "subcat-scr-07",
-    "price": 45.0,
-    "currency": "INR",
-    "stock": 40000,
-    "available": true,
-    "images": [
-      "assets/products/plain-scrunchies/plain-scrunchies.png"
-    ],
-    "attributes": {
-      "premium satin": "xtra large"
-    },
-    "shortDescription": "✨ Soft, stretchy, and gentle on your hair your perfect everyday scrunchie.",
-    "description": "",
-    "tags": [],
-    "colors": [
-      {
-        "name": "Saddle Brown",
-        "hex": "#8B4513",
-        "stock": 100,
-        "available": true
       },
       {
-        "name": "Caramel",
-        "hex": "#C68A5E",
-        "stock": 100,
-        "available": true
-      },
-      {
-        "name": "Copper",
-        "hex": "#B87333",
+        "name": "Black",
+        "hex": "#000000",
         "stock": 100,
         "available": true
       },
@@ -144,37 +85,16 @@
         "hex": "#3D1C02",
         "stock": 100,
         "available": true
-      }
-    ],
-    "createdAt": "2025-12-13T05:21:42.259661Z",
-    "updatedAt": "2025-12-13T07:41:12.013171Z"
-  },
-  {
-    "id": "prod-004",
-    "sku": "PLAI-SCR-004",
-    "title": "plain scrunchies",
-    "slug": "plain-scrunchies",
-    "categoryIds": [
-      "cat-05"
-    ],
-    "subcategoryId": "subcat-scr-07",
-    "price": 45.0,
-    "currency": "INR",
-    "stock": 40000,
-    "available": true,
-    "images": [
-      "assets/products/plain-scrunchies/plain-scrunchies.png"
-    ],
-    "attributes": {
-      "premium satin": "xtra large"
-    },
-    "shortDescription": "✨ Soft, stretchy, and gentle on your hair your perfect everyday scrunchie.",
-    "description": "",
-    "tags": [],
-    "colors": [
+      },
       {
-        "name": "Red",
-        "hex": "#FF0000",
+        "name": "Caramel",
+        "hex": "#C68A5E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Copper",
+        "hex": "#B87333",
         "stock": 100,
         "available": true
       },
@@ -203,6 +123,12 @@
         "available": true
       },
       {
+        "name": "Oxblood",
+        "hex": "#4A0404",
+        "stock": 100,
+        "available": true
+      },
+      {
         "name": "Wine",
         "hex": "#722F37",
         "stock": 100,
@@ -221,32 +147,14 @@
         "available": true
       },
       {
-        "name": "Watermelon",
-        "hex": "#D87093",
-        "stock": 100,
-        "available": true
-      },
-      {
         "name": "Blush",
         "hex": "#FADADD",
         "stock": 100,
         "available": true
       },
       {
-        "name": "Light Pink",
-        "hex": "#FFB6C1",
-        "stock": 100,
-        "available": true
-      },
-      {
-        "name": "Baby Pink",
-        "hex": "#F4C2C2",
-        "stock": 100,
-        "available": true
-      },
-      {
-        "name": "Cherry Blossom",
-        "hex": "#FFB7C5",
+        "name": "Flamingo",
+        "hex": "#FC8EAC",
         "stock": 100,
         "available": true
       },
@@ -262,69 +170,6 @@
         "stock": 100,
         "available": true
       },
-      {
-        "name": "Hot Pink",
-        "hex": "#FF69B4",
-        "stock": 100,
-        "available": true
-      },
-      {
-        "name": "Oxblood",
-        "hex": "#4A0404",
-        "stock": 100,
-        "available": true
-      },
-      {
-        "name": "Cardinal",
-        "hex": "#C41E3A",
-        "stock": 100,
-        "available": true
-      },
-      {
-        "name": "Ruby",
-        "hex": "#E0115F",
-        "stock": 100,
-        "available": true
-      },
-      {
-        "name": "Pastel Pink",
-        "hex": "#FFD1DC",
-        "stock": 100,
-        "available": true
-      },
-      {
-        "name": "Flamingo",
-        "hex": "#FC8EAC",
-        "stock": 100,
-        "available": true
-      }
-    ],
-    "createdAt": "2025-12-13T07:39:51.790437Z",
-    "updatedAt": "2025-12-13T07:43:09.910775Z"
-  },
-  {
-    "id": "prod-005",
-    "sku": "PLAI-SCR-005",
-    "title": "plain scrunchies",
-    "slug": "plain-scrunchies",
-    "categoryIds": [
-      "cat-05"
-    ],
-    "subcategoryId": "subcat-scr-07",
-    "price": 45.0,
-    "currency": "INR",
-    "stock": 100000,
-    "available": true,
-    "images": [
-      "assets/products/plain-scrunchies/plain-scrunchies.png"
-    ],
-    "attributes": {
-      "premium satin": "extra large"
-    },
-    "shortDescription": "Classic plain scrunchie in your favourite colour smooth hold, zero damage",
-    "description": "",
-    "tags": [],
-    "colors": [
       {
         "name": "Dark Orange",
         "hex": "#FF8C00",
@@ -350,14 +195,14 @@
         "available": true
       },
       {
-        "name": "Green",
-        "hex": "#008000",
+        "name": "Lime",
+        "hex": "#00FF00",
         "stock": 100,
         "available": true
       },
       {
-        "name": "Forest Green",
-        "hex": "#228B22",
+        "name": "Sea Green",
+        "hex": "#2E8B57",
         "stock": 100,
         "available": true
       },
@@ -368,20 +213,14 @@
         "available": true
       },
       {
-        "name": "Olive",
-        "hex": "#808000",
-        "stock": 100,
-        "available": true
-      },
-      {
         "name": "Military",
         "hex": "#535A0A",
         "stock": 100,
         "available": true
       },
       {
-        "name": "Mint",
-        "hex": "#98FF98",
+        "name": "Light Mint",
+        "hex": "#AAF0D1",
         "stock": 100,
         "available": true
       },
@@ -398,12 +237,6 @@
         "available": true
       },
       {
-        "name": "Teal",
-        "hex": "#008080",
-        "stock": 100,
-        "available": true
-      },
-      {
         "name": "Baby Blue",
         "hex": "#89CFF0",
         "stock": 100,
@@ -416,14 +249,8 @@
         "available": true
       },
       {
-        "name": "Blue",
-        "hex": "#0000FF",
-        "stock": 100,
-        "available": true
-      },
-      {
-        "name": "Royal Blue",
-        "hex": "#4169E1",
+        "name": "Steel Blue",
+        "hex": "#4682B4",
         "stock": 100,
         "available": true
       },
@@ -442,6 +269,12 @@
       {
         "name": "Plum",
         "hex": "#DDA0DD",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Violet",
+        "hex": "#EE82EE",
         "stock": 100,
         "available": true
       },
@@ -476,8 +309,80 @@
         "available": true
       },
       {
-        "name": "Rose Gold",
-        "hex": "#B76E79",
+        "name": "Taupe",
+        "hex": "#483C32",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Silver",
+        "hex": "#C0C0C0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dim Gray",
+        "hex": "#696969",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Saddle Brown",
+        "hex": "#8B4513",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ruby",
+        "hex": "#E0115F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cardinal",
+        "hex": "#C41E3A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Scarlet",
+        "hex": "#FF2400",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Watermelon",
+        "hex": "#D87093",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Pastel Pink",
+        "hex": "#FFD1DC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#FFB6C1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F4C2C2",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cherry Blossom",
+        "hex": "#FFB7C5",
         "stock": 100,
         "available": true
       },
@@ -488,38 +393,44 @@
         "available": true
       },
       {
-        "name": "Sea Green",
-        "hex": "#2E8B57",
+        "name": "Green",
+        "hex": "#008000",
         "stock": 100,
         "available": true
       },
       {
-        "name": "Steel Blue",
-        "hex": "#4682B4",
+        "name": "Forest Green",
+        "hex": "#228B22",
         "stock": 100,
         "available": true
       },
       {
-        "name": "Violet",
-        "hex": "#EE82EE",
+        "name": "Olive",
+        "hex": "#808000",
         "stock": 100,
         "available": true
       },
       {
-        "name": "Lavender",
-        "hex": "#E6E6FA",
+        "name": "Mint",
+        "hex": "#98FF98",
         "stock": 100,
         "available": true
       },
       {
-        "name": "Purple",
-        "hex": "#800080",
+        "name": "Blue",
+        "hex": "#0000FF",
         "stock": 100,
         "available": true
       },
       {
-        "name": "Peach",
-        "hex": "#FFDAB9",
+        "name": "Rose Gold",
+        "hex": "#B76E79",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Hot Pink",
+        "hex": "#FF69B4",
         "stock": 100,
         "available": true
       },
@@ -530,19 +441,31 @@
         "available": true
       },
       {
+        "name": "Lavender",
+        "hex": "#E6E6FA",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FFDAB9",
+        "stock": 100,
+        "available": true
+      },
+      {
         "name": "Mustard Yellow",
         "hex": "#FFDB58",
         "stock": 100,
         "available": true
       },
       {
-        "name": "Lime",
-        "hex": "#00FF00",
+        "name": "Royal Blue",
+        "hex": "#4169E1",
         "stock": 100,
         "available": true
       }
     ],
-    "createdAt": "2025-12-13T11:14:09.545845Z",
-    "updatedAt": "2025-12-13T11:14:09.545883Z"
+    "createdAt": "2025-12-14T16:30:08.462816Z",
+    "updatedAt": "2025-12-14T16:31:41.499186Z"
   }
 ]
