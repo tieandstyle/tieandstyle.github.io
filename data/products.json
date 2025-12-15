@@ -1033,7 +1033,7 @@
     "subcategoryId": "subcat-scr-10",
     "price": 80.0,
     "currency": "INR",
-    "stock": 50000,
+    "stock": 60000,
     "available": true,
     "images": [
       "assets/products/bow-scrunchies/bow-scrunchies.jpeg"
@@ -1483,6 +1483,6 @@
       }
     ],
     "createdAt": "2025-12-15T07:26:16.585283Z",
-    "updatedAt": "2025-12-15T16:09:19.801677Z"
+    "updatedAt": "2025-12-15T16:13:38.275907Z"
   }
 ]
