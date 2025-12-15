@@ -16,5 +16,23 @@
     "parentCategoryId": "cat-05",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-scr-09",
+    "name": "Printed Scrunchies",
+    "slug": "printed-scrunchies",
+    "description": "🌸 Handmade Printed Scrunchies\r\nThese are stylish and fun hair accessories, handcrafted from soft fabrics featuring various eye-catching patterns and prints. They offer a gentle, secure hold for your ponytail or bun, minimizing hair damage and adding a pop of personalized color and flair to any hairstyle.",
+    "parentCategoryId": "cat-05",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-scr-10",
+    "name": "Bow Scrunchies",
+    "slug": "bow-scrunchies",
+    "description": "Bow scrunchies are a playful and elegant twist on the classic hair tie. These handmade accessories feature a soft, fabric scrunchie base with an attached, often detachable, stylish bow detail. They offer the functionality of a regular scrunchie (gentle, secure hold) while instantly elevating any hairstyle with a feminine, decorative flourish. Perfect for adding romance and charm to ponytails, buns, or even worn around the wrist",
+    "parentCategoryId": "cat-05",
+    "order": 1,
+    "active": true
   }
 ]
