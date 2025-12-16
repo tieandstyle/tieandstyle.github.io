@@ -43,5 +43,23 @@
     "parentCategoryId": "cat-05",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-scr-12",
+    "name": "Mini Tail Scrunchies",
+    "slug": "mini-tail-scrunchies",
+    "description": "Small size, maximum fluff! 🐰 Our handmade Mini Tails are the ultimate accessory for dainty buns and pigtails. Soft on hair, stylish on the wrist, and available in your favorite colors",
+    "parentCategoryId": "cat-05",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-bow-01",
+    "name": "Bunny Tail Bowclip",
+    "slug": "bunny-tail-bowclip",
+    "description": "Bunny tail scrunchies feature short, upright fabric loops that mimic cute rabbit ears on a hair tie.",
+    "parentCategoryId": "cat-06",
+    "order": 1,
+    "active": true
   }
 ]

@@ -18,5 +18,15 @@
     "parentId": null,
     "order": 1,
     "active": true
+  },
+  {
+    "id": "cat-06",
+    "name": "Bow Clips",
+    "slug": "bow-clips",
+    "description": "A bow clip is a versatile hair accessory that features a decorative bow—made of fabric, ribbon, or metal—attached to a sturdy clasp like an alligator clip or barrette.",
+    "image": "assets/categories/bow-clips.jpeg",
+    "parentId": null,
+    "order": 1,
+    "active": true
   }
 ]
