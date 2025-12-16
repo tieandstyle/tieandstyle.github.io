@@ -34,5 +34,14 @@
     "parentCategoryId": "cat-05",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-scr-11",
+    "name": "Bunny Tail Scrunchies",
+    "slug": "bunny-tail-scrunchies",
+    "description": "The Cutest Accessory! Handmade Voluminous \"Bunny Tail\" Scrunchie",
+    "parentCategoryId": "cat-05",
+    "order": 1,
+    "active": true
   }
 ]

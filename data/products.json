@@ -1484,5 +1484,787 @@
     ],
     "createdAt": "2025-12-15T07:26:16.585283Z",
     "updatedAt": "2025-12-15T16:13:38.275907Z"
+  },
+  {
+    "id": "prod-010",
+    "sku": "BUNN-TAI-010",
+    "title": "Bunny Tail",
+    "slug": "bunny-tail",
+    "categoryIds": [
+      "cat-05"
+    ],
+    "subcategoryId": "subcat-scr-11",
+    "price": 80.0,
+    "currency": "INR",
+    "stock": 50000,
+    "available": true,
+    "images": [
+      "assets/products/bunny-tail-scrunchies/bunny-tail.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Fluffy Bunny Tail Scrunchie | Handcrafted & Gentle Hair Tie",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gray",
+        "hex": "#808080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#A52A2A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FFC0CB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#FFA500",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FFDAB9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#008000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Olive",
+        "hex": "#808000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#98FF98",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#0000FF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Navy",
+        "hex": "#000080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gold",
+        "hex": "#FFD700",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Silver",
+        "hex": "#C0C0C0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Snow",
+        "hex": "#FFFAFA",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ivory",
+        "hex": "#FFFFF0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Taupe",
+        "hex": "#483C32",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dim Gray",
+        "hex": "#696969",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Saddle Brown",
+        "hex": "#8B4513",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coco",
+        "hex": "#3D1C02",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Caramel",
+        "hex": "#C68A5E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Copper",
+        "hex": "#B87333",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#4A0404",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Wine",
+        "hex": "#722F37",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cardinal",
+        "hex": "#C41E3A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Raspberry",
+        "hex": "#E30B5C",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ruby",
+        "hex": "#E0115F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Watermelon",
+        "hex": "#D87093",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cherry Blossom",
+        "hex": "#FFB7C5",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Flamingo",
+        "hex": "#FC8EAC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dark Orange",
+        "hex": "#FF8C00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mustard Yellow",
+        "hex": "#FFDB58",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#2E8B57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Emerald",
+        "hex": "#50C878",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Mint",
+        "hex": "#AAF0D1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#40E0D0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Teal",
+        "hex": "#008080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Steel Blue",
+        "hex": "#4682B4",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Indigo",
+        "hex": "#4B0082",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Aubergine",
+        "hex": "#580F41",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Rose Gold",
+        "hex": "#B76E79",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#FFB6C1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Baby Blue",
+        "hex": "#89CFF0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#800080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lavender",
+        "hex": "#E6E6FA",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#800020",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#F88379",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lemon",
+        "hex": "#FFF44F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Military",
+        "hex": "#535A0A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Plum",
+        "hex": "#DDA0DD",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mauve",
+        "hex": "#D4A7B7",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Thistle",
+        "hex": "#D8BFD8",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Salmon",
+        "hex": "#FA8072",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFFF00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ocean",
+        "hex": "#0077BE",
+        "stock": 100,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-16T06:21:52.762550Z",
+    "updatedAt": "2025-12-16T06:21:52.762608Z"
+  },
+  {
+    "id": "prod-011",
+    "sku": "BUNN-TAI-011",
+    "title": "Bunny Tail",
+    "slug": "bunny-tail",
+    "categoryIds": [
+      "cat-05"
+    ],
+    "subcategoryId": "subcat-scr-11",
+    "price": 80.0,
+    "currency": "INR",
+    "stock": 50000,
+    "available": true,
+    "images": [
+      "assets/products/bunny-tail-scrunchies/bunny-tail.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Fluffy Bunny Tail Scrunchie | Handcrafted & Gentle Hair Tie",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gray",
+        "hex": "#808080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#A52A2A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FFC0CB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#FFA500",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FFDAB9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#008000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Olive",
+        "hex": "#808000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#98FF98",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#0000FF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Navy",
+        "hex": "#000080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gold",
+        "hex": "#FFD700",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Silver",
+        "hex": "#C0C0C0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Snow",
+        "hex": "#FFFAFA",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ivory",
+        "hex": "#FFFFF0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Taupe",
+        "hex": "#483C32",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dim Gray",
+        "hex": "#696969",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Saddle Brown",
+        "hex": "#8B4513",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coco",
+        "hex": "#3D1C02",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Caramel",
+        "hex": "#C68A5E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Copper",
+        "hex": "#B87333",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#4A0404",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Wine",
+        "hex": "#722F37",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cardinal",
+        "hex": "#C41E3A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Raspberry",
+        "hex": "#E30B5C",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ruby",
+        "hex": "#E0115F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Watermelon",
+        "hex": "#D87093",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cherry Blossom",
+        "hex": "#FFB7C5",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Flamingo",
+        "hex": "#FC8EAC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dark Orange",
+        "hex": "#FF8C00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mustard Yellow",
+        "hex": "#FFDB58",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#2E8B57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Emerald",
+        "hex": "#50C878",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Mint",
+        "hex": "#AAF0D1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#40E0D0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Teal",
+        "hex": "#008080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Steel Blue",
+        "hex": "#4682B4",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Indigo",
+        "hex": "#4B0082",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Aubergine",
+        "hex": "#580F41",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Rose Gold",
+        "hex": "#B76E79",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#FFB6C1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Baby Blue",
+        "hex": "#89CFF0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#800080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lavender",
+        "hex": "#E6E6FA",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#800020",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#F88379",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lemon",
+        "hex": "#FFF44F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Military",
+        "hex": "#535A0A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Plum",
+        "hex": "#DDA0DD",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mauve",
+        "hex": "#D4A7B7",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Thistle",
+        "hex": "#D8BFD8",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Salmon",
+        "hex": "#FA8072",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFFF00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ocean",
+        "hex": "#0077BE",
+        "stock": 100,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-16T06:21:52.841124Z",
+    "updatedAt": "2025-12-16T06:21:52.841160Z"
   }
 ]
