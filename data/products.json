@@ -2645,5 +2645,3043 @@
     ],
     "createdAt": "2025-12-16T15:52:34.867103Z",
     "updatedAt": "2025-12-16T16:29:55.101774Z"
+  },
+  {
+    "id": "prod-013",
+    "sku": "LONG-TAI-013",
+    "title": "Long Tail Single Layered Bowclip",
+    "slug": "long-tail-single-layered-bowclip",
+    "categoryIds": [
+      "cat-06"
+    ],
+    "subcategoryId": "subcat-bow-02",
+    "price": 90.0,
+    "currency": "INR",
+    "stock": 50000,
+    "available": true,
+    "images": [
+      "assets/products/long-tail-single-layered-bowclip/long-tail-single-layered-bowclip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Long tails, low effort. The ultimate finishing touch for your half-up hair day. 🕊️",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gray",
+        "hex": "#808080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#A52A2A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#FF0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#FFB6C1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FFC0CB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFFF00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#FFA500",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FFDAB9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#008000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Olive",
+        "hex": "#808000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#98FF98",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#0000FF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Navy",
+        "hex": "#000080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Baby Blue",
+        "hex": "#89CFF0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Silver",
+        "hex": "#C0C0C0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#800080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gold",
+        "hex": "#FFD700",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lavender",
+        "hex": "#E4E5F9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Snow",
+        "hex": "#FFFAFA",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ivory",
+        "hex": "#FFFFF0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Taupe",
+        "hex": "#483C32",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dim Gray",
+        "hex": "#696969",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#36454F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coco",
+        "hex": "#3D1C02",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Caramel",
+        "hex": "#C68A5E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Copper",
+        "hex": "#B87333",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Saddle Brown",
+        "hex": "#8B4513",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#800020",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#4A0404",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Wine",
+        "hex": "#722F37",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ruby",
+        "hex": "#E0115F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Raspberry",
+        "hex": "#E30B5C",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cherry Blossom",
+        "hex": "#FFB7C5",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Flamingo",
+        "hex": "#FC8EAC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#F88379",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Salmon",
+        "hex": "#FA8072",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Watermelon",
+        "hex": "#D87093",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dark Orange",
+        "hex": "#FF8C00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Emerald",
+        "hex": "#50C878",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Military",
+        "hex": "#535A0A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mustard Yellow",
+        "hex": "#FFDB58",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lemon",
+        "hex": "#FFF44F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#2E8B57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#40E0D0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Mint",
+        "hex": "#AAF0D1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Teal",
+        "hex": "#008080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ocean",
+        "hex": "#0077BE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Steel Blue",
+        "hex": "#4682B4",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Thistle",
+        "hex": "#D8BFD8",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Indigo",
+        "hex": "#4B0082",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Plum",
+        "hex": "#DDA0DD",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mauve",
+        "hex": "#D4A7B7",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Aubergine",
+        "hex": "#580F41",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Rose Gold",
+        "hex": "#B76E79",
+        "stock": 100,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-17T08:29:47.058136Z",
+    "updatedAt": "2025-12-17T11:38:11.439723Z"
+  },
+  {
+    "id": "prod-014",
+    "sku": "LONG-TAI-014",
+    "title": "Long Tail Double Layered Bow Clip",
+    "slug": "long-tail-double-layered-bow-clip",
+    "categoryIds": [
+      "cat-06"
+    ],
+    "subcategoryId": "subcat-bow-03",
+    "price": 199.0,
+    "currency": "INR",
+    "stock": 50000,
+    "available": true,
+    "images": [
+      "assets/products/long-tail-double-layered-bow-clip/long-tail-double-layered-bow-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Full & structured. Two tiered loops for a voluminous, high-fashion finish.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Gray",
+        "hex": "#808080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#A52B2A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#FE0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FFC0CB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#FFB6C1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFFF00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FEDAB8",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#017F01",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Olive",
+        "hex": "#7F8000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#98FE98",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#0000FE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#010080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Baby Blue",
+        "hex": "#89D0F0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lavender",
+        "hex": "#E5E6FA",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gold",
+        "hex": "#FED700",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#81007F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Silver",
+        "hex": "#C0C0C0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Snow",
+        "hex": "#FEFAF9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Taupe",
+        "hex": "#483B32",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dim Gray",
+        "hex": "#696969",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374550",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ivory",
+        "hex": "#FEFFEF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Saddle Brown",
+        "hex": "#8B4512",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coco",
+        "hex": "#3E1C01",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Caramel",
+        "hex": "#C78A5E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Copper",
+        "hex": "#B87332",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#80011F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#4A0404",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Wine",
+        "hex": "#722F38",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cardinal",
+        "hex": "#C51E3A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Raspberry",
+        "hex": "#E30B5C",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ruby",
+        "hex": "#DE105E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Watermelon",
+        "hex": "#D87093",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cherry Blossom",
+        "hex": "#FFB7C5",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Flamingo",
+        "hex": "#FC8EAB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#F58379",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Salmon",
+        "hex": "#FA8071",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dark Orange",
+        "hex": "#FF8B00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mustard Yellow",
+        "hex": "#FFDB57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lemon",
+        "hex": "#FFF24D",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#2E8A57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Emerald",
+        "hex": "#51C878",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Miltary",
+        "hex": "#535A0A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Mint",
+        "hex": "#ABF0D1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#3FE0D0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Teal",
+        "hex": "#008081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Steel Blue",
+        "hex": "#4682B4",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E2",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ocean",
+        "hex": "#0177BF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Thistle",
+        "hex": "#D6BED6",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Plum",
+        "hex": "#DDA0DC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Indigo",
+        "hex": "#4B0081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Aubergine",
+        "hex": "#581042",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mauve",
+        "hex": "#D2A6B5",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Rose Gold",
+        "hex": "#B76E79",
+        "stock": 100,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-17T11:58:46.253323Z",
+    "updatedAt": "2025-12-17T12:46:26.188875Z"
+  },
+  {
+    "id": "prod-015",
+    "sku": "CAT-TAI-015",
+    "title": "Cat Tail Bow Clip",
+    "slug": "cat-tail-bow-clip",
+    "categoryIds": [
+      "cat-06"
+    ],
+    "subcategoryId": "subcat-bow-04",
+    "price": 60.0,
+    "currency": "INR",
+    "stock": 50000,
+    "available": true,
+    "images": [
+      "assets/products/cat-tail-bow-clip/cat-tail-bow-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Gray",
+        "hex": "#808080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#A52B2A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#FE0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#FFB6C1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFFF00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FDDAB7",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#008001",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Olive",
+        "hex": "#7F8000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#98FE98",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#0000FE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#010080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Baby Blue",
+        "hex": "#89D0F0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lavender",
+        "hex": "#E5E6FA",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gold",
+        "hex": "#FED700",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#81007F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Silver",
+        "hex": "#C0C0C0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Snow",
+        "hex": "#FEFAF9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Taupe",
+        "hex": "#483B32",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "DimGray",
+        "hex": "#686868",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Charcaol",
+        "hex": "#374550",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ivory",
+        "hex": "#FEFFEF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Saddle Brown",
+        "hex": "#8B4512",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coco",
+        "hex": "#3E1C01",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Caramel",
+        "hex": "#C78A5E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Copper",
+        "hex": "#B87332",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#80011F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#4A0304",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "wine",
+        "hex": "#722F38",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cardinal",
+        "hex": "#C51E3A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Raspberry",
+        "hex": "#E30B5C",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ruby",
+        "hex": "#E0115F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Watermelon",
+        "hex": "#D67092",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cherry Blossom",
+        "hex": "#FFB7C5",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Flamingo",
+        "hex": "#FC8EAB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#F88379",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Salmon",
+        "hex": "#FA8071",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dark Orange",
+        "hex": "#FF8B00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mustard Yellow",
+        "hex": "#FFD957",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lemon",
+        "hex": "#FFF34D",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#2E8A57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Emerald",
+        "hex": "#4FC878",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Miltary",
+        "hex": "#535A0A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Mint",
+        "hex": "#ABF0D1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#3FE0D0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Teal",
+        "hex": "#008081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Steel Blue",
+        "hex": "#4682B4",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E2",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ocean",
+        "hex": "#0177BF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Thistle",
+        "hex": "#D7BFD7",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Plum",
+        "hex": "#DF9DDE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Aubergine",
+        "hex": "#581042",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Rose Gold",
+        "hex": "#B76E79",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Indigo",
+        "hex": "#4B0081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mauve",
+        "hex": "#D3A7B6",
+        "stock": 100,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-17T13:40:47.057627Z",
+    "updatedAt": "2025-12-17T13:40:47.058058Z"
+  },
+  {
+    "id": "prod-016",
+    "sku": "SCAR-BOW-016",
+    "title": "Scarlet Bow Clip",
+    "slug": "scarlet-bow-clip",
+    "categoryIds": [
+      "cat-06"
+    ],
+    "subcategoryId": "subcat-bow-05",
+    "price": 80.0,
+    "currency": "INR",
+    "stock": 50000,
+    "available": true,
+    "images": [
+      "assets/products/scarlet-bow-clip/scarlet-bow-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Ethereal & dreamy. Soft organza with trailing ribbons for a romantic, celestial-inspired aesthetic.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Gray",
+        "hex": "#808080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000002",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#A02B2A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#FE0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FFC0CB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#FFB6C1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFFF00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FEDAB8",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#017F01",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Olive",
+        "hex": "#7F8000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#98FE98",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#0000FE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#010080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Baby Blue",
+        "hex": "#89D0F0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lavender",
+        "hex": "#E4E5F9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gold",
+        "hex": "#FED700",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#81007F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Silver",
+        "hex": "#C0C0C0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Snow",
+        "hex": "#FEFAF9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Taupe",
+        "hex": "#483B32",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dim Gray",
+        "hex": "#686868",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374550",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ivory",
+        "hex": "#FEFFEF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Saddle Brown",
+        "hex": "#8A430E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coco",
+        "hex": "#3E1C01",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Caramel",
+        "hex": "#C78A5E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Copper",
+        "hex": "#B87332",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#80011F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#4A0404",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Wine",
+        "hex": "#712F38",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cardinal",
+        "hex": "#C51E3A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Raspberry",
+        "hex": "#E30B5C",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ruby",
+        "hex": "#DE105E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "WaterMelon",
+        "hex": "#D87093",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "CherryBlossom",
+        "hex": "#FFB7C5",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Flamingo",
+        "hex": "#FC8EAB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#F88379",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Salmon",
+        "hex": "#FA8071",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dark Orange",
+        "hex": "#FF8B00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mustard Yellow",
+        "hex": "#FDDD59",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lemon",
+        "hex": "#FFF24E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#2E8A57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Emerald",
+        "hex": "#51C878",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Miltary",
+        "hex": "#535A0A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Mint",
+        "hex": "#A6EFCD",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#3FE0D0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Teal",
+        "hex": "#008081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Steel Blue",
+        "hex": "#4682B4",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E2",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ocean",
+        "hex": "#0077BD",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Thistle",
+        "hex": "#D6BED6",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Plum",
+        "hex": "#E09DE0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Aubergine",
+        "hex": "#581042",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Wine",
+        "hex": "#722F38",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cardinal",
+        "hex": "#C51E3A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Rose Gold",
+        "hex": "#B76E79",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Indigo",
+        "hex": "#4B0081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mauve",
+        "hex": "#D3A7B6",
+        "stock": 100,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-17T14:21:13.329955Z",
+    "updatedAt": "2025-12-17T14:21:13.330381Z"
+  },
+  {
+    "id": "prod-017",
+    "sku": "MINI-BOW-017",
+    "title": "Mini Bow Clip",
+    "slug": "mini-bow-clip",
+    "categoryIds": [
+      "cat-06"
+    ],
+    "subcategoryId": "subcat-bow-06",
+    "price": 50.0,
+    "currency": "INR",
+    "stock": 50000,
+    "available": true,
+    "images": [
+      "assets/products/mini-bow-clip/mini-bow-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Minimalist chic. Small in size but big on style, adding a subtle, feminine accent to any look",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Gray",
+        "hex": "#808080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#A02C28",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#FE0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FFC0CB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#FFB6C1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFFF00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FEDAB8",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#017F01",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Olive",
+        "hex": "#7F8000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#98FE98",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#0000FE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#010080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Baby Blue",
+        "hex": "#89D0F0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Thistle",
+        "hex": "#E5E6FA",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gold",
+        "hex": "#FED700",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#81007F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Silver",
+        "hex": "#C0C0C0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Snow",
+        "hex": "#FEFAF9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Taupe",
+        "hex": "#483B32",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dim Gray",
+        "hex": "#686768",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374550",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ivory",
+        "hex": "#FEFFEF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Saddle Brown",
+        "hex": "#8B4512",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coco",
+        "hex": "#3A1B02",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Caramel",
+        "hex": "#C78A5E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Copper",
+        "hex": "#B87332",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#80011F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#4A0404",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Wine",
+        "hex": "#732F3A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cardinal",
+        "hex": "#C51E3A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Raspberry",
+        "hex": "#E30B5C",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ruby",
+        "hex": "#DF105E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Watermelon",
+        "hex": "#D87093",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cherry Blossom",
+        "hex": "#FFB7C5",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Flamingo",
+        "hex": "#FC8EAB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#F88379",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Salmon",
+        "hex": "#FA8071",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dark Orange",
+        "hex": "#FF8B00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mustard Yellow",
+        "hex": "#FFDB57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFF34F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#2E8A57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Emerald",
+        "hex": "#51C878",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Miltary",
+        "hex": "#576127",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Mint",
+        "hex": "#AAEFD0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#3FE0D0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Teal",
+        "hex": "#008081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Steel Blue",
+        "hex": "#4682B4",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#406ADC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Thistle",
+        "hex": "#D7BFD7",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Plum",
+        "hex": "#DDA0DC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Aubergine",
+        "hex": "#581042",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Rose Gold",
+        "hex": "#B76E79",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Indigo",
+        "hex": "#4B0081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mauve",
+        "hex": "#D3A7B6",
+        "stock": 100,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-17T15:12:24.811419Z",
+    "updatedAt": "2025-12-17T15:12:24.811765Z"
+  },
+  {
+    "id": "prod-018",
+    "sku": "SING-LAY-018",
+    "title": "Single Layered Bow Clip",
+    "slug": "single-layered-bow-clip",
+    "categoryIds": [
+      "cat-06"
+    ],
+    "subcategoryId": "subcat-bow-07",
+    "price": 60.0,
+    "currency": "INR",
+    "stock": 50000,
+    "available": true,
+    "images": [
+      "assets/products/single-layered-bowclip/single-layered-bow-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Elegant, single-layer ribbon bow clips. Chic, lightweight, and perfect for effortless daily styling.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dim Gray",
+        "hex": "#808080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#FE0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Maroon",
+        "hex": "#7F0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FFC0CB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#FFB6C1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFFF00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FEDAB8",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#237A24",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Olive",
+        "hex": "#7F8000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#98FE98",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#0000FE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#010080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Baby Blue",
+        "hex": "#89D0F0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lavender",
+        "hex": "#E4E5F9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gold",
+        "hex": "#FED700",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#81007F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Silver",
+        "hex": "#C0C0C0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Snow",
+        "hex": "#FEFAF9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Taupe",
+        "hex": "#463B32",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Caramel",
+        "hex": "#C78A5E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Copper",
+        "hex": "#B77231",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#80011F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#4A0404",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Wine",
+        "hex": "#722F38",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cardinal",
+        "hex": "#C51E3A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Raspberry",
+        "hex": "#E30B5C",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ruby",
+        "hex": "#E0115F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "WaterMelon",
+        "hex": "#D87093",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cherry Blossom",
+        "hex": "#FFB7C5",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Flamingo",
+        "hex": "#FC8EAB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#F88379",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Salmon",
+        "hex": "#FA8071",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dark Orange",
+        "hex": "#FF8B00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mustard Yellow",
+        "hex": "#FFDB57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lemon",
+        "hex": "#FFF44D",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#2E8A57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Emerald",
+        "hex": "#51C878",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Miltary",
+        "hex": "#535A0A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Mint",
+        "hex": "#AAEFD0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#3DE1CE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Teal",
+        "hex": "#008081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Steel Blue",
+        "hex": "#4682B4",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#0377BC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ocean",
+        "hex": "#0177BF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Thistle",
+        "hex": "#D6BED6",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Plum",
+        "hex": "#DDA0DC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Aubergine",
+        "hex": "#551042",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "RoseGold",
+        "hex": "#B76E79",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Indigo",
+        "hex": "#4B0081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mauve",
+        "hex": "#D3A7B6",
+        "stock": 100,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-17T16:27:51.161449Z",
+    "updatedAt": "2025-12-17T16:27:51.161500Z"
+  },
+  {
+    "id": "prod-019",
+    "sku": "DOUB-LAY-019",
+    "title": "Double Layered Bow Clip",
+    "slug": "double-layered-bow-clip",
+    "categoryIds": [
+      "cat-06"
+    ],
+    "subcategoryId": "subcat-bow-08",
+    "price": 80.0,
+    "currency": "INR",
+    "stock": 50000,
+    "available": true,
+    "images": [
+      "assets/products/double-layered-bow-clip/double-layered-bow-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Luxe double-layered bows for extra volume. A chic, timeless accessory for an elevated look.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Gray",
+        "hex": "#808080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F4DB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#A52B2A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#FE0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FFC0CB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#FFB6C1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFFF00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FEDAB8",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#017F01",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Olive",
+        "hex": "#7F8000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#98FE98",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#0000FE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#010080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Baby Blue",
+        "hex": "#89D0F0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lavender",
+        "hex": "#E4E5F9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gold",
+        "hex": "#FED600",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#81007F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Silver",
+        "hex": "#C0C0C0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Snow",
+        "hex": "#FEFAF9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Taupe",
+        "hex": "#483B32",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dim Gray",
+        "hex": "#686868",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374550",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ivory",
+        "hex": "#FEFFEF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Saddle Brown",
+        "hex": "#8B4512",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coco",
+        "hex": "#3E1C01",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Caramel",
+        "hex": "#C78A5E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Copper",
+        "hex": "#B67233",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#80011F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#4A0404",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Wine",
+        "hex": "#722F38",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cardinal",
+        "hex": "#C51E3A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Raspberry",
+        "hex": "#E30B5C",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ruby",
+        "hex": "#E0115F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "WaterMelon",
+        "hex": "#DA6E91",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "CherryBlossom",
+        "hex": "#FFB7C5",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Flamingo",
+        "hex": "#FC8EAB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coral Pinkl",
+        "hex": "#F88379",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Salmon",
+        "hex": "#F78172",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dark Orange",
+        "hex": "#FF8B00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mustard Yellow",
+        "hex": "#FFDB57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lemon",
+        "hex": "#FFF34F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#2E8A57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Emerald",
+        "hex": "#51C878",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Miltary",
+        "hex": "#535A0A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Mint",
+        "hex": "#AAEFD0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#3FE0D0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Teal",
+        "hex": "#008081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Steel Blue",
+        "hex": "#4682B4",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E2",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ocean",
+        "hex": "#0177BF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Thistle",
+        "hex": "#D7BFD7",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Plum",
+        "hex": "#DDA0DC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Aubergine",
+        "hex": "#581042",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Champagne",
+        "hex": "#FAE7CA",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Indigo",
+        "hex": "#4B0081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mauve",
+        "hex": "#D1A7B6",
+        "stock": 100,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-17T17:09:58.945930Z",
+    "updatedAt": "2025-12-17T17:09:58.945999Z"
+  },
+  {
+    "id": "prod-020",
+    "sku": "TRIP-LAY-020",
+    "title": "Triple Layered Bow Clip",
+    "slug": "triple-layered-bow-clip",
+    "categoryIds": [
+      "cat-06"
+    ],
+    "subcategoryId": "subcat-bow-09",
+    "price": 120.0,
+    "currency": "INR",
+    "stock": 50000,
+    "available": true,
+    "images": [
+      "assets/products/triple-layered-bow-clip/triple-layered-bow-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "",
+    "description": "Luxe triple-layer bows. Bold volume and elegant tiers for a stunning, high-fashion statement.",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Gray",
+        "hex": "#808080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#A52B2A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#FE0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light",
+        "hex": "#FFC0CB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#FFB6C1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFFF00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FEDAB8",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#008001",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Olive",
+        "hex": "#7F8000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Mint",
+        "hex": "#98FE98",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#0000FE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#010080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Baby Blue",
+        "hex": "#89D0F0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lavender",
+        "hex": "#E5E6FA",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gold",
+        "hex": "#FED700",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#81007F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Silver",
+        "hex": "#C0C0C0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Snow",
+        "hex": "#FEFAF9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Taupe",
+        "hex": "#483B32",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dim Gray",
+        "hex": "#696969",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374550",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ivory",
+        "hex": "#FEFFEF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Saddle Brown",
+        "hex": "#8B4512",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coco",
+        "hex": "#3E1C01",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Caramel",
+        "hex": "#C78A5E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Copper",
+        "hex": "#B77231",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#80011F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#4A0404",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Wine",
+        "hex": "#722F38",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cardinal",
+        "hex": "#C51E3A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Raspberry",
+        "hex": "#E30B5C",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ruby",
+        "hex": "#DD105E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Water Melon",
+        "hex": "#D87093",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cherry Blossom",
+        "hex": "#FFB5C6",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Flamingo",
+        "hex": "#FC8EAB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#F8837A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Salmon",
+        "hex": "#FA8071",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dark Orange",
+        "hex": "#FF8B00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mustard Yellow",
+        "hex": "#FFDB57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lemon",
+        "hex": "#FDF44C",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#2E8A57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Emerald",
+        "hex": "#51C878",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Miltary",
+        "hex": "#535A0A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Mint",
+        "hex": "#AAEFD0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#3FE0D0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Teal",
+        "hex": "#008081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Steel Blue",
+        "hex": "#4682B4",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#4169E2",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ocean",
+        "hex": "#0177BF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Thistle",
+        "hex": "#D6BED6",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Plum",
+        "hex": "#DDA0DC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Aubergine",
+        "hex": "#551042",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Rose Gold",
+        "hex": "#B76E79",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Indigo",
+        "hex": "#4B0081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mauve",
+        "hex": "#D2A6B5",
+        "stock": 100,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-17T17:15:34.230793Z",
+    "updatedAt": "2025-12-17T17:36:10.062729Z"
   }
 ]

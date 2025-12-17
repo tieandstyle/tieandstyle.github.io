@@ -61,5 +61,77 @@
     "parentCategoryId": "cat-06",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-bow-02",
+    "name": "Long Tail Single Layered Bowclip",
+    "slug": "long-tail-single-layered-bowclip",
+    "description": "Redefining the classic bow. 🎀 With a single crisp layer and dramatic, flowing tails, this clip moves with you. Elevate your daily ponytail in seconds.",
+    "parentCategoryId": "cat-06",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-bow-03",
+    "name": "Long Tail Double Layered Bow Clip",
+    "slug": "long-tail-double-layered-bow-clip",
+    "description": "Why settle for one layer when you can have two? 🎀 Our Double-Layered Bow Clip adds that extra bit of 'oomph' and volume to your style. Structured perfection for your best hair days yet",
+    "parentCategoryId": "cat-06",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-bow-04",
+    "name": "Cat Tail Bow Clip",
+    "slug": "cat-tail-bow-clip",
+    "description": "Ethereal & sleek. Features slim, rhythmic streamers that flow like silk for a dreamy, anime-inspired vibe",
+    "parentCategoryId": "cat-06",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-bow-05",
+    "name": "Scarlet Bow Clip",
+    "slug": "scarlet-bow-clip",
+    "description": ". A striking pop of deep crimson that adds instant vintage glamour to any look.",
+    "parentCategoryId": "cat-06",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-bow-06",
+    "name": "Mini Bow Clip",
+    "slug": "mini-bow-clip",
+    "description": "Tiny & charming. A dainty touch of sweetness perfect for half-up styles or pinning back wisps.",
+    "parentCategoryId": "cat-06",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-bow-07",
+    "name": "Single Layered Bowclip",
+    "slug": "single-layered-bowclip",
+    "description": "Effortless elegance in a single sweep. 🎀 Lightweight, airy, and perfectly minimalist.",
+    "parentCategoryId": "cat-06",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-bow-08",
+    "name": "Double Layered Bow Clip",
+    "slug": "double-layered-bow-clip",
+    "description": "Chic double-layered bows for extra volume and style. Perfect for a sophisticated, classic look.",
+    "parentCategoryId": "cat-06",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-bow-09",
+    "name": "Triple Layered Bow Clip",
+    "slug": "triple-layered-bow-clip",
+    "description": "Luxe triple-layer bows. Bold volume and elegant tiers for a stunning, high-fashion statement.",
+    "parentCategoryId": "cat-06",
+    "order": 1,
+    "active": true
   }
 ]
