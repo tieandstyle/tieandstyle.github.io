@@ -5683,5 +5683,528 @@
     ],
     "createdAt": "2025-12-17T17:15:34.230793Z",
     "updatedAt": "2025-12-17T17:36:10.062729Z"
+  },
+  {
+    "id": "prod-021",
+    "sku": "SMAL-DAI-021",
+    "title": "Small Daisy Claw Clips",
+    "slug": "small-daisy-claw-clips",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-01",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 121,
+    "available": true,
+    "images": [
+      "assets/products/small-daisy-claw-clips/small-daisy-claw-clips.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "A tiny, blooming hug for your hair. This dainty daisy adds a pop of sunshine to every style. 🌼",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Red",
+        "hex": "#A92D45",
+        "stock": 16,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#4B7B6F",
+        "stock": 20,
+        "available": true
+      },
+      {
+        "name": "Purple with White",
+        "hex": "#B26CBB",
+        "stock": 17,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#C1732B",
+        "stock": 19,
+        "available": true
+      },
+      {
+        "name": "Light Yellow",
+        "hex": "#E3C90A",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Dark Yellow",
+        "hex": "#D79F13",
+        "stock": 20,
+        "available": true
+      },
+      {
+        "name": "Dark Purple",
+        "hex": "#4C3152",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#CF9BB2",
+        "stock": 18,
+        "available": true
+      },
+      {
+        "name": "salmon",
+        "hex": "#D1582F",
+        "stock": 4,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-29T07:24:13.122164Z",
+    "updatedAt": "2025-12-29T07:52:45.868719Z"
+  },
+  {
+    "id": "prod-022",
+    "sku": "MEDI-DAI-022",
+    "title": "Medium Daisy Claw Clip",
+    "slug": "medium-daisy-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-02",
+    "price": 30.0,
+    "currency": "INR",
+    "stock": 163,
+    "available": true,
+    "images": [
+      "assets/products/medium-daisy-claw-clip/medium-daisy-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "A sun-drenched bloom for your hair. This medium daisy keeps your twist secure and sweet. 🌼",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#419599",
+        "stock": 31,
+        "available": true
+      },
+      {
+        "name": "Dark Purple",
+        "hex": "#996699",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Purple With White",
+        "hex": "#977CA6",
+        "stock": 21,
+        "available": true
+      },
+      {
+        "name": "Dark Yellow",
+        "hex": "#E4D118",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Dark Pink",
+        "hex": "#D96F86",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#EC8EC8",
+        "stock": 23,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#BF4551",
+        "stock": 14,
+        "available": true
+      },
+      {
+        "name": "Salmon",
+        "hex": "#C35C3C",
+        "stock": 8,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 25,
+        "available": true
+      },
+      {
+        "name": "Light Yellow",
+        "hex": "#FFD35C",
+        "stock": 24,
+        "available": true
+      },
+      {
+        "name": "Dark Yellow",
+        "hex": "#D7BD19",
+        "stock": 6,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-29T08:46:44.112297Z",
+    "updatedAt": "2025-12-29T09:03:28.921204Z"
+  },
+  {
+    "id": "prod-023",
+    "sku": "LARG-DAI-023",
+    "title": "Large Daisy Claw Clip",
+    "slug": "large-daisy-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-03",
+    "price": 40.0,
+    "currency": "INR",
+    "stock": 151,
+    "available": true,
+    "images": [
+      "assets/products/large-daisy-claw-clip/large-daisy-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Effortless garden vibes. A oversized daisy clip that turns every messy bun into a sunny bouquet. 🌼",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Red",
+        "hex": "#B70B50",
+        "stock": 12,
+        "available": true
+      },
+      {
+        "name": "Light Red",
+        "hex": "#FF0F57",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#FE76BF",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "purplish-PinK",
+        "hex": "#A41D6A",
+        "stock": 13,
+        "available": true
+      },
+      {
+        "name": "Dark Pink",
+        "hex": "#ED0799",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#D66F15",
+        "stock": 23,
+        "available": true
+      },
+      {
+        "name": "White-Purple",
+        "hex": "#B1A2B7",
+        "stock": 14,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#3EABB3",
+        "stock": 21,
+        "available": true
+      },
+      {
+        "name": "Dark Blue",
+        "hex": "#38267A",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FCDE73",
+        "stock": 20,
+        "available": true
+      },
+      {
+        "name": "White - Light Yellow",
+        "hex": "#FEFBE1",
+        "stock": 34,
+        "available": true
+      },
+      {
+        "name": "White-Dark Yellow",
+        "hex": "#FFFFFF",
+        "stock": 5,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-29T10:07:48.098742Z",
+    "updatedAt": "2025-12-29T10:07:48.098760Z"
+  },
+  {
+    "id": "prod-024",
+    "sku": "SMAL-BLO-024",
+    "title": "Small Bloom Claw Clip",
+    "slug": "small-bloom-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-04",
+    "price": 15.0,
+    "currency": "INR",
+    "stock": 108,
+    "available": true,
+    "images": [
+      "assets/products/small-bloom-claw-clip/small-bloom-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Sweet and petite. A miniature blossom designed to tuck back your strands with a soft garden glow. 🌸",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Yellow",
+        "hex": "#FFF82E",
+        "stock": 8,
+        "available": true
+      },
+      {
+        "name": "Dark Blue",
+        "hex": "#4A289D",
+        "stock": 12,
+        "available": true
+      },
+      {
+        "name": "Dark Pink",
+        "hex": "#FE81CA",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#FFBDDE",
+        "stock": 10,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F2E1BA",
+        "stock": 11,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#CA944F",
+        "stock": 11,
+        "available": true
+      },
+      {
+        "name": "Light Blue",
+        "hex": "#C4D6D6",
+        "stock": 9,
+        "available": true
+      },
+      {
+        "name": "Dark Purple",
+        "hex": "#49367C",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Dark Red",
+        "hex": "#AD0013",
+        "stock": 9,
+        "available": true
+      },
+      {
+        "name": "Light Red",
+        "hex": "#CD6667",
+        "stock": 11,
+        "available": true
+      },
+      {
+        "name": "Sea Blue",
+        "hex": "#329A92",
+        "stock": 7,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#F06233",
+        "stock": 12,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-29T10:45:24.103460Z",
+    "updatedAt": "2025-12-29T10:45:24.103499Z"
+  },
+  {
+    "id": "prod-025",
+    "sku": "ORCH-SHE-025",
+    "title": "Orchid Shell Claw Clip",
+    "slug": "orchid-shell-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-05",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 9,
+    "available": true,
+    "images": [
+      "assets/products/orchid-shell-claw-clip/orchid-shell-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "etal-soft shell shimmer meets a sturdy grip. The perfect orchid accessory for beachy vibes.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Lemon Zest",
+        "hex": "#BFB33C",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#251327",
+        "stock": 3,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-29T11:00:34.862905Z",
+    "updatedAt": "2025-12-29T11:00:34.862927Z"
+  },
+  {
+    "id": "prod-026",
+    "sku": "SHEL-CLA-026",
+    "title": "Shellie Claw Clip",
+    "slug": "shellie-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-06",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 56,
+    "available": true,
+    "images": [
+      "assets/products/shellie-claw-clip/shellie-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Channel your inner mermaid with this pearly shell clip. A glossy, seaside staple for easy styling.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Pink",
+        "hex": "#B7768D",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Skin",
+        "hex": "#EAC3A9",
+        "stock": 11,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#A3B98D",
+        "stock": 14,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF0000",
+        "stock": 12,
+        "available": true
+      },
+      {
+        "name": "Ocean Blue",
+        "hex": "#6897CC",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 11,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-29T11:18:51.707301Z",
+    "updatedAt": "2025-12-29T11:18:51.707332Z"
+  },
+  {
+    "id": "prod-027",
+    "sku": "FLOR-PIN-027",
+    "title": "Flora Pin Claw Clip",
+    "slug": "flora-pin-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-07",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 8,
+    "available": true,
+    "images": [
+      "assets/products/flora-pin-claw-clip/flora-pin-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Timeless flower design meets a secure grip. Perfect for adding a soft, garden touch to your hair.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Dark Blue",
+        "hex": "#1C3A52",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#C0785F",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#E3CF2E",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#A33B28",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Sea Blue",
+        "hex": "#2CB5B0",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Light Orange",
+        "hex": "#FEB381",
+        "stock": 1,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-29T11:32:03.603998Z",
+    "updatedAt": "2025-12-29T11:32:03.604016Z"
   }
 ]

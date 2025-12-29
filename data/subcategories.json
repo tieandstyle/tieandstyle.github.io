@@ -133,5 +133,68 @@
     "parentCategoryId": "cat-06",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-kor-01",
+    "name": "Small Daisy Claw clips",
+    "slug": "small-daisy-claw-clips",
+    "description": "A tiny bloom that never fades. This dainty daisy clip perches in your hair like a fresh wildflower, adding a sweet, cheerful pop of sunshine to any look.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-02",
+    "name": "Medium Daisy Claw Clip",
+    "slug": "medium-daisy-claw-clip",
+    "description": "A fresh bloom for your hair. This medium daisy clip holds your twist with a sweet, sunny charm. 🌼",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-03",
+    "name": "Large Daisy Claw Clip",
+    "slug": "large-daisy-claw-clip",
+    "description": "A bold, blooming statement. This large daisy sweeps up your hair with a secure, floral embrace. 🌼",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-04",
+    "name": "Small Bloom Claw clip",
+    "slug": "small-bloom-claw-clip",
+    "description": "A tiny bud for your hair. This small bloom adds a dainty, floral whisper to every half-up look. 🌸",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-05",
+    "name": "Orchid Shell Claw Clip",
+    "slug": "orchid-shell-claw-clip",
+    "description": "Elevate your updo with this glossy orchid clip. A pearlescent shell finish for timeless elegance.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-06",
+    "name": "Shellie Claw Clip",
+    "slug": "shellie-claw-clip",
+    "description": "Iridescent shell design with a strong, secure grip. Adds a touch of ocean magic to your daily look.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-07",
+    "name": "Flora Pin Claw Clip",
+    "slug": "flora-pin-claw-clip",
+    "description": "Floral elegance in a petite pin style. A dainty, blooming accent for effortless half-up looks.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
   }
 ]

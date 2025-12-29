@@ -28,5 +28,15 @@
     "parentId": null,
     "order": 1,
     "active": true
+  },
+  {
+    "id": "cat-07",
+    "name": "Korean Claw Clips",
+    "slug": "korean-claw-clips",
+    "description": "Like candy for your hair. These accessories bring a playful pop of color and light to your style, making even a messy morning look feel curated, bright, and sweet",
+    "image": "assets/categories/korean-claw-clips.jpeg",
+    "parentId": null,
+    "order": 1,
+    "active": true
   }
 ]
