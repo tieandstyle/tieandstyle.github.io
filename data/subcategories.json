@@ -286,5 +286,23 @@
     "parentCategoryId": "cat-07",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-kor-18",
+    "name": "Small Twirl Claw Clip",
+    "slug": "small-twirl-claw-clip",
+    "description": "Small twirl loops with a unique glass and matte duo finish. High-shine meets modern soft-touch.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-19",
+    "name": "Big Twirl Claw Clip",
+    "slug": "big-twirl-claw-clip",
+    "description": "Bold twirl loops with a dual finish: glossy glass on one side, chic matte on the other",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
   }
 ]
