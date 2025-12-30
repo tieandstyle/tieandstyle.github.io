@@ -259,5 +259,32 @@
     "parentCategoryId": "cat-07",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-kor-15",
+    "name": "Spiral Flora Claw Clip",
+    "slug": "spiral-flora-claw-clip",
+    "description": "Chic matte spiral blooms. Secure, stylish, and perfect for a sophisticated updo.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-16",
+    "name": "Loop Claw Clip",
+    "slug": "loop-claw-clip",
+    "description": "Minimalist loop design with a glossy glass glow. A polished, chic hair essential",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-17",
+    "name": "Twine Claw Clip",
+    "slug": "twine-claw-clip",
+    "description": "Elegant glass-finish ribbons for a glossy, feminine touch. Chic and high-shine.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
   }
 ]

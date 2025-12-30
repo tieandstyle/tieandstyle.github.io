@@ -6695,5 +6695,200 @@
     ],
     "createdAt": "2025-12-30T10:51:48.036122Z",
     "updatedAt": "2025-12-30T10:51:48.036156Z"
+  },
+  {
+    "id": "prod-035",
+    "sku": "SPIR-FLO-035",
+    "title": "Spiral Flora Claw Clip",
+    "slug": "spiral-flora-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-15",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 52,
+    "available": true,
+    "images": [
+      "assets/products/spiral-flora-claw-clip/spiral-flora-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Unique spiral petals in a soft matte finish. A modern, velvety twist on floral style.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Royal Blue",
+        "hex": "#0C293B",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "Reddish-Brown",
+        "hex": "#C4755F",
+        "stock": 10,
+        "available": true
+      },
+      {
+        "name": "Coffe Brown",
+        "hex": "#8E5527",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "Miltary",
+        "hex": "#395438",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DC",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#B4272E",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Grey",
+        "hex": "#808080",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#605252",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "Greyish-Purple",
+        "hex": "#8B6A65",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Sea Blue",
+        "hex": "#39A296",
+        "stock": 3,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-30T11:19:16.714709Z",
+    "updatedAt": "2025-12-30T11:19:16.714861Z"
+  },
+  {
+    "id": "prod-036",
+    "sku": "LOOP-CLA-036",
+    "title": "Loop Claw Clip",
+    "slug": "loop-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-16",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 28,
+    "available": true,
+    "images": [
+      "assets/products/loop-claw-clip/loop-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Sleek glass-finish loops for a high-shine, modern look. Effortless and elegant.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Beige",
+        "hex": "#E1E4CF",
+        "stock": 10,
+        "available": true
+      },
+      {
+        "name": "Grey",
+        "hex": "#908989",
+        "stock": 10,
+        "available": true
+      },
+      {
+        "name": "Honey",
+        "hex": "#C28D42",
+        "stock": 8,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-30T11:35:01.213154Z",
+    "updatedAt": "2025-12-30T11:35:01.213179Z"
+  },
+  {
+    "id": "prod-037",
+    "sku": "TWIN-CLA-037",
+    "title": "Twine Claw Clip",
+    "slug": "twine-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-17",
+    "price": 25.0,
+    "currency": "INR",
+    "stock": 38,
+    "available": true,
+    "images": [
+      "assets/products/twine-claw-clip/twine-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Glossy twine-shaped clips with a sleek glass glow. Perfect for a polished look.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Sea Blue",
+        "hex": "#439391",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#D74E14",
+        "stock": 8,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#19171C",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Grey",
+        "hex": "#797974",
+        "stock": 8,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 7,
+        "available": true
+      },
+      {
+        "name": "Light Brown",
+        "hex": "#A88B71",
+        "stock": 8,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-30T11:49:33.071902Z",
+    "updatedAt": "2025-12-30T11:49:33.071975Z"
   }
 ]
