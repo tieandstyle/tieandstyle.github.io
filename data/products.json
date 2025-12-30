@@ -6957,7 +6957,7 @@
     "subcategoryId": "subcat-kor-19",
     "price": 40.0,
     "currency": "INR",
-    "stock": 71,
+    "stock": 70,
     "available": true,
     "images": [
       "assets/products/big-twirl-claw-clip/big-twirl-claw-clip.jpeg"
@@ -7000,11 +7000,510 @@
       {
         "name": "Pink",
         "hex": "#DEB9CB",
-        "stock": 12,
+        "stock": 11,
         "available": true
       }
     ],
     "createdAt": "2025-12-30T13:00:50.493179Z",
-    "updatedAt": "2025-12-30T13:00:50.493232Z"
+    "updatedAt": "2025-12-30T13:09:54.428442Z"
+  },
+  {
+    "id": "prod-040",
+    "sku": "VALE-CLA-040",
+    "title": "Valentine Claw Clip",
+    "slug": "valentine-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-20",
+    "price": 30.0,
+    "currency": "INR",
+    "stock": 52,
+    "available": true,
+    "images": [
+      "assets/products/valentine-claw-clip/valentine-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Dual-finish hearts: glossy glass on one side, chic matte on the other. A romantic, versatile look.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Lavender",
+        "hex": "#ACAEF1",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Fluorescent Blue",
+        "hex": "#C2FFE2",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "Miltary Green",
+        "hex": "#5E614C",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#E3ADBA",
+        "stock": 10,
+        "available": true
+      },
+      {
+        "name": "Dark Pink",
+        "hex": "#E12D96",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#FFB057",
+        "stock": 11,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#5E4131",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "Grey",
+        "hex": "#917E85",
+        "stock": 10,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-30T13:27:42.957770Z",
+    "updatedAt": "2025-12-30T13:27:42.957833Z"
+  },
+  {
+    "id": "prod-041",
+    "sku": "BALI-CLA-041",
+    "title": "Bali Claw Clip",
+    "slug": "bali-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-21",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 112,
+    "available": true,
+    "images": [
+      "assets/products/bali-claw-clip/bali-claw-clip.jpeg",
+      "assets/products/bali-claw-clip/bali-claw-clip-2.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Bali blooms with a dual finish: glossy glass on one side, chic matte on the other. Exotic & elegant.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Purple",
+        "hex": "#7567A8",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#A8C48D",
+        "stock": 16,
+        "available": true
+      },
+      {
+        "name": "Dark Green",
+        "hex": "#467B5D",
+        "stock": 12,
+        "available": true
+      },
+      {
+        "name": "Grey",
+        "hex": "#C0C0C0",
+        "stock": 12,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 12,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#9F856F",
+        "stock": 12,
+        "available": true
+      },
+      {
+        "name": "Sea Blue",
+        "hex": "#82C0B5",
+        "stock": 12,
+        "available": true
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#55BCC3",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "Light Orange",
+        "hex": "#ECC789",
+        "stock": 9,
+        "available": true
+      },
+      {
+        "name": "Dark Pink",
+        "hex": "#E46799",
+        "stock": 8,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#E8C2BF",
+        "stock": 8,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-30T14:08:04.202968Z",
+    "updatedAt": "2025-12-30T14:08:04.203068Z"
+  },
+  {
+    "id": "prod-042",
+    "sku": "MALL-CLA-042",
+    "title": "Mallow Claw Clip",
+    "slug": "mallow-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-22",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 106,
+    "available": true,
+    "images": [
+      "assets/products/mallow-claw-clip/mallow-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Elegant Mallow blooms in a high-shine metal finish. Durable, chic, and brilliantly glossy.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 12,
+        "available": true
+      },
+      {
+        "name": "Coffee Brown",
+        "hex": "#C8B189",
+        "stock": 11,
+        "available": true
+      },
+      {
+        "name": "Greyish-Purple",
+        "hex": "#7F6368",
+        "stock": 10,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#C6D1A8",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F3ECA0",
+        "stock": 17,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#928265",
+        "stock": 7,
+        "available": true
+      },
+      {
+        "name": "Dark Blue",
+        "hex": "#566781",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Grey",
+        "hex": "#5E6866",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#F89CA9",
+        "stock": 15,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#E38B63",
+        "stock": 16,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-30T14:50:00.284312Z",
+    "updatedAt": "2025-12-30T14:50:00.284404Z"
+  },
+  {
+    "id": "prod-043",
+    "sku": "MALL-CLA-043",
+    "title": "Mallow Claw Clip",
+    "slug": "mallow-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-22",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 106,
+    "available": true,
+    "images": [
+      "assets/products/mallow-claw-clip/mallow-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Elegant Mallow blooms in a high-shine metal finish. Durable, chic, and brilliantly glossy.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 12,
+        "available": true
+      },
+      {
+        "name": "Coffee Brown",
+        "hex": "#C8B189",
+        "stock": 11,
+        "available": true
+      },
+      {
+        "name": "Greyish-Purple",
+        "hex": "#7F6368",
+        "stock": 10,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#C6D1A8",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F3ECA0",
+        "stock": 17,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#928265",
+        "stock": 7,
+        "available": true
+      },
+      {
+        "name": "Dark Blue",
+        "hex": "#566781",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Grey",
+        "hex": "#5E6866",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#F89CA9",
+        "stock": 15,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#E38B63",
+        "stock": 16,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-30T14:50:00.427798Z",
+    "updatedAt": "2025-12-30T14:50:00.427836Z"
+  },
+  {
+    "id": "prod-044",
+    "sku": "ZINN-CLA-044",
+    "title": "Zinnia Claw Clip",
+    "slug": "zinnia-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-23",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 76,
+    "available": true,
+    "images": [
+      "assets/products/zinnia-claw-clip/zinnia-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Radiant Zinnia blooms in a high-shine metal finish. A durable, mirror-like floral accent",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Yellow",
+        "hex": "#FFF5B8",
+        "stock": 10,
+        "available": true
+      },
+      {
+        "name": "Grey",
+        "hex": "#7C8C8F",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#F1A085",
+        "stock": 7,
+        "available": true
+      },
+      {
+        "name": "Dark Blue",
+        "hex": "#496992",
+        "stock": 11,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "Coffee Brown",
+        "hex": "#D4AB7D",
+        "stock": 10,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#C0AF95",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#B2C48A",
+        "stock": 13,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#F68F9D",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Greyish-Purple",
+        "hex": "#957381",
+        "stock": 7,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-30T15:11:26.715544Z",
+    "updatedAt": "2025-12-30T15:11:26.715632Z"
+  },
+  {
+    "id": "prod-045",
+    "sku": "DAZE-CLA-045",
+    "title": "Daze Claw Clip",
+    "slug": "daze-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-24",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 100,
+    "available": true,
+    "images": [
+      "assets/products/daze-claw-clip/daze-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Mirror-shine Daze dahlias in a sleek metal finish. A bold, durable, and radiant floral clip.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Grey",
+        "hex": "#6E8B8D",
+        "stock": 12,
+        "available": true
+      },
+      {
+        "name": "Coffee Brown",
+        "hex": "#D6CAA9",
+        "stock": 8,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#B7A276",
+        "stock": 11,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFF7C2",
+        "stock": 11,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 11,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#AACC99",
+        "stock": 10,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#EAA3B5",
+        "stock": 11,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#ECB49B",
+        "stock": 8,
+        "available": true
+      },
+      {
+        "name": "Greyish-Purple",
+        "hex": "#986798",
+        "stock": 8,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-30T15:38:20.387296Z",
+    "updatedAt": "2025-12-30T15:38:20.387393Z"
   }
 ]

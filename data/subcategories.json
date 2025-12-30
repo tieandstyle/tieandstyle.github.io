@@ -304,5 +304,50 @@
     "parentCategoryId": "cat-07",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-kor-20",
+    "name": "Valentine Claw Clip",
+    "slug": "valentine-claw-clip",
+    "description": "One side high-shine glass, the other soft matte. The perfect double-sided heart clip for any style",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-21",
+    "name": "Bali Claw Clip",
+    "slug": "bali-claw-clip",
+    "description": "One side high-shine, the other soft matte. A versatile, tropical flower clip for any hair style",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-22",
+    "name": "Mallow Claw Clip",
+    "slug": "mallow-claw-clip",
+    "description": "Polished metallic Mallow flowers. A sleek, sturdy floral clip with a mirror-like glow.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-23",
+    "name": "Zinnia Claw Clip",
+    "slug": "zinnia-claw-clip",
+    "description": "Polished metallic Zinnia flowers. Sleek, sturdy, and brilliantly glossy for any hairstyle",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-24",
+    "name": "Daze Claw Clip",
+    "slug": "daze-claw-clip",
+    "description": "Polished metallic dahlia blooms. High-shine, sturdy, and perfect for a sophisticated look.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
   }
 ]
