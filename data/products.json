@@ -6206,5 +6206,340 @@
     ],
     "createdAt": "2025-12-29T11:32:03.603998Z",
     "updatedAt": "2025-12-29T11:32:03.604016Z"
+  },
+  {
+    "id": "prod-028",
+    "sku": "GLAS-WIN-028",
+    "title": "Glass Wings Claw Clip",
+    "slug": "glass-wings-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-08",
+    "price": 10.0,
+    "currency": "INR",
+    "stock": 89,
+    "available": true,
+    "images": [
+      "assets/products/glass-wings-claw-clip/glass-wings-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Crystal-clear butterfly clips with a dreamy glow. Sturdy, stylish, and light as air.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Purplish-Pink",
+        "hex": "#DB0FBD",
+        "stock": 10,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#01658E",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Mint Green",
+        "hex": "#A0A861",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#FFD6DE",
+        "stock": 14,
+        "available": true
+      },
+      {
+        "name": "Dark Pink",
+        "hex": "#D7378D",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Sea Blue",
+        "hex": "#1F8D8B",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#21C49B",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Dark Orange",
+        "hex": "#F79618",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#E84F4F",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Ruby",
+        "hex": "#D1234F",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Light Yellow",
+        "hex": "#F0E466",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 10,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 7,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FBBDA2",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Light Brown",
+        "hex": "#DDB097",
+        "stock": 10,
+        "available": true
+      },
+      {
+        "name": "Dark Brown",
+        "hex": "#5B2C0B",
+        "stock": 10,
+        "available": true
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#52B3C7",
+        "stock": 2,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-30T08:21:26.790988Z",
+    "updatedAt": "2025-12-30T08:21:26.791054Z"
+  },
+  {
+    "id": "prod-029",
+    "sku": "VANE-BUT-029",
+    "title": "Vanessa Butterfly Wings",
+    "slug": "vanessa-butterfly-wings",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-09",
+    "price": 30.0,
+    "currency": "INR",
+    "stock": 15,
+    "available": true,
+    "images": [
+      "assets/products/vanessa-butterfly-wings/vanessa-butterfly-wings.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Classic Vanessa-style clips. Vibrant patterns to elevate your daily hairstyle.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Lemon Zest",
+        "hex": "#B2B05F",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Light Yellow",
+        "hex": "#F3E653",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#AC2A2A",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#8B4513",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#F07F24",
+        "stock": 1,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-30T08:48:40.827332Z",
+    "updatedAt": "2025-12-30T08:48:40.827454Z"
+  },
+  {
+    "id": "prod-030",
+    "sku": "LITT-HEA-030",
+    "title": "Little Hearts Claw Clip",
+    "slug": "little-hearts-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-10",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 13,
+    "available": true,
+    "images": [
+      "assets/products/little-hearts-claw-clip/little-hearts-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Adorable \"Little Hearts\" design. Secure grip meets a charming, playful style.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Navy Blue",
+        "hex": "#293A43",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#E9B649",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#9A0E0E",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FF1493",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#76BC9B",
+        "stock": 4,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-30T09:06:49.349645Z",
+    "updatedAt": "2025-12-30T09:06:49.349670Z"
+  },
+  {
+    "id": "prod-031",
+    "sku": "BLAC-HIB-031",
+    "title": "Black Hibiscus",
+    "slug": "black-hibiscus",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-11",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 10,
+    "available": true,
+    "images": [
+      "assets/products/black-hibiscus/black-hibiscus.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 10,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-30T09:25:23.145326Z",
+    "updatedAt": "2025-12-30T09:25:23.145351Z"
+  },
+  {
+    "id": "prod-032",
+    "sku": "MINI-HEA-032",
+    "title": "Mini Hearts Claw Clip",
+    "slug": "mini-hearts-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-12",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 15,
+    "available": true,
+    "images": [
+      "assets/products/mini-hearts-claw-clip/mini-hearts-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Cute mini heart clips with a strong grip. Effortless charm for your everyday look.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Grey",
+        "hex": "#5A5343",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#507068",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#C74848",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#CC8C1E",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 1,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-30T09:39:13.650079Z",
+    "updatedAt": "2025-12-30T09:39:13.650106Z"
   }
 ]

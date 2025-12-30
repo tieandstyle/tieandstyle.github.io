@@ -196,5 +196,50 @@
     "parentCategoryId": "cat-07",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-kor-08",
+    "name": "Glass Wings Claw Clip",
+    "slug": "glass-wings-claw-clip",
+    "description": "Elegant iridescent wings that shimmer like glass. Perfect for a delicate, ethereal hair style.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-09",
+    "name": "Vanessa butterfly wings ",
+    "slug": "vanessa-butterfly-wings",
+    "description": "Bold Vanessa butterfly wings for a chic, nature-inspired look. Durable and stylish.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-10",
+    "name": "Little Hearts Claw Clip",
+    "slug": "little-hearts-claw-clip",
+    "description": "Sweet heart-shaped clips for a romantic touch. The perfect daily accessory.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-11",
+    "name": "Black Hibiscus",
+    "slug": "black-hibiscus",
+    "description": "Tropical hibiscus blooms for a vacation vibe. Add a floral touch to any look.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-12",
+    "name": "Mini Hearts Claw Clip",
+    "slug": "mini-hearts-claw-clip",
+    "description": "Tiny hearts for a subtle, sweet accent. Perfect for half-up styles and fine hair.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
   }
 ]
