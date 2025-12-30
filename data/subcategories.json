@@ -241,5 +241,23 @@
     "parentCategoryId": "cat-07",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-kor-13",
+    "name": "Sunnny Flora Claw Clip",
+    "slug": "sunnny-flora-claw-clip",
+    "description": "Bright sunflower blooms to cheer up your hair. A sunny, durable floral accent.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-14",
+    "name": "Matte Flora Claw Clip",
+    "slug": "matte-flora-claw-clip",
+    "description": "Soft matte petals for a modern, velvety look. A chic floral touch for any hair type.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
   }
 ]
