@@ -349,5 +349,104 @@
     "parentCategoryId": "cat-07",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-kor-25",
+    "name": "Lyra Claw Clip",
+    "slug": "lyra-claw-clip",
+    "description": "Unique double-sided Lyra clips. High-shine glass meets chic matte for a versatile, modern look.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-26",
+    "name": "Twinnie Claw Clip",
+    "slug": "twinnie-claw-clip",
+    "description": "Sleek Twinnie double-shapes with a high-shine glass finish. Radiant, modern, and ultra-chic.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-27",
+    "name": "Bloom Splash Claw Clip",
+    "slug": "bloom-splash-claw-clip",
+    "description": "Glossy, rainbow-toned Bloom Splash clips. Bold double-shaped design with a high-shine glass glow.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-28",
+    "name": "Sunset Claw Clip",
+    "slug": "sunset-claw-clip",
+    "description": "Two-toned matte Sunset blooms. A soft, velvety sunflower clip with a unique double-color pop.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-29",
+    "name": "Clover Claw Clip",
+    "slug": "clover-claw-clip",
+    "description": "Radiant clover shapes with a double-bloom design. A sleek, glossy finish for effortless style.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-30",
+    "name": "Frame Claw Clip",
+    "slug": "frame-claw-clip",
+    "description": "Sleek bar design: one side high-shine glass, one side soft matte. A versatile, dual-finish staple.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-31",
+    "name": "Crystal Claw Clip",
+    "slug": "crystal-claw-clip",
+    "description": "Elegant glass bars with engraved crystal details. High-shine, luxury clips with a radiant glow.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-32",
+    "name": "Luna Claw Clip",
+    "slug": "luna-claw-clip",
+    "description": "Sleek Luna arches. One side glossy, one side matte for a modern, versatile, dual-finish look.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-33",
+    "name": "Daisy Cards",
+    "slug": "daisy-cards",
+    "description": "Floral trio: one large & two small glossy daisy clips on one card. The perfect high-shine set.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-34",
+    "name": "Border Floral Claw Clip",
+    "slug": "border-floral-claw-clip",
+    "description": "Sleek bordered flower clips in a modern glossy-matte. A refined, high-end floral accent.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-35",
+    "name": "Lilly Claw Clip",
+    "slug": "lilly-claw-clip",
+    "description": "Minimalist bar base topped with a chic matte Lilly flower. Effortlessly elegant and stylish.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
   }
 ]

@@ -951,7 +951,8 @@
     "stock": 3000,
     "available": true,
     "images": [
-      "assets/products/printed-scrunchies/printed-scrunhies.jpeg"
+      "assets/products/printed-scrunchies/printed-scrunhies.jpeg",
+      "assets/products/printed-scrunchies/printed-scrunhies-2.jpeg"
     ],
     "attributes": {},
     "shortDescription": "Handmade scrunchies with vibrant prints. Soft fabric, gentle hold. Add a pop of color to your hair!",
@@ -995,32 +996,32 @@
         "available": true
       },
       {
-        "name": "Turquoise",
-        "hex": "#40E0D0",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "Mauve",
         "hex": "#D4A7B7",
         "stock": 1,
         "available": true
       },
       {
-        "name": "Light Pink",
-        "hex": "#FFB6C1",
-        "stock": 10,
+        "name": "Strawberry",
+        "hex": "#FF69B4",
+        "stock": 3,
         "available": true
       },
       {
-        "name": "strawberry",
-        "hex": "#FC8EAC",
-        "stock": 5,
+        "name": "White flower",
+        "hex": "#8CF1F3",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Watermelon",
+        "hex": "#FFCCE6",
+        "stock": 10,
         "available": true
       }
     ],
     "createdAt": "2025-12-15T07:04:09.562893Z",
-    "updatedAt": "2025-12-15T07:04:09.563252Z"
+    "updatedAt": "2025-12-31T10:26:44.739471Z"
   },
   {
     "id": "prod-009",
@@ -7438,7 +7439,7 @@
     "subcategoryId": "subcat-kor-24",
     "price": 20.0,
     "currency": "INR",
-    "stock": 100,
+    "stock": 115,
     "available": true,
     "images": [
       "assets/products/daze-claw-clip/daze-claw-clip.jpeg"
@@ -7469,7 +7470,7 @@
       {
         "name": "Yellow",
         "hex": "#FFF7C2",
-        "stock": 11,
+        "stock": 12,
         "available": true
       },
       {
@@ -7481,7 +7482,7 @@
       {
         "name": "Mint",
         "hex": "#AACC99",
-        "stock": 10,
+        "stock": 12,
         "available": true
       },
       {
@@ -7493,7 +7494,7 @@
       {
         "name": "Peach",
         "hex": "#ECB49B",
-        "stock": 8,
+        "stock": 9,
         "available": true
       },
       {
@@ -7501,9 +7502,640 @@
         "hex": "#986798",
         "stock": 8,
         "available": true
+      },
+      {
+        "name": "Dark Blue",
+        "hex": "#495162",
+        "stock": 11,
+        "available": true
       }
     ],
     "createdAt": "2025-12-30T15:38:20.387296Z",
-    "updatedAt": "2025-12-30T15:38:20.387393Z"
+    "updatedAt": "2025-12-31T07:10:30.846267Z"
+  },
+  {
+    "id": "prod-046",
+    "sku": "LYRA-CLA-046",
+    "title": "Lyra Claw Clip",
+    "slug": "lyra-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-25",
+    "price": 40.0,
+    "currency": "INR",
+    "stock": 37,
+    "available": true,
+    "images": [
+      "assets/products/lyra-claw-clip/lyra-claw-clip.jpeg",
+      "assets/products/lyra-claw-clip/lyra-claw-clip-2.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Elegant Lyra \"double\" shape with a dual finish: glossy glass on one side, soft matte on the reverse.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 8,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#7969B0",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#E1CBD6",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#EC8D5B",
+        "stock": 8,
+        "available": true
+      },
+      {
+        "name": "Lime",
+        "hex": "#E2DD60",
+        "stock": 8,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#B3C6B7",
+        "stock": 2,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T07:38:21.190057Z",
+    "updatedAt": "2025-12-31T07:38:21.190085Z"
+  },
+  {
+    "id": "prod-047",
+    "sku": "TWIN-CLA-047",
+    "title": "Twinnie Claw Clip",
+    "slug": "twinnie-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-26",
+    "price": 40.0,
+    "currency": "INR",
+    "stock": 65,
+    "available": true,
+    "images": [
+      "assets/products/twinnie-claw-clip/twinnie-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Glossy glass-finish Twinnie clips. A polished, double-shaped design for an elegant, secure hold",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Light Orange",
+        "hex": "#EED1BE",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Dark Orange",
+        "hex": "#E76B1F",
+        "stock": 8,
+        "available": true
+      },
+      {
+        "name": "Light Green",
+        "hex": "#9ACD93",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#D34B3C",
+        "stock": 11,
+        "available": true
+      },
+      {
+        "name": "Dark Green",
+        "hex": "#226255",
+        "stock": 8,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FF1493",
+        "stock": 10,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 7,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FBDE8E",
+        "stock": 11,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#4E3693",
+        "stock": 3,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T08:04:15.538122Z",
+    "updatedAt": "2025-12-31T08:04:15.538159Z"
+  },
+  {
+    "id": "prod-048",
+    "sku": "BLOO-SPL-048",
+    "title": "Bloom Splash Claw Clip",
+    "slug": "bloom-splash-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-27",
+    "price": 40.0,
+    "currency": "INR",
+    "stock": 0,
+    "available": true,
+    "images": [
+      "assets/products/bloom-splash-claw-clip/bloom-splash-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Green",
+        "hex": "#8D9C21",
+        "stock": 8,
+        "available": true
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#AED5CE",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#02598E",
+        "stock": 8,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FF1493",
+        "stock": 16,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#43316D",
+        "stock": 8,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T08:34:17.462237Z",
+    "updatedAt": "2025-12-31T08:34:17.462304Z"
+  },
+  {
+    "id": "prod-049",
+    "sku": "SUNS-CLA-049",
+    "title": "Sunset  Claw Clip",
+    "slug": "sunset-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-28",
+    "price": 40.0,
+    "currency": "INR",
+    "stock": 72,
+    "available": true,
+    "images": [
+      "assets/products/sunset-claw-clip/sunset-claw-clip.jpeg",
+      "assets/products/sunset-claw-clip/sunset-claw-clip-2.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Chic dual-color sunflower clips in a soft matte finish. Bold, modern, and perfectly floral.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Grey&Purple",
+        "hex": "#5F6D77",
+        "stock": 24,
+        "available": true
+      },
+      {
+        "name": "Brown&White",
+        "hex": "#544536",
+        "stock": 24,
+        "available": true
+      },
+      {
+        "name": "Black&Brown",
+        "hex": "#000000",
+        "stock": 24,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T08:50:09.591049Z",
+    "updatedAt": "2025-12-31T08:50:09.591082Z"
+  },
+  {
+    "id": "prod-050",
+    "sku": "CLOV-CLA-050",
+    "title": "Clover Claw Clip",
+    "slug": "clover-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-29",
+    "price": 45.0,
+    "currency": "INR",
+    "stock": 19,
+    "available": true,
+    "images": [
+      "assets/products/clover-claw-clip/clover-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Glossy double-flower clover clips for a lucky, high-shine look. Polished and perfectly chic.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Purple",
+        "hex": "#9A6EAA",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#2073AB",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#F7DE3B",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Salmon",
+        "hex": "#E29196",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#EA669B",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#C42C21",
+        "stock": 3,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T09:20:10.184507Z",
+    "updatedAt": "2025-12-31T09:20:10.184593Z"
+  },
+  {
+    "id": "prod-051",
+    "sku": "FRAM-CLA-051",
+    "title": "Frame Claw Clip",
+    "slug": "frame-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-30",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 16,
+    "available": true,
+    "images": [
+      "assets/products/frame-claw-clip/frame-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Modern Frame clips with a glossy/matte duo finish. Minimalist, chic, and perfect for any style.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#A7D3CB",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#F0C7DB",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#E7B388",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Lavender",
+        "hex": "#C6C1E2",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#F9F0D7",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Olive",
+        "hex": "#6E824A",
+        "stock": 3,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T09:46:40.008631Z",
+    "updatedAt": "2025-12-31T09:46:40.009073Z"
+  },
+  {
+    "id": "prod-052",
+    "sku": "CRYS-CLA-052",
+    "title": "Crystal Claw Clip1",
+    "slug": "crystal-claw-clip1",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-31",
+    "price": 30.0,
+    "currency": "INR",
+    "stock": 10,
+    "available": true,
+    "images": [
+      "assets/products/crystal-claw-clip/crystal-claw-clip1.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Sleek glass-finish bars featuring an intricate crystal design. A polished, sparkling hair staple.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Beige",
+        "hex": "#F5F5DC",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#7E4116",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 4,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T09:55:26.594816Z",
+    "updatedAt": "2025-12-31T09:55:26.594833Z"
+  },
+  {
+    "id": "prod-053",
+    "sku": "LUNA-CLA-053",
+    "title": "Luna Claw Clip",
+    "slug": "luna-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-32",
+    "price": 25.0,
+    "currency": "INR",
+    "stock": 11,
+    "available": true,
+    "images": [
+      "assets/products/luna-claw-clip/luna-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Elegant arch clips with a dual finish: high-shine glass on one side, chic matte on the other.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Purple",
+        "hex": "#B386A9",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#8EC4C7",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Grey",
+        "hex": "#C0C0C0",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Light Orange",
+        "hex": "#EACDA4",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Light Yellow",
+        "hex": "#E5E2C3",
+        "stock": 2,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T10:12:22.595724Z",
+    "updatedAt": "2025-12-31T10:12:22.595810Z"
+  },
+  {
+    "id": "prod-054",
+    "sku": "DAIS-CAR-054",
+    "title": "Daisy Cards",
+    "slug": "daisy-cards",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-33",
+    "price": 70.0,
+    "currency": "INR",
+    "stock": 3,
+    "available": true,
+    "images": [
+      "assets/products/daisy-cards/daisy-cards.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Daisy card with 3 glossy floral clips: 1 big & 2 small. A complete, high-shine styling kit.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Orange",
+        "hex": "#FFA500",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#C48D95",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#E6E6D6",
+        "stock": 1,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T10:35:01.546988Z",
+    "updatedAt": "2025-12-31T10:35:01.547020Z"
+  },
+  {
+    "id": "prod-055",
+    "sku": "BORD-FLO-055",
+    "title": "Border Floral Claw Clip",
+    "slug": "border-floral-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-34",
+    "price": 35.0,
+    "currency": "INR",
+    "stock": 223,
+    "available": true,
+    "images": [
+      "assets/products/border-floral-claw-clip/border-floral-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Modern floral clips with a distinct border and soft-touch glossy-matte glow. Sophisticated style.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "White Border With Peach",
+        "hex": "#FFFFFF",
+        "stock": 39,
+        "available": true
+      },
+      {
+        "name": "White Border With Blue",
+        "hex": "#FFFFFF",
+        "stock": 35,
+        "available": true
+      },
+      {
+        "name": "White Border With Pink",
+        "hex": "#FFFFFF",
+        "stock": 37,
+        "available": true
+      },
+      {
+        "name": "Blue Border With White",
+        "hex": "#BDFEFF",
+        "stock": 39,
+        "available": true
+      },
+      {
+        "name": "Peach Border With White",
+        "hex": "#F0BAA8",
+        "stock": 38,
+        "available": true
+      },
+      {
+        "name": "Pink Border With White",
+        "hex": "#FF94C9",
+        "stock": 35,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T10:58:04.705418Z",
+    "updatedAt": "2025-12-31T10:58:04.705468Z"
+  },
+  {
+    "id": "prod-056",
+    "sku": "LILL-CLA-056",
+    "title": "Lilly Claw Clip",
+    "slug": "lilly-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-35",
+    "price": 25.0,
+    "currency": "INR",
+    "stock": 0,
+    "available": true,
+    "images": [
+      "assets/products/lilly-claw-clip/lilly-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Refined matte bar with a blooming flower top. A soft, velvety finish for a modern floral look.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Lavender",
+        "hex": "#CBC7E2",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FBA7A7",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#B1F6F7",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#C2F3BE",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Coffee Brown",
+        "hex": "#F9B07B",
+        "stock": 3,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T11:12:45.333456Z",
+    "updatedAt": "2025-12-31T11:12:45.333528Z"
   }
 ]
