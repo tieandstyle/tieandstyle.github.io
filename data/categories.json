@@ -1,10 +1,10 @@
 [
   {
     "id": "cat-04",
-    "name": "Hampers",
-    "slug": "hampers",
-    "description": "",
-    "image": "",
+    "name": "Hamper Boxes",
+    "slug": "hamper-boxes",
+    "description": "The \"Premium Quality\" Vibe\r\nElevate your presentation with our luxury Hamper Boxes. Featuring a sophisticated finish and durable construction, they are the perfect canvas for bespoke gifting, corporate sets, or special celebrations.",
+    "image": "assets/categories/hamper-boxes.jpeg",
     "parentId": null,
     "order": 4,
     "active": true
@@ -35,6 +35,36 @@
     "slug": "korean-claw-clips",
     "description": "Like candy for your hair. These accessories bring a playful pop of color and light to your style, making even a messy morning look feel curated, bright, and sweet",
     "image": "assets/categories/korean-claw-clips.jpeg",
+    "parentId": null,
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "cat-08",
+    "name": "Pinterestry Claw Clip",
+    "slug": "pinterestry-claw-clip",
+    "description": "Pinterestry Claw Clips: Effortless, high-quality, and perfectly \"that girl.\" Designed for chic, viral-worthy hair days and a secure, all-day hold. The ultimate accessory for your curated look.",
+    "image": "assets/categories/pinterestry-claw-clip.jpeg",
+    "parentId": null,
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "cat-09",
+    "name": "Bouquet",
+    "slug": "bouquet",
+    "description": "A blooming blend of style and sweetness! This unique bouquet features chic, high-quality claw clips nestled among premium chocolates. The perfect gift for the girl who loves treats and trends.",
+    "image": "assets/categories/bouquet.jpeg",
+    "parentId": null,
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "cat-10",
+    "name": "Custom Creation",
+    "slug": "custom-creation",
+    "description": "Make it yours with our curated add-ons. Mix and match stickers, chocolates, and festive lights to create a dream box at your price point. Tailor-made joy in every budget-friendly box!",
+    "image": "assets/categories/custom-creation.jpeg",
     "parentId": null,
     "order": 1,
     "active": true

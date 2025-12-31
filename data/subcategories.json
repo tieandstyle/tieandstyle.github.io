@@ -448,5 +448,95 @@
     "parentCategoryId": "cat-07",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-bou-01",
+    "name": "Blue Berry Bouquet",
+    "slug": "blue-berry-bouquet",
+    "description": "Sweet & chic! 6 colorful daisy clips and 3 Dairy Milks in one beautiful, blueberry-themed bouquet.",
+    "parentCategoryId": "cat-09",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-bou-02",
+    "name": "Cherry Bouquet",
+    "slug": "cherry-bouquet",
+    "description": "Red floral mix! 5 unique clips (Daisy, Clover, Spiral, Bow) & 3 mini KitKats. Bold & sweet.",
+    "parentCategoryId": "cat-09",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-01",
+    "name": "Sunflower Claw Clip",
+    "slug": "sunflower-claw-clip",
+    "description": "Chic matte loop clips topped with two sunny flowers. A modern, double-bloom floral statement.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-02",
+    "name": "Tulip  Claw Clip",
+    "slug": "tulip-claw-clip",
+    "description": "Vibrant tulip-shaped clips with a radiant glossy glow. The perfect floral accent for your hair.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-03",
+    "name": "Fruity Claw Clips",
+    "slug": "fruity-claw-clips",
+    "description": "Sweet & shiny! High-gloss fruit-shaped clips for a fun, vibrant, and juicy hair look.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-04",
+    "name": "Rose Claw Clip",
+    "slug": "rose-claw-clip",
+    "description": "Elegant rose-shaped clips with a high-shine glossy finish. A timeless floral glow for your hair.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-05",
+    "name": "Rainbow Claw Clip",
+    "slug": "rainbow-claw-clip",
+    "description": "Vibrant rainbow-shaped clips with a sleek glossy finish. A bright, high-shine pop of color.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-06",
+    "name": "Fruit Pop Claw Clip",
+    "slug": "fruit-pop-claw-clip",
+    "description": "Shiny, cartoon-inspired fruit clips. A glossy, high-vibe accessory for a playful hair day.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-07",
+    "name": "Kitty Claw Clip",
+    "slug": "kitty-claw-clip",
+    "description": "Adorable glossy kitty clips! A high-shine, cartoon-inspired look for a cute and playful style.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-08",
+    "name": "Furry Claw Clip",
+    "slug": "furry-claw-clip",
+    "description": "Glossy dog & cat shaped clips! High-shine, adorable animal designs for a playful, polished look",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
   }
 ]
