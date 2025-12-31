@@ -538,5 +538,131 @@
     "parentCategoryId": "cat-08",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-ham-01",
+    "name": "Sunflower Hamper",
+    "slug": "sunflower-hamper",
+    "description": "The ultimate floral box! 10 hair treats: Sunflower, Daisy, Tulip, & Bow clips + a soft scrunchie.",
+    "parentCategoryId": "cat-04",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-tul-01",
+    "name": "Tulip Scrunchies",
+    "slug": "tulip-scrunchies",
+    "description": "Handmade satin luxury! Soft, tulip-patterned scrunchies for a gentle, silky, and stylish hold.",
+    "parentCategoryId": "cat-11",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-tul-02",
+    "name": "Tulip Ties",
+    "slug": "tulip-ties",
+    "description": "Elegant handmade satin tulip ties. Soft, luxurious, and perfectly crafted for a graceful look.",
+    "parentCategoryId": "cat-11",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-tul-03",
+    "name": "Tulip BowClip",
+    "slug": "tulip-bowclip",
+    "description": "Exquisite handmade satin tulip bow. Soft, elegant, and perfectly crafted for a graceful look.",
+    "parentCategoryId": "cat-11",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-cus-01",
+    "name": "Cork Light",
+    "slug": "cork-light",
+    "description": "Brighten your gift! Add a warm cork light to customize and glow up your favorite hamper box.",
+    "parentCategoryId": "cat-10",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-cus-02",
+    "name": "Birthday Hangings",
+    "slug": "birthday-hangings",
+    "description": "Party vibes! Add a \"Happy Birthday\" hanging to your custom hamper for a festive, personal touch.",
+    "parentCategoryId": "cat-10",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-cus-03",
+    "name": "Chocolates",
+    "slug": "chocolates",
+    "description": "Sweeten the deal! Add premium chocolates to your custom hamper for a delicious, tasty surprise.",
+    "parentCategoryId": "cat-10",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-cus-04",
+    "name": "Heart Bracelet",
+    "slug": "heart-bracelet",
+    "description": "The perfect charm! Add a stylish bracelet to your custom hamper for a personal, elegant touch.",
+    "parentCategoryId": "cat-10",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-cus-05",
+    "name": "Star Bracelet",
+    "slug": "star-bracelet",
+    "description": "The perfect charm! Add a stylish bracelet to your custom hamper for a personal, elegant touch.",
+    "parentCategoryId": "cat-10",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-cus-06",
+    "name": "Evil Eye Bracelet",
+    "slug": "evil-eye-bracelet",
+    "description": "The perfect charm! Add a stylish bracelet to your custom hamper for a personal, elegant touch.",
+    "parentCategoryId": "cat-10",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-cus-07",
+    "name": "Unicorn Bracelet",
+    "slug": "unicorn-bracelet",
+    "description": "The perfect charm! Add a stylish bracelet to your custom hamper for a personal, elegant touch.",
+    "parentCategoryId": "cat-10",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-cus-08",
+    "name": "Clover Bracelet",
+    "slug": "clover-bracelet",
+    "description": "The perfect charm! Add a stylish bracelet to your custom hamper for a personal, elegant touch.",
+    "parentCategoryId": "cat-10",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-cus-09",
+    "name": "Crystal Bracelet",
+    "slug": "crystal-bracelet",
+    "description": "The perfect charm! Add a stylish bracelet to your custom hamper for a personal, elegant touch.",
+    "parentCategoryId": "cat-10",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-cus-10",
+    "name": "Butterfly Chain",
+    "slug": "butterfly-chain",
+    "description": "Fluttering beauty! Add this butterfly chain to your hamper for a magical, personalized touch.",
+    "parentCategoryId": "cat-10",
+    "order": 1,
+    "active": true
   }
 ]

@@ -68,5 +68,15 @@
     "parentId": null,
     "order": 1,
     "active": true
+  },
+  {
+    "id": "cat-11",
+    "name": "Tulip Hair Accessories",
+    "slug": "tulip-hair-accessories",
+    "description": "Embrace the beauty of spring with our Tulip Collection. Inspired by the graceful silhouette of nature’s most elegant flower, this curated set blends sophisticated floral design with a modern, polished finish. From glossy clips to soft accessories, every piece is crafted to add a touch of blooming charm to your everyday style.",
+    "image": "assets/categories/tulip-hair-accessories.jpeg",
+    "parentId": null,
+    "order": 1,
+    "active": true
   }
 ]

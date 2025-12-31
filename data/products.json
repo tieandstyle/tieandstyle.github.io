@@ -8585,5 +8585,1338 @@
     ],
     "createdAt": "2025-12-31T13:41:06.412188Z",
     "updatedAt": "2025-12-31T13:41:06.412235Z"
+  },
+  {
+    "id": "prod-067",
+    "sku": "SUNF-HAM-067",
+    "title": "Sunflower Hamper",
+    "slug": "sunflower-hamper",
+    "categoryIds": [
+      "cat-04"
+    ],
+    "subcategoryId": "subcat-ham-01",
+    "price": 649.0,
+    "currency": "INR",
+    "stock": 5,
+    "available": true,
+    "images": [
+      "assets/products/sunflower-hamper/sunflower-hamper.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Huge 10-piece floral set! Includes Sunflower & Daisy clips, a bow, and more for a sunny hair kit.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Yellow",
+        "hex": "#FFED8A",
+        "stock": 5,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T14:07:23.229484Z",
+    "updatedAt": "2025-12-31T14:07:23.229574Z"
+  },
+  {
+    "id": "prod-068",
+    "sku": "TULI-SCR-068",
+    "title": "Tulip Scrunchies",
+    "slug": "tulip-scrunchies",
+    "categoryIds": [
+      "cat-11"
+    ],
+    "subcategoryId": "subcat-tul-01",
+    "price": 145.0,
+    "currency": "INR",
+    "stock": 1000,
+    "available": true,
+    "images": [
+      "assets/products/tulip-scrunchies/tulip-scrunchies.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Silky satin tulip scrunchies. Hand-crafted for a snag-free, elegant, and blooming hair look.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Gray",
+        "hex": "#808080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#A52B2A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#FE0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FFC0CB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#FFB6C1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFFF00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FEDAB8",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF8B00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#007F01",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Olive",
+        "hex": "#7F8000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#98FE98",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#0000FE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#010086",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Baby Blue",
+        "hex": "#89D0F0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lavender",
+        "hex": "#E5E6FA",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gold",
+        "hex": "#FED700",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#81007F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Silver",
+        "hex": "#C0C0C0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Snow",
+        "hex": "#FEFAF9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Taupe",
+        "hex": "#483B32",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374550",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ivory",
+        "hex": "#FEFFEF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dim Gray",
+        "hex": "#686868",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Saddle Brown",
+        "hex": "#8B4512",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coco",
+        "hex": "#3E1C01",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Caramel",
+        "hex": "#C78A5E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Copper",
+        "hex": "#B87332",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#80001D",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#4A0404",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Wine",
+        "hex": "#722F38",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cardinal",
+        "hex": "#C51E3A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Raspberry",
+        "hex": "#DD0C5C",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ruby",
+        "hex": "#E0115F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "WaterMelon",
+        "hex": "#D87093",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cherry Blossom",
+        "hex": "#FC8EAB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#F88379",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Salmon",
+        "hex": "#FA8071",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#2E8A57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Emerald",
+        "hex": "#51C878",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Miltary",
+        "hex": "#535A0A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Mint",
+        "hex": "#AAEFD0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#3FE0D0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Teal",
+        "hex": "#008081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ocean",
+        "hex": "#4682B4",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Thistle",
+        "hex": "#D7BFD7",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Plum",
+        "hex": "#DDA0DC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Aubergine",
+        "hex": "#581042",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Rose Gold",
+        "hex": "#B76E79",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Indigo",
+        "hex": "#4B0081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mauve",
+        "hex": "#D2A6B5",
+        "stock": 100,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T14:50:37.148814Z",
+    "updatedAt": "2025-12-31T14:50:37.148865Z"
+  },
+  {
+    "id": "prod-069",
+    "sku": "TULI-TIE-069",
+    "title": "Tulip Ties",
+    "slug": "tulip-ties",
+    "categoryIds": [
+      "cat-11"
+    ],
+    "subcategoryId": "subcat-tul-02",
+    "price": 100.0,
+    "currency": "INR",
+    "stock": 10000,
+    "available": true,
+    "images": [
+      "assets/products/tulip-ties/tulip-ties.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Bespoke satin tulip ties. Silky, handmade floral accents to add a soft touch to your hairstyle.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "gray",
+        "hex": "#808080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DB",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#A52B2A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#FE0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#FFB6C1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFFF00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FEDAB7",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#007F01",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Olive",
+        "hex": "#7F8000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#92FF93",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#0000FE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#010080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Baby Blue",
+        "hex": "#89D0F0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lavender",
+        "hex": "#E5E6FA",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gold",
+        "hex": "#FED700",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#81007F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Silver",
+        "hex": "#C0C0C0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Snow",
+        "hex": "#FEFAF9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Taupe",
+        "hex": "#483B32",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ivory",
+        "hex": "#FEFFEF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dim Gray",
+        "hex": "#696969",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374550",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Saddle Brown",
+        "hex": "#8B440F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cocoa",
+        "hex": "#3E1C01",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Caramel",
+        "hex": "#C78A5E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Copper",
+        "hex": "#B07335",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#80011F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#4A0404",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Wine",
+        "hex": "#722F38",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cardinal",
+        "hex": "#C51E3A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Raspberry",
+        "hex": "#E30B5C",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ruby",
+        "hex": "#DE105E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "WaterMelon",
+        "hex": "#DC6C93",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Flamingo",
+        "hex": "#FFB7C5",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#F88379",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Salmon",
+        "hex": "#FA8071",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#FF8B00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lemon",
+        "hex": "#FFF34F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#308857",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Emerald",
+        "hex": "#51C878",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Miltary",
+        "hex": "#515903",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Light Mint",
+        "hex": "#ABF0D1",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#3BE0D0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Teal",
+        "hex": "#008081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Ocean",
+        "hex": "#4682B4",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Thistle",
+        "hex": "#D7BFD7",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Plum",
+        "hex": "#DDA0DC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Aubergine",
+        "hex": "#581042",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "RoseGold",
+        "hex": "#B76E79",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Indigo",
+        "hex": "#4B0081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mauve",
+        "hex": "#D2A6B5",
+        "stock": 100,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T15:16:33.387366Z",
+    "updatedAt": "2025-12-31T15:16:33.387747Z"
+  },
+  {
+    "id": "prod-070",
+    "sku": "TULI-BOW-070",
+    "title": "Tulip Bow Clip",
+    "slug": "tulip-bow-clip",
+    "categoryIds": [
+      "cat-11"
+    ],
+    "subcategoryId": "subcat-tul-03",
+    "price": 199.0,
+    "currency": "INR",
+    "stock": 10000,
+    "available": true,
+    "images": [
+      "assets/products/tulip-bowclip/tulip-bow-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Handmade satin elegance! A soft, tulip-shaped bow clip crafted for a luxurious, silky finis",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Gray",
+        "hex": "#808080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#A52B2A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#FE0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Maroon",
+        "hex": "#800000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#FFBECA",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFFF00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FEDAB8",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Forest Green",
+        "hex": "#017F01",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Olive",
+        "hex": "#7F8000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#98FE98",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#0000FE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Navy Blue",
+        "hex": "#010080",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Baby Blue",
+        "hex": "#89CEEE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Lavender",
+        "hex": "#E5E6FA",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Gold",
+        "hex": "#FED700",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#81007F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Snow",
+        "hex": "#FEFAF9",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Taupe",
+        "hex": "#483B32",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dim Gray",
+        "hex": "#696969",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Charcoal",
+        "hex": "#374550",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Saddle Brown",
+        "hex": "#8B4512",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coco",
+        "hex": "#3E1C01",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Caramel",
+        "hex": "#C78A5E",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Bordeaux",
+        "hex": "#80011F",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Oxblood",
+        "hex": "#4A0404",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Wine",
+        "hex": "#722F38",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Cardinal",
+        "hex": "#C51E3A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Raspberryy",
+        "hex": "#E30B5C",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "WaterMelon",
+        "hex": "#D87093",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#F88379",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Dark Orange",
+        "hex": "#FF8B00",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#2E8A57",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Emerald",
+        "hex": "#51C878",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Miltary",
+        "hex": "#535A0A",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Turquoise",
+        "hex": "#3FE0D0",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Steel Blue",
+        "hex": "#4169E2",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Thistle",
+        "hex": "#D6BED6",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Plum",
+        "hex": "#DDA0DC",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Aubergine",
+        "hex": "#581042",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Champagne",
+        "hex": "#F7E7CE",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Rose Gold",
+        "hex": "#B76E79",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Indigo",
+        "hex": "#4B0081",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "Mauve",
+        "hex": "#D3A7B6",
+        "stock": 100,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T15:45:32.234141Z",
+    "updatedAt": "2025-12-31T15:45:32.234281Z"
+  },
+  {
+    "id": "prod-071",
+    "sku": "CORK-LIG-071",
+    "title": "Cork Light",
+    "slug": "cork-light",
+    "categoryIds": [
+      "cat-10"
+    ],
+    "subcategoryId": "subcat-cus-01",
+    "price": 90.0,
+    "currency": "INR",
+    "stock": 100,
+    "available": true,
+    "images": [
+      "assets/products/cork-light/cork-light.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "The perfect glow! Add this cork light to your custom hamper for a magical, sparkling surprise.",
+    "description": "",
+    "tags": [],
+    "createdAt": "2025-12-31T15:50:13.446761Z",
+    "updatedAt": "2025-12-31T15:50:13.446805Z"
+  },
+  {
+    "id": "prod-072",
+    "sku": "BIRT-HAN-072",
+    "title": "Birthday Hangings",
+    "slug": "birthday-hangings",
+    "categoryIds": [
+      "cat-10"
+    ],
+    "subcategoryId": "subcat-cus-02",
+    "price": 45.0,
+    "currency": "INR",
+    "stock": 100,
+    "available": true,
+    "images": [
+      "assets/products/birthday-hangings/birthday-hangings.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Make it a celebration! Add this birthday hanging to your hamper for the ultimate surprise gift.",
+    "description": "",
+    "tags": [],
+    "createdAt": "2025-12-31T15:54:44.409297Z",
+    "updatedAt": "2025-12-31T15:54:44.409635Z"
+  },
+  {
+    "id": "prod-073",
+    "sku": "CHOCOLA-073",
+    "title": "Chocolates",
+    "slug": "chocolates",
+    "categoryIds": [
+      "cat-10"
+    ],
+    "subcategoryId": "subcat-cus-03",
+    "price": 25.0,
+    "currency": "INR",
+    "stock": 200,
+    "available": true,
+    "images": [
+      "assets/products/chocolates/chocolates.jpeg",
+      "assets/products/chocolates/chocolates-2.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "A sweet treat! Add chocolates to your hamper to make your customized gift even more indulgent.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "KitKat",
+        "hex": "#FF0000",
+        "stock": 100,
+        "available": true
+      },
+      {
+        "name": "DiaryMilk",
+        "hex": "#800080",
+        "stock": 100,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T16:01:48.337393Z",
+    "updatedAt": "2025-12-31T16:01:48.337635Z"
+  },
+  {
+    "id": "prod-074",
+    "sku": "HEAR-BRA-074",
+    "title": "Heart Bracelet",
+    "slug": "heart-bracelet",
+    "categoryIds": [
+      "cat-10"
+    ],
+    "subcategoryId": "subcat-cus-04",
+    "price": 30.0,
+    "currency": "INR",
+    "stock": 5,
+    "available": true,
+    "images": [
+      "assets/products/heart-bracelet/heart-bracelet.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Sparkle and shine! Add a beautiful bracelet to your hamper to make your gift truly unforgettable.",
+    "description": "",
+    "tags": [],
+    "createdAt": "2025-12-31T16:10:44.407434Z",
+    "updatedAt": "2025-12-31T16:10:44.407505Z"
+  },
+  {
+    "id": "prod-075",
+    "sku": "STAR-BRA-075",
+    "title": "Star  Bracelet",
+    "slug": "star-bracelet",
+    "categoryIds": [
+      "cat-10"
+    ],
+    "subcategoryId": "subcat-cus-05",
+    "price": 30.0,
+    "currency": "INR",
+    "stock": 7,
+    "available": true,
+    "images": [
+      "assets/products/star-bracelet/star-bracelet.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Sparkle and shine! Add a beautiful bracelet to your hamper to make your gift truly unforgettable.",
+    "description": "",
+    "tags": [],
+    "createdAt": "2025-12-31T16:15:19.681407Z",
+    "updatedAt": "2025-12-31T16:15:19.681473Z"
+  },
+  {
+    "id": "prod-076",
+    "sku": "EVIL-EYE-076",
+    "title": "Evil Eye Bracelet",
+    "slug": "evil-eye-bracelet",
+    "categoryIds": [
+      "cat-10"
+    ],
+    "subcategoryId": "subcat-cus-06",
+    "price": 30.0,
+    "currency": "INR",
+    "stock": 5,
+    "available": true,
+    "images": [
+      "assets/products/evil-eye-bracelet/evil-eye-bracelet.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Sparkle and shine! Add a beautiful bracelet to your hamper to make your gift truly unforgettable.",
+    "description": "",
+    "tags": [],
+    "createdAt": "2025-12-31T16:27:57.724981Z",
+    "updatedAt": "2025-12-31T16:27:57.725080Z"
+  },
+  {
+    "id": "prod-077",
+    "sku": "UNIC-BRA-077",
+    "title": "Unicorn Bracelet",
+    "slug": "unicorn-bracelet",
+    "categoryIds": [
+      "cat-10"
+    ],
+    "subcategoryId": "subcat-cus-07",
+    "price": 30.0,
+    "currency": "INR",
+    "stock": 2,
+    "available": true,
+    "images": [
+      "assets/products/unicorn-bracelet/unicorn-bracelet.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Sparkle and shine! Add a beautiful bracelet to your hamper to make your gift truly unforgettable.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "red",
+        "hex": "#FF0000",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#800080",
+        "stock": 1,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T16:30:59.874879Z",
+    "updatedAt": "2025-12-31T16:30:59.875357Z"
+  },
+  {
+    "id": "prod-078",
+    "sku": "CLOV-BRA-078",
+    "title": "Clover Bracelet",
+    "slug": "clover-bracelet",
+    "categoryIds": [
+      "cat-10"
+    ],
+    "subcategoryId": "subcat-cus-08",
+    "price": 30.0,
+    "currency": "INR",
+    "stock": 1,
+    "available": true,
+    "images": [
+      "assets/products/clover-bracelet/clover-bracelet.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "The perfect charm! Add a stylish bracelet to your custom hamper for a personal, elegant touch.",
+    "description": "",
+    "tags": [],
+    "createdAt": "2025-12-31T16:34:02.082842Z",
+    "updatedAt": "2025-12-31T16:34:02.082882Z"
+  },
+  {
+    "id": "prod-079",
+    "sku": "CRYS-BRA-079",
+    "title": "Crystal Bracelet",
+    "slug": "crystal-bracelet",
+    "categoryIds": [
+      "cat-10"
+    ],
+    "subcategoryId": "subcat-cus-09",
+    "price": 30.0,
+    "currency": "INR",
+    "stock": 2,
+    "available": true,
+    "images": [
+      "assets/products/crystal-bracelet/crystal-bracelet.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "The perfect charm! Add a stylish bracelet to your custom hamper for a personal, elegant touch.",
+    "description": "",
+    "tags": [],
+    "createdAt": "2025-12-31T16:35:42.763702Z",
+    "updatedAt": "2025-12-31T16:35:42.763789Z"
+  },
+  {
+    "id": "prod-080",
+    "sku": "BUTT-CHA-080",
+    "title": "Butterfly chain",
+    "slug": "butterfly-chain",
+    "categoryIds": [
+      "cat-10"
+    ],
+    "subcategoryId": "subcat-cus-10",
+    "price": 30.0,
+    "currency": "INR",
+    "stock": 33,
+    "available": true,
+    "images": [
+      "assets/products/butterfly-chain/butterfly-chain.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Fluttering beauty! Add this butterfly chain to your hamper for a magical, personalized touch.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Red",
+        "hex": "#AB3636",
+        "stock": 7,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FF1493",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFD700",
+        "stock": 7,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#00CED1",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#40C98E",
+        "stock": 8,
+        "available": true
+      }
+    ],
+    "createdAt": "2025-12-31T16:44:57.417412Z",
+    "updatedAt": "2025-12-31T16:44:57.417452Z"
   }
 ]
