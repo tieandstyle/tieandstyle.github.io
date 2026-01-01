@@ -7665,7 +7665,7 @@
     "subcategoryId": "subcat-kor-27",
     "price": 40.0,
     "currency": "INR",
-    "stock": 0,
+    "stock": 42,
     "available": true,
     "images": [
       "assets/products/bloom-splash-claw-clip/bloom-splash-claw-clip.jpeg"
@@ -7707,7 +7707,7 @@
       }
     ],
     "createdAt": "2025-12-31T08:34:17.462237Z",
-    "updatedAt": "2025-12-31T08:34:17.462304Z"
+    "updatedAt": "2026-01-01T09:26:22.980803Z"
   },
   {
     "id": "prod-049",

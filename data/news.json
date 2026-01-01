@@ -1,26 +1,17 @@
 [
   {
     "id": "news-001",
-    "title": "Diwali Offer: Up to 25% OFF",
-    "slug": "diwali-offer-25-off",
-    "type": "offer",
-    "content": "Celebrate Diwali with discounts on cables and chargers!",
-    "media": ["image/news/offer.jpg"],
-    "startsAt": "2025-10-20T00:00:00Z",
-    "endsAt": "2025-11-05T23:59:59Z",
+    "title": "Bulk Orders",
+    "slug": "bulk-orders",
+    "type": "announcement",
+    "content": "Big plans? Big savings! 🛍️ For bulk orders and wholesale inquiries, kindly DM us.",
+    "media": [],
+    "startsAt": "2026-01-01T14:51",
+    "endsAt": "2029-02-01T14:53",
     "active": true,
-    "cta": { "text": "Shop accessories", "url": "#cat-02" }
-  },
-  {
-    "id": "news-002",
-    "title": "New Arrivals: Latest Gadgets",
-    "slug": "new-arrivals-latest-gadgets",
-    "type": "update",
-    "content": "Check out the latest gadgets added to our collection.",
-    "media": ["image/news/new-arrivals.jpg"],
-    "startsAt": "2025-10-15T00:00:00Z",
-    "endsAt": null,
-    "active": true,
-    "cta": { "text": "Explore now", "url": "#cat-01" }
+    "cta": {
+      "text": "",
+      "url": ""
+    }
   }
 ]

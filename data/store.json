@@ -22,7 +22,8 @@
       "Bengaluru"
     ],
     "shippingPolicy": "Free delivery above ₹999. Standard delivery 7-12 working days.",
-    "returnsPolicy": "We offer refunds only for items received in damaged condition, supported by a clear unboxing video.\r\nUnfortunately, we do not accept refunds or exchanges otherwise. Thank you for understanding 🤍\r\n"
+    "returnsPolicy": "🛍️ Store Policy & Guidelines\r\nPayment: Prepaid orders only. We do not offer Cash on Delivery (COD).\r\n\r\nNo Exchanges: All sales are final. Please double-check your selection before ordering.\r\n\r\nTransit Damage: We pack all orders securely; however, we are not responsible for damage caused by the Post Office during transit.\r\n\r\nMissing Items: Refunds are issued only for missing products caused by our error.\r\n\r\nUnboxing Requirement: To claim a refund for missing items, you must provide a clear, unedited unboxing video.\r\n\r\nThe video must start before the package is opened.\r\n\r\nThe label must be clearly visible.\r\n\r\nThere must be no cuts, edits, or pauses in the video.\r\n\r\nClaim Process: Send your unboxing video to our Instagram Inbox\r\nClaims without a valid video will not be considered.\r\n\r\nSupport: For any other questions, reach us at tieandstyl@gmail.com.",
+    "rates": []
   },
   "businessHours": {
     "timezone": "Asia/Kolkata",
@@ -44,7 +45,6 @@
   },
   "pricing": {
     "taxRatePct": 0.0,
-    "freeShippingMin": 999.0,
-    "shippingFlat": 80.0
+    "freeShippingMin": 999.0
   }
 }
