@@ -338,6 +338,27 @@ function removeAttribute(button) {
   }
 }
 
+// Dynamic Size Fields for Products
+function addSize() {
+  const container = document.getElementById("sizes-container");
+  const sizeTag = document.createElement("div");
+  sizeTag.className = "size-tag";
+  sizeTag.style.cssText = "display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: #f0f0f0; border-radius: 6px;";
+  sizeTag.innerHTML = `
+    <input type="text" 
+           name="sizes" 
+           placeholder="Size"
+           style="width: 60px; border: none; background: transparent; font-weight: 600;">
+    <button type="button" class="btn btn-sm btn-danger" onclick="removeSize(this)" style="padding: 2px 8px; font-size: 12px;">✖</button>
+  `;
+  container.appendChild(sizeTag);
+}
+
+function removeSize(button) {
+  const tag = button.parentElement;
+  tag.remove();
+}
+
 // Load Subcategories based on selected Category
 function loadSubcategories(categoryId) {
   const subcategorySelect = document.getElementById("subcategoryId");

@@ -26,6 +26,9 @@
   function calculateTotals(cart) {
     const subtotal = cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
     
+    // Calculate total item count
+    const totalItems = cart.reduce((sum, item) => sum + item.quantity, 0);
+    
     // Check if cart has abroad orders
     const hasAbroadOrder = cart.some(item => item.isAbroadOrder === true);
     
@@ -34,6 +37,9 @@
     if (hasAbroadOrder) {
       // For abroad orders, shipping will be determined by admin later
       shipping = 0; // Admin will add delivery charge manually
+    } else if (totalItems >= 15) {
+      // For orders with 15 or more items, flat ₹100 delivery charge
+      shipping = 100;
     } else {
       // Regular domestic shipping - lookup by customer's selected state
       const stateInput = document.getElementById('state');
@@ -62,7 +68,7 @@
     const tax = 0;
     
     const total = subtotal + shipping + tax;
-    return { subtotal, shipping, tax, total, hasAbroadOrder };
+    return { subtotal, shipping, tax, total, hasAbroadOrder, totalItems };
   }
 
   function renderCart() {
@@ -100,6 +106,44 @@
 
     const totals = calculateTotals(cart);
     document.getElementById('subtotalAmount').textContent = money(totals.subtotal);
+    
+    // Show item count notification for bulk orders
+    const itemCountNotification = document.getElementById('itemCountNotification');
+    if (itemCountNotification) {
+      if (totals.totalItems >= 15) {
+        itemCountNotification.innerHTML = `
+          <div class="bg-orange-50 dark:bg-orange-900/20 border border-orange-300 dark:border-orange-700 rounded-lg p-4 mb-4">
+            <div class="flex items-start gap-3">
+              <span class="text-2xl">📦</span>
+              <div class="flex-1">
+                <h4 class="font-bold text-orange-900 dark:text-orange-100 mb-1">Bulk Order (${totals.totalItems} items)</h4>
+                <p class="text-sm text-orange-800 dark:text-orange-200">
+                  Your order has ${totals.totalItems} items. Flat delivery charge of ₹100 applies for orders with 15 or more items.
+                </p>
+              </div>
+            </div>
+          </div>
+        `;
+        itemCountNotification.style.display = 'block';
+      } else if (totals.totalItems >= 12) {
+        itemCountNotification.innerHTML = `
+          <div class="bg-blue-50 dark:bg-blue-900/20 border border-blue-300 dark:border-blue-700 rounded-lg p-4 mb-4">
+            <div class="flex items-start gap-3">
+              <span class="text-2xl">📦</span>
+              <div class="flex-1">
+                <h4 class="font-bold text-blue-900 dark:text-blue-100 mb-1">${totals.totalItems} items in cart</h4>
+                <p class="text-sm text-blue-800 dark:text-blue-200">
+                  Add ${15 - totals.totalItems} more items to get flat ₹100 delivery charge for bulk orders!
+                </p>
+              </div>
+            </div>
+          </div>
+        `;
+        itemCountNotification.style.display = 'block';
+      } else {
+        itemCountNotification.style.display = 'none';
+      }
+    }
     
     // Show abroad order notification (admin will add delivery charge later)
     if (totals.hasAbroadOrder) {

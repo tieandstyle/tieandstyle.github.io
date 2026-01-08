@@ -351,7 +351,7 @@
                 <!-- Product Attributes -->
                 <div class="form-section">
                     <h3>Product Attributes</h3>
-                    <p><small>Add custom attributes like material, size, etc.</small></p>
+                    <p><small>Add custom attributes like material, etc.</small></p>
                     
                     <div id="attributes-container">
                         {% if product and product.attributes %}
@@ -379,6 +379,31 @@
                     
                     <button type="button" class="btn btn-sm btn-secondary" onclick="addAttribute()">
                         <span class="icon">➕</span> Add Attribute
+                    </button>
+                </div>
+
+                <!-- Product Sizes -->
+                <div class="form-section">
+                    <h3>Available Sizes</h3>
+                    <p><small>Add size options for this product (e.g., S, M, L, XL)</small></p>
+                    
+                    <div id="sizes-container" style="display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 15px;">
+                        {% if product and product.sizes %}
+                            {% for size in product.sizes %}
+                                <div class="size-tag" style="display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; background: #f0f0f0; border-radius: 6px;">
+                                    <input type="text" 
+                                           name="sizes" 
+                                           value="{{ size }}" 
+                                           placeholder="Size"
+                                           style="width: 60px; border: none; background: transparent; font-weight: 600;">
+                                    <button type="button" class="btn btn-sm btn-danger" onclick="removeSize(this)" style="padding: 2px 8px; font-size: 12px;">✖</button>
+                                </div>
+                            {% endfor %}
+                        {% endif %}
+                    </div>
+                    
+                    <button type="button" class="btn btn-sm btn-secondary" onclick="addSize()">
+                        <span class="icon">➕</span> Add Size
                     </button>
                 </div>
 

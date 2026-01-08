@@ -15,12 +15,14 @@
     "images": [
       "assets/products/plain-scrunchies/plain-scrunchies.png"
     ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "attributes": {
-      "premium satin": "satin",
-      "Small": "S",
-      "Medium": "M",
-      "Large": "L",
-      "Xtra Large": "XL"
+      "premium satin": "satin"
     },
     "shortDescription": "✨ Soft, stretchy, and gentle on your hair your perfect everyday scrunchie.",
     "description": "",
@@ -483,6 +485,12 @@
     "available": true,
     "images": [
       "assets/products/skinny-scrunchies/skinny-scrunchies.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
     "attributes": {},
     "shortDescription": "The skinny secret to happy hair. Stackable, subtle, and beautifully soft.",
@@ -954,6 +962,12 @@
       "assets/products/printed-scrunchies/printed-scrunhies.jpeg",
       "assets/products/printed-scrunchies/printed-scrunhies-2.jpeg"
     ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "attributes": {},
     "shortDescription": "Handmade scrunchies with vibrant prints. Soft fabric, gentle hold. Add a pop of color to your hair!",
     "description": "",
@@ -1038,6 +1052,12 @@
     "available": true,
     "images": [
       "assets/products/bow-scrunchies/bow-scrunchies.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
     "attributes": {},
     "shortDescription": "Chic hair tie with a charming bow detail. Perfect for ponytails & buns!",
@@ -1502,6 +1522,12 @@
     "images": [
       "assets/products/bunny-tail-scrunchies/bunny-tail.jpeg"
     ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
     "attributes": {},
     "shortDescription": "Fluffy Bunny Tail Scrunchie | Handcrafted & Gentle Hair Tie",
     "description": "",
@@ -1892,6 +1918,12 @@
     "available": true,
     "images": [
       "assets/products/mini-tail-scrunchies/mini-tail-scrunchies.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
     "attributes": {},
     "shortDescription": "Mini tail scrunchies are petite hair ties with short ribbon tails for a delicate, romantic look.",
@@ -8632,6 +8664,12 @@
     "available": true,
     "images": [
       "assets/products/tulip-scrunchies/tulip-scrunchies.jpeg"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XL"
     ],
     "attributes": {},
     "shortDescription": "Silky satin tulip scrunchies. Hand-crafted for a snag-free, elegant, and blooming hair look.",

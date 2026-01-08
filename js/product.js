@@ -13,6 +13,7 @@
   let currentProduct = null;
   let currentQuantity = 1;
   let selectedColor = null;
+  let selectedSize = null;
 
   function money(n) {
     return `₹${n.toFixed(2)}`;
@@ -112,7 +113,8 @@
                 ${item.isAbroadOrder ? '<span class="text-blue-600" title="International Order">🌍</span>' : ''}
                 ${item.title}
               </h3>
-              ${item.color ? `<p class="text-xs text-gray-600">Color: ${item.color}</p>` : ''}
+              ${item.color ? `<p class="text-xs text-gray-600 dark:text-gray-400">Color: ${item.color}</p>` : ''}
+              ${item.size ? `<p class="text-xs text-gray-600 dark:text-gray-400">Size: ${item.size}</p>` : ''}
               ${item.isAbroadOrder ? '<p class="text-xs text-blue-600 font-semibold">International Order</p>' : ''}
               <p class="text-primary text-sm">${money(item.price)}</p>
               <div class="flex items-center gap-2 mt-2">
@@ -180,6 +182,21 @@
     });
   };
 
+  window.selectSize = function(size) {
+    selectedSize = size;
+    
+    // Update size buttons
+    document.querySelectorAll('.size-option').forEach(btn => {
+      if (btn.dataset.size === size) {
+        btn.classList.add('bg-primary', 'text-white', 'border-primary');
+        btn.classList.remove('bg-white', 'dark:bg-background-dark', 'text-black', 'dark:text-white');
+      } else {
+        btn.classList.remove('bg-primary', 'text-white', 'border-primary');
+        btn.classList.add('bg-white', 'dark:bg-background-dark', 'text-black', 'dark:text-white');
+      }
+    });
+  };
+
   window.handleAddToCart = function() {
     if (!currentProduct) return;
     
@@ -189,8 +206,14 @@
       return;
     }
     
+    // Check if size is required but not selected
+    if (currentProduct.sizes && currentProduct.sizes.length > 0 && !selectedSize) {
+      showNotification('⚠️ Please select a size', 'error');
+      return;
+    }
+    
     const cart = loadCart();
-    const cartItemKey = selectedColor ? `${currentProduct.sku}-${selectedColor}` : currentProduct.sku;
+    const cartItemKey = `${currentProduct.sku}${selectedColor ? '-' + selectedColor : ''}${selectedSize ? '-' + selectedSize : ''}`;
     const existing = cart.find(item => item.sku === cartItemKey);
     
     if (existing) {
@@ -198,23 +221,29 @@
     } else {
       cart.push({
         sku: cartItemKey,
-        title: currentProduct.title + (selectedColor ? ` (${selectedColor})` : ''),
+        title: currentProduct.title + (selectedColor ? ` (${selectedColor})` : '') + (selectedSize ? ` - ${selectedSize}` : ''),
         price: currentProduct.price,
         image: currentProduct.images?.[0] || '',
         quantity: currentQuantity,
-        color: selectedColor
+        color: selectedColor,
+        size: selectedSize
       });
     }
     
     saveCart(cart);
     showNotification(`✅ Added ${currentQuantity} item(s) to cart!`);
     
-    // Reset quantity and color
+    // Reset quantity, color, and size
     currentQuantity = 1;
     document.getElementById('quantity').value = 1;
     selectedColor = null;
+    selectedSize = null;
     document.querySelectorAll('.color-option').forEach(btn => {
       btn.classList.remove('ring-2', 'ring-primary', 'ring-offset-2');
+    });
+    document.querySelectorAll('.size-option').forEach(btn => {
+      btn.classList.remove('bg-primary', 'text-white', 'border-primary');
+      btn.classList.add('bg-white', 'dark:bg-background-dark', 'text-black', 'dark:text-white');
     });
   };
 
@@ -446,7 +475,7 @@
             onclick="selectColor('${color.name}')"
             title="${color.name}"
           >
-            <span class="absolute -bottom-6 left-1/2 transform -translate-x-1/2 text-xs text-black dark:text-white opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">
+            <span class="absolute -bottom-8 left-1/2 transform -translate-x-1/2 text-xs text-black dark:text-white opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap bg-white dark:bg-gray-800 px-2 py-1 rounded shadow-lg z-50 pointer-events-none">
               ${color.name}
             </span>
           </button>
@@ -454,6 +483,26 @@
       }).join('');
     } else {
       colorContainer.style.display = 'none';
+    }
+    
+    // Size selector
+    const sizeContainer = document.getElementById('sizeSelectorContainer');
+    const sizeOptions = document.getElementById('sizeOptions');
+    if (product.sizes && product.sizes.length > 0) {
+      sizeContainer.style.display = 'block';
+      sizeOptions.innerHTML = product.sizes.map(size => {
+        return `
+          <button 
+            class="size-option px-6 py-3 border-2 border-gray-300 dark:border-gray-600 rounded-lg hover:border-primary transition-all font-medium bg-white dark:bg-background-dark text-black dark:text-white"
+            data-size="${size}"
+            onclick="selectSize('${size}')"
+          >
+            ${size}
+          </button>
+        `;
+      }).join('');
+    } else {
+      sizeContainer.style.display = 'none';
     }
     
     // Attributes
@@ -538,8 +587,14 @@
       return;
     }
     
+    // Check if size is required and selected
+    if (currentProduct.sizes && currentProduct.sizes.length > 0 && !selectedSize) {
+      showNotification('⚠️ Please select a size before ordering from abroad', 'error');
+      return;
+    }
+    
     const cart = loadCart();
-    const cartItemKey = selectedColor ? `${currentProduct.sku}-${selectedColor}-abroad` : `${currentProduct.sku}-abroad`;
+    const cartItemKey = `${currentProduct.sku}${selectedColor ? '-' + selectedColor : ''}${selectedSize ? '-' + selectedSize : ''}-abroad`;
     const existing = cart.find(item => item.sku === cartItemKey);
     
     if (existing) {
@@ -547,11 +602,12 @@
     } else {
       cart.push({
         sku: cartItemKey,
-        title: currentProduct.title + (selectedColor ? ` (${selectedColor})` : ''),
+        title: currentProduct.title + (selectedColor ? ` (${selectedColor})` : '') + (selectedSize ? ` - ${selectedSize}` : ''),
         price: currentProduct.price,
         image: currentProduct.images?.[0] || '',
         quantity: currentQuantity,
         color: selectedColor,
+        size: selectedSize,
         isAbroadOrder: true // Special flag for international orders
       });
     }
@@ -559,12 +615,17 @@
     saveCart(cart);
     showNotification(`🌍 Added ${currentQuantity} item(s) to cart as Abroad Order!`);
     
-    // Reset quantity and color
+    // Reset quantity, color, and size
     currentQuantity = 1;
     document.getElementById('quantity').value = 1;
     selectedColor = null;
+    selectedSize = null;
     document.querySelectorAll('.color-option').forEach(btn => {
       btn.classList.remove('ring-2', 'ring-primary', 'ring-offset-2');
+    });
+    document.querySelectorAll('.size-option').forEach(btn => {
+      btn.classList.remove('bg-primary', 'text-white', 'border-primary');
+      btn.classList.add('bg-white', 'dark:bg-background-dark', 'text-black', 'dark:text-white');
     });
     
     // Open cart drawer to show the added abroad item

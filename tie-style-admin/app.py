@@ -333,6 +333,11 @@ def add_product():
             'tags': [tag.strip() for tag in request.form.get('tags', '').split(',') if tag.strip()]
         }
         
+        # Handle sizes
+        sizes = request.form.getlist('sizes')
+        if sizes:
+            product_data['sizes'] = [size.strip() for size in sizes if size.strip()]
+        
         # Handle attributes (dynamic fields)
         attribute_keys = request.form.getlist('attribute_key')
         attribute_values = request.form.getlist('attribute_value')
@@ -437,6 +442,14 @@ def edit_product(product_id):
         # Remove taxRatePct if it exists
         if 'taxRatePct' in product:
             del product['taxRatePct']
+        
+        # Update sizes
+        sizes = request.form.getlist('sizes')
+        if sizes:
+            product['sizes'] = [size.strip() for size in sizes if size.strip()]
+        elif 'sizes' in product:
+            # Remove sizes if none provided
+            del product['sizes']
         
         # Update attributes
         product['attributes'] = {}
