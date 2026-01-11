@@ -9956,5 +9956,182 @@
     ],
     "createdAt": "2025-12-31T16:44:57.417412Z",
     "updatedAt": "2025-12-31T16:44:57.417452Z"
+  },
+  {
+    "id": "prod-081",
+    "sku": "FRUI-CAR-081",
+    "title": "Fruitsicle Cards",
+    "slug": "fruitsicle-cards",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-09",
+    "price": 70.0,
+    "currency": "INR",
+    "stock": 23,
+    "available": true,
+    "images": [
+      "assets/products/fruitsicle-cards/fruitsicle-cards.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Double the juice! A Fruitsicles card with two glossy mini fruit clips for a sweet, shiny look.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "SMALL"
+    ],
+    "colors": [
+      {
+        "name": "Avacado",
+        "hex": "#32CD32",
+        "stock": 7,
+        "available": true
+      },
+      {
+        "name": "Strawberry",
+        "hex": "#D54444",
+        "stock": 7,
+        "available": true
+      },
+      {
+        "name": "Pine",
+        "hex": "#F0DD70",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Cherry",
+        "hex": "#F72B2B",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Carrot",
+        "hex": "#FFA500",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#FF6B6B",
+        "stock": 3,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-01-11T06:46:11.283193Z",
+    "updatedAt": "2026-01-11T06:46:11.283238Z"
+  },
+  {
+    "id": "prod-082",
+    "sku": "SWEE-PAI-082",
+    "title": "Sweet Pairs Card",
+    "slug": "sweet-pairs-card",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-bou-03",
+    "price": 70.0,
+    "currency": "INR",
+    "stock": 12,
+    "available": true,
+    "images": [
+      "assets/products/sweet-pairs-cards/sweet-pairs-card.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Perfect Sweet-Pairs! Two glossy, fruit-shaped mini clips on one card for a high-shine duo.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "SMALL"
+    ],
+    "colors": [
+      {
+        "name": "Cherry",
+        "hex": "#FF0000",
+        "stock": 7,
+        "available": true
+      },
+      {
+        "name": "WaterMelon",
+        "hex": "#CA6363",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#EAC2C2",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Mushroon",
+        "hex": "#F5F5DC",
+        "stock": 1,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-01-11T06:52:50.544500Z",
+    "updatedAt": "2026-01-11T06:52:50.544525Z"
+  },
+  {
+    "id": "prod-083",
+    "sku": "STRA-DAI-083",
+    "title": "Strawberry Daisy Cards",
+    "slug": "strawberry-daisy-cards",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-10",
+    "price": 90.0,
+    "currency": "INR",
+    "stock": 12,
+    "available": true,
+    "images": [
+      "assets/products/strawberry-daisy-cards/strawberry-daisy-cards.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Strawberry Daisy card! 3 glossy floral clips (2 small, 1 large) with a sweet berry print.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Light pink",
+        "hex": "#FF69B4",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Dark Pink",
+        "hex": "#FF1493",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#0000FF",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#F7B0F7",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#F2FF42",
+        "stock": 2,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-01-11T06:59:44.202618Z",
+    "updatedAt": "2026-01-11T06:59:44.202634Z"
   }
 ]

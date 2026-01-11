@@ -664,5 +664,32 @@
     "parentCategoryId": "cat-10",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-pin-09",
+    "name": "Fruitsicle cards",
+    "slug": "fruitsicle-cards",
+    "description": "Mini & glossy! Get two fruit-shaped clips on one Fruitsicles card. Perfect for a pop of color.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-bou-03",
+    "name": "Sweet pairs Cards",
+    "slug": "sweet-pairs-cards",
+    "description": "Double the shine! This Sweet-Pairs card features two glossy fruit clips for a playful style.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-10",
+    "name": "Strawberry Daisy Cards",
+    "slug": "strawberry-daisy-cards",
+    "description": "Glossy berry blooms! A 3-clip floral set featuring strawberry prints and high-shine finish.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
   }
 ]
