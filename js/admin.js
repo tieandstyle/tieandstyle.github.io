@@ -198,6 +198,11 @@ function getStatusBadge(status) {
   const statusConfig = {
     pending: { color: 'yellow', text: 'Pending', icon: '⏳' },
     processing: { color: 'blue', text: 'Processing', icon: '🔄' },
+    packed: { color: 'indigo', text: 'Packed', icon: '📦' },
+    dispatched: { color: 'purple', text: 'Dispatched', icon: '🚀' },
+    'in-transit': { color: 'cyan', text: 'In Transit', icon: '🚚' },
+    'out-for-delivery': { color: 'orange', text: 'Out for Delivery', icon: '🏃' },
+    delivered: { color: 'green', text: 'Delivered', icon: '✅' },
     completed: { color: 'green', text: 'Completed', icon: '✅' },
     cancelled: { color: 'red', text: 'Cancelled', icon: '❌' }
   };
@@ -393,15 +398,29 @@ function renderOrderDetails(order) {
       <!-- Status Update -->
       <div>
         <h4 class="font-bold mb-3">🔄 Update Order Status</h4>
-        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-2">
           <button onclick="updateStatus('${order.id}', 'pending')" class="px-4 py-2 bg-yellow-500 text-white rounded-lg hover:bg-yellow-600 transition text-sm">
             ⏳ Pending
           </button>
           <button onclick="updateStatus('${order.id}', 'processing')" class="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 transition text-sm">
             🔄 Processing
           </button>
-          <button onclick="updateStatus('${order.id}', 'completed')" class="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition text-sm">
-            ✅ Completed
+          <button onclick="updateStatus('${order.id}', 'packed')" class="px-4 py-2 bg-indigo-500 text-white rounded-lg hover:bg-indigo-600 transition text-sm">
+            📦 Packed
+          </button>
+          <button onclick="updateStatus('${order.id}', 'dispatched')" class="px-4 py-2 bg-purple-500 text-white rounded-lg hover:bg-purple-600 transition text-sm">
+            🚀 Dispatched
+          </button>
+        </div>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2">
+          <button onclick="updateStatus('${order.id}', 'in-transit')" class="px-4 py-2 bg-cyan-500 text-white rounded-lg hover:bg-cyan-600 transition text-sm">
+            🚚 In Transit
+          </button>
+          <button onclick="updateStatus('${order.id}', 'out-for-delivery')" class="px-4 py-2 bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition text-sm">
+            🏃 Out for Delivery
+          </button>
+          <button onclick="updateStatus('${order.id}', 'delivered')" class="px-4 py-2 bg-green-500 text-white rounded-lg hover:bg-green-600 transition text-sm">
+            ✅ Delivered
           </button>
           <button onclick="updateStatus('${order.id}', 'cancelled')" class="px-4 py-2 bg-red-500 text-white rounded-lg hover:bg-red-600 transition text-sm">
             ❌ Cancelled
