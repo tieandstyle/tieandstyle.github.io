@@ -700,5 +700,50 @@
     "parentCategoryId": "cat-08",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-kor-36",
+    "name": "Sweet Heart Claw Clip",
+    "slug": "sweet-heart-claw-clip",
+    "description": "Small & Sweet! Minimalist heart-shaped claw clips with a chic, smooth matte finish.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-37",
+    "name": "Bloom Swirl Claw Clip",
+    "slug": "bloom-swirl-claw-clip",
+    "description": "Twisted petals! These mini Bloom Swirls offer a chic matte look for a subtle floral accent.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-38",
+    "name": "Petal Twist",
+    "slug": "petal-twist",
+    "description": "Matte mini blooms! The Petal Twist clip adds a velvety, floral touch to your everyday style.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-39",
+    "name": "Flutter Matte Claw Clip",
+    "slug": "flutter-matte-claw-clip",
+    "description": "Flutter Matte! Delicate butterfly wing clips with a soft, velvet-finish for a dreamy look.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-40",
+    "name": "Ribbon Snap Claw Clip",
+    "slug": "ribbon-snap-claw-clip",
+    "description": "Matte mini bows! These Ribbon Snaps offer a velvety, elegant touch to your favorite hairstyle.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
   }
 ]

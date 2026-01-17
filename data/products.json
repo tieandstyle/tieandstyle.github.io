@@ -10197,5 +10197,475 @@
         "available": false
       }
     ]
+  },
+  {
+    "id": "prod-085",
+    "sku": "SWEE-HEA-085",
+    "title": "Sweet Heart Claw Clip",
+    "slug": "sweet-heart-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-36",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 29,
+    "available": true,
+    "images": [
+      "assets/products/sweet-heart-claw-clip/sweet-heart-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Love your hair! These mini matte hearts add a soft, romantic touch to any hairstyle.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Small"
+    ],
+    "colors": [
+      {
+        "name": "Orange",
+        "hex": "#E2AB51",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#F7C497",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Dark Pink",
+        "hex": "#E95680",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#3080A4",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Light pink",
+        "hex": "#CC8DA0",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Light Purple",
+        "hex": "#7B78A7",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Dark Purple",
+        "hex": "#951D95",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#A6C91C",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#2C6094",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Charcoal Grey",
+        "hex": "#565B57",
+        "stock": 2,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-01-17T07:10:35.015007Z",
+    "updatedAt": "2026-01-17T07:10:35.015102Z"
+  },
+  {
+    "id": "prod-086",
+    "sku": "BLOO-SWI-086",
+    "title": "Bloom Swirl Claw Clip",
+    "slug": "bloom-swirl-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-37",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 35,
+    "available": true,
+    "images": [
+      "assets/products/bloom-swirl-claw-clip/bloom-swirl-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Bloom Swirl! Small, spiral-shaped floral clips with a modern, velvety matte finish.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Small"
+    ],
+    "colors": [
+      {
+        "name": "Orange",
+        "hex": "#FFA500",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Wine",
+        "hex": "#674357",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#3A6598",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Light Purple",
+        "hex": "#7C70B0",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Dark Purple",
+        "hex": "#6D5D83",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Dark Pink",
+        "hex": "#FF1493",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#F6B078",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#E48B99",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Charcoal Grey",
+        "hex": "#5A5D5C",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#3392C1",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#B8E557",
+        "stock": 3,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-01-17T07:41:23.826627Z",
+    "updatedAt": "2026-01-17T07:41:23.826706Z"
+  },
+  {
+    "id": "prod-087",
+    "sku": "PETA-TWI-087",
+    "title": "Petal Twist",
+    "slug": "petal-twist",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-38",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 32,
+    "available": true,
+    "images": [
+      "assets/products/petal-twist/petal-twist.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Petal Twist! Chic, small flower clips with a soft matte finish for a modern, elegant look.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Small"
+    ],
+    "colors": [
+      {
+        "name": "Peach",
+        "hex": "#FAAC94",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#FFC2DF",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#B70B0B",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#51BB40",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Sea Green",
+        "hex": "#4DC7A2",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DC",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FEEA67",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Sky Blue",
+        "hex": "#84E4E6",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#F18489",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Flourescent Pink",
+        "hex": "#FF2986",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Dark Pink",
+        "hex": "#F381C9",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#E55320",
+        "stock": 2,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-01-17T08:02:26.651538Z",
+    "updatedAt": "2026-01-17T08:02:26.651574Z"
+  },
+  {
+    "id": "prod-088",
+    "sku": "FLUT-MAT-088",
+    "title": "Flutter Matte Claw Clip",
+    "slug": "flutter-matte-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-39",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 33,
+    "available": true,
+    "images": [
+      "assets/products/flutter-matte-claw-clip/flutter-matte-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Mini & matte! These butterfly wing clips add a modern, chic touch to your half-up styles.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Small"
+    ],
+    "colors": [
+      {
+        "name": "Miltary Green",
+        "hex": "#4F5741",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Sea Blue",
+        "hex": "#689DA1",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Charcoal Grey",
+        "hex": "#5B574E",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#60383E",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DC",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Coco",
+        "hex": "#967F69",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#92725F",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Light Grey",
+        "hex": "#897570",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Dark Grey",
+        "hex": "#413D37",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#2B3C50",
+        "stock": 3,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-01-17T08:30:42.938929Z",
+    "updatedAt": "2026-01-17T08:30:42.938954Z"
+  },
+  {
+    "id": "prod-089",
+    "sku": "RIBB-SNA-089",
+    "title": "Ribbon Snap Claw Clip",
+    "slug": "ribbon-snap-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-40",
+    "price": 20.0,
+    "currency": "INR",
+    "stock": 33,
+    "available": true,
+    "images": [
+      "assets/products/ribbon-snap-claw-clip/ribbon-snap-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Ribbon Snap! Chic, small bow-shaped clips with a soft matte finish for a dainty, modern look.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Small"
+    ],
+    "colors": [
+      {
+        "name": "Black",
+        "hex": "#141517",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F5DC",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#B37F65",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Grey",
+        "hex": "#8A7D75",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Purplish-Grey",
+        "hex": "#9A898A",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Miltary Green",
+        "hex": "#646E53",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#A44F46",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Charcoal Grey",
+        "hex": "#5D6561",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Cocoa",
+        "hex": "#AB9166",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Sea Blue",
+        "hex": "#74969F",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#266787",
+        "stock": 3,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-01-17T08:56:58.365980Z",
+    "updatedAt": "2026-01-17T08:56:58.366003Z"
   }
 ]
