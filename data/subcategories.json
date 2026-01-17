@@ -691,5 +691,14 @@
     "parentCategoryId": "cat-08",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-pin-11",
+    "name": "Daisy Snap Claw Clip",
+    "slug": "daisy-snap-claw-clip",
+    "description": "Glossy Daisy Snaps! Sleek banana-shaped clips with four vibrant flowers and a high-shine finish.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
   }
 ]

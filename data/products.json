@@ -10133,5 +10133,69 @@
     ],
     "createdAt": "2026-01-11T06:59:44.202618Z",
     "updatedAt": "2026-01-11T06:59:44.202634Z"
+  },
+  {
+    "id": "prod-084",
+    "sku": "DAIS-SNA-084",
+    "title": "Daisy Snap Claw Clip",
+    "slug": "daisy-snap-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-11",
+    "price": 100.0,
+    "currency": "INR",
+    "stock": 12,
+    "available": true,
+    "images": [
+      "assets/products/daisy-snap-claw-clip/daisy-snap-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Shiny floral style! This banana clip features a 4-flower print and a polished, glossy glow.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Large"
+    ],
+    "createdAt": "2026-01-17T06:37:21.065188Z",
+    "updatedAt": "2026-01-17T06:41:29.645132Z",
+    "colors": [
+      {
+        "name": "Yellow",
+        "hex": "#FFD700",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#6F947D",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FF69B4",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#A8AAD3",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#B88B68",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#689EBD",
+        "stock": 2,
+        "available": false
+      }
+    ]
   }
 ]
