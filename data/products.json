@@ -8097,7 +8097,7 @@
     "subcategoryId": "subcat-pin-01",
     "price": 100.0,
     "currency": "INR",
-    "stock": 2,
+    "stock": 1,
     "available": true,
     "images": [
       "assets/products/sunflower-claw-clip/sunflower-claw-clip.jpeg"
@@ -8110,12 +8110,12 @@
       {
         "name": "Yellow",
         "hex": "#FFD700",
-        "stock": 2,
+        "stock": 1,
         "available": true
       }
     ],
     "createdAt": "2025-12-31T11:55:38.179966Z",
-    "updatedAt": "2026-01-19T13:53:10.069907Z"
+    "updatedAt": "2026-01-19T15:33:30.986649Z"
   },
   {
     "id": "prod-060",
