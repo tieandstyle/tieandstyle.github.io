@@ -10667,5 +10667,118 @@
     ],
     "createdAt": "2026-01-17T08:56:58.365980Z",
     "updatedAt": "2026-01-17T08:56:58.366003Z"
+  },
+  {
+    "id": "prod-090",
+    "sku": "ORCH-FLO-090",
+    "title": "Orchid Flower Clip",
+    "slug": "orchid-flower-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-12",
+    "price": 40.0,
+    "currency": "INR",
+    "stock": 12,
+    "available": true,
+    "images": [
+      "assets/products/orchid-flower-clip/orchid-flower-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Orchid Clip! A realistic, life-like flower clip that adds a tropical, elegant bloom to your hair.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Red",
+        "hex": "#713232",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "dark Pink",
+        "hex": "#C25184",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Light Pink",
+        "hex": "#D99BAB",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#E2CAC5",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#BBC69F",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#82ABC4",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Royal Blue",
+        "hex": "#333244",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Orange",
+        "hex": "#ECCB8E",
+        "stock": 1,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-01-19T06:53:09.673431Z",
+    "updatedAt": "2026-01-19T06:53:09.673457Z"
+  },
+  {
+    "id": "prod-091",
+    "sku": "MINI-KIT-091",
+    "title": "Mini Kitty Claw Clip",
+    "slug": "mini-kitty-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-13",
+    "price": 70.0,
+    "currency": "INR",
+    "stock": 12,
+    "available": true,
+    "images": [
+      "assets/products/mini-kitty-claw-clip/mini-kitty-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Double the cute! A card of two Mini Kitty clips. The perfect adorable duo for your hair.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Small"
+    ],
+    "colors": [
+      {
+        "name": "Blue Bow Kitty",
+        "hex": "#9CEBED",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Red Bow Kitty",
+        "hex": "#E14747",
+        "stock": 6,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-01-19T06:58:10.368549Z",
+    "updatedAt": "2026-01-19T06:58:10.368575Z"
   }
 ]

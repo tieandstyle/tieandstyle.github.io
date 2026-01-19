@@ -745,5 +745,23 @@
     "parentCategoryId": "cat-07",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-pin-12",
+    "name": "Orchid Flower Clip",
+    "slug": "orchid-flower-clip",
+    "description": "Realistic beauty! This orchid-shaped claw clip looks just like a fresh flower in your hair.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-13",
+    "name": "Mini Kitty Claw Clip",
+    "slug": "mini-kitty-claw-clip",
+    "description": "Mini Kitty clips! Two cute, kitty-shaped claws on one card for a sweet, playful look.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
   }
 ]
