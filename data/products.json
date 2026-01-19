@@ -8016,7 +8016,7 @@
     "subcategoryId": "subcat-kor-33",
     "price": 70.0,
     "currency": "INR",
-    "stock": 3,
+    "stock": 1,
     "available": true,
     "images": [
       "assets/products/daisy-cards/daisy-cards.jpeg"
@@ -8027,18 +8027,6 @@
     "tags": [],
     "colors": [
       {
-        "name": "Orange",
-        "hex": "#FFA500",
-        "stock": 1,
-        "available": true
-      },
-      {
-        "name": "Pink",
-        "hex": "#C48D95",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "Beige",
         "hex": "#E6E6D6",
         "stock": 1,
@@ -8046,7 +8034,7 @@
       }
     ],
     "createdAt": "2025-12-31T10:35:01.546988Z",
-    "updatedAt": "2025-12-31T10:35:01.547020Z"
+    "updatedAt": "2026-01-19T07:15:16.631404Z"
   },
   {
     "id": "prod-055",
