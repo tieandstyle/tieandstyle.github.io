@@ -5807,7 +5807,7 @@
     "subcategoryId": "subcat-kor-02",
     "price": 30.0,
     "currency": "INR",
-    "stock": 160,
+    "stock": 158,
     "available": true,
     "images": [
       "assets/products/medium-daisy-claw-clip/medium-daisy-claw-clip.jpeg"
@@ -5844,7 +5844,7 @@
       {
         "name": "Dark Pink",
         "hex": "#D96F86",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -5856,7 +5856,7 @@
       {
         "name": "Red",
         "hex": "#BF4551",
-        "stock": 14,
+        "stock": 13,
         "available": true
       },
       {
@@ -5885,7 +5885,7 @@
       }
     ],
     "createdAt": "2025-12-29T08:46:44.112297Z",
-    "updatedAt": "2026-01-19T12:54:49.906095Z"
+    "updatedAt": "2026-01-20T08:13:34.140456Z"
   },
   {
     "id": "prod-023",
@@ -5898,7 +5898,7 @@
     "subcategoryId": "subcat-kor-03",
     "price": 40.0,
     "currency": "INR",
-    "stock": 150,
+    "stock": 148,
     "available": true,
     "images": [
       "assets/products/large-daisy-claw-clip/large-daisy-claw-clip.jpeg"
@@ -5933,12 +5933,6 @@
         "available": true
       },
       {
-        "name": "Dark Pink",
-        "hex": "#ED0799",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "Orange",
         "hex": "#D66F15",
         "stock": 23,
@@ -5953,7 +5947,7 @@
       {
         "name": "Blue",
         "hex": "#3EABB3",
-        "stock": 21,
+        "stock": 20,
         "available": true
       },
       {
@@ -5982,7 +5976,7 @@
       }
     ],
     "createdAt": "2025-12-29T10:07:48.098742Z",
-    "updatedAt": "2026-01-19T13:43:42.378512Z"
+    "updatedAt": "2026-01-20T08:12:12.254664Z"
   },
   {
     "id": "prod-024",
@@ -6092,7 +6086,7 @@
     "subcategoryId": "subcat-kor-05",
     "price": 20.0,
     "currency": "INR",
-    "stock": 6,
+    "stock": 5,
     "available": true,
     "images": [
       "assets/products/orchid-shell-claw-clip/orchid-shell-claw-clip.jpeg"
@@ -6107,16 +6101,10 @@
         "hex": "#BFB33C",
         "stock": 5,
         "available": true
-      },
-      {
-        "name": "Purple",
-        "hex": "#251327",
-        "stock": 1,
-        "available": true
       }
     ],
     "createdAt": "2025-12-29T11:00:34.862905Z",
-    "updatedAt": "2026-01-19T13:41:05.172978Z"
+    "updatedAt": "2026-01-20T08:14:18.780674Z"
   },
   {
     "id": "prod-026",
@@ -6366,7 +6354,7 @@
     "subcategoryId": "subcat-kor-09",
     "price": 30.0,
     "currency": "INR",
-    "stock": 14,
+    "stock": 13,
     "available": true,
     "images": [
       "assets/products/vanessa-butterfly-wings/vanessa-butterfly-wings.jpeg"
@@ -6391,7 +6379,7 @@
       {
         "name": "Red",
         "hex": "#AC2A2A",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -6414,7 +6402,7 @@
       }
     ],
     "createdAt": "2025-12-30T08:48:40.827332Z",
-    "updatedAt": "2026-01-19T13:41:59.089232Z"
+    "updatedAt": "2026-01-20T08:14:59.727944Z"
   },
   {
     "id": "prod-030",
@@ -6574,7 +6562,7 @@
     "subcategoryId": "subcat-kor-13",
     "price": 30.0,
     "currency": "INR",
-    "stock": 7,
+    "stock": 6,
     "available": true,
     "images": [
       "assets/products/flora-claw-clip/flora-claw-clip.jpeg"
@@ -6605,12 +6593,6 @@
         "available": true
       },
       {
-        "name": "Blue",
-        "hex": "#418F9C",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "Pink",
         "hex": "#D982AD",
         "stock": 2,
@@ -6618,7 +6600,7 @@
       }
     ],
     "createdAt": "2025-12-30T10:30:09.228025Z",
-    "updatedAt": "2026-01-19T13:31:20.394722Z"
+    "updatedAt": "2026-01-20T08:15:57.028338Z"
   },
   {
     "id": "prod-034",
@@ -7512,10 +7494,10 @@
     "categoryIds": [
       "cat-07"
     ],
-    "subcategoryId": "subcat-kor-26",
+    "subcategoryId": "subcat-kor-17",
     "price": 40.0,
     "currency": "INR",
-    "stock": 65,
+    "stock": 63,
     "available": true,
     "images": [
       "assets/products/twinnie-claw-clip/twinnie-claw-clip.jpeg"
@@ -7528,7 +7510,7 @@
       {
         "name": "Light Orange",
         "hex": "#EED1BE",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -7576,12 +7558,12 @@
       {
         "name": "Purple",
         "hex": "#4E3693",
-        "stock": 3,
+        "stock": 2,
         "available": true
       }
     ],
     "createdAt": "2025-12-31T08:04:15.538122Z",
-    "updatedAt": "2025-12-31T08:04:15.538159Z"
+    "updatedAt": "2026-01-20T08:17:08.207702Z"
   },
   {
     "id": "prod-048",
@@ -7974,7 +7956,7 @@
     "subcategoryId": "subcat-kor-35",
     "price": 25.0,
     "currency": "INR",
-    "stock": 22,
+    "stock": 21,
     "available": true,
     "images": [
       "assets/products/lilly-claw-clip/lilly-claw-clip.jpeg"
@@ -8011,7 +7993,7 @@
       {
         "name": "Green",
         "hex": "#C2F3BE",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -8022,7 +8004,7 @@
       }
     ],
     "createdAt": "2025-12-31T11:12:45.333456Z",
-    "updatedAt": "2026-01-19T13:00:46.130189Z"
+    "updatedAt": "2026-01-20T08:18:01.556045Z"
   },
   {
     "id": "prod-057",
@@ -9932,7 +9914,7 @@
     "subcategoryId": "subcat-pin-10",
     "price": 90.0,
     "currency": "INR",
-    "stock": 9,
+    "stock": 8,
     "available": true,
     "images": [
       "assets/products/strawberry-daisy-cards/strawberry-daisy-cards.jpeg"
@@ -9957,7 +9939,7 @@
       {
         "name": "Dark Pink",
         "hex": "#FF1493",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -9980,7 +9962,7 @@
       }
     ],
     "createdAt": "2026-01-11T06:59:44.202618Z",
-    "updatedAt": "2026-01-19T13:55:55.312411Z"
+    "updatedAt": "2026-01-20T08:19:03.672082Z"
   },
   {
     "id": "prod-084",
@@ -10521,7 +10503,7 @@
     "subcategoryId": "subcat-pin-12",
     "price": 40.0,
     "currency": "INR",
-    "stock": 11,
+    "stock": 10,
     "available": true,
     "images": [
       "assets/products/orchid-flower-clip/orchid-flower-clip.jpeg"
@@ -10534,12 +10516,6 @@
       {
         "name": "Red",
         "hex": "#713232",
-        "stock": 1,
-        "available": true
-      },
-      {
-        "name": "dark Pink",
-        "hex": "#C25184",
         "stock": 1,
         "available": true
       },
@@ -10581,7 +10557,7 @@
       }
     ],
     "createdAt": "2026-01-19T06:53:09.673431Z",
-    "updatedAt": "2026-01-19T12:58:38.404334Z"
+    "updatedAt": "2026-01-20T08:20:02.792432Z"
   },
   {
     "id": "prod-091",
