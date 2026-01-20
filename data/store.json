@@ -25,19 +25,14 @@
     "returnsPolicy": "🛍️ Store Policy & Guidelines\r\nPayment: Prepaid orders only. We do not offer Cash on Delivery (COD).\r\n\r\nNo Exchanges: All sales are final. Please double-check your selection before ordering.\r\n\r\nTransit Damage: We pack all orders securely; however, we are not responsible for damage caused by the Post Office during transit.\r\n\r\nMissing Items: Refunds are issued only for missing products caused by our error.\r\n\r\nUnboxing Requirement: To claim a refund for missing items, you must provide a clear, unedited unboxing video.\r\n\r\nThe video must start before the package is opened.\r\n\r\nThe label must be clearly visible.\r\n\r\nThere must be no cuts, edits, or pauses in the video.\r\n\r\nClaim Process: Send your unboxing video to our Instagram Inbox\r\nClaims without a valid video will not be considered.\r\n\r\nSupport: For any other questions, reach us at tieandstyl@gmail.com.",
     "rates": [
       {
-        "state": "Tamil Nadu",
+        "state": "Andaman and Nicobar Islands",
         "region": "South India",
-        "charge_inr": 50.0
+        "charge_inr": 300.0
       },
       {
         "state": "Andhra Pradesh",
         "region": "South India",
         "charge_inr": 200.0
-      },
-      {
-        "state": "Puducherry",
-        "region": "South India",
-        "charge_inr": 80.0
       },
       {
         "state": "Arunachal Pradesh",
@@ -50,14 +45,34 @@
         "charge_inr": 200.0
       },
       {
+        "state": "Banglore",
+        "region": "South India",
+        "charge_inr": 100.0
+      },
+      {
         "state": "Bihar",
         "region": "North India",
         "charge_inr": 200.0
       },
       {
+        "state": "Chandigarh",
+        "region": "North India",
+        "charge_inr": 300.0
+      },
+      {
         "state": "Chhattisgarh",
         "region": "North India",
         "charge_inr": 200.0
+      },
+      {
+        "state": "Dadra and Nagar Haveli and Daman and Diu",
+        "region": "North India",
+        "charge_inr": 300.0
+      },
+      {
+        "state": "Delhi",
+        "region": "North India",
+        "charge_inr": 300.0
       },
       {
         "state": "Goa",
@@ -80,6 +95,11 @@
         "charge_inr": 300.0
       },
       {
+        "state": "Jammu and Kashmir",
+        "region": "North India",
+        "charge_inr": 300.0
+      },
+      {
         "state": "Jharkhand",
         "region": "East India",
         "charge_inr": 300.0
@@ -95,6 +115,16 @@
         "charge_inr": 150.0
       },
       {
+        "state": "Ladakh",
+        "region": "North India",
+        "charge_inr": 300.0
+      },
+      {
+        "state": "Lakshadweep",
+        "region": "South India",
+        "charge_inr": 300.0
+      },
+      {
         "state": "Madhya Pradesh",
         "region": "Central India",
         "charge_inr": 300.0
@@ -105,92 +135,7 @@
         "charge_inr": 300.0
       },
       {
-        "state": "Andaman and Nicobar Islands",
-        "region": "South India",
-        "charge_inr": 300.0
-      },
-      {
-        "state": "Lakshadweep",
-        "region": "South India",
-        "charge_inr": 300.0
-      },
-      {
-        "state": "Ladakh",
-        "region": "North India",
-        "charge_inr": 300.0
-      },
-      {
-        "state": "Jammu and Kashmir",
-        "region": "North India",
-        "charge_inr": 300.0
-      },
-      {
-        "state": "Delhi",
-        "region": "North India",
-        "charge_inr": 300.0
-      },
-      {
-        "state": "Chandigarh",
-        "region": "North India",
-        "charge_inr": 300.0
-      },
-      {
-        "state": "Dadra and Nagar Haveli and Daman and Diu",
-        "region": "North India",
-        "charge_inr": 300.0
-      },
-      {
-        "state": "West Bengal",
-        "region": "East India",
-        "charge_inr": 300.0
-      },
-      {
-        "state": "Uttarakhand",
-        "region": "North India",
-        "charge_inr": 300.0
-      },
-      {
-        "state": "Uttar Pradesh",
-        "region": "North India",
-        "charge_inr": 300.0
-      },
-      {
-        "state": "Tripura",
-        "region": "South India",
-        "charge_inr": 200.0
-      },
-      {
-        "state": "Telangana",
-        "region": "South India",
-        "charge_inr": 200.0
-      },
-      {
-        "state": "Sikkim",
-        "region": "North India",
-        "charge_inr": 300.0
-      },
-      {
-        "state": "Rajasthan",
-        "region": "North India",
-        "charge_inr": 300.0
-      },
-      {
-        "state": "Punjab",
-        "region": "North India",
-        "charge_inr": 300.0
-      },
-      {
-        "state": "Odisha",
-        "region": "Central India",
-        "charge_inr": 300.0
-      },
-      {
-        "state": "Nagaland",
-        "region": "North India",
-        "charge_inr": 300.0
-      },
-      {
-        "state": "Mizoram",
+        "state": "Manipur",
         "region": "North India",
         "charge_inr": 300.0
       },
@@ -200,8 +145,68 @@
         "charge_inr": 300.0
       },
       {
-        "state": "Manipur",
+        "state": "Mizoram",
         "region": "North India",
+        "charge_inr": 300.0
+      },
+      {
+        "state": "Nagaland",
+        "region": "North India",
+        "charge_inr": 300.0
+      },
+      {
+        "state": "Odisha",
+        "region": "Central India",
+        "charge_inr": 300.0
+      },
+      {
+        "state": "Puducherry",
+        "region": "South India",
+        "charge_inr": 80.0
+      },
+      {
+        "state": "Punjab",
+        "region": "North India",
+        "charge_inr": 300.0
+      },
+      {
+        "state": "Rajasthan",
+        "region": "North India",
+        "charge_inr": 300.0
+      },
+      {
+        "state": "Sikkim",
+        "region": "North India",
+        "charge_inr": 300.0
+      },
+      {
+        "state": "Tamil Nadu",
+        "region": "South India",
+        "charge_inr": 50.0
+      },
+      {
+        "state": "Telangana",
+        "region": "South India",
+        "charge_inr": 200.0
+      },
+      {
+        "state": "Tripura",
+        "region": "South India",
+        "charge_inr": 200.0
+      },
+      {
+        "state": "Uttar Pradesh",
+        "region": "North India",
+        "charge_inr": 300.0
+      },
+      {
+        "state": "Uttarakhand",
+        "region": "North India",
+        "charge_inr": 300.0
+      },
+      {
+        "state": "West Bengal",
+        "region": "East India",
         "charge_inr": 300.0
       }
     ]
