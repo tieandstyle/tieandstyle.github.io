@@ -22,14 +22,30 @@ async function loadStoreConfig() {
   }
 }
 
-// Load all products to count per category
+// Load all products - Try Firestore first, fallback to JSON
 async function loadProducts() {
   try {
-    const response = await fetch('data/products.json', { cache: 'no-cache' });
-    allProducts = await response.json();
-  } catch (error) {
-    console.error('Error loading products:', error);
-    allProducts = [];
+    // Try Firestore first
+    const { getProducts } = await import('./firebase-config.js');
+    const result = await getProducts(500);
+    
+    if (result.success && result.products.length > 0) {
+      allProducts = result.products;
+      console.log('✅ Products loaded from Firestore:', allProducts.length);
+      return;
+    }
+    throw new Error('Firestore empty or failed');
+  } catch (firestoreError) {
+    console.log('⚠️ Firestore unavailable, falling back to JSON:', firestoreError.message);
+    // Fallback to JSON
+    try {
+      const response = await fetch('data/products.json', { cache: 'no-cache' });
+      allProducts = await response.json();
+      console.log('✅ Products loaded from JSON fallback:', allProducts.length);
+    } catch (jsonError) {
+      console.error('Error loading products from JSON:', jsonError);
+      allProducts = [];
+    }
   }
 }
 
@@ -40,15 +56,32 @@ function countProductsInCategory(categoryId) {
   ).length;
 }
 
-// Load all categories
+// Load all categories - Try Firestore first, fallback to JSON
 async function loadCategories() {
   try {
     // Load products first to count them
     await loadProducts();
     
-    // Load categories
-    const response = await fetch('data/categories.json', { cache: 'no-cache' });
-    const categoriesData = await response.json();
+    let categoriesData = [];
+    
+    // Try Firestore first
+    try {
+      const { getCategories } = await import('./firebase-config.js');
+      const result = await getCategories();
+      
+      if (result.success && result.categories.length > 0) {
+        categoriesData = result.categories;
+        console.log('✅ Categories loaded from Firestore:', categoriesData.length);
+      } else {
+        throw new Error('Firestore empty or failed');
+      }
+    } catch (firestoreError) {
+      console.log('⚠️ Firestore unavailable for categories, falling back to JSON:', firestoreError.message);
+      // Fallback to JSON
+      const response = await fetch('data/categories.json', { cache: 'no-cache' });
+      categoriesData = await response.json();
+      console.log('✅ Categories loaded from JSON fallback:', categoriesData.length);
+    }
     
     allCategories = categoriesData
       .filter(cat => cat.active)
@@ -69,6 +102,7 @@ async function loadCategories() {
     showError('Failed to load categories. Please refresh the page.');
   }
 }
+
 
 // Render categories
 function renderCategories() {

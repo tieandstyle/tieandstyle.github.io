@@ -182,12 +182,35 @@
 
   async function loadCategories() {
     try {
-      const response = await fetch('data/categories.json', { cache: 'no-cache' });
-      categories = await response.json();
-      
-      // Load subcategories
-      const subcatResponse = await fetch('data/subcategories.json', { cache: 'no-cache' });
-      subcategories = await subcatResponse.json();
+      // Try Firestore first
+      try {
+        const { getCategories, getSubcategories } = await import('./firebase-config.js');
+        const [catResult, subcatResult] = await Promise.all([
+          getCategories(),
+          getSubcategories()
+        ]);
+        
+        if (catResult.success && catResult.categories.length > 0) {
+          categories = catResult.categories;
+          console.log('✅ Categories loaded from Firestore:', categories.length);
+        } else {
+          throw new Error('Firestore categories empty');
+        }
+        
+        if (subcatResult.success) {
+          subcategories = subcatResult.subcategories;
+          console.log('✅ Subcategories loaded from Firestore:', subcategories.length);
+        }
+      } catch (firestoreError) {
+        console.log('⚠️ Firestore unavailable, falling back to JSON:', firestoreError.message);
+        // Fallback to JSON
+        const response = await fetch('data/categories.json', { cache: 'no-cache' });
+        categories = await response.json();
+        
+        const subcatResponse = await fetch('data/subcategories.json', { cache: 'no-cache' });
+        subcategories = await subcatResponse.json();
+        console.log('✅ Categories loaded from JSON fallback');
+      }
       
       // Get category from URL
       const params = new URLSearchParams(window.location.search);
@@ -389,9 +412,26 @@
 
   async function loadProducts() {
     try {
-      const response = await fetch('data/products.json', { cache: 'no-cache' });
-      products = await response.json();
-      renderProducts();
+      // Try Firestore first
+      try {
+        const { getProducts } = await import('./firebase-config.js');
+        const result = await getProducts(500);
+        
+        if (result.success && result.products.length > 0) {
+          products = result.products;
+          console.log('✅ Products loaded from Firestore:', products.length);
+          renderProducts();
+          return;
+        }
+        throw new Error('Firestore products empty');
+      } catch (firestoreError) {
+        console.log('⚠️ Firestore unavailable, falling back to JSON:', firestoreError.message);
+        // Fallback to JSON
+        const response = await fetch('data/products.json', { cache: 'no-cache' });
+        products = await response.json();
+        console.log('✅ Products loaded from JSON fallback:', products.length);
+        renderProducts();
+      }
     } catch (error) {
       console.error('Error loading products:', error);
     }

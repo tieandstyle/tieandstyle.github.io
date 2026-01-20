@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Migrate to Firestore - Tie Style Admin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .gradient-bg {
+        background: linear-gradient(
+          135deg,
+          #1a1a2e 0%,
+          #16213e 50%,
+          #0f3460 100%
+        );
+      }
+      .card {
+        background: rgba(255, 255, 255, 0.05);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+      }
+      .log-entry {
+        font-family: "Courier New", monospace;
+        font-size: 0.875rem;
+      }
+    </style>
+  </head>
+  <body class="gradient-bg min-h-screen text-white">
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+      <!-- Header -->
+      <div class="text-center mb-8">
+        <h1 class="text-3xl font-bold mb-2">🔥 Firestore Data Migration</h1>
+        <p class="text-gray-400">Migrate JSON data to Firebase Firestore</p>
+      </div>
+
+      <!-- Login Section -->
+      <div id="loginSection" class="card rounded-2xl p-8 mb-6">
+        <h2 class="text-xl font-semibold mb-4">Admin Login Required</h2>
+        <form id="loginForm" class="space-y-4">
+          <div>
+            <label class="block text-sm text-gray-400 mb-1">Email</label>
+            <input
+              type="email"
+              id="email"
+              required
+              class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:border-pink-500"
+              placeholder="admin@tiestyle.com"
+            />
+          </div>
+          <div>
+            <label class="block text-sm text-gray-400 mb-1">Password</label>
+            <input
+              type="password"
+              id="password"
+              required
+              class="w-full px-4 py-3 bg-white/10 border border-white/20 rounded-lg focus:outline-none focus:border-pink-500"
+              placeholder="••••••••"
+            />
+          </div>
+          <button
+            type="submit"
+            class="w-full py-3 bg-gradient-to-r from-pink-500 to-purple-600 rounded-lg font-semibold hover:opacity-90 transition"
+          >
+            🔐 Login
+          </button>
+        </form>
+        <p id="loginError" class="text-red-400 text-sm mt-3 hidden"></p>
+      </div>
+
+      <!-- Migration Section (Hidden until login) -->
+      <div id="migrationSection" class="hidden">
+        <!-- Status Cards -->
+        <div class="grid grid-cols-5 gap-3 mb-6">
+          <div class="card rounded-xl p-3 text-center">
+            <div id="categoriesCount" class="text-xl font-bold text-pink-400">-</div>
+            <div class="text-xs text-gray-400">Categories</div>
+          </div>
+          <div class="card rounded-xl p-3 text-center">
+            <div id="subcategoriesCount" class="text-xl font-bold text-purple-400">-</div>
+            <div class="text-xs text-gray-400">Subcategories</div>
+          </div>
+          <div class="card rounded-xl p-3 text-center">
+            <div id="productsCount" class="text-xl font-bold text-blue-400">-</div>
+            <div class="text-xs text-gray-400">Products</div>
+          </div>
+          <div class="card rounded-xl p-3 text-center">
+            <div id="storeCount" class="text-xl font-bold text-green-400">1</div>
+            <div class="text-xs text-gray-400">Store</div>
+          </div>
+          <div class="card rounded-xl p-3 text-center">
+            <div id="newsCount" class="text-xl font-bold text-yellow-400">-</div>
+            <div class="text-xs text-gray-400">News</div>
+          </div>
+        </div>
+
+        <!-- Migration Controls -->
+        <div class="card rounded-2xl p-6 mb-6">
+          <h3 class="text-lg font-semibold mb-4">Migration Options</h3>
+          <div class="grid grid-cols-2 gap-3 mb-6">
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" id="migrateCategories" checked class="w-5 h-5 accent-pink-500" />
+              <span>Categories</span>
+            </label>
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" id="migrateSubcategories" checked class="w-5 h-5 accent-pink-500" />
+              <span>Subcategories</span>
+            </label>
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" id="migrateProducts" checked class="w-5 h-5 accent-pink-500" />
+              <span>Products</span>
+            </label>
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" id="migrateStore" checked class="w-5 h-5 accent-pink-500" />
+              <span>Store Config</span>
+            </label>
+            <label class="flex items-center gap-3 cursor-pointer">
+              <input type="checkbox" id="migrateNews" checked class="w-5 h-5 accent-pink-500" />
+              <span>News/Promos</span>
+            </label>
+          </div>
+          <div class="flex gap-3">
+            <button
+              id="startMigration"
+              class="flex-1 py-3 bg-gradient-to-r from-green-500 to-emerald-600 rounded-lg font-semibold hover:opacity-90 transition"
+            >
+              🚀 Start Migration
+            </button>
+            <button
+              id="clearData"
+              class="px-6 py-3 bg-red-500/20 border border-red-500/50 rounded-lg font-semibold hover:bg-red-500/30 transition"
+            >
+              🗑️ Clear Firestore
+            </button>
+          </div>
+        </div>
+
+        <!-- Progress -->
+        <div id="progressSection" class="card rounded-2xl p-6 mb-6 hidden">
+          <h3 class="text-lg font-semibold mb-4">Migration Progress</h3>
+          <div class="space-y-3">
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span>Categories</span>
+                <span id="categoriesProgress">0%</span>
+              </div>
+              <div class="h-2 bg-white/10 rounded-full overflow-hidden">
+                <div id="categoriesBar" class="h-full bg-pink-500 rounded-full transition-all duration-300" style="width: 0%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span>Subcategories</span>
+                <span id="subcategoriesProgress">0%</span>
+              </div>
+              <div class="h-2 bg-white/10 rounded-full overflow-hidden">
+                <div id="subcategoriesBar" class="h-full bg-purple-500 rounded-full transition-all duration-300" style="width: 0%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span>Products</span>
+                <span id="productsProgress">0%</span>
+              </div>
+              <div class="h-2 bg-white/10 rounded-full overflow-hidden">
+                <div id="productsBar" class="h-full bg-blue-500 rounded-full transition-all duration-300" style="width: 0%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span>Store Config</span>
+                <span id="storeProgress">0%</span>
+              </div>
+              <div class="h-2 bg-white/10 rounded-full overflow-hidden">
+                <div id="storeBar" class="h-full bg-green-500 rounded-full transition-all duration-300" style="width: 0%"></div>
+              </div>
+            </div>
+            <div>
+              <div class="flex justify-between text-sm mb-1">
+                <span>News</span>
+                <span id="newsProgress">0%</span>
+              </div>
+              <div class="h-2 bg-white/10 rounded-full overflow-hidden">
+                <div id="newsBar" class="h-full bg-yellow-500 rounded-full transition-all duration-300" style="width: 0%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Log Output -->
+        <div class="card rounded-2xl p-6">
+          <h3 class="text-lg font-semibold mb-4">Migration Log</h3>
+          <div
+            id="logOutput"
+            class="h-64 overflow-y-auto bg-black/50 rounded-lg p-4 space-y-1"
+          >
+            <p class="text-gray-500 log-entry">Ready to migrate...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module">
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
+      import {
+        getFirestore,
+        collection,
+        doc,
+        setDoc,
+        getDocs,
+        deleteDoc,
+        writeBatch,
+      } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+      import {
+        getAuth,
+        signInWithEmailAndPassword,
+        onAuthStateChanged,
+      } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js";
+
+      const firebaseConfig = {
+        apiKey: "AIzaSyD4cnjl2FLfn9bMc3Y5ivRovebkOv_6y8I",
+        authDomain: "tie-and-style.firebaseapp.com",
+        projectId: "tie-and-style",
+        storageBucket: "tie-and-style.firebasestorage.app",
+        messagingSenderId: "758894353565",
+        appId: "1:758894353565:web:bd9d8ca1758478a2710874",
+      };
+
+      const app = initializeApp(firebaseConfig);
+      const db = getFirestore(app);
+      const auth = getAuth(app);
+
+      // DOM Elements
+      const loginSection = document.getElementById("loginSection");
+      const migrationSection = document.getElementById("migrationSection");
+      const loginForm = document.getElementById("loginForm");
+      const loginError = document.getElementById("loginError");
+      const logOutput = document.getElementById("logOutput");
+      const progressSection = document.getElementById("progressSection");
+
+      // Logging function
+      function log(message, type = "info") {
+        const colors = {
+          info: "text-gray-300",
+          success: "text-green-400",
+          error: "text-red-400",
+          warning: "text-yellow-400",
+        };
+        const time = new Date().toLocaleTimeString();
+        const entry = document.createElement("p");
+        entry.className = `log-entry ${colors[type]}`;
+        entry.textContent = `[${time}] ${message}`;
+        logOutput.appendChild(entry);
+        logOutput.scrollTop = logOutput.scrollHeight;
+      }
+
+      // Update progress bar
+      function updateProgress(type, current, total) {
+        const percent = Math.round((current / total) * 100);
+        document.getElementById(`${type}Progress`).textContent = `${percent}%`;
+        document.getElementById(`${type}Bar`).style.width = `${percent}%`;
+      }
+
+      // Auth state listener
+      onAuthStateChanged(auth, (user) => {
+        if (user) {
+          loginSection.classList.add("hidden");
+          migrationSection.classList.remove("hidden");
+          log("Logged in as " + user.email, "success");
+          loadDataCounts();
+        }
+      });
+
+      // Login form handler
+      loginForm.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const email = document.getElementById("email").value;
+        const password = document.getElementById("password").value;
+
+        try {
+          await signInWithEmailAndPassword(auth, email, password);
+        } catch (error) {
+          loginError.textContent = "Login failed: " + error.message;
+          loginError.classList.remove("hidden");
+        }
+      });
+
+      // Load JSON data counts
+      async function loadDataCounts() {
+        try {
+          const [categories, subcategories, products, store, news] = await Promise.all([
+            fetch("data/categories.json").then((r) => r.json()),
+            fetch("data/subcategories.json").then((r) => r.json()),
+            fetch("data/products.json").then((r) => r.json()),
+            fetch("data/store.json").then((r) => r.json()),
+            fetch("data/news.json").then((r) => r.json()),
+          ]);
+
+          document.getElementById("categoriesCount").textContent = categories.length;
+          document.getElementById("subcategoriesCount").textContent = subcategories.length;
+          document.getElementById("productsCount").textContent = products.length;
+          document.getElementById("storeCount").textContent = "1";
+          document.getElementById("newsCount").textContent = news.length;
+
+          log(`Found ${categories.length} categories, ${subcategories.length} subcategories, ${products.length} products, 1 store, ${news.length} news`);
+        } catch (error) {
+          log("Error loading JSON data: " + error.message, "error");
+        }
+      }
+
+      // Start migration
+      document.getElementById("startMigration").addEventListener("click", async () => {
+        const migrateCategories = document.getElementById("migrateCategories").checked;
+        const migrateSubcategories = document.getElementById("migrateSubcategories").checked;
+        const migrateProducts = document.getElementById("migrateProducts").checked;
+        const migrateStore = document.getElementById("migrateStore").checked;
+        const migrateNews = document.getElementById("migrateNews").checked;
+
+        progressSection.classList.remove("hidden");
+        log("Starting migration...", "info");
+
+        try {
+          // Load all data
+          const [categories, subcategories, products, store, news] = await Promise.all([
+            fetch("data/categories.json").then((r) => r.json()),
+            fetch("data/subcategories.json").then((r) => r.json()),
+            fetch("data/products.json").then((r) => r.json()),
+            fetch("data/store.json").then((r) => r.json()),
+            fetch("data/news.json").then((r) => r.json()),
+          ]);
+
+          // Migrate categories
+          if (migrateCategories) {
+            log("Migrating categories...", "info");
+            for (let i = 0; i < categories.length; i++) {
+              const cat = categories[i];
+              await setDoc(doc(db, "categories", cat.id), {
+                ...cat,
+                migratedAt: new Date().toISOString(),
+              });
+              updateProgress("categories", i + 1, categories.length);
+            }
+            log(`✅ Migrated ${categories.length} categories`, "success");
+          }
+
+          // Migrate subcategories
+          if (migrateSubcategories) {
+            log("Migrating subcategories...", "info");
+            for (let i = 0; i < subcategories.length; i++) {
+              const sub = subcategories[i];
+              await setDoc(doc(db, "subcategories", sub.id), {
+                ...sub,
+                migratedAt: new Date().toISOString(),
+              });
+              updateProgress("subcategories", i + 1, subcategories.length);
+            }
+            log(`✅ Migrated ${subcategories.length} subcategories`, "success");
+          }
+
+          // Migrate products (in batches for better performance)
+          if (migrateProducts) {
+            log("Migrating products (this may take a while)...", "info");
+            const batchSize = 10;
+            for (let i = 0; i < products.length; i += batchSize) {
+              const batch = writeBatch(db);
+              const chunk = products.slice(i, i + batchSize);
+
+              for (const prod of chunk) {
+                const prodRef = doc(db, "products", prod.id);
+                batch.set(prodRef, {
+                  ...prod,
+                  migratedAt: new Date().toISOString(),
+                });
+              }
+
+              await batch.commit();
+              updateProgress("products", Math.min(i + batchSize, products.length), products.length);
+
+              if ((i + batchSize) % 50 === 0) {
+                log(`Migrated ${Math.min(i + batchSize, products.length)}/${products.length} products...`, "info");
+              }
+            }
+            log(`✅ Migrated ${products.length} products`, "success");
+          }
+
+          // Migrate store config
+          if (migrateStore) {
+            log("Migrating store config...", "info");
+            await setDoc(doc(db, "store", "config"), {
+              ...store,
+              migratedAt: new Date().toISOString(),
+            });
+            updateProgress("store", 1, 1);
+            log("✅ Migrated store config", "success");
+          }
+
+          // Migrate news
+          if (migrateNews) {
+            log("Migrating news...", "info");
+            for (let i = 0; i < news.length; i++) {
+              const newsItem = news[i];
+              const newsId = newsItem.id || `news-${i + 1}`;
+              await setDoc(doc(db, "news", newsId), {
+                ...newsItem,
+                id: newsId,
+                migratedAt: new Date().toISOString(),
+              });
+              updateProgress("news", i + 1, news.length);
+            }
+            log(`✅ Migrated ${news.length} news items`, "success");
+          }
+
+          log("🎉 Migration completed successfully!", "success");
+        } catch (error) {
+          log("❌ Migration error: " + error.message, "error");
+          console.error(error);
+        }
+      });
+
+      // Clear Firestore data
+      document.getElementById("clearData").addEventListener("click", async () => {
+        if (!confirm("Are you sure you want to delete ALL data from Firestore? This cannot be undone!")) {
+          return;
+        }
+
+        log("Clearing Firestore data...", "warning");
+
+        try {
+          const collections = ["categories", "subcategories", "products", "store", "news"];
+
+          for (const collName of collections) {
+            const snapshot = await getDocs(collection(db, collName));
+            if (snapshot.size > 0) {
+              const batch = writeBatch(db);
+              snapshot.docs.forEach((docSnap) => {
+                batch.delete(docSnap.ref);
+              });
+              await batch.commit();
+              log(`Cleared ${snapshot.size} documents from ${collName}`, "warning");
+            } else {
+              log(`No documents in ${collName}`, "info");
+            }
+          }
+
+          log("✅ Firestore data cleared", "success");
+        } catch (error) {
+          log("❌ Clear error: " + error.message, "error");
+        }
+      });
+    </script>
+  </body>
+</html>
+

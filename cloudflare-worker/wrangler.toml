@@ -1,0 +1,9 @@
+name = "tiestyle-razorpay"
+main = "razorpay-worker.js"
+compatibility_date = "2024-01-01"
+
+# Environment variables (set these via Cloudflare dashboard or wrangler secret)
+# [vars]
+# RAZORPAY_KEY_ID = "rzp_test_S5qa8WW8j8ezxU"
+
+# For secrets, use: wrangler secret put RAZORPAY_KEY_SECRET

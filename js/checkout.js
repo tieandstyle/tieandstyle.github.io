@@ -3,6 +3,11 @@
   const PROFILE_KEY = 'whshop_profile_v1';
   let store = null;
 
+  // Razorpay Configuration - loaded from store config
+  // These will be populated from Firestore store/config
+  let RAZORPAY_KEY_ID = '';
+  let RAZORPAY_WORKER_URL = '';
+
   function money(n) {
     return `₹${n.toFixed(2)}`;
   }
@@ -376,6 +381,18 @@
       const result = await saveOrderToFirebase(orderData);
       
       if (result.success) {
+        // Reduce stock for ordered items
+        try {
+          const { reduceProductStock } = await import('./firebase-config.js');
+          const stockResult = await reduceProductStock(cart);
+          if (!stockResult.success) {
+            console.warn('Some stock reductions failed:', stockResult.errors);
+          }
+        } catch (stockError) {
+          console.error('Error reducing stock:', stockError);
+          // Continue with order - stock reduction failure shouldn't block order
+        }
+        
         // Save order to local history as backup
         saveOrderHistory(orderId, cart, totals, formData);
         
@@ -391,7 +408,18 @@
       }
     } catch (error) {
       console.error('Error placing order:', error);
-      alert('❌ Error placing order. Please try again or contact support.');
+      console.error('Error details:', error.code, error.message);
+      
+      let errorMsg = '❌ Error placing order. ';
+      if (error.message.includes('permission') || error.message.includes('PERMISSION')) {
+        errorMsg += 'Firestore permissions issue. Check security rules.';
+      } else if (error.message.includes('network')) {
+        errorMsg += 'Network error. Check your internet connection.';
+      } else {
+        errorMsg += error.message || 'Please try again or contact support.';
+      }
+      
+      alert(errorMsg);
       
       placeOrderBtn.disabled = false;
       placeOrderBtn.textContent = '🛒 Place Order';
@@ -584,27 +612,216 @@
 
   async function loadStore() {
     try {
+      // Load basic store info from static JSON
       const response = await fetch('data/store.json', { cache: 'no-cache' });
       store = await response.json();
       
       document.getElementById('storeName').textContent = store.name;
       document.getElementById('footerStoreName').textContent = store.name;
       
-      if (store.payments?.gpayUpiId) {
-        document.getElementById('upiId').textContent = store.payments.gpayUpiId;
+      // Also load from Firestore for Razorpay config (admin saves there)
+      try {
+        const { getStoreConfig } = await import('./firebase-config.js');
+        const firestoreResult = await getStoreConfig();
+        if (firestoreResult.success && firestoreResult.store) {
+          const firestoreStore = firestoreResult.store;
+          
+          // Merge Firestore config into store
+          if (firestoreStore.razorpay?.keyId) {
+            RAZORPAY_KEY_ID = firestoreStore.razorpay.keyId;
+          }
+          if (firestoreStore.razorpay?.workerUrl) {
+            RAZORPAY_WORKER_URL = firestoreStore.razorpay.workerUrl;
+          }
+          
+          // Also merge delivery rates from Firestore
+          if (firestoreStore.delivery?.rates) {
+            store.delivery = store.delivery || {};
+            store.delivery.rates = firestoreStore.delivery.rates;
+          }
+        }
+      } catch (e) {
+        console.warn('Firestore config not available, using static config');
       }
       
-      if (store.payments?.gpayQrImage) {
-        document.getElementById('qrContainer').innerHTML = `
-          <img src="${store.payments.gpayQrImage}" alt="UPI QR Code" class="w-48 h-48 mx-auto rounded-lg border-2 border-primary"/>
-          <p class="text-xs text-center mt-2 text-subtle-light dark:text-subtle-dark">Scan to pay</p>
-        `;
+      // Show/hide Razorpay button based on config
+      const razorpayBtn = document.getElementById('razorpayBtn');
+      if (razorpayBtn) {
+        if (RAZORPAY_KEY_ID && RAZORPAY_WORKER_URL) {
+          razorpayBtn.style.display = 'flex';
+        } else {
+          razorpayBtn.style.display = 'none';
+        }
       }
+      
     } catch (error) {
       console.error('Error loading store:', error);
-      document.getElementById('upiId').textContent = 'Not configured';
     }
   }
+
+  // =============== RAZORPAY PAYMENT ===============
+  
+  async function initiateRazorpayPayment(orderId, amount, formData, cart, totals) {
+    try {
+      // Create order on backend
+      const response = await fetch(`${RAZORPAY_WORKER_URL}/create-order`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          amount: amount,
+          currency: 'INR',
+          receipt: orderId,
+          notes: {
+            customer_name: formData.name,
+            customer_phone: formData.phone
+          }
+        })
+      });
+
+      const orderData = await response.json();
+
+      if (!orderData.success) {
+        throw new Error(orderData.error || 'Failed to create Razorpay order');
+      }
+
+      // Open Razorpay checkout
+      const options = {
+        key: RAZORPAY_KEY_ID,
+        amount: orderData.amount,
+        currency: orderData.currency,
+        name: 'Tie Style',
+        description: `Order ${orderId}`,
+        image: 'image/navlogo.png',
+        order_id: orderData.order_id,
+        prefill: {
+          name: formData.name,
+          email: formData.email || '',
+          contact: formData.phone
+        },
+        notes: {
+          order_id: orderId
+        },
+        theme: {
+          color: '#df20df'
+        },
+        handler: async function(response) {
+          // Payment successful - verify on backend
+          try {
+            const verifyResponse = await fetch(`${RAZORPAY_WORKER_URL}/verify-payment`, {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/json' },
+              body: JSON.stringify({
+                razorpay_order_id: response.razorpay_order_id,
+                razorpay_payment_id: response.razorpay_payment_id,
+                razorpay_signature: response.razorpay_signature
+              })
+            });
+
+            const verifyData = await verifyResponse.json();
+
+            if (verifyData.success) {
+              // Save order to Firebase with payment info
+              const { saveOrderToFirebase, reduceProductStock } = await import('./firebase-config.js');
+              
+              const orderDataForFirebase = {
+                orderId,
+                customer: formData,
+                items: cart,
+                totals: totals,
+                deliveryCharge: totals.shipping,
+                status: 'processing',
+                paymentMethod: 'Razorpay',
+                paymentStatus: 'paid',
+                razorpay: {
+                  order_id: response.razorpay_order_id,
+                  payment_id: response.razorpay_payment_id
+                }
+              };
+              
+              await saveOrderToFirebase(orderDataForFirebase);
+              
+              // Reduce stock
+              try {
+                await reduceProductStock(cart);
+              } catch (e) {
+                console.warn('Stock reduction warning:', e);
+              }
+              
+              // Save to local history
+              saveOrderHistory(orderId, cart, totals, formData);
+              
+              // Clear cart
+              localStorage.removeItem(CART_KEY);
+              
+              // Show success
+              showOrderConfirmation(orderId, true);
+            } else {
+              alert('Payment verification failed. Please contact support.');
+            }
+          } catch (error) {
+            console.error('Verification error:', error);
+            alert('Error verifying payment. Please contact support with Order ID: ' + orderId);
+          }
+        },
+        modal: {
+          ondismiss: function() {
+            document.getElementById('placeOrderBtn').disabled = false;
+            document.getElementById('placeOrderBtn').textContent = '🛒 Place Order';
+          }
+        }
+      };
+
+      const rzp = new Razorpay(options);
+      rzp.open();
+      
+    } catch (error) {
+      console.error('Razorpay error:', error);
+      throw error;
+    }
+  }
+
+  // Handle Razorpay checkout
+  window.handleRazorpayCheckout = async function(event) {
+    event.preventDefault();
+    
+    const cart = loadCart();
+    if (cart.length === 0) {
+      alert('Your cart is empty!');
+      return;
+    }
+
+    const formData = {
+      name: document.getElementById('full-name').value.trim(),
+      phone: document.getElementById('phone').value.trim(),
+      address: document.getElementById('address').value.trim(),
+      address2: document.getElementById('address2').value.trim(),
+      city: document.getElementById('city').value.trim(),
+      state: document.getElementById('state').value.trim(),
+      zip: document.getElementById('zip').value.trim(),
+      email: document.getElementById('email').value.trim(),
+      notes: document.getElementById('notes').value.trim()
+    };
+
+    const totals = calculateTotals(cart);
+    const orderId = `ORD-${Date.now()}`;
+
+    // Disable button
+    const btn = document.getElementById('razorpayBtn');
+    if (btn) {
+      btn.disabled = true;
+      btn.textContent = '⏳ Processing...';
+    }
+
+    try {
+      await initiateRazorpayPayment(orderId, totals.total, formData, cart, totals);
+    } catch (error) {
+      alert('Error: ' + error.message);
+      if (btn) {
+        btn.disabled = false;
+        btn.textContent = '💳 Pay with Razorpay';
+      }
+    }
+  };
 
   // Initialize
   async function init() {

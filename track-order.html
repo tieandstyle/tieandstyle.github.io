@@ -233,7 +233,19 @@
     </div>
 
     <div class="bg-white dark:bg-background-dark border border-gray-200 dark:border-gray-700 rounded-lg shadow-lg p-6 sm:p-8 animate-slideInUp">
-      <form onsubmit="trackOrder(event)" class="space-y-6">
+      
+      <!-- Search Tabs -->
+      <div class="flex border-b border-gray-200 dark:border-gray-700 mb-6">
+        <button onclick="switchSearchTab('orderId')" id="tabOrderId" class="flex-1 py-3 px-4 text-center font-medium border-b-2 border-primary text-primary">
+          🔍 Order ID
+        </button>
+        <button onclick="switchSearchTab('phone')" id="tabPhone" class="flex-1 py-3 px-4 text-center font-medium text-gray-500 border-b-2 border-transparent hover:text-primary">
+          📱 Phone/Email
+        </button>
+      </div>
+      
+      <!-- Order ID Search -->
+      <form onsubmit="trackOrder(event)" id="orderIdForm" class="space-y-6">
         <div>
           <label class="block text-sm font-medium mb-2" for="orderIdInput">Order ID</label>
           <input 
@@ -241,7 +253,6 @@
             id="orderIdInput" 
             class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-background-dark focus:ring-2 focus:ring-primary focus:border-transparent text-lg"
             placeholder="ORD-1234567890"
-            required
           />
           <p class="text-xs text-gray-500 dark:text-gray-400 mt-2">
             Your Order ID was shown when you placed the order
@@ -256,10 +267,34 @@
           🔍 Track Order
         </button>
       </form>
+      
+      <!-- Phone/Email Search -->
+      <form onsubmit="trackByPhone(event)" id="phoneForm" class="space-y-6 hidden">
+        <div>
+          <label class="block text-sm font-medium mb-2" for="phoneInput">Phone Number or Email</label>
+          <input 
+            type="text" 
+            id="phoneInput" 
+            class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-background-dark focus:ring-2 focus:ring-primary focus:border-transparent text-lg"
+            placeholder="+91 98765 43210 or email@example.com"
+          />
+          <p class="text-xs text-gray-500 dark:text-gray-400 mt-2">
+            Enter the phone/email you used while placing orders
+          </p>
+        </div>
+        
+        <button 
+          type="submit" 
+          class="w-full bg-primary text-white font-bold py-4 rounded-lg hover:bg-primary/90 transition-all transform hover:scale-105"
+          id="trackPhoneBtn"
+        >
+          📦 Find My Orders
+        </button>
+      </form>
 
       <div class="mt-6 p-4 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800">
         <p class="text-sm text-blue-800 dark:text-blue-300">
-          💡 <strong>Tip:</strong> Check your email or SMS for the Order ID
+          💡 <strong>Tip:</strong> Use Phone/Email to see ALL your orders
         </p>
       </div>
     </div>

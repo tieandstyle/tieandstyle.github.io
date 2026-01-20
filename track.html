@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>My Orders - Tie Style</title>
+<link rel="manifest" href="manifest.json"/>
+<meta name="theme-color" content="#df20df"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    "primary": "#df20df",
+                    "background-light": "#f8f6f8",
+                    "background-dark": "#211121",
+                },
+                fontFamily: {
+                    "display": ["Plus Jakarta Sans", "sans-serif"]
+                }
+            },
+        },
+    }
+</script>
+<style>
+.step-done { background-color: #22c55e; color: white; }
+.step-current { background-color: #df20df; color: white; animation: pulse 2s infinite; }
+.step-pending { background-color: #e5e7eb; color: #9ca3af; }
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+</style>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-black dark:text-white min-h-screen">
+
+<!-- Header -->
+<header class="bg-white dark:bg-background-dark border-b border-gray-200 dark:border-gray-700 sticky top-0 z-10">
+  <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+    <a href="index.html" class="flex items-center gap-2">
+      <img src="image/navlogo.png" alt="Tie Style" class="h-10"/>
+      <span class="font-bold text-xl text-primary">Tie Style</span>
+    </a>
+    <a href="index.html" class="text-primary hover:underline text-sm">← Back to Shop</a>
+  </div>
+</header>
+
+<main class="container mx-auto px-4 py-8 max-w-2xl">
+  
+  <!-- Search Section -->
+  <div id="searchSection" class="bg-white dark:bg-background-dark border border-gray-200 dark:border-gray-700 rounded-xl p-6 shadow-lg">
+    <h1 class="text-2xl font-bold text-center mb-2">📦 My Orders</h1>
+    <p class="text-gray-500 text-center text-sm mb-6">Enter your phone number or email to see all your orders</p>
+    
+    <form id="searchForm" class="space-y-4">
+      <div>
+        <input type="text" id="searchInput" required 
+          class="w-full px-4 py-3 border border-gray-300 dark:border-gray-600 rounded-lg bg-white dark:bg-background-dark text-center text-lg" 
+          placeholder="Phone or Email"/>
+      </div>
+      <button type="submit" id="searchBtn" class="w-full bg-primary text-white font-bold py-3 rounded-lg hover:bg-primary/90 transition">
+        🔍 Find My Orders
+      </button>
+    </form>
+    <p id="searchError" class="text-red-500 text-sm mt-3 hidden text-center"></p>
+  </div>
+
+  <!-- Orders List Section -->
+  <div id="ordersSection" class="hidden mt-6 space-y-4">
+    
+    <!-- User Info Bar -->
+    <div class="flex justify-between items-center bg-primary/10 rounded-lg p-4">
+      <div>
+        <p class="font-bold" id="userIdentifier">+91XXXXXXXXXX</p>
+        <p class="text-sm text-gray-500"><span id="orderCount">0</span> orders found</p>
+      </div>
+      <button onclick="resetSearch()" class="text-primary text-sm hover:underline">Change</button>
+    </div>
+    
+    <!-- Orders List -->
+    <div id="ordersList" class="space-y-4">
+      <!-- Orders rendered here -->
+    </div>
+  </div>
+
+  <!-- Order Details Modal -->
+  <div id="orderModal" class="fixed inset-0 bg-black/50 z-50 hidden items-center justify-center p-4" onclick="if(event.target===this) closeOrderModal()">
+    <div class="bg-white dark:bg-background-dark rounded-xl shadow-2xl w-full max-w-lg max-h-[90vh] overflow-y-auto">
+      <div class="p-6" id="orderModalContent">
+        <!-- Order details rendered here -->
+      </div>
+    </div>
+  </div>
+
+</main>
+
+<script type="module">
+import { db, collection, getDocs, query, where, orderBy } from './js/firebase-config.js';
+
+const ORDER_STATUSES = [
+  { key: 'pending', label: 'Pending', icon: '📝', desc: 'Order received' },
+  { key: 'processing', label: 'Processing', icon: '⚙️', desc: 'Preparing items' },
+  { key: 'packed', label: 'Packed', icon: '📦', desc: 'Ready to ship' },
+  { key: 'dispatched', label: 'Dispatched', icon: '🚚', desc: 'Shipped' },
+  { key: 'in-transit', label: 'In Transit', icon: '🛣️', desc: 'On the way' },
+  { key: 'out-for-delivery', label: 'Out for Delivery', icon: '🏃', desc: 'Arriving today' },
+  { key: 'delivered', label: 'Delivered', icon: '✅', desc: 'Delivered!' }
+];
+
+// Save last search to localStorage
+function saveLastSearch(value) {
+  try { localStorage.setItem('tiestyle_track_search', value); } catch(e) {}
+}
+
+function getLastSearch() {
+  try { return localStorage.getItem('tiestyle_track_search') || ''; } catch(e) { return ''; }
+}
+
+// Search orders by phone or email
+async function searchOrders(searchValue) {
+  const isEmail = searchValue.includes('@');
+  const ordersRef = collection(db, 'orders');
+  const orders = [];
+  
+  try {
+    // Simple query without orderBy to avoid needing composite index
+    const q = isEmail 
+      ? query(ordersRef, where('customer.email', '==', searchValue))
+      : query(ordersRef, where('customer.phone', '==', searchValue));
+    
+    const snapshot = await getDocs(q);
+    snapshot.forEach(doc => orders.push({ id: doc.id, ...doc.data() }));
+    
+    // Sort client-side by createdAt descending
+    orders.sort((a, b) => {
+      const dateA = a.createdAt?.toDate ? a.createdAt.toDate() : new Date(a.createdAt || 0);
+      const dateB = b.createdAt?.toDate ? b.createdAt.toDate() : new Date(b.createdAt || 0);
+      return dateB - dateA;
+    });
+    
+    return orders;
+  } catch (error) {
+    console.error('Search error:', error);
+    // Show error to user
+    const errorEl = document.getElementById('searchError');
+    if (error.message.includes('index')) {
+      errorEl.textContent = 'Database index required. Contact admin.';
+    } else {
+      errorEl.textContent = 'Error: ' + error.message;
+    }
+    errorEl.classList.remove('hidden');
+    return [];
+  }
+}
+
+function getStatusInfo(status) {
+  return ORDER_STATUSES.find(s => s.key === status) || ORDER_STATUSES[0];
+}
+
+function getProgressPercent(status) {
+  const index = ORDER_STATUSES.findIndex(s => s.key === status);
+  if (status === 'cancelled') return 0;
+  if (status === 'delivered') return 100;
+  return index >= 0 ? ((index + 1) / ORDER_STATUSES.length) * 100 : 10;
+}
+
+function formatDate(timestamp) {
+  if (!timestamp) return 'N/A';
+  const date = timestamp.toDate ? timestamp.toDate() : new Date(timestamp);
+  return date.toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' });
+}
+
+function renderOrders(orders) {
+  const container = document.getElementById('ordersList');
+  
+  if (orders.length === 0) {
+    container.innerHTML = `
+      <div class="text-center py-8 bg-white dark:bg-background-dark rounded-xl border">
+        <p class="text-gray-500 mb-4">No orders found</p>
+        <a href="index.html" class="text-primary hover:underline">Start Shopping →</a>
+      </div>
+    `;
+    return;
+  }
+  
+  container.innerHTML = orders.map(order => {
+    const status = order.status || 'pending';
+    const statusInfo = getStatusInfo(status);
+    const progress = getProgressPercent(status);
+    const total = order.totals?.grandTotal || order.totals?.total || 0;
+    const itemCount = order.items?.length || 0;
+    
+    return `
+      <div class="bg-white dark:bg-background-dark border rounded-xl p-4 cursor-pointer hover:shadow-lg transition" onclick="viewOrder('${order.id}')">
+        <div class="flex justify-between items-start mb-3">
+          <div>
+            <p class="font-bold">${order.orderId || order.id.substring(0,10)}...</p>
+            <p class="text-sm text-gray-500">${formatDate(order.createdAt)} • ${itemCount} item${itemCount > 1 ? 's' : ''}</p>
+          </div>
+          <div class="text-right">
+            <p class="font-bold">₹${total}</p>
+            <span class="text-sm ${status === 'delivered' ? 'text-green-600' : status === 'cancelled' ? 'text-red-600' : 'text-primary'}">
+              ${statusInfo.icon} ${statusInfo.label}
+            </span>
+          </div>
+        </div>
+        
+        <!-- Progress Bar -->
+        <div class="h-2 bg-gray-200 rounded-full overflow-hidden">
+          <div class="h-full ${status === 'delivered' ? 'bg-green-500' : status === 'cancelled' ? 'bg-red-500' : 'bg-primary'} transition-all duration-500" style="width: ${progress}%"></div>
+        </div>
+        <p class="text-xs text-gray-500 mt-2">${statusInfo.desc}</p>
+      </div>
+    `;
+  }).join('');
+}
+
+window.viewOrder = function(orderId) {
+  const order = window.currentOrders?.find(o => o.id === orderId);
+  if (!order) return;
+  
+  const status = order.status || 'pending';
+  const statusInfo = getStatusInfo(status);
+  
+  document.getElementById('orderModalContent').innerHTML = `
+    <div class="flex justify-between items-start mb-4">
+      <div>
+        <h2 class="text-xl font-bold">${order.orderId || order.id}</h2>
+        <p class="text-sm text-gray-500">${formatDate(order.createdAt)}</p>
+      </div>
+      <button onclick="closeOrderModal()" class="text-gray-400 hover:text-gray-600 text-2xl">&times;</button>
+    </div>
+    
+    <!-- Status Progress -->
+    <div class="bg-primary/5 rounded-lg p-4 mb-6">
+      <div class="flex items-center justify-between mb-3">
+        ${ORDER_STATUSES.map((s, i) => {
+          const currentIndex = ORDER_STATUSES.findIndex(x => x.key === status);
+          let cls = 'step-pending';
+          if (i < currentIndex) cls = 'step-done';
+          else if (i === currentIndex) cls = 'step-current';
+          return `<div class="w-8 h-8 rounded-full flex items-center justify-center text-sm ${cls}">${s.icon}</div>`;
+        }).join('<div class="flex-1 h-0.5 bg-gray-200"></div>')}
+      </div>
+      <p class="text-center font-medium">${statusInfo.icon} ${statusInfo.label}</p>
+      <p class="text-center text-sm text-gray-500">${statusInfo.desc}</p>
+    </div>
+    
+    <!-- Items -->
+    <div class="mb-4">
+      <h3 class="font-bold mb-2">Items</h3>
+      <div class="space-y-2">
+        ${(order.items || []).map(item => `
+          <div class="flex items-center gap-3">
+            <img src="${item.image || 'image/placeholder.jpg'}" class="w-12 h-12 rounded object-cover" onerror="this.src='image/placeholder.jpg'"/>
+            <div class="flex-grow">
+              <p class="font-medium text-sm">${item.title}</p>
+              <p class="text-xs text-gray-500">Qty: ${item.quantity} × ₹${item.price}</p>
+            </div>
+            <p class="font-medium">₹${item.price * item.quantity}</p>
+          </div>
+        `).join('')}
+      </div>
+    </div>
+    
+    <!-- Total -->
+    <div class="border-t pt-3 mb-4">
+      <div class="flex justify-between text-sm"><span>Subtotal</span><span>₹${order.totals?.subtotal || 0}</span></div>
+      <div class="flex justify-between text-sm"><span>Shipping</span><span>₹${order.totals?.shipping || 0}</span></div>
+      <div class="flex justify-between font-bold text-lg mt-2"><span>Total</span><span>₹${order.totals?.grandTotal || order.totals?.total || 0}</span></div>
+    </div>
+    
+    <!-- Delivery Address -->
+    <div class="bg-gray-50 dark:bg-gray-800 rounded-lg p-3">
+      <h3 class="font-bold text-sm mb-1">📍 Delivery Address</h3>
+      <p class="text-sm text-gray-600 dark:text-gray-400">
+        ${order.customer?.name || ''}<br/>
+        ${order.customer?.address || ''} ${order.customer?.address2 || ''}<br/>
+        ${order.customer?.city || ''}, ${order.customer?.state || ''} - ${order.customer?.zip || ''}
+      </p>
+    </div>
+  `;
+  
+  document.getElementById('orderModal').classList.remove('hidden');
+  document.getElementById('orderModal').classList.add('flex');
+};
+
+window.closeOrderModal = function() {
+  document.getElementById('orderModal').classList.add('hidden');
+  document.getElementById('orderModal').classList.remove('flex');
+};
+
+window.resetSearch = function() {
+  document.getElementById('searchSection').classList.remove('hidden');
+  document.getElementById('ordersSection').classList.add('hidden');
+  document.getElementById('searchInput').value = '';
+  document.getElementById('searchError').classList.add('hidden');
+};
+
+// Search form handler
+document.getElementById('searchForm').addEventListener('submit', async (e) => {
+  e.preventDefault();
+  
+  const searchValue = document.getElementById('searchInput').value.trim();
+  const errorEl = document.getElementById('searchError');
+  const btn = document.getElementById('searchBtn');
+  
+  errorEl.classList.add('hidden');
+  
+  if (!searchValue) {
+    errorEl.textContent = 'Please enter phone number or email';
+    errorEl.classList.remove('hidden');
+    return;
+  }
+  
+  btn.disabled = true;
+  btn.textContent = '⏳ Searching...';
+  
+  try {
+    const orders = await searchOrders(searchValue);
+    window.currentOrders = orders;
+    
+    if (orders.length > 0) {
+      saveLastSearch(searchValue);
+      document.getElementById('userIdentifier').textContent = searchValue;
+      document.getElementById('orderCount').textContent = orders.length;
+      document.getElementById('searchSection').classList.add('hidden');
+      document.getElementById('ordersSection').classList.remove('hidden');
+      renderOrders(orders);
+    } else {
+      errorEl.textContent = 'No orders found. Check phone/email and try again.';
+      errorEl.classList.remove('hidden');
+    }
+  } catch (error) {
+    console.error('Error:', error);
+    errorEl.textContent = 'Error searching orders. Please try again.';
+    errorEl.classList.remove('hidden');
+  }
+  
+  btn.disabled = false;
+  btn.textContent = '🔍 Find My Orders';
+});
+
+// Auto-fill last search on page load
+const lastSearch = getLastSearch();
+if (lastSearch) {
+  document.getElementById('searchInput').value = lastSearch;
+}
+</script>
+</body>
+</html>

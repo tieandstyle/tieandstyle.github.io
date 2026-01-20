@@ -349,8 +349,23 @@
 
   async function loadCategories() {
     try {
-      const response = await fetch('data/categories.json', { cache: 'no-cache' });
-      categories = await response.json();
+      // Try Firestore first
+      try {
+        const { getCategories } = await import('./firebase-config.js');
+        const result = await getCategories();
+        
+        if (result.success && result.categories.length > 0) {
+          categories = result.categories;
+          console.log('✅ Product page: Categories loaded from Firestore:', categories.length);
+        } else {
+          throw new Error('Firestore categories empty');
+        }
+      } catch (firestoreError) {
+        console.log('⚠️ Firestore unavailable, falling back to JSON:', firestoreError.message);
+        // Fallback to JSON
+        const response = await fetch('data/categories.json', { cache: 'no-cache' });
+        categories = await response.json();
+      }
       
       const nav = document.getElementById('navCategories');
       categories.filter(c => c.active && !c.parentId).slice(0, 5).forEach(cat => {
@@ -367,8 +382,24 @@
 
   async function loadProducts() {
     try {
-      const response = await fetch('data/products.json', { cache: 'no-cache' });
-      products = await response.json();
+      // Try Firestore first
+      try {
+        const { getProducts } = await import('./firebase-config.js');
+        const result = await getProducts(500);
+        
+        if (result.success && result.products.length > 0) {
+          products = result.products;
+          console.log('✅ Product page: Products loaded from Firestore:', products.length);
+          return;
+        }
+        throw new Error('Firestore products empty');
+      } catch (firestoreError) {
+        console.log('⚠️ Firestore unavailable, falling back to JSON:', firestoreError.message);
+        // Fallback to JSON
+        const response = await fetch('data/products.json', { cache: 'no-cache' });
+        products = await response.json();
+        console.log('✅ Product page: Products loaded from JSON fallback');
+      }
     } catch (error) {
       console.error('Error loading products:', error);
     }
