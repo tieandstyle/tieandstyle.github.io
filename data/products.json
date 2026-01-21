@@ -9935,7 +9935,7 @@
     "subcategoryId": "subcat-pin-11",
     "price": 100.0,
     "currency": "INR",
-    "stock": 8,
+    "stock": 7,
     "available": true,
     "images": [
       "assets/products/daisy-snap-claw-clip/daisy-snap-claw-clip.jpeg"
@@ -9948,7 +9948,7 @@
       "Large"
     ],
     "createdAt": "2026-01-17T06:37:21.065188Z",
-    "updatedAt": "2026-01-21T04:57:31.784270Z",
+    "updatedAt": "2026-01-21T12:12:11.683719Z",
     "colors": [
       {
         "name": "Yellow",
@@ -9959,7 +9959,7 @@
       {
         "name": "Green",
         "hex": "#6F947D",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
