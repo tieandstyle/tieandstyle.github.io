@@ -10561,5 +10561,74 @@
     ],
     "createdAt": "2026-01-19T06:58:10.368549Z",
     "updatedAt": "2026-01-21T04:59:47.808021Z"
+  },
+  {
+    "id": "prod-092",
+    "sku": "MIDN-ROS-092",
+    "title": "Midnight Rose Korean Hairpins",
+    "slug": "midnight-rose-korean-hairpins",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-14",
+    "price": 130.0,
+    "currency": "INR",
+    "stock": 2,
+    "available": true,
+    "images": [
+      "assets/products/midnight-rose-korean-hairpins/midnight-rose-korean-hairpins.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Midnight Rose set! A card of 5 cute, Korean-style hairpins for a chic and dreamy look.",
+    "description": "",
+    "tags": [],
+    "createdAt": "2026-01-21T05:26:55.056419Z",
+    "updatedAt": "2026-01-21T05:26:55.056873Z"
+  },
+  {
+    "id": "prod-093",
+    "sku": "SUNL-SHO-093",
+    "title": "Sunlit Shore Korean Hairpins",
+    "slug": "sunlit-shore-korean-hairpins",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-15",
+    "price": 130.0,
+    "currency": "INR",
+    "stock": 2,
+    "available": true,
+    "images": [
+      "assets/products/sunlit-shore-korean-hairpins/sunlit-shore-korean-hairpins.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "",
+    "description": "Sunlit Shore pins! A card of 5 cute, yellow K-style pins with a breezy, beach-inspired vibe.",
+    "tags": [],
+    "createdAt": "2026-01-21T05:30:32.126334Z",
+    "updatedAt": "2026-01-21T05:30:32.126370Z"
+  },
+  {
+    "id": "prod-094",
+    "sku": "ARCT-HOP-094",
+    "title": "Arctic Hop Korean Hairpins",
+    "slug": "arctic-hop-korean-hairpins",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-16",
+    "price": 130.0,
+    "currency": "INR",
+    "stock": 2,
+    "available": true,
+    "images": [
+      "assets/products/arctic-hop-korean-hairpins/arctic-hop-korean-hairpins.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "",
+    "description": "Blue bunny magic! 5 sweet Arctic Hop pins on one card to give your style a cool, playful pop.",
+    "tags": [],
+    "createdAt": "2026-01-21T05:33:56.323224Z",
+    "updatedAt": "2026-01-21T05:33:56.323257Z"
   }
 ]

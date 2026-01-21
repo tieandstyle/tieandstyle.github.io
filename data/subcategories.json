@@ -763,5 +763,32 @@
     "parentCategoryId": "cat-08",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-pin-14",
+    "name": "Midnight Rose Korean Hairpins",
+    "slug": "midnight-rose-korean-hairpins",
+    "description": "K-style charm! 5 dainty Midnight Rose hairpins on one card to elevate your everyday hair.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-15",
+    "name": "Sunlit Shore Korean Hairpins",
+    "slug": "sunlit-shore-korean-hairpins",
+    "description": "Golden sea vibes! 5 sunny, seashore-themed hairpins on one card for a bright, coastal look.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-16",
+    "name": "Arctic Hop Korean Hairpins",
+    "slug": "arctic-hop-korean-hairpins",
+    "description": "Arctic Hop! A card of 5 cute, blue K-style hairpins featuring adorable bunny-themed designs.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
   }
 ]
