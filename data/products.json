@@ -6086,7 +6086,7 @@
     "subcategoryId": "subcat-kor-05",
     "price": 20.0,
     "currency": "INR",
-    "stock": 5,
+    "stock": 4,
     "available": true,
     "images": [
       "assets/products/orchid-shell-claw-clip/orchid-shell-claw-clip.jpeg"
@@ -6099,12 +6099,12 @@
       {
         "name": "Lemon Zest",
         "hex": "#BFB33C",
-        "stock": 5,
+        "stock": 4,
         "available": true
       }
     ],
     "createdAt": "2025-12-29T11:00:34.862905Z",
-    "updatedAt": "2026-01-20T08:14:18.780674Z"
+    "updatedAt": "2026-01-21T05:01:28.646937Z"
   },
   {
     "id": "prod-026",
