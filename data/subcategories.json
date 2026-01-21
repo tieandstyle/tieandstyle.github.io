@@ -790,5 +790,14 @@
     "parentCategoryId": "cat-08",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-pin-17",
+    "name": "Knot&Heart Claw Clip",
+    "slug": "knotheart-claw-clip",
+    "description": "Matte & stylish! A large bar-shaped claw featuring a sweet bow and heart detail for easy styling.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
   }
 ]

@@ -487,10 +487,7 @@
       "assets/products/skinny-scrunchies/skinny-scrunchies.jpeg"
     ],
     "sizes": [
-      "S",
-      "M",
-      "L",
-      "XL"
+      "S"
     ],
     "attributes": {},
     "shortDescription": "The skinny secret to happy hair. Stackable, subtle, and beautifully soft.",
@@ -943,7 +940,7 @@
       }
     ],
     "createdAt": "2025-12-14T17:27:11.772787Z",
-    "updatedAt": "2025-12-14T18:40:21.379048Z"
+    "updatedAt": "2026-01-21T06:30:06.117535Z"
   },
   {
     "id": "prod-008",
@@ -10630,5 +10627,31 @@
     "tags": [],
     "createdAt": "2026-01-21T05:33:56.323224Z",
     "updatedAt": "2026-01-21T05:33:56.323257Z"
+  },
+  {
+    "id": "prod-095",
+    "sku": "KNOT-CLA-095",
+    "title": "Knot&Heart Claw Clip",
+    "slug": "knotheart-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-17",
+    "price": 80.0,
+    "currency": "INR",
+    "stock": 10,
+    "available": true,
+    "images": [
+      "assets/products/knotheart-claw-clip/knotheart-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Knot&Heart! Large matte bar clip topped with a cute bow and heart for a chic, trendy hold.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Large"
+    ],
+    "createdAt": "2026-01-21T05:38:54.051499Z",
+    "updatedAt": "2026-01-21T05:38:54.051592Z"
   }
 ]
