@@ -108,36 +108,21 @@ function displayStatus(status) {
   const statusIcon = document.getElementById('statusIcon');
   const statusTitle = document.getElementById('statusTitle');
   const statusMessage = document.getElementById('statusMessage');
-  
+
   const statusConfig = {
-    pending: {
-      icon: '⏳',
-      bg: 'bg-yellow-100 dark:bg-yellow-900/30',
-      title: 'Order Pending',
-      message: 'Your order has been received and is awaiting processing'
-    },
-    processing: {
-      icon: '📦',
-      bg: 'bg-blue-100 dark:bg-blue-900/30',
-      title: 'Order Processing',
-      message: 'Your order is being prepared for shipment'
-    },
-    completed: {
-      icon: '✅',
-      bg: 'bg-green-100 dark:bg-green-900/30',
-      title: 'Order Completed',
-      message: 'Your order has been delivered successfully'
-    },
-    cancelled: {
-      icon: '❌',
-      bg: 'bg-red-100 dark:bg-red-900/30',
-      title: 'Order Cancelled',
-      message: 'This order has been cancelled'
-    }
+    pending: { icon: '⏳', bg: 'bg-yellow-100 dark:bg-yellow-900/30', title: 'Order Placed', message: 'We have received your order' },
+    processing: { icon: '🔄', bg: 'bg-blue-100 dark:bg-blue-900/30', title: 'Processing', message: 'Your order is being prepared' },
+    packed: { icon: '📦', bg: 'bg-indigo-100 dark:bg-indigo-900/30', title: 'Packed', message: 'Your items have been packed' },
+    dispatched: { icon: '🚀', bg: 'bg-purple-100 dark:bg-purple-900/30', title: 'Dispatched', message: 'Order handed over to courier' },
+    'in-transit': { icon: '🚚', bg: 'bg-cyan-100 dark:bg-cyan-900/30', title: 'In Transit', message: 'Your order is on the way' },
+    'out-for-delivery': { icon: '🏃', bg: 'bg-orange-100 dark:bg-orange-900/30', title: 'Out for Delivery', message: 'Courier is out to deliver your order' },
+    delivered: { icon: '✅', bg: 'bg-green-100 dark:bg-green-900/30', title: 'Delivered', message: 'Order delivered successfully' },
+    completed: { icon: '✅', bg: 'bg-green-100 dark:bg-green-900/30', title: 'Completed', message: 'Order completed' },
+    cancelled: { icon: '❌', bg: 'bg-red-100 dark:bg-red-900/30', title: 'Cancelled', message: 'This order has been cancelled' }
   };
-  
+
   const config = statusConfig[status] || statusConfig.pending;
-  
+
   statusIcon.className = `inline-flex items-center justify-center w-24 h-24 rounded-full ${config.bg}`;
   statusIcon.innerHTML = `<span class="text-5xl">${config.icon}</span>`;
   statusTitle.textContent = config.title;
@@ -147,31 +132,42 @@ function displayStatus(status) {
 // Display timeline
 function displayTimeline(status, orderDate) {
   const timeline = document.getElementById('orderTimeline');
-  
   const steps = [
     { key: 'pending', label: 'Order Placed', icon: '📝' },
-    { key: 'processing', label: 'Processing', icon: '⚙️' },
-    { key: 'completed', label: 'Completed', icon: '✅' }
+    { key: 'processing', label: 'Processing', icon: '🔄' },
+    { key: 'packed', label: 'Packed', icon: '📦' },
+    { key: 'dispatched', label: 'Dispatched', icon: '🚀' },
+    { key: 'in-transit', label: 'In Transit', icon: '🚚' },
+    { key: 'out-for-delivery', label: 'Out for Delivery', icon: '🏃' },
+    { key: 'delivered', label: 'Delivered', icon: '✅' }
   ];
-  
+
+  // Include cancelled as a possible ending step
   if (status === 'cancelled') {
     steps.push({ key: 'cancelled', label: 'Cancelled', icon: '❌' });
   }
-  
-  const statusOrder = ['pending', 'processing', 'completed', 'cancelled'];
+
+  const statusOrder = ['pending','processing','packed','dispatched','in-transit','out-for-delivery','delivered','cancelled'];
   const currentIndex = statusOrder.indexOf(status);
-  
-  timeline.innerHTML = steps.map((step, index) => {
+
+  // Use order.updatedAt for active/completed timestamp when available
+  const updatedDate = (currentOrder && (currentOrder.updatedAt?.toDate ? currentOrder.updatedAt.toDate() : new Date(currentOrder.updatedAt))) || orderDate;
+
+  timeline.innerHTML = steps.map(step => {
     const stepIndex = statusOrder.indexOf(step.key);
     const isActive = stepIndex === currentIndex;
     const isCompleted = stepIndex < currentIndex && status !== 'cancelled';
     const isCancelled = status === 'cancelled' && step.key === 'cancelled';
-    
+
     let statusClass = '';
     if (isActive) statusClass = 'active';
     else if (isCompleted) statusClass = 'completed';
     else if (isCancelled) statusClass = 'active';
-    
+
+    // show timestamp for completed/active/cancelled steps; show created date for 'Order Placed'
+    const showTimestamp = isActive || isCompleted || isCancelled;
+    const timestamp = step.key === 'pending' ? orderDate : updatedDate;
+
     return `
       <div class="status-step ${statusClass}">
         <div class="step-icon">
@@ -179,11 +175,19 @@ function displayTimeline(status, orderDate) {
         </div>
         <div>
           <p class="font-semibold">${step.label}</p>
-          ${isActive || isCompleted || isCancelled ? `<p class="text-sm text-gray-500 dark:text-gray-400">${orderDate.toLocaleString()}</p>` : ''}
+          ${showTimestamp ? `<p class="text-sm text-gray-500 dark:text-gray-400">${timestamp.toLocaleString()}</p>` : ''}
         </div>
       </div>
     `;
   }).join('');
+
+  // Staggered reveal for compact + animated feel
+  setTimeout(() => {
+    const stepEls = Array.from(timeline.querySelectorAll('.status-step'));
+    stepEls.forEach((el, i) => {
+      setTimeout(() => el.classList.add('visible'), i * 110);
+    });
+  }, 50);
 }
 
 // Display customer details

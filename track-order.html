@@ -148,21 +148,24 @@
 
 .status-step {
   position: relative;
-  padding-left: 60px;
-  margin-bottom: 30px;
+  padding-left: 52px;
+  margin-bottom: 18px;
+  opacity: 0;
+  transform: translateY(6px);
+  transition: opacity 260ms ease, transform 260ms ease;
 }
 
 .status-step .step-icon {
   position: absolute;
   left: 0;
-  width: 40px;
-  height: 40px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   background: white;
-  border: 3px solid #e5e7eb;
+  border: 2px solid #e5e7eb;
   z-index: 1;
 }
 
@@ -177,6 +180,20 @@
   background: #10b981;
   color: white;
 }
+
+/* Compact/Animated helpers */
+.status-step.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.status-step .step-icon { transition: transform 260ms ease, box-shadow 260ms ease; }
+.status-step.active .step-icon { box-shadow: 0 6px 18px rgba(223,32,223,0.14); }
+.status-step.active .step-icon { animation: pulse 2s cubic-bezier(0.4,0,0.6,1) infinite; }
+.status-step.completed .step-icon { animation: checkmark 0.45s ease-out forwards; }
+
+.status-step p { margin: 0; }
+.status-step .text-sm { margin-top: 4px; font-size: 0.825rem; }
 
 @media print {
   body * {
