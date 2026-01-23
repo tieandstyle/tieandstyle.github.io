@@ -7561,7 +7561,7 @@
     "subcategoryId": "subcat-kor-27",
     "price": 40.0,
     "currency": "INR",
-    "stock": 40,
+    "stock": 39,
     "available": true,
     "images": [
       "assets/products/bloom-splash-claw-clip/bloom-splash-claw-clip.jpeg"
@@ -7575,12 +7575,6 @@
         "name": "Green",
         "hex": "#8D9C21",
         "stock": 8,
-        "available": true
-      },
-      {
-        "name": "Sky Blue",
-        "hex": "#AED5CE",
-        "stock": 1,
         "available": true
       },
       {
@@ -7603,7 +7597,7 @@
       }
     ],
     "createdAt": "2025-12-31T08:34:17.462237Z",
-    "updatedAt": "2026-01-22T10:14:53.833644Z"
+    "updatedAt": "2026-01-23T08:09:15.422879Z"
   },
   {
     "id": "prod-049",
