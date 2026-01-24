@@ -6230,7 +6230,7 @@
     "subcategoryId": "subcat-kor-08",
     "price": 10.0,
     "currency": "INR",
-    "stock": 84,
+    "stock": 82,
     "available": true,
     "images": [
       "assets/products/glass-wings-claw-clip/glass-wings-claw-clip.jpeg"
@@ -6243,7 +6243,7 @@
       {
         "name": "Purplish-Pink",
         "hex": "#DB0FBD",
-        "stock": 10,
+        "stock": 9,
         "available": true
       },
       {
@@ -6297,7 +6297,7 @@
       {
         "name": "Black",
         "hex": "#000000",
-        "stock": 10,
+        "stock": 9,
         "available": true
       },
       {
@@ -6332,7 +6332,7 @@
       }
     ],
     "createdAt": "2025-12-30T08:21:26.790988Z",
-    "updatedAt": "2026-01-22T10:08:44.685090Z"
+    "updatedAt": "2026-01-24T11:11:37.119752Z"
   },
   {
     "id": "prod-029",
@@ -6823,7 +6823,7 @@
     "subcategoryId": "subcat-kor-17",
     "price": 25.0,
     "currency": "INR",
-    "stock": 36,
+    "stock": 34,
     "available": true,
     "images": [
       "assets/products/twine-claw-clip/twine-claw-clip.jpeg"
@@ -6848,13 +6848,13 @@
       {
         "name": "Black",
         "hex": "#19171C",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
         "name": "Grey",
         "hex": "#797974",
-        "stock": 8,
+        "stock": 7,
         "available": true
       },
       {
@@ -6871,7 +6871,7 @@
       }
     ],
     "createdAt": "2025-12-30T11:49:33.071902Z",
-    "updatedAt": "2026-01-22T10:12:33.649976Z"
+    "updatedAt": "2026-01-24T11:12:46.134584Z"
   },
   {
     "id": "prod-038",
@@ -10063,7 +10063,7 @@
     "subcategoryId": "subcat-kor-37",
     "price": 20.0,
     "currency": "INR",
-    "stock": 35,
+    "stock": 34,
     "available": true,
     "images": [
       "assets/products/bloom-swirl-claw-clip/bloom-swirl-claw-clip.jpeg"
@@ -10103,7 +10103,7 @@
       {
         "name": "Dark Purple",
         "hex": "#6D5D83",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -10144,7 +10144,7 @@
       }
     ],
     "createdAt": "2026-01-17T07:41:23.826627Z",
-    "updatedAt": "2026-01-17T07:41:23.826706Z"
+    "updatedAt": "2026-01-24T11:15:05.042372Z"
   },
   {
     "id": "prod-087",
@@ -10157,7 +10157,7 @@
     "subcategoryId": "subcat-kor-38",
     "price": 20.0,
     "currency": "INR",
-    "stock": 32,
+    "stock": 31,
     "available": true,
     "images": [
       "assets/products/petal-twist/petal-twist.jpeg"
@@ -10233,7 +10233,7 @@
       {
         "name": "Dark Pink",
         "hex": "#F381C9",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -10244,7 +10244,7 @@
       }
     ],
     "createdAt": "2026-01-17T08:02:26.651538Z",
-    "updatedAt": "2026-01-17T08:02:26.651574Z"
+    "updatedAt": "2026-01-24T11:16:25.608852Z"
   },
   {
     "id": "prod-088",
@@ -10257,7 +10257,7 @@
     "subcategoryId": "subcat-kor-39",
     "price": 20.0,
     "currency": "INR",
-    "stock": 32,
+    "stock": 31,
     "available": true,
     "images": [
       "assets/products/flutter-matte-claw-clip/flutter-matte-claw-clip.jpeg"
@@ -10309,7 +10309,7 @@
       {
         "name": "Black",
         "hex": "#000000",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -10338,7 +10338,7 @@
       }
     ],
     "createdAt": "2026-01-17T08:30:42.938929Z",
-    "updatedAt": "2026-01-21T04:55:02.422319Z"
+    "updatedAt": "2026-01-24T11:17:24.440130Z"
   },
   {
     "id": "prod-089",
@@ -10621,7 +10621,7 @@
     "subcategoryId": "subcat-pin-17",
     "price": 80.0,
     "currency": "INR",
-    "stock": 10,
+    "stock": 9,
     "available": true,
     "images": [
       "assets/products/knotheart-claw-clip/knotheart-claw-clip.jpeg"
@@ -10634,6 +10634,20 @@
       "Large"
     ],
     "createdAt": "2026-01-21T05:38:54.051499Z",
-    "updatedAt": "2026-01-21T05:38:54.051592Z"
+    "updatedAt": "2026-01-24T11:14:13.684140Z",
+    "colors": [
+      {
+        "name": "Heart",
+        "hex": "#9BE2E4",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "Knot",
+        "hex": "#E2B6CC",
+        "stock": 4,
+        "available": true
+      }
+    ]
   }
 ]
