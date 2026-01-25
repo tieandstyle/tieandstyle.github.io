@@ -8397,37 +8397,6 @@
     "updatedAt": "2026-01-19T13:12:06.882734Z"
   },
   {
-    "id": "prod-067",
-    "sku": "SUNF-HAM-067",
-    "title": "Sunflower Hamper",
-    "slug": "sunflower-hamper",
-    "categoryIds": [
-      "cat-04"
-    ],
-    "subcategoryId": "subcat-ham-01",
-    "price": 649.0,
-    "currency": "INR",
-    "stock": 5,
-    "available": true,
-    "images": [
-      "assets/products/sunflower-hamper/sunflower-hamper.jpeg"
-    ],
-    "attributes": {},
-    "shortDescription": "Huge 10-piece floral set! Includes Sunflower & Daisy clips, a bow, and more for a sunny hair kit.",
-    "description": "",
-    "tags": [],
-    "colors": [
-      {
-        "name": "Yellow",
-        "hex": "#FFED8A",
-        "stock": 5,
-        "available": true
-      }
-    ],
-    "createdAt": "2025-12-31T14:07:23.229484Z",
-    "updatedAt": "2025-12-31T14:07:23.229574Z"
-  },
-  {
     "id": "prod-068",
     "sku": "TULI-SCR-068",
     "title": "Tulip Scrunchies",
