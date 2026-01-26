@@ -8107,7 +8107,7 @@
     "subcategoryId": "subcat-pin-03",
     "price": 89.0,
     "currency": "INR",
-    "stock": 18,
+    "stock": 17,
     "available": true,
     "images": [
       "assets/products/fruity-claw-clips/fruity-claw-clip.jpeg"
@@ -8120,7 +8120,7 @@
       {
         "name": "Cherry",
         "hex": "#BA3718",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -8143,7 +8143,7 @@
       }
     ],
     "createdAt": "2025-12-31T12:26:06.190675Z",
-    "updatedAt": "2026-01-19T13:50:52.947898Z"
+    "updatedAt": "2026-01-26T09:13:21.265171Z"
   },
   {
     "id": "prod-062",
@@ -8266,7 +8266,7 @@
     "subcategoryId": "subcat-pin-06",
     "price": 89.0,
     "currency": "INR",
-    "stock": 20,
+    "stock": 19,
     "available": true,
     "images": [
       "assets/products/fruit-pop-claw-clip/fruit-pop.jpeg"
@@ -8291,7 +8291,7 @@
       {
         "name": "Hello Kitty",
         "hex": "#FFCCE2",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
@@ -8302,7 +8302,7 @@
       }
     ],
     "createdAt": "2025-12-31T13:15:57.668501Z",
-    "updatedAt": "2026-01-19T13:54:09.219834Z"
+    "updatedAt": "2026-01-26T09:14:20.537318Z"
   },
   {
     "id": "prod-065",
@@ -9715,7 +9715,7 @@
     "subcategoryId": "subcat-pin-09",
     "price": 70.0,
     "currency": "INR",
-    "stock": 23,
+    "stock": 22,
     "available": true,
     "images": [
       "assets/products/fruitsicle-cards/fruitsicle-cards.jpeg"
@@ -9737,7 +9737,7 @@
       {
         "name": "Strawberry",
         "hex": "#D54444",
-        "stock": 7,
+        "stock": 6,
         "available": true
       },
       {
@@ -9766,7 +9766,7 @@
       }
     ],
     "createdAt": "2026-01-11T06:46:11.283193Z",
-    "updatedAt": "2026-01-11T06:46:11.283238Z"
+    "updatedAt": "2026-01-26T09:12:11.461442Z"
   },
   {
     "id": "prod-082",
