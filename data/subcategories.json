@@ -799,5 +799,14 @@
     "parentCategoryId": "cat-08",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-ham-02",
+    "name": "Swan Garden Hamper",
+    "slug": "swan-garden-hamper",
+    "description": "Floral magic! This Swan Garden hamper features 5 dainty flower clips in one beautiful box.",
+    "parentCategoryId": "cat-04",
+    "order": 1,
+    "active": true
   }
 ]

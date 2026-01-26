@@ -10612,5 +10612,28 @@
         "available": true
       }
     ]
+  },
+  {
+    "id": "prod-096",
+    "sku": "SWAN-GAR-096",
+    "title": "Swan Garden Hamper",
+    "slug": "swan-garden-hamper",
+    "categoryIds": [
+      "cat-04"
+    ],
+    "subcategoryId": "subcat-ham-02",
+    "price": 135.0,
+    "currency": "INR",
+    "stock": 5,
+    "available": true,
+    "images": [
+      "assets/products/swan-garden-hamper/swan-garden-hamper.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Swan Garden Box! A dreamy hamper of 5 small floral claw clips for a sweet, garden-ready look.",
+    "description": "",
+    "tags": [],
+    "createdAt": "2026-01-26T04:48:59.659807Z",
+    "updatedAt": "2026-01-26T04:48:59.659835Z"
   }
 ]
