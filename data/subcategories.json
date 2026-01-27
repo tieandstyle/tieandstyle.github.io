@@ -808,5 +808,14 @@
     "parentCategoryId": "cat-04",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-ham-03",
+    "name": "Bunny Bliss Hamper Box",
+    "slug": "bunny-bliss-hamper-box",
+    "description": "22+ items! Choco, bangles, doll & jewelry. Note: Colors may vary, but all products stay same.",
+    "parentCategoryId": "cat-04",
+    "order": 1,
+    "active": true
   }
 ]

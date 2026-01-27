@@ -10635,5 +10635,28 @@
     "tags": [],
     "createdAt": "2026-01-26T04:48:59.659807Z",
     "updatedAt": "2026-01-26T04:48:59.659835Z"
+  },
+  {
+    "id": "prod-097",
+    "sku": "BUNN-BLI-097",
+    "title": "Bunny Bliss Hamper Box",
+    "slug": "bunny-bliss-hamper-box",
+    "categoryIds": [
+      "cat-04"
+    ],
+    "subcategoryId": "subcat-ham-03",
+    "price": 1320.0,
+    "currency": "INR",
+    "stock": 7,
+    "available": true,
+    "images": [
+      "assets/products/bunny-bliss-hamper-box/bunny-bliss-hamper-box.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Bunny Bliss! Chocolate, 3 dozen bangles, 7 scrunchies, 9 clips & more. (Colors vary; same products)",
+    "description": "",
+    "tags": [],
+    "createdAt": "2026-01-27T05:33:08.816362Z",
+    "updatedAt": "2026-01-27T05:33:08.816396Z"
   }
 ]
