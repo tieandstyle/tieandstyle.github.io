@@ -4220,7 +4220,7 @@
       }
     ],
     "createdAt": "2025-12-17T14:21:13.329955Z",
-    "updatedAt": "2025-12-17T14:21:13.330381Z"
+    "updatedAt": "2026-01-28T05:58:05.469825Z"
   },
   {
     "id": "prod-017",
@@ -8058,7 +8058,7 @@
     "subcategoryId": "subcat-pin-02",
     "price": 89.0,
     "currency": "INR",
-    "stock": 7,
+    "stock": 6,
     "available": true,
     "images": [
       "assets/products/tulip-claw-clip/tulip-claw-clip.jpeg"
@@ -8089,12 +8089,12 @@
       {
         "name": "Coral pink",
         "hex": "#FFA3A3",
-        "stock": 2,
+        "stock": 1,
         "available": true
       }
     ],
     "createdAt": "2025-12-31T12:14:38.871887Z",
-    "updatedAt": "2026-01-22T10:17:00.884600Z"
+    "updatedAt": "2026-01-28T05:53:20.933805Z"
   },
   {
     "id": "prod-061",
@@ -8211,7 +8211,7 @@
     "subcategoryId": "subcat-pin-05",
     "price": 89.0,
     "currency": "INR",
-    "stock": 21,
+    "stock": 20,
     "available": true,
     "images": [
       "assets/products/rainbow-claw-clip/rainbow-claw-clip.jpeg"
@@ -8240,9 +8240,9 @@
         "available": true
       },
       {
-        "name": "Beige Cloud Privi",
+        "name": "Beige Cloud Rainbow",
         "hex": "#F5EFDB",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -8253,7 +8253,7 @@
       }
     ],
     "createdAt": "2025-12-31T12:58:35.741900Z",
-    "updatedAt": "2026-01-19T13:05:59.235669Z"
+    "updatedAt": "2026-01-28T05:55:46.967093Z"
   },
   {
     "id": "prod-064",
@@ -8266,7 +8266,7 @@
     "subcategoryId": "subcat-pin-06",
     "price": 89.0,
     "currency": "INR",
-    "stock": 19,
+    "stock": 18,
     "available": true,
     "images": [
       "assets/products/fruit-pop-claw-clip/fruit-pop.jpeg"
@@ -8291,7 +8291,7 @@
       {
         "name": "Hello Kitty",
         "hex": "#FFCCE2",
-        "stock": 5,
+        "stock": 4,
         "available": true
       },
       {
@@ -8302,7 +8302,7 @@
       }
     ],
     "createdAt": "2025-12-31T13:15:57.668501Z",
-    "updatedAt": "2026-01-26T09:14:20.537318Z"
+    "updatedAt": "2026-01-28T05:54:36.611538Z"
   },
   {
     "id": "prod-065",
@@ -9715,7 +9715,7 @@
     "subcategoryId": "subcat-pin-09",
     "price": 70.0,
     "currency": "INR",
-    "stock": 22,
+    "stock": 20,
     "available": true,
     "images": [
       "assets/products/fruitsicle-cards/fruitsicle-cards.jpeg"
@@ -9731,7 +9731,7 @@
       {
         "name": "Avacado",
         "hex": "#32CD32",
-        "stock": 7,
+        "stock": 6,
         "available": true
       },
       {
@@ -9749,7 +9749,7 @@
       {
         "name": "Cherry",
         "hex": "#F72B2B",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -9766,7 +9766,7 @@
       }
     ],
     "createdAt": "2026-01-11T06:46:11.283193Z",
-    "updatedAt": "2026-01-26T09:12:11.461442Z"
+    "updatedAt": "2026-01-28T05:57:18.018856Z"
   },
   {
     "id": "prod-082",
@@ -10475,7 +10475,7 @@
     "subcategoryId": "subcat-pin-13",
     "price": 70.0,
     "currency": "INR",
-    "stock": 11,
+    "stock": 10,
     "available": true,
     "images": [
       "assets/products/mini-kitty-claw-clip/mini-kitty-claw-clip.jpeg"
@@ -10497,12 +10497,12 @@
       {
         "name": "Red Bow Kitty",
         "hex": "#E14747",
-        "stock": 6,
+        "stock": 5,
         "available": true
       }
     ],
     "createdAt": "2026-01-19T06:58:10.368549Z",
-    "updatedAt": "2026-01-21T04:59:47.808021Z"
+    "updatedAt": "2026-01-28T05:54:02.978814Z"
   },
   {
     "id": "prod-092",
