@@ -5725,7 +5725,7 @@
     "subcategoryId": "subcat-kor-01",
     "price": 20.0,
     "currency": "INR",
-    "stock": 119,
+    "stock": 118,
     "available": true,
     "images": [
       "assets/products/small-daisy-claw-clips/small-daisy-claw-clips.jpeg"
@@ -5780,7 +5780,7 @@
       {
         "name": "Baby Pink",
         "hex": "#CF9BB2",
-        "stock": 18,
+        "stock": 17,
         "available": true
       },
       {
@@ -5791,7 +5791,7 @@
       }
     ],
     "createdAt": "2025-12-29T07:24:13.122164Z",
-    "updatedAt": "2026-01-26T04:30:23.409440Z"
+    "updatedAt": "2026-01-29T14:08:53.703152Z"
   },
   {
     "id": "prod-022",
@@ -6780,7 +6780,7 @@
     "subcategoryId": "subcat-kor-16",
     "price": 20.0,
     "currency": "INR",
-    "stock": 26,
+    "stock": 25,
     "available": true,
     "images": [
       "assets/products/loop-claw-clip/loop-claw-clip.jpeg"
@@ -6799,7 +6799,7 @@
       {
         "name": "Grey",
         "hex": "#908989",
-        "stock": 8,
+        "stock": 7,
         "available": true
       },
       {
@@ -6810,7 +6810,7 @@
       }
     ],
     "createdAt": "2025-12-30T11:35:01.213154Z",
-    "updatedAt": "2026-01-22T10:11:25.131721Z"
+    "updatedAt": "2026-01-29T14:09:29.049299Z"
   },
   {
     "id": "prod-037",
@@ -7250,7 +7250,7 @@
     "subcategoryId": "subcat-kor-23",
     "price": 20.0,
     "currency": "INR",
-    "stock": 75,
+    "stock": 74,
     "available": true,
     "images": [
       "assets/products/zinnia-claw-clip/zinnia-claw-clip.jpeg"
@@ -7287,7 +7287,7 @@
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "stock": 5,
+        "stock": 4,
         "available": true
       },
       {
@@ -7322,7 +7322,7 @@
       }
     ],
     "createdAt": "2025-12-30T15:11:26.715544Z",
-    "updatedAt": "2026-01-26T04:32:40.680583Z"
+    "updatedAt": "2026-01-29T14:10:33.143587Z"
   },
   {
     "id": "prod-045",
@@ -8058,7 +8058,7 @@
     "subcategoryId": "subcat-pin-02",
     "price": 89.0,
     "currency": "INR",
-    "stock": 6,
+    "stock": 5,
     "available": true,
     "images": [
       "assets/products/tulip-claw-clip/tulip-claw-clip.jpeg"
@@ -8077,7 +8077,7 @@
       {
         "name": "Yellow",
         "hex": "#FFE342",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -8094,7 +8094,7 @@
       }
     ],
     "createdAt": "2025-12-31T12:14:38.871887Z",
-    "updatedAt": "2026-01-28T05:53:20.933805Z"
+    "updatedAt": "2026-01-29T14:15:28.737860Z"
   },
   {
     "id": "prod-061",
@@ -9944,7 +9944,7 @@
     "subcategoryId": "subcat-kor-36",
     "price": 20.0,
     "currency": "INR",
-    "stock": 28,
+    "stock": 23,
     "available": true,
     "images": [
       "assets/products/sweet-heart-claw-clip/sweet-heart-claw-clip.jpeg"
@@ -9972,25 +9972,19 @@
       {
         "name": "Dark Pink",
         "hex": "#E95680",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
         "name": "Blue",
         "hex": "#3080A4",
-        "stock": 2,
-        "available": true
-      },
-      {
-        "name": "Light pink",
-        "hex": "#CC8DA0",
         "stock": 1,
         "available": true
       },
       {
         "name": "Light Purple",
         "hex": "#7B78A7",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -10014,12 +10008,12 @@
       {
         "name": "Charcoal Grey",
         "hex": "#565B57",
-        "stock": 2,
+        "stock": 1,
         "available": true
       }
     ],
     "createdAt": "2026-01-17T07:10:35.015007Z",
-    "updatedAt": "2026-01-21T04:53:53.399697Z"
+    "updatedAt": "2026-01-29T14:05:23.094309Z"
   },
   {
     "id": "prod-086",
@@ -10320,7 +10314,7 @@
     "subcategoryId": "subcat-kor-40",
     "price": 20.0,
     "currency": "INR",
-    "stock": 31,
+    "stock": 30,
     "available": true,
     "images": [
       "assets/products/ribbon-snap-claw-clip/ribbon-snap-claw-clip.jpeg"
@@ -10348,7 +10342,7 @@
       {
         "name": "Brown",
         "hex": "#B37F65",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
@@ -10395,7 +10389,7 @@
       }
     ],
     "createdAt": "2026-01-17T08:56:58.365980Z",
-    "updatedAt": "2026-01-26T04:33:40.409898Z"
+    "updatedAt": "2026-01-29T14:14:40.832353Z"
   },
   {
     "id": "prod-090",
