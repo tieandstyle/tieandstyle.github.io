@@ -5725,7 +5725,7 @@
     "subcategoryId": "subcat-kor-01",
     "price": 20.0,
     "currency": "INR",
-    "stock": 118,
+    "stock": 117,
     "available": true,
     "images": [
       "assets/products/small-daisy-claw-clips/small-daisy-claw-clips.jpeg"
@@ -5738,7 +5738,7 @@
       {
         "name": "Red",
         "hex": "#A92D45",
-        "stock": 14,
+        "stock": 13,
         "available": true
       },
       {
@@ -5791,7 +5791,7 @@
       }
     ],
     "createdAt": "2025-12-29T07:24:13.122164Z",
-    "updatedAt": "2026-01-29T14:08:53.703152Z"
+    "updatedAt": "2026-01-30T15:06:32.678190Z"
   },
   {
     "id": "prod-022",
@@ -5986,7 +5986,7 @@
     "subcategoryId": "subcat-kor-04",
     "price": 15.0,
     "currency": "INR",
-    "stock": 107,
+    "stock": 106,
     "available": true,
     "images": [
       "assets/products/small-bloom-claw-clip/small-bloom-claw-clip.jpeg"
@@ -6065,12 +6065,12 @@
       {
         "name": "Orange",
         "hex": "#F06233",
-        "stock": 12,
+        "stock": 11,
         "available": true
       }
     ],
     "createdAt": "2025-12-29T10:45:24.103460Z",
-    "updatedAt": "2026-01-19T13:18:54.786557Z"
+    "updatedAt": "2026-01-30T15:07:18.548874Z"
   },
   {
     "id": "prod-025",
@@ -6486,7 +6486,7 @@
     "subcategoryId": "subcat-kor-12",
     "price": 20.0,
     "currency": "INR",
-    "stock": 13,
+    "stock": 12,
     "available": true,
     "images": [
       "assets/products/mini-hearts-claw-clip/mini-hearts-claw-clip.jpeg"
@@ -6511,7 +6511,7 @@
       {
         "name": "Green",
         "hex": "#507068",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -6534,7 +6534,7 @@
       }
     ],
     "createdAt": "2025-12-30T09:39:13.650079Z",
-    "updatedAt": "2026-01-21T04:52:06.195581Z"
+    "updatedAt": "2026-01-30T15:07:50.161348Z"
   },
   {
     "id": "prod-033",
@@ -7073,7 +7073,7 @@
     "subcategoryId": "subcat-kor-21",
     "price": 20.0,
     "currency": "INR",
-    "stock": 112,
+    "stock": 109,
     "available": true,
     "images": [
       "assets/products/bali-claw-clip/bali-claw-clip.jpeg",
@@ -7105,7 +7105,7 @@
       {
         "name": "Grey",
         "hex": "#C0C0C0",
-        "stock": 12,
+        "stock": 11,
         "available": true
       },
       {
@@ -7129,7 +7129,7 @@
       {
         "name": "Sky Blue",
         "hex": "#55BCC3",
-        "stock": 5,
+        "stock": 4,
         "available": true
       },
       {
@@ -7141,7 +7141,7 @@
       {
         "name": "Dark Pink",
         "hex": "#E46799",
-        "stock": 8,
+        "stock": 7,
         "available": true
       },
       {
@@ -7152,7 +7152,7 @@
       }
     ],
     "createdAt": "2025-12-30T14:08:04.202968Z",
-    "updatedAt": "2025-12-30T14:08:04.203068Z"
+    "updatedAt": "2026-01-30T15:06:03.084981Z"
   },
   {
     "id": "prod-043",
