@@ -5725,7 +5725,7 @@
     "subcategoryId": "subcat-kor-01",
     "price": 20.0,
     "currency": "INR",
-    "stock": 117,
+    "stock": 116,
     "available": true,
     "images": [
       "assets/products/small-daisy-claw-clips/small-daisy-claw-clips.jpeg"
@@ -5780,7 +5780,7 @@
       {
         "name": "Baby Pink",
         "hex": "#CF9BB2",
-        "stock": 17,
+        "stock": 16,
         "available": true
       },
       {
@@ -5791,7 +5791,7 @@
       }
     ],
     "createdAt": "2025-12-29T07:24:13.122164Z",
-    "updatedAt": "2026-01-30T15:06:32.678190Z"
+    "updatedAt": "2026-01-31T15:33:15.684508Z"
   },
   {
     "id": "prod-022",
@@ -5986,7 +5986,7 @@
     "subcategoryId": "subcat-kor-04",
     "price": 15.0,
     "currency": "INR",
-    "stock": 106,
+    "stock": 105,
     "available": true,
     "images": [
       "assets/products/small-bloom-claw-clip/small-bloom-claw-clip.jpeg"
@@ -6023,7 +6023,7 @@
       {
         "name": "Beige",
         "hex": "#F2E1BA",
-        "stock": 11,
+        "stock": 10,
         "available": true
       },
       {
@@ -6070,7 +6070,7 @@
       }
     ],
     "createdAt": "2025-12-29T10:45:24.103460Z",
-    "updatedAt": "2026-01-30T15:07:18.548874Z"
+    "updatedAt": "2026-01-31T15:33:48.789355Z"
   },
   {
     "id": "prod-025",
@@ -6114,7 +6114,7 @@
     "subcategoryId": "subcat-kor-06",
     "price": 20.0,
     "currency": "INR",
-    "stock": 53,
+    "stock": 52,
     "available": true,
     "images": [
       "assets/products/shellie-claw-clip/shellie-claw-clip.jpeg"
@@ -6157,12 +6157,12 @@
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "stock": 11,
+        "stock": 10,
         "available": true
       }
     ],
     "createdAt": "2025-12-29T11:18:51.707301Z",
-    "updatedAt": "2026-01-26T04:34:33.950015Z"
+    "updatedAt": "2026-01-31T15:34:26.457961Z"
   },
   {
     "id": "prod-027",
@@ -6175,7 +6175,7 @@
     "subcategoryId": "subcat-kor-07",
     "price": 20.0,
     "currency": "INR",
-    "stock": 7,
+    "stock": 6,
     "available": true,
     "images": [
       "assets/products/flora-pin-claw-clip/flora-pin-claw-clip.jpeg"
@@ -6208,16 +6208,10 @@
         "hex": "#A33B28",
         "stock": 2,
         "available": true
-      },
-      {
-        "name": "Light Orange",
-        "hex": "#FEB381",
-        "stock": 1,
-        "available": true
       }
     ],
     "createdAt": "2025-12-29T11:32:03.603998Z",
-    "updatedAt": "2026-01-19T13:21:40.893087Z"
+    "updatedAt": "2026-01-31T15:35:01.290438Z"
   },
   {
     "id": "prod-028",
@@ -6486,7 +6480,7 @@
     "subcategoryId": "subcat-kor-12",
     "price": 20.0,
     "currency": "INR",
-    "stock": 12,
+    "stock": 11,
     "available": true,
     "images": [
       "assets/products/mini-hearts-claw-clip/mini-hearts-claw-clip.jpeg"
@@ -6499,7 +6493,7 @@
       {
         "name": "Black",
         "hex": "#000000",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -6534,7 +6528,7 @@
       }
     ],
     "createdAt": "2025-12-30T09:39:13.650079Z",
-    "updatedAt": "2026-01-30T15:07:50.161348Z"
+    "updatedAt": "2026-01-31T15:35:36.317631Z"
   },
   {
     "id": "prod-033",
@@ -7165,7 +7159,7 @@
     "subcategoryId": "subcat-kor-22",
     "price": 20.0,
     "currency": "INR",
-    "stock": 105,
+    "stock": 104,
     "available": true,
     "images": [
       "assets/products/mallow-claw-clip/mallow-claw-clip.jpeg"
@@ -7220,7 +7214,7 @@
       {
         "name": "Grey",
         "hex": "#5E6866",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
@@ -7237,7 +7231,7 @@
       }
     ],
     "createdAt": "2025-12-30T14:50:00.427798Z",
-    "updatedAt": "2026-01-26T04:31:52.932267Z"
+    "updatedAt": "2026-01-31T15:36:39.660363Z"
   },
   {
     "id": "prod-044",
