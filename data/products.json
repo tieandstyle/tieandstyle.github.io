@@ -9709,7 +9709,7 @@
     "subcategoryId": "subcat-pin-09",
     "price": 70.0,
     "currency": "INR",
-    "stock": 20,
+    "stock": 19,
     "available": true,
     "images": [
       "assets/products/fruitsicle-cards/fruitsicle-cards.jpeg"
@@ -9725,7 +9725,7 @@
       {
         "name": "Avacado",
         "hex": "#32CD32",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
@@ -9760,7 +9760,7 @@
       }
     ],
     "createdAt": "2026-01-11T06:46:11.283193Z",
-    "updatedAt": "2026-01-28T05:57:18.018856Z"
+    "updatedAt": "2026-02-01T05:25:03.479442Z"
   },
   {
     "id": "prod-082",
@@ -9773,7 +9773,7 @@
     "subcategoryId": "subcat-bou-03",
     "price": 70.0,
     "currency": "INR",
-    "stock": 12,
+    "stock": 11,
     "available": true,
     "images": [
       "assets/products/sweet-pairs-cards/sweet-pairs-card.jpeg"
@@ -9789,7 +9789,7 @@
       {
         "name": "Cherry",
         "hex": "#FF0000",
-        "stock": 7,
+        "stock": 6,
         "available": true
       },
       {
@@ -9812,7 +9812,7 @@
       }
     ],
     "createdAt": "2026-01-11T06:52:50.544500Z",
-    "updatedAt": "2026-01-11T06:52:50.544525Z"
+    "updatedAt": "2026-02-01T05:26:35.136882Z"
   },
   {
     "id": "prod-083",
@@ -10463,7 +10463,7 @@
     "subcategoryId": "subcat-pin-13",
     "price": 70.0,
     "currency": "INR",
-    "stock": 10,
+    "stock": 9,
     "available": true,
     "images": [
       "assets/products/mini-kitty-claw-clip/mini-kitty-claw-clip.jpeg"
@@ -10479,7 +10479,7 @@
       {
         "name": "Blue Bow Kitty",
         "hex": "#9CEBED",
-        "stock": 5,
+        "stock": 4,
         "available": true
       },
       {
@@ -10490,7 +10490,7 @@
       }
     ],
     "createdAt": "2026-01-19T06:58:10.368549Z",
-    "updatedAt": "2026-01-28T05:54:02.978814Z"
+    "updatedAt": "2026-02-01T05:23:20.108688Z"
   },
   {
     "id": "prod-092",
