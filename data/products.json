@@ -5804,7 +5804,7 @@
     "subcategoryId": "subcat-kor-02",
     "price": 30.0,
     "currency": "INR",
-    "stock": 158,
+    "stock": 155,
     "available": true,
     "images": [
       "assets/products/medium-daisy-claw-clip/medium-daisy-claw-clip.jpeg"
@@ -5817,13 +5817,7 @@
       {
         "name": "Blue",
         "hex": "#419599",
-        "stock": 30,
-        "available": true
-      },
-      {
-        "name": "Dark Purple",
-        "hex": "#996699",
-        "stock": 1,
+        "stock": 29,
         "available": true
       },
       {
@@ -5865,7 +5859,7 @@
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "stock": 25,
+        "stock": 24,
         "available": true
       },
       {
@@ -5882,7 +5876,7 @@
       }
     ],
     "createdAt": "2025-12-29T08:46:44.112297Z",
-    "updatedAt": "2026-01-20T08:13:34.140456Z"
+    "updatedAt": "2026-02-03T12:04:26.059026Z"
   },
   {
     "id": "prod-023",
