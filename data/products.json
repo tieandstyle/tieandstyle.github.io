@@ -1032,7 +1032,7 @@
       }
     ],
     "createdAt": "2025-12-15T07:04:09.562893Z",
-    "updatedAt": "2025-12-31T10:26:44.739471Z"
+    "updatedAt": "2026-02-01T05:42:43.170782Z"
   },
   {
     "id": "prod-009",
@@ -6224,7 +6224,7 @@
     "subcategoryId": "subcat-kor-08",
     "price": 10.0,
     "currency": "INR",
-    "stock": 82,
+    "stock": 81,
     "available": true,
     "images": [
       "assets/products/glass-wings-claw-clip/glass-wings-claw-clip.jpeg"
@@ -6309,7 +6309,7 @@
       {
         "name": "Light Brown",
         "hex": "#DDB097",
-        "stock": 10,
+        "stock": 9,
         "available": true
       },
       {
@@ -6326,7 +6326,7 @@
       }
     ],
     "createdAt": "2025-12-30T08:21:26.790988Z",
-    "updatedAt": "2026-01-24T11:11:37.119752Z"
+    "updatedAt": "2026-02-03T08:12:47.911600Z"
   },
   {
     "id": "prod-029",
@@ -6339,7 +6339,7 @@
     "subcategoryId": "subcat-kor-09",
     "price": 30.0,
     "currency": "INR",
-    "stock": 12,
+    "stock": 10,
     "available": true,
     "images": [
       "assets/products/vanessa-butterfly-wings/vanessa-butterfly-wings.jpeg"
@@ -6356,15 +6356,9 @@
         "available": true
       },
       {
-        "name": "Light Yellow",
-        "hex": "#F3E653",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "Red",
         "hex": "#AC2A2A",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -6387,7 +6381,7 @@
       }
     ],
     "createdAt": "2025-12-30T08:48:40.827332Z",
-    "updatedAt": "2026-01-22T10:09:27.289903Z"
+    "updatedAt": "2026-02-03T08:12:04.455298Z"
   },
   {
     "id": "prod-030",
@@ -6817,7 +6811,7 @@
     "subcategoryId": "subcat-kor-17",
     "price": 25.0,
     "currency": "INR",
-    "stock": 34,
+    "stock": 28,
     "available": true,
     "images": [
       "assets/products/twine-claw-clip/twine-claw-clip.jpeg"
@@ -6830,7 +6824,7 @@
       {
         "name": "Sea Blue",
         "hex": "#439391",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -6842,30 +6836,30 @@
       {
         "name": "Black",
         "hex": "#19171C",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
         "name": "Grey",
         "hex": "#797974",
-        "stock": 7,
+        "stock": 5,
         "available": true
       },
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "stock": 7,
+        "stock": 6,
         "available": true
       },
       {
         "name": "Light Brown",
         "hex": "#A88B71",
-        "stock": 7,
+        "stock": 6,
         "available": true
       }
     ],
     "createdAt": "2025-12-30T11:49:33.071902Z",
-    "updatedAt": "2026-01-24T11:12:46.134584Z"
+    "updatedAt": "2026-02-03T08:10:21.382503Z"
   },
   {
     "id": "prod-038",
@@ -7929,7 +7923,7 @@
     "subcategoryId": "subcat-kor-35",
     "price": 25.0,
     "currency": "INR",
-    "stock": 21,
+    "stock": 20,
     "available": true,
     "images": [
       "assets/products/lilly-claw-clip/lilly-claw-clip.jpeg"
@@ -7972,12 +7966,12 @@
       {
         "name": "Coffee Brown",
         "hex": "#F9B07B",
-        "stock": 3,
+        "stock": 2,
         "available": true
       }
     ],
     "createdAt": "2025-12-31T11:12:45.333456Z",
-    "updatedAt": "2026-01-20T08:18:01.556045Z"
+    "updatedAt": "2026-02-03T08:07:53.682976Z"
   },
   {
     "id": "prod-057",
@@ -9548,7 +9542,7 @@
     "subcategoryId": "subcat-cus-06",
     "price": 30.0,
     "currency": "INR",
-    "stock": 4,
+    "stock": 3,
     "available": true,
     "images": [
       "assets/products/evil-eye-bracelet/evil-eye-bracelet.jpeg"
@@ -9558,7 +9552,7 @@
     "description": "",
     "tags": [],
     "createdAt": "2025-12-31T16:27:57.724981Z",
-    "updatedAt": "2026-01-21T04:58:56.693573Z"
+    "updatedAt": "2026-02-03T08:05:06.641075Z"
   },
   {
     "id": "prod-077",
@@ -10308,7 +10302,7 @@
     "subcategoryId": "subcat-kor-40",
     "price": 20.0,
     "currency": "INR",
-    "stock": 30,
+    "stock": 27,
     "available": true,
     "images": [
       "assets/products/ribbon-snap-claw-clip/ribbon-snap-claw-clip.jpeg"
@@ -10324,7 +10318,7 @@
       {
         "name": "Black",
         "hex": "#141517",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -10348,7 +10342,7 @@
       {
         "name": "Purplish-Grey",
         "hex": "#9A898A",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -10378,12 +10372,12 @@
       {
         "name": "Royal Blue",
         "hex": "#266787",
-        "stock": 3,
+        "stock": 2,
         "available": true
       }
     ],
     "createdAt": "2026-01-17T08:56:58.365980Z",
-    "updatedAt": "2026-01-29T14:14:40.832353Z"
+    "updatedAt": "2026-02-03T08:07:04.387765Z"
   },
   {
     "id": "prod-090",
@@ -10646,5 +10640,28 @@
     "tags": [],
     "createdAt": "2026-01-27T05:33:08.816362Z",
     "updatedAt": "2026-01-27T05:33:08.816396Z"
+  },
+  {
+    "id": "prod-098",
+    "sku": "BLOO-WRA-098",
+    "title": "Bloom Wrap",
+    "slug": "bloom-wrap",
+    "categoryIds": [
+      "cat-09"
+    ],
+    "subcategoryId": "subcat-bou-04",
+    "price": 440.0,
+    "currency": "INR",
+    "stock": 10,
+    "available": true,
+    "images": [
+      "assets/products/bloom-wrap/bloom-wrap.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Floral bouquet! Features 4 large flower clips and 2 stickers. A unique, stylish floral surprise.",
+    "description": "",
+    "tags": [],
+    "createdAt": "2026-02-02T11:18:28.842089Z",
+    "updatedAt": "2026-02-02T11:18:28.842181Z"
   }
 ]

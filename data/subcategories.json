@@ -817,5 +817,14 @@
     "parentCategoryId": "cat-04",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-bou-04",
+    "name": "Bloom Wrap",
+    "slug": "bloom-wrap",
+    "description": "Bloom Wrap! A stunning bouquet with 4 large floral claw clips and 2 cute stickers. Perfect gift!",
+    "parentCategoryId": "cat-09",
+    "order": 1,
+    "active": true
   }
 ]
