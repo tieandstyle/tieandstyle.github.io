@@ -826,5 +826,32 @@
     "parentCategoryId": "cat-09",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-pin-18",
+    "name": "Mermaid Korean HairPins",
+    "slug": "mermaid-korean-hairpins",
+    "description": "K-style charm! 5 dainty purplish-pink mermaid pins on one card to level up your hair game.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-19",
+    "name": "Rosie Korean HairPins",
+    "slug": "rosie-korean-hairpins",
+    "description": "K-style Red! 5 dainty Rosie hairpins on one card to add a pop of floral color to your hair.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-20",
+    "name": "Tangerine Korean HairPins",
+    "slug": "tangerine-korean-hairpins",
+    "description": "Soft orange vibes! A card of 5 dainty Tangerine hairpins to add a sunny pop to your style.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
   }
 ]

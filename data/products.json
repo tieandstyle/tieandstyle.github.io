@@ -10657,5 +10657,74 @@
     "tags": [],
     "createdAt": "2026-02-02T11:18:28.842089Z",
     "updatedAt": "2026-02-02T11:18:28.842181Z"
+  },
+  {
+    "id": "prod-099",
+    "sku": "PINT-CLA-099",
+    "title": "Pinterestry Claw Clip",
+    "slug": "pinterestry-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-18",
+    "price": 130.0,
+    "currency": "INR",
+    "stock": 2,
+    "available": true,
+    "images": [
+      "assets/products/mermaid-korean-hairpins/pinterestry-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Mermaid vibes! A card of 5 cute, purplish-pink Korean hairpins for a magical, dreamy look.",
+    "description": "",
+    "tags": [],
+    "createdAt": "2026-02-04T06:57:44.550094Z",
+    "updatedAt": "2026-02-04T06:57:44.550128Z"
+  },
+  {
+    "id": "prod-100",
+    "sku": "ROSI-KOR-100",
+    "title": "Rosie Korean HairPins",
+    "slug": "rosie-korean-hairpins",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-19",
+    "price": 130.0,
+    "currency": "INR",
+    "stock": 2,
+    "available": true,
+    "images": [
+      "assets/products/rosie-korean-hairpins/rosie-korean-hairpins.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Rosie pins! A card of 5 cute, red Korean-style hairpins for a bold and romantic touch.",
+    "description": "",
+    "tags": [],
+    "createdAt": "2026-02-04T07:00:37.822669Z",
+    "updatedAt": "2026-02-04T07:00:37.822690Z"
+  },
+  {
+    "id": "prod-101",
+    "sku": "TANG-KOR-101",
+    "title": "Tangerine Korean HairPins",
+    "slug": "tangerine-korean-hairpins",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-20",
+    "price": 130.0,
+    "currency": "INR",
+    "stock": 2,
+    "available": true,
+    "images": [
+      "assets/products/tangerine-korean-hairpins/tangerine-korean-hairpins.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "",
+    "description": "",
+    "tags": [],
+    "createdAt": "2026-02-04T07:05:21.969820Z",
+    "updatedAt": "2026-02-04T07:05:21.969840Z"
   }
 ]
