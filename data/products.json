@@ -7856,7 +7856,7 @@
     "subcategoryId": "subcat-kor-34",
     "price": 35.0,
     "currency": "INR",
-    "stock": 222,
+    "stock": 218,
     "available": true,
     "images": [
       "assets/products/border-floral-claw-clip/border-floral-claw-clip.jpeg"
@@ -7875,19 +7875,19 @@
       {
         "name": "White Border With Blue",
         "hex": "#FFFFFF",
-        "stock": 35,
+        "stock": 34,
         "available": true
       },
       {
         "name": "White Border With Pink",
         "hex": "#FFFFFF",
-        "stock": 37,
+        "stock": 36,
         "available": true
       },
       {
         "name": "Blue Border With White",
         "hex": "#BDFEFF",
-        "stock": 39,
+        "stock": 37,
         "available": true
       },
       {
@@ -7899,12 +7899,12 @@
       {
         "name": "Pink Border With White",
         "hex": "#FF94C9",
-        "stock": 34,
+        "stock": 33,
         "available": true
       }
     ],
     "createdAt": "2025-12-31T10:58:04.705418Z",
-    "updatedAt": "2026-01-21T04:49:42.051162Z"
+    "updatedAt": "2026-02-04T11:32:18.912027Z"
   },
   {
     "id": "prod-056",
@@ -10008,7 +10008,7 @@
     "subcategoryId": "subcat-kor-37",
     "price": 20.0,
     "currency": "INR",
-    "stock": 34,
+    "stock": 29,
     "available": true,
     "images": [
       "assets/products/bloom-swirl-claw-clip/bloom-swirl-claw-clip.jpeg"
@@ -10030,7 +10030,7 @@
       {
         "name": "Wine",
         "hex": "#674357",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -10048,7 +10048,7 @@
       {
         "name": "Dark Purple",
         "hex": "#6D5D83",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -10060,13 +10060,13 @@
       {
         "name": "Peach",
         "hex": "#F6B078",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
         "name": "Light Pink",
         "hex": "#E48B99",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -10078,7 +10078,7 @@
       {
         "name": "Blue",
         "hex": "#3392C1",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -10089,7 +10089,7 @@
       }
     ],
     "createdAt": "2026-01-17T07:41:23.826627Z",
-    "updatedAt": "2026-01-24T11:15:05.042372Z"
+    "updatedAt": "2026-02-04T11:29:21.586729Z"
   },
   {
     "id": "prod-087",
