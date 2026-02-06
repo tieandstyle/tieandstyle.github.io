@@ -6580,7 +6580,7 @@
     "subcategoryId": "subcat-kor-14",
     "price": 20.0,
     "currency": "INR",
-    "stock": 52,
+    "stock": 48,
     "available": true,
     "images": [
       "assets/products/matte-flora-claw-clip/matte-flora-claw-clip.jpeg"
@@ -6603,12 +6603,6 @@
         "available": true
       },
       {
-        "name": "Black",
-        "hex": "#14150E",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "Saddle Brown",
         "hex": "#984325",
         "stock": 5,
@@ -6617,7 +6611,7 @@
       {
         "name": "Purple",
         "hex": "#4D3B59",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -6629,7 +6623,7 @@
       {
         "name": "Dark Green",
         "hex": "#213F2E",
-        "stock": 5,
+        "stock": 4,
         "available": true
       },
       {
@@ -6647,7 +6641,7 @@
       {
         "name": "Dark Brown",
         "hex": "#3A251C",
-        "stock": 5,
+        "stock": 4,
         "available": true
       },
       {
@@ -6658,7 +6652,7 @@
       }
     ],
     "createdAt": "2025-12-30T10:51:48.036122Z",
-    "updatedAt": "2026-01-19T13:45:16.569890Z"
+    "updatedAt": "2026-02-06T05:53:05.505651Z"
   },
   {
     "id": "prod-035",
@@ -7856,7 +7850,7 @@
     "subcategoryId": "subcat-kor-34",
     "price": 35.0,
     "currency": "INR",
-    "stock": 218,
+    "stock": 217,
     "available": true,
     "images": [
       "assets/products/border-floral-claw-clip/border-floral-claw-clip.jpeg"
@@ -7875,7 +7869,7 @@
       {
         "name": "White Border With Blue",
         "hex": "#FFFFFF",
-        "stock": 34,
+        "stock": 33,
         "available": true
       },
       {
@@ -7904,7 +7898,7 @@
       }
     ],
     "createdAt": "2025-12-31T10:58:04.705418Z",
-    "updatedAt": "2026-02-04T11:32:18.912027Z"
+    "updatedAt": "2026-02-06T05:51:04.811441Z"
   },
   {
     "id": "prod-056",
@@ -8040,7 +8034,7 @@
     "subcategoryId": "subcat-pin-02",
     "price": 89.0,
     "currency": "INR",
-    "stock": 5,
+    "stock": 4,
     "available": true,
     "images": [
       "assets/products/tulip-claw-clip/tulip-claw-clip.jpeg"
@@ -8067,16 +8061,10 @@
         "hex": "#B81414",
         "stock": 2,
         "available": true
-      },
-      {
-        "name": "Coral pink",
-        "hex": "#FFA3A3",
-        "stock": 1,
-        "available": true
       }
     ],
     "createdAt": "2025-12-31T12:14:38.871887Z",
-    "updatedAt": "2026-01-29T14:15:28.737860Z"
+    "updatedAt": "2026-02-06T05:49:44.361396Z"
   },
   {
     "id": "prod-061",
@@ -9813,7 +9801,7 @@
     "subcategoryId": "subcat-pin-10",
     "price": 90.0,
     "currency": "INR",
-    "stock": 8,
+    "stock": 7,
     "available": true,
     "images": [
       "assets/products/strawberry-daisy-cards/strawberry-daisy-cards.jpeg"
@@ -9848,12 +9836,6 @@
         "available": true
       },
       {
-        "name": "Purple",
-        "hex": "#F7B0F7",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "Yellow",
         "hex": "#F2FF42",
         "stock": 2,
@@ -9861,7 +9843,7 @@
       }
     ],
     "createdAt": "2026-01-11T06:59:44.202618Z",
-    "updatedAt": "2026-01-20T08:19:03.672082Z"
+    "updatedAt": "2026-02-06T05:48:53.730984Z"
   },
   {
     "id": "prod-084",
@@ -9874,7 +9856,7 @@
     "subcategoryId": "subcat-pin-11",
     "price": 100.0,
     "currency": "INR",
-    "stock": 6,
+    "stock": 5,
     "available": true,
     "images": [
       "assets/products/daisy-snap-claw-clip/daisy-snap-claw-clip.jpeg"
@@ -9887,7 +9869,7 @@
       "Large"
     ],
     "createdAt": "2026-01-17T06:37:21.065188Z",
-    "updatedAt": "2026-01-22T10:17:43.444731Z",
+    "updatedAt": "2026-02-06T05:48:17.974765Z",
     "colors": [
       {
         "name": "Yellow",
@@ -9904,7 +9886,7 @@
       {
         "name": "Brown",
         "hex": "#B88B68",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
