@@ -10385,7 +10385,7 @@
       {
         "name": "Light Pink",
         "hex": "#D99BAB",
-        "stock": 2,
+        "stock": 3,
         "available": true
       },
       {
@@ -10411,10 +10411,16 @@
         "hex": "#ECCB8E",
         "stock": 1,
         "available": true
+      },
+      {
+        "name": "Ocean Blue",
+        "hex": "#79B4EC",
+        "stock": 1,
+        "available": true
       }
     ],
     "createdAt": "2026-01-19T06:53:09.673431Z",
-    "updatedAt": "2026-02-08T09:05:29.211071Z"
+    "updatedAt": "2026-02-08T12:23:50.813457Z"
   },
   {
     "id": "prod-091",
