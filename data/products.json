@@ -10708,5 +10708,285 @@
     "tags": [],
     "createdAt": "2026-02-04T07:05:21.969820Z",
     "updatedAt": "2026-02-04T07:05:21.969840Z"
+  },
+  {
+    "id": "prod-102",
+    "sku": "SUNF-TRI-102",
+    "title": "Sunflower Trio Claw Clip",
+    "slug": "sunflower-trio-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-20",
+    "price": 150.0,
+    "currency": "INR",
+    "stock": 11,
+    "available": true,
+    "images": [
+      "assets/products/tangerine-korean-hairpins/sunflower-trio-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Sunflower Trio! Loop-shaped matte clip with three sunny flowers. A perfect floral touch.",
+    "description": "",
+    "tags": [],
+    "createdAt": "2026-02-08T06:59:58.219232Z",
+    "updatedAt": "2026-02-08T06:59:58.219251Z"
+  },
+  {
+    "id": "prod-103",
+    "sku": "TULI-BOX-103",
+    "title": "Tulip  Box Claw Clip",
+    "slug": "tulip-box-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-02",
+    "price": 50.0,
+    "currency": "INR",
+    "stock": 36,
+    "available": true,
+    "images": [
+      "assets/products/tulip-claw-clip/tulip-box-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Tulip Box! A glossy, box-shaped claw clip topped with pretty tulips for an elegant look.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Blue",
+        "hex": "#00CED1",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FF69B4",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FFEC80",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#9FFE9F",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#FE8BFE",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "8",
+        "hex": "#A26E49",
+        "stock": 8,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-02-08T07:15:20.115405Z",
+    "updatedAt": "2026-02-08T07:15:20.115452Z"
+  },
+  {
+    "id": "prod-104",
+    "sku": "SAKU-BOX-104",
+    "title": "Sakura Box Claw Clip",
+    "slug": "sakura-box-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-22",
+    "price": 50.0,
+    "currency": "INR",
+    "stock": 12,
+    "available": true,
+    "images": [
+      "assets/products/sakura-box-claw-clip/sakura-box-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Glossy & sweet! A box-shaped clip with Sakura flowers on top. Perfect for an elegant hair look.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Purple",
+        "hex": "#D534D5",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#FEEC86",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#FF69B4",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#00CED1",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Green",
+        "hex": "#32CD32",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#8B4513",
+        "stock": 2,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-02-08T07:32:46.192266Z",
+    "updatedAt": "2026-02-08T07:32:46.192310Z"
+  },
+  {
+    "id": "prod-105",
+    "sku": "SAKU-BLO-105",
+    "title": "Sakura Bloom Claw Clip",
+    "slug": "sakura-bloom-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-23",
+    "price": 50.0,
+    "currency": "INR",
+    "stock": 12,
+    "available": true,
+    "images": [
+      "assets/products/sakura-bloom-claw-clip/sakura-bloom-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Sakura Bloom! A glossy, box-shaped claw clip topped with cherry blossoms for a dreamy look.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Beige",
+        "hex": "#F5F5DC",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#FCCACA",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#8B4513",
+        "stock": 3,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-02-08T07:41:15.029379Z",
+    "updatedAt": "2026-02-08T07:41:15.029403Z"
+  },
+  {
+    "id": "prod-106",
+    "sku": "SAKU-LOO-106",
+    "title": "Sakura Loop Claw Clip",
+    "slug": "sakura-loop-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-24",
+    "price": 70.0,
+    "currency": "INR",
+    "stock": 24,
+    "available": true,
+    "images": [
+      "assets/products/sakura-loop-claw-clip/sakura-loop-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Sakura Loop! A glossy, box-shaped claw clip topped with cherry blossoms for a dreamy look.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Grey",
+        "hex": "#B9ACAC",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#F4A4A4",
+        "stock": 6,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-02-08T07:53:25.562110Z",
+    "updatedAt": "2026-02-08T07:53:25.562149Z"
+  },
+  {
+    "id": "prod-107",
+    "sku": "TULI-LOO-107",
+    "title": "Tulip Loop Claw Clip",
+    "slug": "tulip-loop-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-25",
+    "price": 80.0,
+    "currency": "INR",
+    "stock": 36,
+    "available": true,
+    "images": [
+      "assets/products/tulip-loop-claw-clip/tulip-loop-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "White",
+        "hex": "#F4F4E7",
+        "stock": 9,
+        "available": true
+      },
+      {
+        "name": "Black",
+        "hex": "#000000",
+        "stock": 9,
+        "available": true
+      },
+      {
+        "name": "Brown",
+        "hex": "#C19271",
+        "stock": 9,
+        "available": true
+      },
+      {
+        "name": "Coral Pink",
+        "hex": "#F3B0B0",
+        "stock": 9,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-02-08T08:01:55.879074Z",
+    "updatedAt": "2026-02-08T08:01:55.879129Z"
   }
 ]

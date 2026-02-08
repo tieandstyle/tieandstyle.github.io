@@ -853,5 +853,59 @@
     "parentCategoryId": "cat-08",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat--01",
+    "name": "Sunflower Trio Claw Clip",
+    "slug": "sunflower-trio-claw-clip",
+    "description": "Matte & bright! Three sunflowers on a loop claw clip for a stylish, nature-inspired hold.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-21",
+    "name": "Tulip Box Claw Clip",
+    "slug": "tulip-box-claw-clip",
+    "description": "Glossy & floral! Box-shaped clip with tulip details. The perfect spring-inspired hair accessory.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-22",
+    "name": "Sakura Box Claw Clip",
+    "slug": "sakura-box-claw-clip",
+    "description": "Glossy & sweet! A box-shaped clip with Sakura flowers on top. Perfect for an elegant hair look.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-23",
+    "name": "Sakura Bloom Claw Clip",
+    "slug": "sakura-bloom-claw-clip",
+    "description": "Glossy floral charm! Box-shaped clip with Sakura flowers on top. Effortlessly chic and sweet.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-24",
+    "name": "Sakura Loop Claw Clip",
+    "slug": "sakura-loop-claw-clip",
+    "description": "Glossy floral charm! Box-shaped clip with Sakura flowers on top. Effortlessly chic and sweet.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-25",
+    "name": "Tulip Loop Claw Clip",
+    "slug": "tulip-loop-claw-clip",
+    "description": "Glossy & chic! Box-shaped clip with tulip flowers on top. Perfect for a polished hair look.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
   }
 ]
