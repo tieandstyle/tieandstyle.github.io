@@ -7691,7 +7691,7 @@
     "subcategoryId": "subcat-kor-30",
     "price": 20.0,
     "currency": "INR",
-    "stock": 16,
+    "stock": 14,
     "available": true,
     "images": [
       "assets/products/frame-claw-clip/frame-claw-clip.jpeg"
@@ -7710,7 +7710,7 @@
       {
         "name": "Baby Pink",
         "hex": "#F0C7DB",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -7728,7 +7728,7 @@
       {
         "name": "Yellow",
         "hex": "#F9F0D7",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -7739,7 +7739,7 @@
       }
     ],
     "createdAt": "2025-12-31T09:46:40.008631Z",
-    "updatedAt": "2025-12-31T09:46:40.009073Z"
+    "updatedAt": "2026-02-08T09:04:11.256234Z"
   },
   {
     "id": "prod-052",
@@ -10385,7 +10385,7 @@
       {
         "name": "Light Pink",
         "hex": "#D99BAB",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -10397,12 +10397,6 @@
       {
         "name": "Mint",
         "hex": "#BBC69F",
-        "stock": 1,
-        "available": true
-      },
-      {
-        "name": "Blue",
-        "hex": "#82ABC4",
         "stock": 1,
         "available": true
       },
@@ -10420,7 +10414,7 @@
       }
     ],
     "createdAt": "2026-01-19T06:53:09.673431Z",
-    "updatedAt": "2026-01-20T08:20:02.792432Z"
+    "updatedAt": "2026-02-08T09:05:29.211071Z"
   },
   {
     "id": "prod-091",
