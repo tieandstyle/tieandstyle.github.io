@@ -7752,7 +7752,7 @@
     "subcategoryId": "subcat-kor-31",
     "price": 30.0,
     "currency": "INR",
-    "stock": 8,
+    "stock": 6,
     "available": true,
     "images": [
       "assets/products/crystal-claw-clip/crystal-claw-clip1.jpeg"
@@ -7765,7 +7765,7 @@
       {
         "name": "Beige",
         "hex": "#F5F5DC",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -7777,12 +7777,12 @@
       {
         "name": "Black",
         "hex": "#000000",
-        "stock": 4,
+        "stock": 3,
         "available": true
       }
     ],
     "createdAt": "2025-12-31T09:55:26.594816Z",
-    "updatedAt": "2026-01-19T12:51:02.481575Z"
+    "updatedAt": "2026-02-09T05:12:42.768790Z"
   },
   {
     "id": "prod-053",
