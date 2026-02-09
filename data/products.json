@@ -10366,7 +10366,7 @@
     "subcategoryId": "subcat-pin-12",
     "price": 40.0,
     "currency": "INR",
-    "stock": 8,
+    "stock": 7,
     "available": true,
     "images": [
       "assets/products/orchid-flower-clip/orchid-flower-clip.jpeg"
@@ -10389,12 +10389,6 @@
         "available": true
       },
       {
-        "name": "Mint",
-        "hex": "#BBC69F",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "Royal Blue",
         "hex": "#333244",
         "stock": 1,
@@ -10408,7 +10402,7 @@
       }
     ],
     "createdAt": "2026-01-19T06:53:09.673431Z",
-    "updatedAt": "2026-02-09T04:15:49.941894Z"
+    "updatedAt": "2026-02-09T04:21:15.854509Z"
   },
   {
     "id": "prod-091",
