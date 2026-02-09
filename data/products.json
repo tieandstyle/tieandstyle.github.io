@@ -5980,7 +5980,7 @@
     "subcategoryId": "subcat-kor-04",
     "price": 15.0,
     "currency": "INR",
-    "stock": 105,
+    "stock": 104,
     "available": true,
     "images": [
       "assets/products/small-bloom-claw-clip/small-bloom-claw-clip.jpeg"
@@ -6005,7 +6005,7 @@
       {
         "name": "Dark Pink",
         "hex": "#FE81CA",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -6064,7 +6064,7 @@
       }
     ],
     "createdAt": "2025-12-29T10:45:24.103460Z",
-    "updatedAt": "2026-01-31T15:33:48.789355Z"
+    "updatedAt": "2026-02-09T15:36:10.169054Z"
   },
   {
     "id": "prod-025",
@@ -6970,7 +6970,7 @@
     "subcategoryId": "subcat-kor-20",
     "price": 30.0,
     "currency": "INR",
-    "stock": 52,
+    "stock": 51,
     "available": true,
     "images": [
       "assets/products/valentine-claw-clip/valentine-claw-clip.jpeg"
@@ -6983,7 +6983,7 @@
       {
         "name": "Lavender",
         "hex": "#ACAEF1",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -7030,7 +7030,7 @@
       }
     ],
     "createdAt": "2025-12-30T13:27:42.957770Z",
-    "updatedAt": "2025-12-30T13:27:42.957833Z"
+    "updatedAt": "2026-02-09T15:35:01.221262Z"
   },
   {
     "id": "prod-041",
@@ -9795,7 +9795,7 @@
     "subcategoryId": "subcat-pin-10",
     "price": 90.0,
     "currency": "INR",
-    "stock": 7,
+    "stock": 6,
     "available": true,
     "images": [
       "assets/products/strawberry-daisy-cards/strawberry-daisy-cards.jpeg"
@@ -9818,12 +9818,6 @@
         "available": true
       },
       {
-        "name": "Dark Pink",
-        "hex": "#FF1493",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "Blue",
         "hex": "#0000FF",
         "stock": 2,
@@ -9837,7 +9831,7 @@
       }
     ],
     "createdAt": "2026-01-11T06:59:44.202618Z",
-    "updatedAt": "2026-02-06T05:48:53.730984Z"
+    "updatedAt": "2026-02-09T15:37:44.799484Z"
   },
   {
     "id": "prod-084",
