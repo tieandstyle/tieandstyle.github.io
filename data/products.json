@@ -5804,7 +5804,7 @@
     "subcategoryId": "subcat-kor-02",
     "price": 30.0,
     "currency": "INR",
-    "stock": 155,
+    "stock": 154,
     "available": true,
     "images": [
       "assets/products/medium-daisy-claw-clip/medium-daisy-claw-clip.jpeg"
@@ -5859,7 +5859,7 @@
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "stock": 24,
+        "stock": 23,
         "available": true
       },
       {
@@ -5876,7 +5876,7 @@
       }
     ],
     "createdAt": "2025-12-29T08:46:44.112297Z",
-    "updatedAt": "2026-02-03T12:04:26.059026Z"
+    "updatedAt": "2026-02-09T15:08:06.943012Z"
   },
   {
     "id": "prod-023",
@@ -6750,7 +6750,7 @@
     "subcategoryId": "subcat-kor-16",
     "price": 20.0,
     "currency": "INR",
-    "stock": 25,
+    "stock": 24,
     "available": true,
     "images": [
       "assets/products/loop-claw-clip/loop-claw-clip.jpeg"
@@ -6775,12 +6775,12 @@
       {
         "name": "Honey",
         "hex": "#C28D42",
-        "stock": 8,
+        "stock": 7,
         "available": true
       }
     ],
     "createdAt": "2025-12-30T11:35:01.213154Z",
-    "updatedAt": "2026-01-29T14:09:29.049299Z"
+    "updatedAt": "2026-02-09T15:09:13.980075Z"
   },
   {
     "id": "prod-037",
@@ -10713,7 +10713,7 @@
     "subcategoryId": "subcat-pin-21",
     "price": 50.0,
     "currency": "INR",
-    "stock": 34,
+    "stock": 33,
     "available": true,
     "images": [
       "assets/products/tulip-claw-clip/tulip-box-claw-clip.jpeg"
@@ -10750,7 +10750,7 @@
       {
         "name": "Purple",
         "hex": "#FE8BFE",
-        "stock": 5,
+        "stock": 4,
         "available": true
       },
       {
@@ -10761,7 +10761,7 @@
       }
     ],
     "createdAt": "2026-02-08T07:15:20.115405Z",
-    "updatedAt": "2026-02-09T04:13:10.585186Z"
+    "updatedAt": "2026-02-09T15:11:03.048997Z"
   },
   {
     "id": "prod-104",
@@ -10774,7 +10774,7 @@
     "subcategoryId": "subcat-pin-22",
     "price": 50.0,
     "currency": "INR",
-    "stock": 12,
+    "stock": 10,
     "available": true,
     "images": [
       "assets/products/sakura-box-claw-clip/sakura-box-claw-clip.jpeg"
@@ -10793,7 +10793,7 @@
       {
         "name": "Yellow",
         "hex": "#FEEC86",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -10817,12 +10817,12 @@
       {
         "name": "Brown",
         "hex": "#8B4513",
-        "stock": 2,
+        "stock": 1,
         "available": true
       }
     ],
     "createdAt": "2026-02-08T07:32:46.192266Z",
-    "updatedAt": "2026-02-08T07:32:46.192310Z"
+    "updatedAt": "2026-02-09T15:10:15.114697Z"
   },
   {
     "id": "prod-105",
