@@ -6169,7 +6169,7 @@
     "subcategoryId": "subcat-kor-07",
     "price": 20.0,
     "currency": "INR",
-    "stock": 6,
+    "stock": 5,
     "available": true,
     "images": [
       "assets/products/flora-pin-claw-clip/flora-pin-claw-clip.jpeg"
@@ -6179,12 +6179,6 @@
     "description": "",
     "tags": [],
     "colors": [
-      {
-        "name": "Dark Blue",
-        "hex": "#1C3A52",
-        "stock": 1,
-        "available": true
-      },
       {
         "name": "Orange",
         "hex": "#C0785F",
@@ -6205,7 +6199,7 @@
       }
     ],
     "createdAt": "2025-12-29T11:32:03.603998Z",
-    "updatedAt": "2026-01-31T15:35:01.290438Z"
+    "updatedAt": "2026-02-09T15:00:49.600915Z"
   },
   {
     "id": "prod-028",
@@ -7691,7 +7685,7 @@
     "subcategoryId": "subcat-kor-30",
     "price": 20.0,
     "currency": "INR",
-    "stock": 14,
+    "stock": 13,
     "available": true,
     "images": [
       "assets/products/frame-claw-clip/frame-claw-clip.jpeg"
@@ -7704,7 +7698,7 @@
       {
         "name": "Blue",
         "hex": "#A7D3CB",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -7739,7 +7733,7 @@
       }
     ],
     "createdAt": "2025-12-31T09:46:40.008631Z",
-    "updatedAt": "2026-02-08T09:04:11.256234Z"
+    "updatedAt": "2026-02-09T15:03:06.642577Z"
   },
   {
     "id": "prod-052",
@@ -7752,7 +7746,7 @@
     "subcategoryId": "subcat-kor-31",
     "price": 30.0,
     "currency": "INR",
-    "stock": 6,
+    "stock": 5,
     "available": true,
     "images": [
       "assets/products/crystal-claw-clip/crystal-claw-clip1.jpeg"
@@ -7777,12 +7771,12 @@
       {
         "name": "Black",
         "hex": "#000000",
-        "stock": 3,
+        "stock": 2,
         "available": true
       }
     ],
     "createdAt": "2025-12-31T09:55:26.594816Z",
-    "updatedAt": "2026-02-09T05:12:42.768790Z"
+    "updatedAt": "2026-02-09T14:56:54.507494Z"
   },
   {
     "id": "prod-053",
@@ -9749,7 +9743,7 @@
     "subcategoryId": "subcat-bou-03",
     "price": 70.0,
     "currency": "INR",
-    "stock": 11,
+    "stock": 10,
     "available": true,
     "images": [
       "assets/products/sweet-pairs-cards/sweet-pairs-card.jpeg"
@@ -9765,7 +9759,7 @@
       {
         "name": "Cherry",
         "hex": "#FF0000",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
@@ -9788,7 +9782,7 @@
       }
     ],
     "createdAt": "2026-01-11T06:52:50.544500Z",
-    "updatedAt": "2026-02-01T05:26:35.136882Z"
+    "updatedAt": "2026-02-09T14:55:24.415669Z"
   },
   {
     "id": "prod-083",
@@ -9856,7 +9850,7 @@
     "subcategoryId": "subcat-pin-11",
     "price": 100.0,
     "currency": "INR",
-    "stock": 5,
+    "stock": 4,
     "available": true,
     "images": [
       "assets/products/daisy-snap-claw-clip/daisy-snap-claw-clip.jpeg"
@@ -9869,17 +9863,11 @@
       "Large"
     ],
     "createdAt": "2026-01-17T06:37:21.065188Z",
-    "updatedAt": "2026-02-06T05:48:17.974765Z",
+    "updatedAt": "2026-02-09T14:58:35.871948Z",
     "colors": [
       {
         "name": "Yellow",
         "hex": "#FFD700",
-        "stock": 1,
-        "available": true
-      },
-      {
-        "name": "Pink",
-        "hex": "#FF69B4",
         "stock": 1,
         "available": true
       },
@@ -10699,10 +10687,10 @@
     "categoryIds": [
       "cat-08"
     ],
-    "subcategoryId": "subcat-pin-20",
+    "subcategoryId": "subcat--01",
     "price": 150.0,
     "currency": "INR",
-    "stock": 11,
+    "stock": 10,
     "available": true,
     "images": [
       "assets/products/tangerine-korean-hairpins/sunflower-trio-claw-clip.jpeg"
@@ -10712,7 +10700,7 @@
     "description": "",
     "tags": [],
     "createdAt": "2026-02-08T06:59:58.219232Z",
-    "updatedAt": "2026-02-08T06:59:58.219251Z"
+    "updatedAt": "2026-02-09T15:01:29.586957Z"
   },
   {
     "id": "prod-103",
@@ -10844,10 +10832,10 @@
     "categoryIds": [
       "cat-08"
     ],
-    "subcategoryId": "subcat-pin-23",
+    "subcategoryId": "subcat-pin-22",
     "price": 50.0,
     "currency": "INR",
-    "stock": 12,
+    "stock": 11,
     "available": true,
     "images": [
       "assets/products/sakura-bloom-claw-clip/sakura-bloom-claw-clip.jpeg"
@@ -10860,7 +10848,7 @@
       {
         "name": "Beige",
         "hex": "#F5F5DC",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -10877,7 +10865,7 @@
       }
     ],
     "createdAt": "2026-02-08T07:41:15.029379Z",
-    "updatedAt": "2026-02-08T07:41:15.029403Z"
+    "updatedAt": "2026-02-09T14:59:56.009288Z"
   },
   {
     "id": "prod-106",
