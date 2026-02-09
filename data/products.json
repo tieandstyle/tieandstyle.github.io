@@ -8126,7 +8126,7 @@
     "subcategoryId": "subcat-pin-04",
     "price": 89.0,
     "currency": "INR",
-    "stock": 23,
+    "stock": 22,
     "available": true,
     "images": [
       "assets/products/rose-claw-clip/rose-claw-clip.jpeg"
@@ -8139,7 +8139,7 @@
       {
         "name": "Black",
         "hex": "#000000",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -8168,7 +8168,7 @@
       }
     ],
     "createdAt": "2025-12-31T12:46:44.651517Z",
-    "updatedAt": "2025-12-31T12:46:44.651607Z"
+    "updatedAt": "2026-02-09T03:30:24.166864Z"
   },
   {
     "id": "prod-063",
@@ -8328,7 +8328,7 @@
     "subcategoryId": "subcat-pin-08",
     "price": 89.0,
     "currency": "INR",
-    "stock": 24,
+    "stock": 23,
     "available": true,
     "images": [
       "assets/products/furry-claw-clip/furry.jpeg"
@@ -8353,7 +8353,7 @@
       {
         "name": "Brown Dog",
         "hex": "#C49A73",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -8364,7 +8364,7 @@
       }
     ],
     "createdAt": "2025-12-31T13:41:06.412188Z",
-    "updatedAt": "2026-01-19T13:12:06.882734Z"
+    "updatedAt": "2026-02-09T03:31:01.205713Z"
   },
   {
     "id": "prod-068",
@@ -10366,7 +10366,7 @@
     "subcategoryId": "subcat-pin-12",
     "price": 40.0,
     "currency": "INR",
-    "stock": 10,
+    "stock": 8,
     "available": true,
     "images": [
       "assets/products/orchid-flower-clip/orchid-flower-clip.jpeg"
@@ -10376,12 +10376,6 @@
     "description": "",
     "tags": [],
     "colors": [
-      {
-        "name": "Red",
-        "hex": "#713232",
-        "stock": 1,
-        "available": true
-      },
       {
         "name": "Light Pink",
         "hex": "#D99BAB",
@@ -10411,16 +10405,10 @@
         "hex": "#ECCB8E",
         "stock": 1,
         "available": true
-      },
-      {
-        "name": "Ocean Blue",
-        "hex": "#79B4EC",
-        "stock": 1,
-        "available": true
       }
     ],
     "createdAt": "2026-01-19T06:53:09.673431Z",
-    "updatedAt": "2026-02-08T12:23:50.813457Z"
+    "updatedAt": "2026-02-09T04:15:49.941894Z"
   },
   {
     "id": "prod-091",
@@ -10542,7 +10530,7 @@
     "subcategoryId": "subcat-pin-17",
     "price": 80.0,
     "currency": "INR",
-    "stock": 8,
+    "stock": 19,
     "available": true,
     "images": [
       "assets/products/knotheart-claw-clip/knotheart-claw-clip.jpeg"
@@ -10555,12 +10543,12 @@
       "Large"
     ],
     "createdAt": "2026-01-21T05:38:54.051499Z",
-    "updatedAt": "2026-02-08T08:03:59.532195Z",
+    "updatedAt": "2026-02-09T04:11:58.882171Z",
     "colors": [
       {
         "name": "Heart",
         "hex": "#9BE2E4",
-        "stock": 11,
+        "stock": 10,
         "available": true
       },
       {
@@ -10740,10 +10728,10 @@
     "categoryIds": [
       "cat-08"
     ],
-    "subcategoryId": "subcat-pin-02",
+    "subcategoryId": "subcat-pin-21",
     "price": 50.0,
     "currency": "INR",
-    "stock": 36,
+    "stock": 34,
     "available": true,
     "images": [
       "assets/products/tulip-claw-clip/tulip-box-claw-clip.jpeg"
@@ -10768,7 +10756,7 @@
       {
         "name": "Yellow",
         "hex": "#FFEC80",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
@@ -10780,7 +10768,7 @@
       {
         "name": "Purple",
         "hex": "#FE8BFE",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
@@ -10791,7 +10779,7 @@
       }
     ],
     "createdAt": "2026-02-08T07:15:20.115405Z",
-    "updatedAt": "2026-02-08T07:15:20.115452Z"
+    "updatedAt": "2026-02-09T04:13:10.585186Z"
   },
   {
     "id": "prod-104",
@@ -10951,7 +10939,7 @@
     "subcategoryId": "subcat-pin-25",
     "price": 80.0,
     "currency": "INR",
-    "stock": 36,
+    "stock": 35,
     "available": true,
     "images": [
       "assets/products/tulip-loop-claw-clip/tulip-loop-claw-clip.jpeg"
@@ -10982,11 +10970,11 @@
       {
         "name": "Coral Pink",
         "hex": "#F3B0B0",
-        "stock": 9,
+        "stock": 8,
         "available": true
       }
     ],
     "createdAt": "2026-02-08T08:01:55.879074Z",
-    "updatedAt": "2026-02-08T08:01:55.879129Z"
+    "updatedAt": "2026-02-09T04:14:29.824920Z"
   }
 ]
