@@ -7135,7 +7135,7 @@
     "subcategoryId": "subcat-kor-22",
     "price": 20.0,
     "currency": "INR",
-    "stock": 104,
+    "stock": 101,
     "available": true,
     "images": [
       "assets/products/mallow-claw-clip/mallow-claw-clip.jpeg"
@@ -7148,13 +7148,13 @@
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "stock": 12,
+        "stock": 11,
         "available": true
       },
       {
         "name": "Coffee Brown",
         "hex": "#C8B189",
-        "stock": 11,
+        "stock": 10,
         "available": true
       },
       {
@@ -7172,7 +7172,7 @@
       {
         "name": "Beige",
         "hex": "#F3ECA0",
-        "stock": 17,
+        "stock": 16,
         "available": true
       },
       {
@@ -7207,7 +7207,7 @@
       }
     ],
     "createdAt": "2025-12-30T14:50:00.427798Z",
-    "updatedAt": "2026-01-31T15:36:39.660363Z"
+    "updatedAt": "2026-02-10T12:55:39.878429Z"
   },
   {
     "id": "prod-044",
@@ -7305,7 +7305,7 @@
     "subcategoryId": "subcat-kor-24",
     "price": 20.0,
     "currency": "INR",
-    "stock": 114,
+    "stock": 111,
     "available": true,
     "images": [
       "assets/products/daze-claw-clip/daze-claw-clip.jpeg"
@@ -7330,19 +7330,19 @@
       {
         "name": "Brown",
         "hex": "#B7A276",
-        "stock": 11,
+        "stock": 10,
         "available": true
       },
       {
         "name": "Yellow",
         "hex": "#FFF7C2",
-        "stock": 12,
+        "stock": 11,
         "available": true
       },
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "stock": 11,
+        "stock": 10,
         "available": true
       },
       {
@@ -7377,7 +7377,7 @@
       }
     ],
     "createdAt": "2025-12-30T15:38:20.387296Z",
-    "updatedAt": "2026-01-19T13:35:03.728296Z"
+    "updatedAt": "2026-02-10T12:58:51.764915Z"
   },
   {
     "id": "prod-046",
@@ -7844,7 +7844,7 @@
     "subcategoryId": "subcat-kor-34",
     "price": 35.0,
     "currency": "INR",
-    "stock": 217,
+    "stock": 214,
     "available": true,
     "images": [
       "assets/products/border-floral-claw-clip/border-floral-claw-clip.jpeg"
@@ -7881,7 +7881,7 @@
       {
         "name": "Peach Border With White",
         "hex": "#F0BAA8",
-        "stock": 38,
+        "stock": 35,
         "available": true
       },
       {
@@ -7892,7 +7892,7 @@
       }
     ],
     "createdAt": "2025-12-31T10:58:04.705418Z",
-    "updatedAt": "2026-02-06T05:51:04.811441Z"
+    "updatedAt": "2026-02-10T12:53:08.561107Z"
   },
   {
     "id": "prod-056",
@@ -7924,7 +7924,7 @@
       {
         "name": "Lavender",
         "hex": "#CBC7E2",
-        "stock": 5,
+        "stock": 4,
         "available": true
       },
       {
@@ -7953,7 +7953,7 @@
       }
     ],
     "createdAt": "2025-12-31T11:12:45.333456Z",
-    "updatedAt": "2026-02-03T08:07:53.682976Z"
+    "updatedAt": "2026-02-10T12:29:44.858230Z"
   },
   {
     "id": "prod-057",
@@ -8071,7 +8071,7 @@
     "subcategoryId": "subcat-pin-03",
     "price": 89.0,
     "currency": "INR",
-    "stock": 17,
+    "stock": 16,
     "available": true,
     "images": [
       "assets/products/fruity-claw-clips/fruity-claw-clip.jpeg"
@@ -8096,7 +8096,7 @@
       {
         "name": "Orange",
         "hex": "#F2A650",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -8107,7 +8107,7 @@
       }
     ],
     "createdAt": "2025-12-31T12:26:06.190675Z",
-    "updatedAt": "2026-01-26T09:13:21.265171Z"
+    "updatedAt": "2026-02-10T12:32:31.078686Z"
   },
   {
     "id": "prod-062",
@@ -8322,7 +8322,7 @@
     "subcategoryId": "subcat-pin-08",
     "price": 89.0,
     "currency": "INR",
-    "stock": 23,
+    "stock": 22,
     "available": true,
     "images": [
       "assets/products/furry-claw-clip/furry.jpeg"
@@ -8353,12 +8353,12 @@
       {
         "name": "Polka dotted Puppy",
         "hex": "#E2D3CA",
-        "stock": 5,
+        "stock": 4,
         "available": true
       }
     ],
     "createdAt": "2025-12-31T13:41:06.412188Z",
-    "updatedAt": "2026-02-09T03:31:01.205713Z"
+    "updatedAt": "2026-02-10T12:33:21.937776Z"
   },
   {
     "id": "prod-068",
@@ -9472,7 +9472,7 @@
     "subcategoryId": "subcat-cus-04",
     "price": 30.0,
     "currency": "INR",
-    "stock": 4,
+    "stock": 3,
     "available": true,
     "images": [
       "assets/products/heart-bracelet/heart-bracelet.jpeg"
@@ -9482,7 +9482,7 @@
     "description": "",
     "tags": [],
     "createdAt": "2025-12-31T16:10:44.407434Z",
-    "updatedAt": "2026-01-21T04:58:11.348834Z"
+    "updatedAt": "2026-02-10T12:39:07.536057Z"
   },
   {
     "id": "prod-075",
@@ -9624,7 +9624,7 @@
     "subcategoryId": "subcat-cus-10",
     "price": 30.0,
     "currency": "INR",
-    "stock": 33,
+    "stock": 32,
     "available": true,
     "images": [
       "assets/products/butterfly-chain/butterfly-chain.jpeg"
@@ -9643,7 +9643,7 @@
       {
         "name": "Pink",
         "hex": "#FF1493",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -9666,7 +9666,7 @@
       }
     ],
     "createdAt": "2025-12-31T16:44:57.417412Z",
-    "updatedAt": "2025-12-31T16:44:57.417452Z"
+    "updatedAt": "2026-02-10T12:37:58.873096Z"
   },
   {
     "id": "prod-081",
@@ -9679,7 +9679,7 @@
     "subcategoryId": "subcat-pin-09",
     "price": 70.0,
     "currency": "INR",
-    "stock": 19,
+    "stock": 18,
     "available": true,
     "images": [
       "assets/products/fruitsicle-cards/fruitsicle-cards.jpeg"
@@ -9707,7 +9707,7 @@
       {
         "name": "Pine",
         "hex": "#F0DD70",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -9730,7 +9730,7 @@
       }
     ],
     "createdAt": "2026-01-11T06:46:11.283193Z",
-    "updatedAt": "2026-02-01T05:25:03.479442Z"
+    "updatedAt": "2026-02-10T12:34:39.615517Z"
   },
   {
     "id": "prod-082",
@@ -9743,7 +9743,7 @@
     "subcategoryId": "subcat-bou-03",
     "price": 70.0,
     "currency": "INR",
-    "stock": 10,
+    "stock": 9,
     "available": true,
     "images": [
       "assets/products/sweet-pairs-cards/sweet-pairs-card.jpeg"
@@ -9773,16 +9773,10 @@
         "hex": "#EAC2C2",
         "stock": 2,
         "available": true
-      },
-      {
-        "name": "Mushroon",
-        "hex": "#F5F5DC",
-        "stock": 1,
-        "available": true
       }
     ],
     "createdAt": "2026-01-11T06:52:50.544500Z",
-    "updatedAt": "2026-02-09T14:55:24.415669Z"
+    "updatedAt": "2026-02-10T12:36:22.346918Z"
   },
   {
     "id": "prod-083",
@@ -10348,7 +10342,7 @@
     "subcategoryId": "subcat-pin-12",
     "price": 40.0,
     "currency": "INR",
-    "stock": 7,
+    "stock": 8,
     "available": true,
     "images": [
       "assets/products/orchid-flower-clip/orchid-flower-clip.jpeg"
@@ -10381,10 +10375,16 @@
         "hex": "#ECCB8E",
         "stock": 1,
         "available": true
+      },
+      {
+        "name": "Mint",
+        "hex": "#D6FFD6",
+        "stock": 1,
+        "available": true
       }
     ],
     "createdAt": "2026-01-19T06:53:09.673431Z",
-    "updatedAt": "2026-02-09T04:21:15.854509Z"
+    "updatedAt": "2026-02-10T12:30:40.247171Z"
   },
   {
     "id": "prod-091",
@@ -10744,7 +10744,7 @@
       {
         "name": "Purple",
         "hex": "#FE8BFE",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -10755,7 +10755,7 @@
       }
     ],
     "createdAt": "2026-02-08T07:15:20.115405Z",
-    "updatedAt": "2026-02-09T15:11:03.048997Z"
+    "updatedAt": "2026-02-10T12:50:37.766292Z"
   },
   {
     "id": "prod-104",
@@ -10826,10 +10826,10 @@
     "categoryIds": [
       "cat-08"
     ],
-    "subcategoryId": "subcat-pin-22",
+    "subcategoryId": "subcat-pin-23",
     "price": 50.0,
     "currency": "INR",
-    "stock": 11,
+    "stock": 10,
     "available": true,
     "images": [
       "assets/products/sakura-bloom-claw-clip/sakura-bloom-claw-clip.jpeg"
@@ -10848,7 +10848,7 @@
       {
         "name": "Coral Pink",
         "hex": "#FCCACA",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -10859,7 +10859,7 @@
       }
     ],
     "createdAt": "2026-02-08T07:41:15.029379Z",
-    "updatedAt": "2026-02-09T14:59:56.009288Z"
+    "updatedAt": "2026-02-10T12:47:32.507860Z"
   },
   {
     "id": "prod-106",
