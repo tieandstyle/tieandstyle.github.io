@@ -10687,7 +10687,7 @@
       "cat-08"
     ],
     "subcategoryId": "subcat-pin-21",
-    "price": 50.0,
+    "price": 60.0,
     "currency": "INR",
     "stock": 31,
     "available": true,
@@ -10737,7 +10737,7 @@
       }
     ],
     "createdAt": "2026-02-08T07:15:20.115405Z",
-    "updatedAt": "2026-02-12T07:52:26.135663Z"
+    "updatedAt": "2026-02-12T08:24:37.510688Z"
   },
   {
     "id": "prod-104",
@@ -10748,7 +10748,7 @@
       "cat-08"
     ],
     "subcategoryId": "subcat-pin-22",
-    "price": 50.0,
+    "price": 60.0,
     "currency": "INR",
     "stock": 10,
     "available": true,
@@ -10798,7 +10798,7 @@
       }
     ],
     "createdAt": "2026-02-08T07:32:46.192266Z",
-    "updatedAt": "2026-02-09T15:10:15.114697Z"
+    "updatedAt": "2026-02-12T08:23:07.722331Z"
   },
   {
     "id": "prod-105",
@@ -10809,7 +10809,7 @@
       "cat-08"
     ],
     "subcategoryId": "subcat-pin-23",
-    "price": 50.0,
+    "price": 60.0,
     "currency": "INR",
     "stock": 10,
     "available": true,
@@ -10841,7 +10841,7 @@
       }
     ],
     "createdAt": "2026-02-08T07:41:15.029379Z",
-    "updatedAt": "2026-02-10T12:47:32.507860Z"
+    "updatedAt": "2026-02-12T08:23:33.673357Z"
   },
   {
     "id": "prod-106",
