@@ -5804,7 +5804,7 @@
     "subcategoryId": "subcat-kor-02",
     "price": 30.0,
     "currency": "INR",
-    "stock": 154,
+    "stock": 153,
     "available": true,
     "images": [
       "assets/products/medium-daisy-claw-clip/medium-daisy-claw-clip.jpeg"
@@ -5859,7 +5859,7 @@
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "stock": 23,
+        "stock": 22,
         "available": true
       },
       {
@@ -5876,7 +5876,7 @@
       }
     ],
     "createdAt": "2025-12-29T08:46:44.112297Z",
-    "updatedAt": "2026-02-09T15:08:06.943012Z"
+    "updatedAt": "2026-02-12T09:16:18.624747Z"
   },
   {
     "id": "prod-023",
@@ -5889,7 +5889,7 @@
     "subcategoryId": "subcat-kor-03",
     "price": 40.0,
     "currency": "INR",
-    "stock": 148,
+    "stock": 147,
     "available": true,
     "images": [
       "assets/products/large-daisy-claw-clip/large-daisy-claw-clip.jpeg"
@@ -5903,12 +5903,6 @@
         "name": "Red",
         "hex": "#B70B50",
         "stock": 12,
-        "available": true
-      },
-      {
-        "name": "Light Red",
-        "hex": "#FF0F57",
-        "stock": 1,
         "available": true
       },
       {
@@ -5967,7 +5961,7 @@
       }
     ],
     "createdAt": "2025-12-29T10:07:48.098742Z",
-    "updatedAt": "2026-01-20T08:12:12.254664Z"
+    "updatedAt": "2026-02-12T09:16:53.366004Z"
   },
   {
     "id": "prod-024",
@@ -6793,7 +6787,7 @@
     "subcategoryId": "subcat-kor-17",
     "price": 25.0,
     "currency": "INR",
-    "stock": 28,
+    "stock": 27,
     "available": true,
     "images": [
       "assets/products/twine-claw-clip/twine-claw-clip.jpeg"
@@ -6806,7 +6800,7 @@
       {
         "name": "Sea Blue",
         "hex": "#439391",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -6841,7 +6835,7 @@
       }
     ],
     "createdAt": "2025-12-30T11:49:33.071902Z",
-    "updatedAt": "2026-02-03T08:10:21.382503Z"
+    "updatedAt": "2026-02-12T09:17:27.300838Z"
   },
   {
     "id": "prod-038",
@@ -7449,10 +7443,10 @@
     "categoryIds": [
       "cat-07"
     ],
-    "subcategoryId": "subcat-kor-26",
+    "subcategoryId": "subcat-kor-17",
     "price": 40.0,
     "currency": "INR",
-    "stock": 62,
+    "stock": 61,
     "available": true,
     "images": [
       "assets/products/twinnie-claw-clip/twinnie-claw-clip.jpeg"
@@ -7477,7 +7471,7 @@
       {
         "name": "Light Green",
         "hex": "#9ACD93",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -7518,7 +7512,7 @@
       }
     ],
     "createdAt": "2025-12-31T08:04:15.538122Z",
-    "updatedAt": "2026-01-22T10:13:51.654667Z"
+    "updatedAt": "2026-02-12T09:13:02.852985Z"
   },
   {
     "id": "prod-048",
@@ -7624,7 +7618,7 @@
     "subcategoryId": "subcat-kor-29",
     "price": 45.0,
     "currency": "INR",
-    "stock": 19,
+    "stock": 18,
     "available": true,
     "images": [
       "assets/products/clover-claw-clip/clover-claw-clip.jpeg"
@@ -7655,7 +7649,7 @@
       {
         "name": "Salmon",
         "hex": "#E29196",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -7672,7 +7666,7 @@
       }
     ],
     "createdAt": "2025-12-31T09:20:10.184507Z",
-    "updatedAt": "2025-12-31T09:20:10.184593Z"
+    "updatedAt": "2026-02-12T09:18:06.611556Z"
   },
   {
     "id": "prod-051",
@@ -10666,7 +10660,7 @@
     "subcategoryId": "subcat--01",
     "price": 150.0,
     "currency": "INR",
-    "stock": 9,
+    "stock": 8,
     "available": true,
     "images": [
       "assets/products/tangerine-korean-hairpins/sunflower-trio-claw-clip.jpeg"
@@ -10676,7 +10670,7 @@
     "description": "",
     "tags": [],
     "createdAt": "2026-02-08T06:59:58.219232Z",
-    "updatedAt": "2026-02-12T07:51:17.251086Z"
+    "updatedAt": "2026-02-12T09:13:56.331935Z"
   },
   {
     "id": "prod-103",
@@ -10689,7 +10683,7 @@
     "subcategoryId": "subcat-pin-21",
     "price": 60.0,
     "currency": "INR",
-    "stock": 31,
+    "stock": 30,
     "available": true,
     "images": [
       "assets/products/tulip-claw-clip/tulip-box-claw-clip.jpeg"
@@ -10714,7 +10708,7 @@
       {
         "name": "Yellow",
         "hex": "#FFEC80",
-        "stock": 5,
+        "stock": 4,
         "available": true
       },
       {
@@ -10737,7 +10731,7 @@
       }
     ],
     "createdAt": "2026-02-08T07:15:20.115405Z",
-    "updatedAt": "2026-02-12T08:24:37.510688Z"
+    "updatedAt": "2026-02-12T09:15:31.727635Z"
   },
   {
     "id": "prod-104",
@@ -10750,7 +10744,7 @@
     "subcategoryId": "subcat-pin-22",
     "price": 60.0,
     "currency": "INR",
-    "stock": 10,
+    "stock": 9,
     "available": true,
     "images": [
       "assets/products/sakura-box-claw-clip/sakura-box-claw-clip.jpeg"
@@ -10775,7 +10769,7 @@
       {
         "name": "Pink",
         "hex": "#FF69B4",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -10798,7 +10792,7 @@
       }
     ],
     "createdAt": "2026-02-08T07:32:46.192266Z",
-    "updatedAt": "2026-02-12T08:23:07.722331Z"
+    "updatedAt": "2026-02-12T09:14:41.594845Z"
   },
   {
     "id": "prod-105",
