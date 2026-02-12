@@ -10934,5 +10934,66 @@
     ],
     "createdAt": "2026-02-08T08:01:55.879074Z",
     "updatedAt": "2026-02-09T04:14:29.824920Z"
+  },
+  {
+    "id": "prod-108",
+    "sku": "SHEL-CAR-108",
+    "title": "Shelly Cards",
+    "slug": "shelly-cards",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-26",
+    "price": 90.0,
+    "currency": "INR",
+    "stock": 9,
+    "available": true,
+    "images": [
+      "assets/products/shelly-cards/shelly-cards.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Yellow with Pink",
+        "hex": "#E4CB48",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Peach with orange",
+        "hex": "#C06F52",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Purple With Pink",
+        "hex": "#B74F6C",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "white with Purple",
+        "hex": "#FFFFFF",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Green With Purple",
+        "hex": "#32CD32",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "Dark blue With Yellow",
+        "hex": "#D6C472",
+        "stock": 1,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-02-12T09:06:52.403738Z",
+    "updatedAt": "2026-02-12T09:06:52.403841Z"
   }
 ]

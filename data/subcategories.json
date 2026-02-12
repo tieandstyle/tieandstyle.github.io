@@ -907,5 +907,14 @@
     "parentCategoryId": "cat-08",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-pin-26",
+    "name": "Shelly Cards",
+    "slug": "shelly-cards",
+    "description": "Shellie Cards! 3 matte shell claw clips (1 large, 2 small) on a colorful card for beachy vibes.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
   }
 ]
