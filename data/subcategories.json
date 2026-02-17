@@ -916,5 +916,23 @@
     "parentCategoryId": "cat-08",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-pin-27",
+    "name": "Little Joy Cards",
+    "slug": "little-joy-cards",
+    "description": "Double the cuteness! This card holds two pairs of small, trendy claw clips. Pure joy!",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-28",
+    "name": "Lovey Dovey Cards",
+    "slug": "lovey-dovey-cards",
+    "description": "Double the love! This card holds two pairs of cute claw clips. Perfect for sharing!",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
   }
 ]

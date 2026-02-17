@@ -6102,7 +6102,7 @@
     "subcategoryId": "subcat-kor-06",
     "price": 20.0,
     "currency": "INR",
-    "stock": 52,
+    "stock": 51,
     "available": true,
     "images": [
       "assets/products/shellie-claw-clip/shellie-claw-clip.jpeg"
@@ -6112,12 +6112,6 @@
     "description": "",
     "tags": [],
     "colors": [
-      {
-        "name": "Pink",
-        "hex": "#B7768D",
-        "stock": 1,
-        "available": true
-      },
       {
         "name": "Skin",
         "hex": "#EAC3A9",
@@ -6150,7 +6144,7 @@
       }
     ],
     "createdAt": "2025-12-29T11:18:51.707301Z",
-    "updatedAt": "2026-01-31T15:34:26.457961Z"
+    "updatedAt": "2026-02-13T05:07:37.549541Z"
   },
   {
     "id": "prod-027",
@@ -7838,7 +7832,7 @@
     "subcategoryId": "subcat-kor-34",
     "price": 35.0,
     "currency": "INR",
-    "stock": 214,
+    "stock": 213,
     "available": true,
     "images": [
       "assets/products/border-floral-claw-clip/border-floral-claw-clip.jpeg"
@@ -7869,7 +7863,7 @@
       {
         "name": "Blue Border With White",
         "hex": "#BDFEFF",
-        "stock": 37,
+        "stock": 36,
         "available": true
       },
       {
@@ -7886,7 +7880,7 @@
       }
     ],
     "createdAt": "2025-12-31T10:58:04.705418Z",
-    "updatedAt": "2026-02-10T12:53:08.561107Z"
+    "updatedAt": "2026-02-13T05:06:33.153935Z"
   },
   {
     "id": "prod-056",
@@ -9667,7 +9661,7 @@
     "subcategoryId": "subcat-pin-09",
     "price": 70.0,
     "currency": "INR",
-    "stock": 18,
+    "stock": 24,
     "available": true,
     "images": [
       "assets/products/fruitsicle-cards/fruitsicle-cards.jpeg"
@@ -9695,19 +9689,19 @@
       {
         "name": "Pine",
         "hex": "#F0DD70",
-        "stock": 1,
+        "stock": 3,
         "available": true
       },
       {
         "name": "Cherry",
         "hex": "#F72B2B",
-        "stock": 1,
+        "stock": 3,
         "available": true
       },
       {
         "name": "Carrot",
         "hex": "#FFA500",
-        "stock": 2,
+        "stock": 4,
         "available": true
       },
       {
@@ -9718,7 +9712,7 @@
       }
     ],
     "createdAt": "2026-01-11T06:46:11.283193Z",
-    "updatedAt": "2026-02-10T12:34:39.615517Z"
+    "updatedAt": "2026-02-17T05:44:27.205049Z"
   },
   {
     "id": "prod-082",
@@ -9731,7 +9725,7 @@
     "subcategoryId": "subcat-bou-03",
     "price": 70.0,
     "currency": "INR",
-    "stock": 9,
+    "stock": 13,
     "available": true,
     "images": [
       "assets/products/sweet-pairs-cards/sweet-pairs-card.jpeg"
@@ -9759,12 +9753,18 @@
       {
         "name": "Peach",
         "hex": "#EAC2C2",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Mushroom",
+        "hex": "#FF6B6B",
         "stock": 2,
         "available": true
       }
     ],
     "createdAt": "2026-01-11T06:52:50.544500Z",
-    "updatedAt": "2026-02-10T12:36:22.346918Z"
+    "updatedAt": "2026-02-17T05:45:14.458900Z"
   },
   {
     "id": "prod-083",
@@ -10940,7 +10940,7 @@
     "subcategoryId": "subcat-pin-26",
     "price": 90.0,
     "currency": "INR",
-    "stock": 9,
+    "stock": 8,
     "available": true,
     "images": [
       "assets/products/shelly-cards/shelly-cards.jpeg"
@@ -10953,7 +10953,7 @@
       {
         "name": "Yellow with Pink",
         "hex": "#E4CB48",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -10988,6 +10988,98 @@
       }
     ],
     "createdAt": "2026-02-12T09:06:52.403738Z",
-    "updatedAt": "2026-02-12T09:06:52.403841Z"
+    "updatedAt": "2026-02-13T05:13:02.306628Z"
+  },
+  {
+    "id": "prod-109",
+    "sku": "LITT-JOY-109",
+    "title": "Little Joy Cards",
+    "slug": "little-joy-cards",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-27",
+    "price": 70.0,
+    "currency": "INR",
+    "stock": 8,
+    "available": true,
+    "images": [
+      "assets/products/little-joy-cards/little-joy-cards.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "Duck",
+        "hex": "#FFFFFF",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Butterfly",
+        "hex": "#D265D2",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Rainbow",
+        "hex": "#FF0000",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Juice",
+        "hex": "#FF1493",
+        "stock": 2,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-02-17T05:27:05.158290Z",
+    "updatedAt": "2026-02-17T05:27:05.213032Z"
+  },
+  {
+    "id": "prod-110",
+    "sku": "LOVE-DOV-110",
+    "title": "Lovey Dovey Cards",
+    "slug": "lovey-dovey-cards",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-28",
+    "price": 70.0,
+    "currency": "INR",
+    "stock": 6,
+    "available": true,
+    "images": [
+      "assets/products/lovey-dovey-cards/lovey-dovey-cards.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Lovey Dovey! A sweet card featuring two adorable pairs of claw clips for double the charm.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "StrawBerry",
+        "hex": "#FF69B4",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Hello Kitty",
+        "hex": "#FFA3D1",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Bow",
+        "hex": "#FF1493",
+        "stock": 2,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-02-17T05:35:56.660219Z",
+    "updatedAt": "2026-02-17T05:35:56.660319Z"
   }
 ]
