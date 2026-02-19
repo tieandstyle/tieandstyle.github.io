@@ -5889,7 +5889,7 @@
     "subcategoryId": "subcat-kor-03",
     "price": 40.0,
     "currency": "INR",
-    "stock": 147,
+    "stock": 148,
     "available": true,
     "images": [
       "assets/products/large-daisy-claw-clip/large-daisy-claw-clip.jpeg"
@@ -5958,10 +5958,16 @@
         "hex": "#FFFFFF",
         "stock": 5,
         "available": true
+      },
+      {
+        "name": "Light Red",
+        "hex": "#FE7171",
+        "stock": 1,
+        "available": true
       }
     ],
     "createdAt": "2025-12-29T10:07:48.098742Z",
-    "updatedAt": "2026-02-12T09:16:53.366004Z"
+    "updatedAt": "2026-02-19T09:48:43.974085Z"
   },
   {
     "id": "prod-024",
