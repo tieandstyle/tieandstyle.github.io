@@ -10300,7 +10300,7 @@
     "subcategoryId": "subcat-pin-12",
     "price": 40.0,
     "currency": "INR",
-    "stock": 8,
+    "stock": 7,
     "available": true,
     "images": [
       "assets/products/orchid-flower-clip/orchid-flower-clip.jpeg"
@@ -10333,16 +10333,10 @@
         "hex": "#ECCB8E",
         "stock": 1,
         "available": true
-      },
-      {
-        "name": "Mint",
-        "hex": "#D6FFD6",
-        "stock": 1,
-        "available": true
       }
     ],
     "createdAt": "2026-01-19T06:53:09.673431Z",
-    "updatedAt": "2026-02-10T12:30:40.247171Z"
+    "updatedAt": "2026-02-19T04:08:02.363629Z"
   },
   {
     "id": "prod-091",
