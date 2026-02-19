@@ -6309,7 +6309,7 @@
     "subcategoryId": "subcat-kor-09",
     "price": 30.0,
     "currency": "INR",
-    "stock": 9,
+    "stock": 8,
     "available": true,
     "images": [
       "assets/products/vanessa-butterfly-wings/vanessa-butterfly-wings.jpeg"
@@ -6322,7 +6322,7 @@
       {
         "name": "Lemon Zest",
         "hex": "#B2B05F",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -6351,7 +6351,7 @@
       }
     ],
     "createdAt": "2025-12-30T08:48:40.827332Z",
-    "updatedAt": "2026-02-19T08:55:33.654536Z"
+    "updatedAt": "2026-02-19T09:27:58.093712Z"
   },
   {
     "id": "prod-030",
@@ -7197,7 +7197,7 @@
       {
         "name": "Yellow",
         "hex": "#FFF5B8",
-        "stock": 9,
+        "stock": 10,
         "available": true
       },
       {
@@ -7209,7 +7209,7 @@
       {
         "name": "Peach",
         "hex": "#F1A085",
-        "stock": 7,
+        "stock": 6,
         "available": true
       },
       {
@@ -7256,7 +7256,7 @@
       }
     ],
     "createdAt": "2025-12-30T15:11:26.715544Z",
-    "updatedAt": "2026-02-19T05:27:22.199352Z"
+    "updatedAt": "2026-02-19T09:30:35.823689Z"
   },
   {
     "id": "prod-045",
@@ -10182,7 +10182,7 @@
     "subcategoryId": "subcat-kor-40",
     "price": 20.0,
     "currency": "INR",
-    "stock": 27,
+    "stock": 26,
     "available": true,
     "images": [
       "assets/products/ribbon-snap-claw-clip/ribbon-snap-claw-clip.jpeg"
@@ -10204,7 +10204,7 @@
       {
         "name": "Beige",
         "hex": "#F5F5DC",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -10257,7 +10257,7 @@
       }
     ],
     "createdAt": "2026-01-17T08:56:58.365980Z",
-    "updatedAt": "2026-02-03T08:07:04.387765Z"
+    "updatedAt": "2026-02-19T09:29:48.990341Z"
   },
   {
     "id": "prod-090",
@@ -10837,7 +10837,7 @@
     "subcategoryId": "subcat-pin-25",
     "price": 80.0,
     "currency": "INR",
-    "stock": 33,
+    "stock": 32,
     "available": true,
     "images": [
       "assets/products/tulip-loop-claw-clip/tulip-loop-claw-clip.jpeg"
@@ -10856,7 +10856,7 @@
       {
         "name": "Black",
         "hex": "#000000",
-        "stock": 8,
+        "stock": 7,
         "available": true
       },
       {
@@ -10873,7 +10873,7 @@
       }
     ],
     "createdAt": "2026-02-08T08:01:55.879074Z",
-    "updatedAt": "2026-02-19T08:01:32.714395Z"
+    "updatedAt": "2026-02-19T09:28:57.295969Z"
   },
   {
     "id": "prod-108",
