@@ -6309,7 +6309,7 @@
     "subcategoryId": "subcat-kor-09",
     "price": 30.0,
     "currency": "INR",
-    "stock": 10,
+    "stock": 9,
     "available": true,
     "images": [
       "assets/products/vanessa-butterfly-wings/vanessa-butterfly-wings.jpeg"
@@ -6328,7 +6328,7 @@
       {
         "name": "Red",
         "hex": "#AC2A2A",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -6351,7 +6351,7 @@
       }
     ],
     "createdAt": "2025-12-30T08:48:40.827332Z",
-    "updatedAt": "2026-02-03T08:12:04.455298Z"
+    "updatedAt": "2026-02-19T08:55:33.654536Z"
   },
   {
     "id": "prod-030",
@@ -6720,7 +6720,7 @@
     "subcategoryId": "subcat-kor-16",
     "price": 20.0,
     "currency": "INR",
-    "stock": 23,
+    "stock": 22,
     "available": true,
     "images": [
       "assets/products/loop-claw-clip/loop-claw-clip.jpeg"
@@ -6739,7 +6739,7 @@
       {
         "name": "Grey",
         "hex": "#908989",
-        "stock": 7,
+        "stock": 6,
         "available": true
       },
       {
@@ -6750,7 +6750,7 @@
       }
     ],
     "createdAt": "2025-12-30T11:35:01.213154Z",
-    "updatedAt": "2026-02-12T07:55:24.354810Z"
+    "updatedAt": "2026-02-19T08:55:06.811235Z"
   },
   {
     "id": "prod-037",
@@ -7991,14 +7991,14 @@
     "tags": [],
     "colors": [
       {
-        "name": "Red",
-        "hex": "#B81414",
+        "name": "yellow",
+        "hex": "#FFF09E",
         "stock": 1,
         "available": true
       }
     ],
     "createdAt": "2025-12-31T12:14:38.871887Z",
-    "updatedAt": "2026-02-19T05:32:42.922320Z"
+    "updatedAt": "2026-02-19T08:56:20.368647Z"
   },
   {
     "id": "prod-061",
