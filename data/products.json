@@ -5889,7 +5889,7 @@
     "subcategoryId": "subcat-kor-03",
     "price": 40.0,
     "currency": "INR",
-    "stock": 147,
+    "stock": 143,
     "available": true,
     "images": [
       "assets/products/large-daisy-claw-clip/large-daisy-claw-clip.jpeg"
@@ -5902,7 +5902,7 @@
       {
         "name": "Red",
         "hex": "#B70B50",
-        "stock": 12,
+        "stock": 11,
         "available": true
       },
       {
@@ -5914,13 +5914,13 @@
       {
         "name": "purplish-PinK",
         "hex": "#A41D6A",
-        "stock": 12,
+        "stock": 11,
         "available": true
       },
       {
         "name": "Orange",
         "hex": "#D66F15",
-        "stock": 23,
+        "stock": 22,
         "available": true
       },
       {
@@ -5944,7 +5944,7 @@
       {
         "name": "Yellow",
         "hex": "#FCDE73",
-        "stock": 20,
+        "stock": 19,
         "available": true
       },
       {
@@ -5967,7 +5967,7 @@
       }
     ],
     "createdAt": "2025-12-29T10:07:48.098742Z",
-    "updatedAt": "2026-02-19T10:48:36.654984Z"
+    "updatedAt": "2026-02-21T05:31:36.970832Z"
   },
   {
     "id": "prod-024",
@@ -9607,7 +9607,7 @@
     "subcategoryId": "subcat-pin-09",
     "price": 70.0,
     "currency": "INR",
-    "stock": 24,
+    "stock": 23,
     "available": true,
     "images": [
       "assets/products/fruitsicle-cards/fruitsicle-cards.jpeg"
@@ -9653,12 +9653,12 @@
       {
         "name": "Peach",
         "hex": "#FF6B6B",
-        "stock": 3,
+        "stock": 2,
         "available": true
       }
     ],
     "createdAt": "2026-01-11T06:46:11.283193Z",
-    "updatedAt": "2026-02-17T05:44:27.205049Z"
+    "updatedAt": "2026-02-21T05:50:22.536982Z"
   },
   {
     "id": "prod-082",
@@ -10450,7 +10450,7 @@
     "subcategoryId": "subcat-ham-02",
     "price": 135.0,
     "currency": "INR",
-    "stock": 5,
+    "stock": 3,
     "available": true,
     "images": [
       "assets/products/swan-garden-hamper/swan-garden-hamper.jpeg"
@@ -10460,7 +10460,7 @@
     "description": "",
     "tags": [],
     "createdAt": "2026-01-26T04:48:59.659807Z",
-    "updatedAt": "2026-01-26T04:48:59.659835Z"
+    "updatedAt": "2026-02-21T05:38:46.748176Z"
   },
   {
     "id": "prod-097",
