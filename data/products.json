@@ -7968,8 +7968,8 @@
     "subcategoryId": "subcat-pin-02",
     "price": 89.0,
     "currency": "INR",
-    "stock": 1,
-    "available": true,
+    "stock": 0,
+    "available": false,
     "images": [
       "assets/products/tulip-claw-clip/tulip-claw-clip.jpeg"
     ],
@@ -7977,16 +7977,8 @@
     "shortDescription": "Glossy, garden-inspired tulip clips. A high-shine floral accessory for a chic, polished finish.",
     "description": "",
     "tags": [],
-    "colors": [
-      {
-        "name": "yellow",
-        "hex": "#FFF09E",
-        "stock": 1,
-        "available": true
-      }
-    ],
     "createdAt": "2025-12-31T12:14:38.871887Z",
-    "updatedAt": "2026-02-19T08:56:20.368647Z"
+    "updatedAt": "2026-02-21T09:28:09.885991Z"
   },
   {
     "id": "prod-061",
