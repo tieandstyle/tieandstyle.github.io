@@ -6364,7 +6364,7 @@
     "subcategoryId": "subcat-kor-10",
     "price": 20.0,
     "currency": "INR",
-    "stock": 7,
+    "stock": 6,
     "available": true,
     "images": [
       "assets/products/little-hearts-claw-clip/little-hearts-claw-clip.jpeg"
@@ -6377,7 +6377,7 @@
       {
         "name": "Navy Blue",
         "hex": "#293A43",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -6400,7 +6400,7 @@
       }
     ],
     "createdAt": "2025-12-30T09:06:49.349645Z",
-    "updatedAt": "2026-02-22T06:47:04.104251Z"
+    "updatedAt": "2026-02-22T07:43:51.372679Z"
   },
   {
     "id": "prod-031",
