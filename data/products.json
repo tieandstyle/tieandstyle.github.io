@@ -5804,7 +5804,7 @@
     "subcategoryId": "subcat-kor-02",
     "price": 30.0,
     "currency": "INR",
-    "stock": 152,
+    "stock": 146,
     "available": true,
     "images": [
       "assets/products/medium-daisy-claw-clip/medium-daisy-claw-clip.jpeg"
@@ -5817,13 +5817,13 @@
       {
         "name": "Blue",
         "hex": "#419599",
-        "stock": 29,
+        "stock": 28,
         "available": true
       },
       {
         "name": "Purple With White",
         "hex": "#977CA6",
-        "stock": 21,
+        "stock": 20,
         "available": true
       },
       {
@@ -5841,7 +5841,7 @@
       {
         "name": "Light Pink",
         "hex": "#EC8EC8",
-        "stock": 22,
+        "stock": 21,
         "available": true
       },
       {
@@ -5853,19 +5853,19 @@
       {
         "name": "Salmon",
         "hex": "#C35C3C",
-        "stock": 8,
+        "stock": 7,
         "available": true
       },
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "stock": 21,
+        "stock": 20,
         "available": true
       },
       {
         "name": "Light Yellow",
         "hex": "#FFD35C",
-        "stock": 24,
+        "stock": 23,
         "available": true
       },
       {
@@ -5876,7 +5876,7 @@
       }
     ],
     "createdAt": "2025-12-29T08:46:44.112297Z",
-    "updatedAt": "2026-02-19T08:02:10.827682Z"
+    "updatedAt": "2026-02-23T16:19:19.404457Z"
   },
   {
     "id": "prod-023",
@@ -7898,9 +7898,9 @@
       "cat-09"
     ],
     "subcategoryId": "subcat-bou-01",
-    "price": 450.0,
+    "price": 550.0,
     "currency": "INR",
-    "stock": 10,
+    "stock": 9,
     "available": true,
     "images": [
       "assets/products/blue-berry-bouquet/blue-berry-bouquet.jpeg"
@@ -7918,7 +7918,7 @@
       }
     ],
     "createdAt": "2025-12-31T11:46:46.098469Z",
-    "updatedAt": "2025-12-31T11:46:46.098582Z"
+    "updatedAt": "2026-02-23T16:15:49.604454Z"
   },
   {
     "id": "prod-058",
@@ -9703,7 +9703,7 @@
     "subcategoryId": "subcat-pin-10",
     "price": 90.0,
     "currency": "INR",
-    "stock": 3,
+    "stock": 1,
     "available": true,
     "images": [
       "assets/products/strawberry-daisy-cards/strawberry-daisy-cards.jpeg"
@@ -9714,20 +9714,14 @@
     "tags": [],
     "colors": [
       {
-        "name": "Blue",
-        "hex": "#0000FF",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "Yellow",
         "hex": "#F2FF42",
-        "stock": 2,
+        "stock": 1,
         "available": true
       }
     ],
     "createdAt": "2026-01-11T06:59:44.202618Z",
-    "updatedAt": "2026-02-23T08:43:40.926181Z"
+    "updatedAt": "2026-02-23T16:12:15.584888Z"
   },
   {
     "id": "prod-084",
@@ -9740,7 +9734,7 @@
     "subcategoryId": "subcat-pin-11",
     "price": 100.0,
     "currency": "INR",
-    "stock": 3,
+    "stock": 2,
     "available": true,
     "images": [
       "assets/products/daisy-snap-claw-clip/daisy-snap-claw-clip.jpeg"
@@ -9753,7 +9747,7 @@
       "Large"
     ],
     "createdAt": "2026-01-17T06:37:21.065188Z",
-    "updatedAt": "2026-02-19T11:13:17.347145Z",
+    "updatedAt": "2026-02-23T16:20:33.296322Z",
     "colors": [
       {
         "name": "Brown",
@@ -9764,7 +9758,7 @@
       {
         "name": "Blue",
         "hex": "#689EBD",
-        "stock": 2,
+        "stock": 1,
         "available": false
       }
     ]
@@ -10545,7 +10539,7 @@
     "subcategoryId": "subcat--01",
     "price": 150.0,
     "currency": "INR",
-    "stock": 8,
+    "stock": 7,
     "available": true,
     "images": [
       "assets/products/tangerine-korean-hairpins/sunflower-trio-claw-clip.jpeg"
@@ -10555,7 +10549,7 @@
     "description": "",
     "tags": [],
     "createdAt": "2026-02-08T06:59:58.219232Z",
-    "updatedAt": "2026-02-12T09:13:56.331935Z"
+    "updatedAt": "2026-02-23T16:21:34.871208Z"
   },
   {
     "id": "prod-103",
