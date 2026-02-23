@@ -6206,7 +6206,7 @@
     "subcategoryId": "subcat-kor-08",
     "price": 10.0,
     "currency": "INR",
-    "stock": 79,
+    "stock": 78,
     "available": true,
     "images": [
       "assets/products/glass-wings-claw-clip/glass-wings-claw-clip.jpeg"
@@ -6279,7 +6279,7 @@
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "stock": 7,
+        "stock": 6,
         "available": true
       },
       {
@@ -6302,7 +6302,7 @@
       }
     ],
     "createdAt": "2025-12-30T08:21:26.790988Z",
-    "updatedAt": "2026-02-19T10:56:47.863619Z"
+    "updatedAt": "2026-02-23T08:42:55.181342Z"
   },
   {
     "id": "prod-029",
@@ -9703,7 +9703,7 @@
     "subcategoryId": "subcat-pin-10",
     "price": 90.0,
     "currency": "INR",
-    "stock": 4,
+    "stock": 3,
     "available": true,
     "images": [
       "assets/products/strawberry-daisy-cards/strawberry-daisy-cards.jpeg"
@@ -9716,7 +9716,7 @@
       {
         "name": "Blue",
         "hex": "#0000FF",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -9727,7 +9727,7 @@
       }
     ],
     "createdAt": "2026-01-11T06:59:44.202618Z",
-    "updatedAt": "2026-02-12T07:49:16.660616Z"
+    "updatedAt": "2026-02-23T08:43:40.926181Z"
   },
   {
     "id": "prod-084",
@@ -10819,7 +10819,7 @@
     "subcategoryId": "subcat-pin-26",
     "price": 90.0,
     "currency": "INR",
-    "stock": 8,
+    "stock": 7,
     "available": true,
     "images": [
       "assets/products/shelly-cards/shelly-cards.jpeg"
@@ -10848,12 +10848,6 @@
         "available": true
       },
       {
-        "name": "white with Purple",
-        "hex": "#FFFFFF",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "Green With Purple",
         "hex": "#32CD32",
         "stock": 1,
@@ -10867,7 +10861,7 @@
       }
     ],
     "createdAt": "2026-02-12T09:06:52.403738Z",
-    "updatedAt": "2026-02-13T05:13:02.306628Z"
+    "updatedAt": "2026-02-23T08:44:33.019999Z"
   },
   {
     "id": "prod-109",
