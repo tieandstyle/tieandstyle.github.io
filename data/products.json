@@ -5804,7 +5804,7 @@
     "subcategoryId": "subcat-kor-02",
     "price": 30.0,
     "currency": "INR",
-    "stock": 146,
+    "stock": 144,
     "available": true,
     "images": [
       "assets/products/medium-daisy-claw-clip/medium-daisy-claw-clip.jpeg"
@@ -5817,13 +5817,13 @@
       {
         "name": "Blue",
         "hex": "#419599",
-        "stock": 28,
+        "stock": 27,
         "available": true
       },
       {
         "name": "Purple With White",
         "hex": "#977CA6",
-        "stock": 20,
+        "stock": 19,
         "available": true
       },
       {
@@ -5876,7 +5876,7 @@
       }
     ],
     "createdAt": "2025-12-29T08:46:44.112297Z",
-    "updatedAt": "2026-02-23T16:19:19.404457Z"
+    "updatedAt": "2026-02-24T05:27:58.499409Z"
   },
   {
     "id": "prod-023",
@@ -6206,7 +6206,7 @@
     "subcategoryId": "subcat-kor-08",
     "price": 10.0,
     "currency": "INR",
-    "stock": 78,
+    "stock": 76,
     "available": true,
     "images": [
       "assets/products/glass-wings-claw-clip/glass-wings-claw-clip.jpeg"
@@ -6231,7 +6231,7 @@
       {
         "name": "Mint Green",
         "hex": "#A0A861",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
@@ -6243,7 +6243,7 @@
       {
         "name": "Dark Pink",
         "hex": "#D7378D",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -6302,7 +6302,7 @@
       }
     ],
     "createdAt": "2025-12-30T08:21:26.790988Z",
-    "updatedAt": "2026-02-23T08:42:55.181342Z"
+    "updatedAt": "2026-02-24T05:27:14.473122Z"
   },
   {
     "id": "prod-029",
@@ -6315,7 +6315,7 @@
     "subcategoryId": "subcat-kor-09",
     "price": 30.0,
     "currency": "INR",
-    "stock": 7,
+    "stock": 6,
     "available": true,
     "images": [
       "assets/products/vanessa-butterfly-wings/vanessa-butterfly-wings.jpeg"
@@ -6340,7 +6340,7 @@
       {
         "name": "Brown",
         "hex": "#8B4513",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -6351,7 +6351,7 @@
       }
     ],
     "createdAt": "2025-12-30T08:48:40.827332Z",
-    "updatedAt": "2026-02-19T10:58:52.932203Z"
+    "updatedAt": "2026-02-24T05:25:36.570170Z"
   },
   {
     "id": "prod-030",
@@ -6757,7 +6757,7 @@
     "subcategoryId": "subcat-kor-17",
     "price": 25.0,
     "currency": "INR",
-    "stock": 25,
+    "stock": 21,
     "available": true,
     "images": [
       "assets/products/twine-claw-clip/twine-claw-clip.jpeg"
@@ -6770,30 +6770,30 @@
       {
         "name": "Orange",
         "hex": "#D74E14",
-        "stock": 8,
+        "stock": 7,
         "available": true
       },
       {
         "name": "Grey",
         "hex": "#797974",
-        "stock": 5,
+        "stock": 4,
         "available": true
       },
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
         "name": "Light Brown",
         "hex": "#A88B71",
-        "stock": 6,
+        "stock": 5,
         "available": true
       }
     ],
     "createdAt": "2025-12-30T11:49:33.071902Z",
-    "updatedAt": "2026-02-19T11:03:03.092948Z"
+    "updatedAt": "2026-02-24T05:22:45.864010Z"
   },
   {
     "id": "prod-038",
@@ -7680,7 +7680,7 @@
     "subcategoryId": "subcat-kor-31",
     "price": 30.0,
     "currency": "INR",
-    "stock": 5,
+    "stock": 2,
     "available": true,
     "images": [
       "assets/products/crystal-claw-clip/crystal-claw-clip1.jpeg"
@@ -7691,26 +7691,20 @@
     "tags": [],
     "colors": [
       {
-        "name": "Beige",
-        "hex": "#F5F5DC",
+        "name": "Black",
+        "hex": "#000000",
         "stock": 1,
         "available": true
       },
       {
         "name": "Brown",
-        "hex": "#7E4116",
-        "stock": 2,
-        "available": true
-      },
-      {
-        "name": "Black",
-        "hex": "#000000",
-        "stock": 2,
+        "hex": "#543621",
+        "stock": 1,
         "available": true
       }
     ],
     "createdAt": "2025-12-31T09:55:26.594816Z",
-    "updatedAt": "2026-02-09T14:56:54.507494Z"
+    "updatedAt": "2026-02-24T05:25:04.921738Z"
   },
   {
     "id": "prod-053",
@@ -10384,7 +10378,7 @@
     "subcategoryId": "subcat-pin-17",
     "price": 80.0,
     "currency": "INR",
-    "stock": 19,
+    "stock": 17,
     "available": true,
     "images": [
       "assets/products/knotheart-claw-clip/knotheart-claw-clip.jpeg"
@@ -10397,18 +10391,18 @@
       "Large"
     ],
     "createdAt": "2026-01-21T05:38:54.051499Z",
-    "updatedAt": "2026-02-09T04:11:58.882171Z",
+    "updatedAt": "2026-02-24T05:23:26.205088Z",
     "colors": [
       {
         "name": "Heart",
         "hex": "#9BE2E4",
-        "stock": 10,
+        "stock": 9,
         "available": true
       },
       {
         "name": "Knot",
         "hex": "#E2B6CC",
-        "stock": 9,
+        "stock": 8,
         "available": true
       }
     ]
