@@ -7395,10 +7395,10 @@
     "categoryIds": [
       "cat-07"
     ],
-    "subcategoryId": "subcat-kor-17",
+    "subcategoryId": "subcat-kor-26",
     "price": 40.0,
     "currency": "INR",
-    "stock": 61,
+    "stock": 60,
     "available": true,
     "images": [
       "assets/products/twinnie-claw-clip/twinnie-claw-clip.jpeg"
@@ -7411,7 +7411,7 @@
       {
         "name": "Light Orange",
         "hex": "#EED1BE",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -7464,7 +7464,7 @@
       }
     ],
     "createdAt": "2025-12-31T08:04:15.538122Z",
-    "updatedAt": "2026-02-12T09:13:02.852985Z"
+    "updatedAt": "2026-03-01T14:58:12.852639Z"
   },
   {
     "id": "prod-048",
@@ -7833,7 +7833,7 @@
     "subcategoryId": "subcat-kor-35",
     "price": 25.0,
     "currency": "INR",
-    "stock": 17,
+    "stock": 16,
     "available": true,
     "images": [
       "assets/products/lilly-claw-clip/lilly-claw-clip.jpeg"
@@ -7864,7 +7864,7 @@
       {
         "name": "Blue",
         "hex": "#B1F6F7",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -7881,7 +7881,7 @@
       }
     ],
     "createdAt": "2025-12-31T11:12:45.333456Z",
-    "updatedAt": "2026-02-22T06:46:13.814747Z"
+    "updatedAt": "2026-03-01T14:59:07.828993Z"
   },
   {
     "id": "prod-057",
@@ -10527,7 +10527,7 @@
     "subcategoryId": "subcat--01",
     "price": 150.0,
     "currency": "INR",
-    "stock": 6,
+    "stock": 5,
     "available": true,
     "images": [
       "assets/products/tangerine-korean-hairpins/sunflower-trio-claw-clip.jpeg"
@@ -10537,7 +10537,7 @@
     "description": "",
     "tags": [],
     "createdAt": "2026-02-08T06:59:58.219232Z",
-    "updatedAt": "2026-02-26T06:09:03.930589Z"
+    "updatedAt": "2026-03-01T14:57:11.669191Z"
   },
   {
     "id": "prod-103",
