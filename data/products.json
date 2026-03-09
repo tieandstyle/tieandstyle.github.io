@@ -5980,7 +5980,7 @@
     "subcategoryId": "subcat-kor-04",
     "price": 15.0,
     "currency": "INR",
-    "stock": 99,
+    "stock": 74,
     "available": true,
     "images": [
       "assets/products/small-bloom-claw-clip/small-bloom-claw-clip.jpeg"
@@ -5993,13 +5993,13 @@
       {
         "name": "Yellow",
         "hex": "#FFF82E",
-        "stock": 8,
+        "stock": 6,
         "available": true
       },
       {
         "name": "Dark Blue",
         "hex": "#4A289D",
-        "stock": 12,
+        "stock": 9,
         "available": true
       },
       {
@@ -6011,60 +6011,60 @@
       {
         "name": "Light Pink",
         "hex": "#FFBDDE",
-        "stock": 10,
+        "stock": 8,
         "available": true
       },
       {
         "name": "Beige",
         "hex": "#F2E1BA",
-        "stock": 10,
+        "stock": 8,
         "available": true
       },
       {
         "name": "Brown",
         "hex": "#CA944F",
-        "stock": 10,
+        "stock": 8,
         "available": true
       },
       {
         "name": "Light Blue",
         "hex": "#C4D6D6",
-        "stock": 7,
+        "stock": 5,
         "available": true
       },
       {
         "name": "Dark Purple",
         "hex": "#49367C",
-        "stock": 4,
+        "stock": 2,
         "available": true
       },
       {
         "name": "Dark Red",
         "hex": "#AD0013",
-        "stock": 9,
+        "stock": 7,
         "available": true
       },
       {
         "name": "Light Red",
         "hex": "#CD6667",
-        "stock": 11,
+        "stock": 8,
         "available": true
       },
       {
         "name": "Sea Blue",
         "hex": "#329A92",
-        "stock": 6,
+        "stock": 4,
         "available": true
       },
       {
         "name": "Orange",
         "hex": "#F06233",
-        "stock": 11,
+        "stock": 9,
         "available": true
       }
     ],
     "createdAt": "2025-12-29T10:45:24.103460Z",
-    "updatedAt": "2026-03-07T07:10:37.920761Z"
+    "updatedAt": "2026-03-09T15:43:28.617946Z"
   },
   {
     "id": "prod-025",
@@ -10214,7 +10214,7 @@
     "subcategoryId": "subcat-pin-12",
     "price": 40.0,
     "currency": "INR",
-    "stock": 6,
+    "stock": 5,
     "available": true,
     "images": [
       "assets/products/orchid-flower-clip/orchid-flower-clip.jpeg"
@@ -10233,7 +10233,7 @@
       {
         "name": "Baby Pink",
         "hex": "#E2CAC5",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -10244,7 +10244,7 @@
       }
     ],
     "createdAt": "2026-01-19T06:53:09.673431Z",
-    "updatedAt": "2026-03-07T08:01:19.865066Z"
+    "updatedAt": "2026-03-09T15:11:23.848339Z"
   },
   {
     "id": "prod-091",
