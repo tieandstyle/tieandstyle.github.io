@@ -6108,7 +6108,7 @@
     "subcategoryId": "subcat-kor-06",
     "price": 20.0,
     "currency": "INR",
-    "stock": 46,
+    "stock": 45,
     "available": true,
     "images": [
       "assets/products/shellie-claw-clip/shellie-claw-clip.jpeg"
@@ -6127,7 +6127,7 @@
       {
         "name": "Mint",
         "hex": "#A3B98D",
-        "stock": 13,
+        "stock": 12,
         "available": true
       },
       {
@@ -6150,7 +6150,7 @@
       }
     ],
     "createdAt": "2025-12-29T11:18:51.707301Z",
-    "updatedAt": "2026-03-06T13:02:45.154913Z"
+    "updatedAt": "2026-03-10T08:01:52.917615Z"
   },
   {
     "id": "prod-027",
@@ -7973,7 +7973,7 @@
     "subcategoryId": "subcat-pin-03",
     "price": 89.0,
     "currency": "INR",
-    "stock": 11,
+    "stock": 10,
     "available": true,
     "images": [
       "assets/products/fruity-claw-clips/fruity-claw-clip.jpeg"
@@ -7986,7 +7986,7 @@
       {
         "name": "Peach",
         "hex": "#F1B1B1",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -8003,7 +8003,7 @@
       }
     ],
     "createdAt": "2025-12-31T12:26:06.190675Z",
-    "updatedAt": "2026-03-01T08:07:49.871356Z"
+    "updatedAt": "2026-03-10T08:15:41.084639Z"
   },
   {
     "id": "prod-062",
@@ -8071,7 +8071,7 @@
     "subcategoryId": "subcat-pin-05",
     "price": 89.0,
     "currency": "INR",
-    "stock": 16,
+    "stock": 15,
     "available": true,
     "images": [
       "assets/products/rainbow-claw-clip/rainbow-claw-clip.jpeg"
@@ -8090,7 +8090,7 @@
       {
         "name": "White Cloud Rainbow",
         "hex": "#FFFFFF",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -8113,7 +8113,7 @@
       }
     ],
     "createdAt": "2025-12-31T12:58:35.741900Z",
-    "updatedAt": "2026-03-07T07:57:55.374629Z"
+    "updatedAt": "2026-03-10T08:16:08.708870Z"
   },
   {
     "id": "prod-064",
@@ -9639,7 +9639,7 @@
     "subcategoryId": "subcat-bou-03",
     "price": 70.0,
     "currency": "INR",
-    "stock": 13,
+    "stock": 12,
     "available": true,
     "images": [
       "assets/products/sweet-pairs-cards/sweet-pairs-card.jpeg"
@@ -9655,7 +9655,7 @@
       {
         "name": "Cherry",
         "hex": "#FF0000",
-        "stock": 5,
+        "stock": 4,
         "available": true
       },
       {
@@ -9678,7 +9678,7 @@
       }
     ],
     "createdAt": "2026-01-11T06:52:50.544500Z",
-    "updatedAt": "2026-02-17T05:45:14.458900Z"
+    "updatedAt": "2026-03-10T08:18:02.181425Z"
   },
   {
     "id": "prod-083",
@@ -10257,7 +10257,7 @@
     "subcategoryId": "subcat-pin-13",
     "price": 70.0,
     "currency": "INR",
-    "stock": 8,
+    "stock": 7,
     "available": true,
     "images": [
       "assets/products/mini-kitty-claw-clip/mini-kitty-claw-clip.jpeg"
@@ -10273,7 +10273,7 @@
       {
         "name": "Blue Bow Kitty",
         "hex": "#9CEBED",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -10284,7 +10284,7 @@
       }
     ],
     "createdAt": "2026-01-19T06:58:10.368549Z",
-    "updatedAt": "2026-03-07T08:00:12.632476Z"
+    "updatedAt": "2026-03-10T08:19:06.054144Z"
   },
   {
     "id": "prod-092",
@@ -10544,7 +10544,7 @@
     "subcategoryId": "subcat-pin-21",
     "price": 60.0,
     "currency": "INR",
-    "stock": 26,
+    "stock": 25,
     "available": true,
     "images": [
       "assets/products/tulip-claw-clip/tulip-box-claw-clip.jpeg"
@@ -10557,7 +10557,7 @@
       {
         "name": "Blue",
         "hex": "#00CED1",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -10592,7 +10592,7 @@
       }
     ],
     "createdAt": "2026-02-08T07:15:20.115405Z",
-    "updatedAt": "2026-03-06T13:52:47.893258Z"
+    "updatedAt": "2026-03-10T07:58:44.647834Z"
   },
   {
     "id": "prod-104",
@@ -10734,7 +10734,7 @@
     "subcategoryId": "subcat-pin-25",
     "price": 80.0,
     "currency": "INR",
-    "stock": 31,
+    "stock": 30,
     "available": true,
     "images": [
       "assets/products/tulip-loop-claw-clip/tulip-loop-claw-clip.jpeg"
@@ -10765,12 +10765,12 @@
       {
         "name": "Coral Pink",
         "hex": "#F3B0B0",
-        "stock": 8,
+        "stock": 7,
         "available": true
       }
     ],
     "createdAt": "2026-02-08T08:01:55.879074Z",
-    "updatedAt": "2026-02-26T06:05:20.180440Z"
+    "updatedAt": "2026-03-10T08:19:49.799779Z"
   },
   {
     "id": "prod-108",
@@ -11016,5 +11016,377 @@
     "tags": [],
     "createdAt": "2026-02-22T06:25:35.288239Z",
     "updatedAt": "2026-02-22T06:25:35.288249Z"
+  },
+  {
+    "id": "prod-116",
+    "sku": "PAST-TOO-116",
+    "title": "Pastel Toon! A cute claw clip topped with sweet cartoon characters for a playful look.",
+    "slug": "pastel-toon-a-cute-claw-clip-topped-with-sweet-cartoon-characters-for-a-playful-look",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-34",
+    "price": 80.0,
+    "currency": "INR",
+    "stock": 24,
+    "available": true,
+    "images": [
+      "assets/products/pastel-toon-claw-clip/pastel-toon-a-cute-claw-clip-topped-with-sweet-cartoon-characters-for-a-playful-look.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Small"
+    ],
+    "colors": [
+      {
+        "name": "watermelon sorbet",
+        "hex": "#F1ACBA",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Lemon Drop Purin",
+        "hex": "#F3E94B",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Grape Fizz Kuromi",
+        "hex": "#8F428F",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "Pink Frost Kitty",
+        "hex": "#FFF0F2",
+        "stock": 6,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-03-10T06:46:15.076606Z",
+    "updatedAt": "2026-03-10T06:46:15.076644Z"
+  },
+  {
+    "id": "prod-117",
+    "sku": "TUTT-FRU-117",
+    "title": "Tutti Frutti Claw Clip",
+    "slug": "tutti-frutti-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-35",
+    "price": 65.0,
+    "currency": "INR",
+    "stock": 24,
+    "available": true,
+    "images": [
+      "assets/products/tutti-frutti-claw-clip/tutti-frutti-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Tutti Fruitti! A cute claw clip topped with sweet fruit charms for a fresh, juicy look",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Small"
+    ],
+    "colors": [
+      {
+        "name": "Apple",
+        "hex": "#F58986",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "StrawBerry",
+        "hex": "#EA3A4C",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Grape",
+        "hex": "#CDB1CD",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Avacado",
+        "hex": "#D1DAB9",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Lemon",
+        "hex": "#FFEBB3",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Cherry Blossom",
+        "hex": "#FEE6E1",
+        "stock": 4,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-03-10T06:57:37.978650Z",
+    "updatedAt": "2026-03-10T06:57:37.978691Z"
+  },
+  {
+    "id": "prod-118",
+    "sku": "PAW--CLA-118",
+    "title": "Paw-Sitive Claw Clip",
+    "slug": "paw-sitive-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-36",
+    "price": 60.0,
+    "currency": "INR",
+    "stock": 24,
+    "available": true,
+    "images": [
+      "assets/products/paw-sitive-claw-clip/paw-sitive-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Paw-sitive! Cute claw clips featuring puppy, bear, fox, and pig prints for a playful look.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Small"
+    ],
+    "colors": [
+      {
+        "name": "Puppy Cloud",
+        "hex": "#D9D9D3",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Bear Midnight",
+        "hex": "#222120",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Black Fox",
+        "hex": "#2A2323",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Kitty Apple",
+        "hex": "#D4B68D",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Piggy Heart",
+        "hex": "#AB967B",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Honey Bear",
+        "hex": "#F5F5DC",
+        "stock": 4,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-03-10T07:13:04.661715Z",
+    "updatedAt": "2026-03-10T07:13:04.661751Z"
+  },
+  {
+    "id": "prod-119",
+    "sku": "WING-WHI-119",
+    "title": "Winged Whimsy Claw Clip",
+    "slug": "winged-whimsy-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-37",
+    "price": 70.0,
+    "currency": "INR",
+    "stock": 23,
+    "available": true,
+    "images": [
+      "assets/products/winged-whimsy-claw-clip/winged-whimsy-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Winged Whimsy! A beautiful butterfly-shaped claw clip to add a magical touch to your hairstyle.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Small"
+    ],
+    "colors": [
+      {
+        "name": "Dark Pink",
+        "hex": "#FFC2E2",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Cherry Blossom",
+        "hex": "#E6B7B7",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "Baby Pink",
+        "hex": "#FFE7E5",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Lavender",
+        "hex": "#D9BFD9",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#D5EFF1",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Beige",
+        "hex": "#F5F1C6",
+        "stock": 4,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-03-10T07:36:55.284053Z",
+    "updatedAt": "2026-03-10T07:36:55.284072Z"
+  },
+  {
+    "id": "prod-120",
+    "sku": "HEAR-SPR-120",
+    "title": "Heart Sprinkle Claw Clip",
+    "slug": "heart-sprinkle-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat--02",
+    "price": 30.0,
+    "currency": "INR",
+    "stock": 24,
+    "available": true,
+    "images": [
+      "assets/products/heart-sprinkle-claw-clip/heart-sprinkle-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Heart Sprinkle! A lovely claw clip adorned with sweet, heart-shaped flowers for a romantic look.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Medium"
+    ],
+    "colors": [
+      {
+        "name": "Grey",
+        "hex": "#D5D3CD",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Light Orange",
+        "hex": "#F3B853",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#C4CBDE",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Purple",
+        "hex": "#BBA0B2",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Pink",
+        "hex": "#F1C6DB",
+        "stock": 4,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-03-10T07:46:51.039077Z",
+    "updatedAt": "2026-03-10T07:46:51.039091Z"
+  },
+  {
+    "id": "prod-121",
+    "sku": "FLOR-FLU-121",
+    "title": "Floral Flutter Claw Clip",
+    "slug": "floral-flutter-claw-clip",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-41",
+    "price": 40.0,
+    "currency": "INR",
+    "stock": 24,
+    "available": true,
+    "images": [
+      "assets/products/floral-flutter-claw-clip/floral-flutter-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Floral Flutter! A stunning, flower-shaped large claw clip to add elegance to your hairstyle.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Large"
+    ],
+    "colors": [
+      {
+        "name": "Yellow",
+        "hex": "#E6D94B",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#6AAFAA",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Red",
+        "hex": "#AE1609",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Dark Pink",
+        "hex": "#FF1493",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "Salmon",
+        "hex": "#DA858C",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "White-Purple",
+        "hex": "#DFD8DE",
+        "stock": 4,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-03-10T07:57:51.375818Z",
+    "updatedAt": "2026-03-10T07:57:51.375858Z"
   }
 ]

@@ -979,5 +979,59 @@
     "parentCategoryId": "cat-08",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-pin-34",
+    "name": "Pastel Toon Claw Clip",
+    "slug": "pastel-toon-claw-clip",
+    "description": "K-style fun! A trendy claw clip with adorable pastel cartoons for a whimsical hair day",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-35",
+    "name": "Tutti Frutti Claw Clip",
+    "slug": "tutti-frutti-claw-clip",
+    "description": "K-style zest! A trendy claw clip with adorable fruits to add a pop of flavor to your hair.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-36",
+    "name": "Paw-Sitive Claw clip",
+    "slug": "paw-sitive-claw-clip",
+    "description": "Animal fun! Adorable claw clips with sweet puppy, bear, fox, and pig designs for your hair.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-37",
+    "name": "Winged Whimsy Claw Clip",
+    "slug": "winged-whimsy-claw-clip",
+    "description": "Flutter by! A dainty, butterfly-shaped claw clip for a dreamy and whimsical hair look.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat--02",
+    "name": "Heart Sprinkle Claw Clip",
+    "slug": "heart-sprinkle-claw-clip",
+    "description": "Love in bloom! This claw clip is sprinkled with dainty heart-shaped flowers for a dreamy style.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-kor-41",
+    "name": "Floral Flutter Claw Clip",
+    "slug": "floral-flutter-claw-clip",
+    "description": "Bloom big! This beautiful, oversized flower claw clip is the perfect statement accessory.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
   }
 ]
