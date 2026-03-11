@@ -1033,5 +1033,14 @@
     "parentCategoryId": "cat-07",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-kor-42",
+    "name": "Dreamy Flora Cards",
+    "slug": "dreamy-flora-cards",
+    "description": "Floral charm! One big claw clip and two flower cards for a dreamy, complete look.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
   }
 ]

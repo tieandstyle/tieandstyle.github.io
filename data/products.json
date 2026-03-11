@@ -11388,5 +11388,66 @@
     ],
     "createdAt": "2026-03-10T07:57:51.375818Z",
     "updatedAt": "2026-03-10T07:57:51.375858Z"
+  },
+  {
+    "id": "prod-122",
+    "sku": "DREA-FLO-122",
+    "title": "Dreamy Flora Cards",
+    "slug": "dreamy-flora-cards",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-42",
+    "price": 90.0,
+    "currency": "INR",
+    "stock": 24,
+    "available": true,
+    "images": [
+      "assets/products/dreamy-flora-cards/dreamy-flora-cards.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Dreamy Flora! A flower card featuring 1 large claw clip and 2 dainty floral cards.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "White-Pink",
+        "hex": "#F4ECED",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Peach",
+        "hex": "#E499A0",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Yellow",
+        "hex": "#EAD663",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Blue",
+        "hex": "#84C189",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "White-Yellow",
+        "hex": "#EFF3D3",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "Dark Purple",
+        "hex": "#776178",
+        "stock": 2,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-03-11T07:01:16.645225Z",
+    "updatedAt": "2026-03-11T07:01:16.645335Z"
   }
 ]
