@@ -9728,7 +9728,7 @@
     "subcategoryId": "subcat-pin-11",
     "price": 100.0,
     "currency": "INR",
-    "stock": 1,
+    "stock": 0,
     "available": true,
     "images": [
       "assets/products/daisy-snap-claw-clip/daisy-snap-claw-clip.jpeg"
@@ -9741,15 +9741,7 @@
       "Large"
     ],
     "createdAt": "2026-01-17T06:37:21.065188Z",
-    "updatedAt": "2026-03-01T07:29:08.048265Z",
-    "colors": [
-      {
-        "name": "Blue",
-        "hex": "#689EBD",
-        "stock": 1,
-        "available": false
-      }
-    ]
+    "updatedAt": "2026-03-13T08:27:38.099304Z"
   },
   {
     "id": "prod-085",
@@ -10257,7 +10249,7 @@
     "subcategoryId": "subcat-pin-13",
     "price": 70.0,
     "currency": "INR",
-    "stock": 7,
+    "stock": 6,
     "available": true,
     "images": [
       "assets/products/mini-kitty-claw-clip/mini-kitty-claw-clip.jpeg"
@@ -10279,12 +10271,12 @@
       {
         "name": "Red Bow Kitty",
         "hex": "#E14747",
-        "stock": 5,
+        "stock": 4,
         "available": true
       }
     ],
     "createdAt": "2026-01-19T06:58:10.368549Z",
-    "updatedAt": "2026-03-10T08:19:06.054144Z"
+    "updatedAt": "2026-03-13T08:29:19.499475Z"
   },
   {
     "id": "prod-092",
@@ -10343,7 +10335,7 @@
     "subcategoryId": "subcat-pin-16",
     "price": 130.0,
     "currency": "INR",
-    "stock": 2,
+    "stock": 1,
     "available": true,
     "images": [
       "assets/products/arctic-hop-korean-hairpins/arctic-hop-korean-hairpins.jpeg"
@@ -10353,7 +10345,7 @@
     "description": "Blue bunny magic! 5 sweet Arctic Hop pins on one card to give your style a cool, playful pop.",
     "tags": [],
     "createdAt": "2026-01-21T05:33:56.323224Z",
-    "updatedAt": "2026-01-21T05:33:56.323257Z"
+    "updatedAt": "2026-03-13T08:25:31.455607Z"
   },
   {
     "id": "prod-095",
@@ -10366,7 +10358,7 @@
     "subcategoryId": "subcat-pin-17",
     "price": 80.0,
     "currency": "INR",
-    "stock": 16,
+    "stock": 15,
     "available": true,
     "images": [
       "assets/products/knotheart-claw-clip/knotheart-claw-clip.jpeg"
@@ -10379,7 +10371,7 @@
       "Large"
     ],
     "createdAt": "2026-01-21T05:38:54.051499Z",
-    "updatedAt": "2026-03-07T07:54:50.539309Z",
+    "updatedAt": "2026-03-13T08:31:02.040068Z",
     "colors": [
       {
         "name": "Heart",
@@ -10390,7 +10382,7 @@
       {
         "name": "Knot",
         "hex": "#E2B6CC",
-        "stock": 8,
+        "stock": 7,
         "available": true
       }
     ]
@@ -11144,7 +11136,7 @@
     "subcategoryId": "subcat-pin-36",
     "price": 60.0,
     "currency": "INR",
-    "stock": 24,
+    "stock": 23,
     "available": true,
     "images": [
       "assets/products/paw-sitive-claw-clip/paw-sitive-claw-clip.jpeg"
@@ -11166,7 +11158,7 @@
       {
         "name": "Bear Midnight",
         "hex": "#222120",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -11195,7 +11187,7 @@
       }
     ],
     "createdAt": "2026-03-10T07:13:04.661715Z",
-    "updatedAt": "2026-03-10T07:13:04.661751Z"
+    "updatedAt": "2026-03-13T08:31:50.586459Z"
   },
   {
     "id": "prod-119",
