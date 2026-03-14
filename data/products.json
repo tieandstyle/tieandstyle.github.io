@@ -9627,7 +9627,7 @@
     "subcategoryId": "subcat-bou-03",
     "price": 70.0,
     "currency": "INR",
-    "stock": 12,
+    "stock": 11,
     "available": true,
     "images": [
       "assets/products/sweet-pairs-cards/sweet-pairs-card.jpeg"
@@ -9661,12 +9661,12 @@
       {
         "name": "Mushroom",
         "hex": "#FF6B6B",
-        "stock": 2,
+        "stock": 1,
         "available": true
       }
     ],
     "createdAt": "2026-01-11T06:52:50.544500Z",
-    "updatedAt": "2026-03-10T08:18:02.181425Z"
+    "updatedAt": "2026-03-14T07:35:20.536020Z"
   },
   {
     "id": "prod-083",
