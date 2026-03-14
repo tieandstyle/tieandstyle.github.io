@@ -5980,7 +5980,7 @@
     "subcategoryId": "subcat-kor-04",
     "price": 15.0,
     "currency": "INR",
-    "stock": 74,
+    "stock": 73,
     "available": true,
     "images": [
       "assets/products/small-bloom-claw-clip/small-bloom-claw-clip.jpeg"
@@ -6059,12 +6059,12 @@
       {
         "name": "Orange",
         "hex": "#F06233",
-        "stock": 9,
+        "stock": 8,
         "available": true
       }
     ],
     "createdAt": "2025-12-29T10:45:24.103460Z",
-    "updatedAt": "2026-03-09T15:43:28.617946Z"
+    "updatedAt": "2026-03-14T07:10:43.688491Z"
   },
   {
     "id": "prod-025",
@@ -6108,7 +6108,7 @@
     "subcategoryId": "subcat-kor-06",
     "price": 20.0,
     "currency": "INR",
-    "stock": 45,
+    "stock": 44,
     "available": true,
     "images": [
       "assets/products/shellie-claw-clip/shellie-claw-clip.jpeg"
@@ -6139,7 +6139,7 @@
       {
         "name": "Ocean Blue",
         "hex": "#6897CC",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -6150,7 +6150,7 @@
       }
     ],
     "createdAt": "2025-12-29T11:18:51.707301Z",
-    "updatedAt": "2026-03-10T08:01:52.917615Z"
+    "updatedAt": "2026-03-14T07:06:48.942498Z"
   },
   {
     "id": "prod-027",
@@ -7766,7 +7766,7 @@
     "subcategoryId": "subcat-kor-34",
     "price": 35.0,
     "currency": "INR",
-    "stock": 210,
+    "stock": 209,
     "available": true,
     "images": [
       "assets/products/border-floral-claw-clip/border-floral-claw-clip.jpeg"
@@ -7797,7 +7797,7 @@
       {
         "name": "Blue Border With White",
         "hex": "#BDFEFF",
-        "stock": 36,
+        "stock": 35,
         "available": true
       },
       {
@@ -7814,7 +7814,7 @@
       }
     ],
     "createdAt": "2025-12-31T10:58:04.705418Z",
-    "updatedAt": "2026-02-23T08:07:31.086283Z"
+    "updatedAt": "2026-03-14T07:09:34.797581Z"
   },
   {
     "id": "prod-056",
@@ -7973,7 +7973,7 @@
     "subcategoryId": "subcat-pin-03",
     "price": 89.0,
     "currency": "INR",
-    "stock": 10,
+    "stock": 9,
     "available": true,
     "images": [
       "assets/products/fruity-claw-clips/fruity-claw-clip.jpeg"
@@ -7990,12 +7990,6 @@
         "available": true
       },
       {
-        "name": "Orange",
-        "hex": "#F2A650",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "Apple",
         "hex": "#FF0000",
         "stock": 6,
@@ -8003,7 +7997,7 @@
       }
     ],
     "createdAt": "2025-12-31T12:26:06.190675Z",
-    "updatedAt": "2026-03-10T08:15:41.084639Z"
+    "updatedAt": "2026-03-14T07:11:12.954318Z"
   },
   {
     "id": "prod-062",
@@ -8071,7 +8065,7 @@
     "subcategoryId": "subcat-pin-05",
     "price": 89.0,
     "currency": "INR",
-    "stock": 15,
+    "stock": 14,
     "available": true,
     "images": [
       "assets/products/rainbow-claw-clip/rainbow-claw-clip.jpeg"
@@ -8094,12 +8088,6 @@
         "available": true
       },
       {
-        "name": "Pink cloud Rainbow",
-        "hex": "#FFB8DB",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "Beige Cloud Rainbow",
         "hex": "#F5EFDB",
         "stock": 3,
@@ -8113,7 +8101,7 @@
       }
     ],
     "createdAt": "2025-12-31T12:58:35.741900Z",
-    "updatedAt": "2026-03-10T08:16:08.708870Z"
+    "updatedAt": "2026-03-14T07:03:42.248115Z"
   },
   {
     "id": "prod-064",
@@ -8126,7 +8114,7 @@
     "subcategoryId": "subcat-pin-06",
     "price": 89.0,
     "currency": "INR",
-    "stock": 17,
+    "stock": 16,
     "available": true,
     "images": [
       "assets/products/fruit-pop-claw-clip/fruit-pop.jpeg"
@@ -8145,7 +8133,7 @@
       {
         "name": "Watermelon",
         "hex": "#B71516",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -8162,7 +8150,7 @@
       }
     ],
     "createdAt": "2025-12-31T13:15:57.668501Z",
-    "updatedAt": "2026-02-19T11:13:48.756740Z"
+    "updatedAt": "2026-03-14T07:04:37.153380Z"
   },
   {
     "id": "prod-065",
@@ -8175,7 +8163,7 @@
     "subcategoryId": "subcat-pin-07",
     "price": 89.0,
     "currency": "INR",
-    "stock": 6,
+    "stock": 5,
     "available": true,
     "images": [
       "assets/products/kitty-claw-clip/kitty.jpeg"
@@ -8188,7 +8176,7 @@
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -8205,7 +8193,7 @@
       }
     ],
     "createdAt": "2025-12-31T13:26:27.687182Z",
-    "updatedAt": "2026-03-07T07:58:36.545749Z"
+    "updatedAt": "2026-03-14T07:05:31.711660Z"
   },
   {
     "id": "prod-066",
@@ -10206,7 +10194,7 @@
     "subcategoryId": "subcat-pin-12",
     "price": 40.0,
     "currency": "INR",
-    "stock": 5,
+    "stock": 4,
     "available": true,
     "images": [
       "assets/products/orchid-flower-clip/orchid-flower-clip.jpeg"
@@ -10223,12 +10211,6 @@
         "available": true
       },
       {
-        "name": "Baby Pink",
-        "hex": "#E2CAC5",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "Orange",
         "hex": "#ECCB8E",
         "stock": 1,
@@ -10236,7 +10218,7 @@
       }
     ],
     "createdAt": "2026-01-19T06:53:09.673431Z",
-    "updatedAt": "2026-03-09T15:11:23.848339Z"
+    "updatedAt": "2026-03-14T07:07:45.496700Z"
   },
   {
     "id": "prod-091",
@@ -10536,7 +10518,7 @@
     "subcategoryId": "subcat-pin-21",
     "price": 60.0,
     "currency": "INR",
-    "stock": 25,
+    "stock": 24,
     "available": true,
     "images": [
       "assets/products/tulip-claw-clip/tulip-box-claw-clip.jpeg"
@@ -10573,7 +10555,7 @@
       {
         "name": "Purple",
         "hex": "#FE8BFE",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -10584,7 +10566,7 @@
       }
     ],
     "createdAt": "2026-02-08T07:15:20.115405Z",
-    "updatedAt": "2026-03-10T07:58:44.647834Z"
+    "updatedAt": "2026-03-14T07:09:00.469616Z"
   },
   {
     "id": "prod-104",
@@ -11264,7 +11246,7 @@
     "subcategoryId": "subcat--02",
     "price": 30.0,
     "currency": "INR",
-    "stock": 24,
+    "stock": 23,
     "available": true,
     "images": [
       "assets/products/heart-sprinkle-claw-clip/heart-sprinkle-claw-clip.jpeg"
@@ -11304,7 +11286,7 @@
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -11315,7 +11297,7 @@
       }
     ],
     "createdAt": "2026-03-10T07:46:51.039077Z",
-    "updatedAt": "2026-03-10T07:46:51.039091Z"
+    "updatedAt": "2026-03-14T07:10:06.444416Z"
   },
   {
     "id": "prod-121",
