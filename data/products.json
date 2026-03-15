@@ -6108,7 +6108,7 @@
     "subcategoryId": "subcat-kor-06",
     "price": 20.0,
     "currency": "INR",
-    "stock": 44,
+    "stock": 43,
     "available": true,
     "images": [
       "assets/products/shellie-claw-clip/shellie-claw-clip.jpeg"
@@ -6139,7 +6139,7 @@
       {
         "name": "Ocean Blue",
         "hex": "#6897CC",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -6150,7 +6150,7 @@
       }
     ],
     "createdAt": "2025-12-29T11:18:51.707301Z",
-    "updatedAt": "2026-03-14T07:06:48.942498Z"
+    "updatedAt": "2026-03-15T06:55:51.027964Z"
   },
   {
     "id": "prod-027",
@@ -9679,7 +9679,7 @@
     "subcategoryId": "subcat-pin-10",
     "price": 90.0,
     "currency": "INR",
-    "stock": 2,
+    "stock": 1,
     "available": true,
     "images": [
       "assets/products/strawberry-daisy-cards/strawberry-daisy-cards.jpeg"
@@ -9694,16 +9694,10 @@
         "hex": "#F2FF42",
         "stock": 1,
         "available": true
-      },
-      {
-        "name": "Blue",
-        "hex": "#0000FF",
-        "stock": 1,
-        "available": true
       }
     ],
     "createdAt": "2026-01-11T06:59:44.202618Z",
-    "updatedAt": "2026-03-04T07:49:06.007655Z"
+    "updatedAt": "2026-03-15T06:51:39.764741Z"
   },
   {
     "id": "prod-084",
@@ -9742,7 +9736,7 @@
     "subcategoryId": "subcat-kor-36",
     "price": 20.0,
     "currency": "INR",
-    "stock": 20,
+    "stock": 19,
     "available": true,
     "images": [
       "assets/products/sweet-heart-claw-clip/sweet-heart-claw-clip.jpeg"
@@ -9788,7 +9782,7 @@
       {
         "name": "Green",
         "hex": "#A6C91C",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -9805,7 +9799,7 @@
       }
     ],
     "createdAt": "2026-01-17T07:10:35.015007Z",
-    "updatedAt": "2026-03-07T08:02:38.178919Z"
+    "updatedAt": "2026-03-15T06:56:37.233978Z"
   },
   {
     "id": "prod-086",
@@ -10012,7 +10006,7 @@
     "subcategoryId": "subcat-kor-39",
     "price": 20.0,
     "currency": "INR",
-    "stock": 27,
+    "stock": 26,
     "available": true,
     "images": [
       "assets/products/flutter-matte-claw-clip/flutter-matte-claw-clip.jpeg"
@@ -10041,12 +10035,6 @@
         "name": "Charcoal Grey",
         "hex": "#5B574E",
         "stock": 3,
-        "available": true
-      },
-      {
-        "name": "Red",
-        "hex": "#60383E",
-        "stock": 1,
         "available": true
       },
       {
@@ -10093,7 +10081,7 @@
       }
     ],
     "createdAt": "2026-01-17T08:30:42.938929Z",
-    "updatedAt": "2026-03-07T07:08:46.695150Z"
+    "updatedAt": "2026-03-15T06:54:59.622516Z"
   },
   {
     "id": "prod-089",
@@ -10194,7 +10182,7 @@
     "subcategoryId": "subcat-pin-12",
     "price": 40.0,
     "currency": "INR",
-    "stock": 4,
+    "stock": 3,
     "available": true,
     "images": [
       "assets/products/orchid-flower-clip/orchid-flower-clip.jpeg"
@@ -10205,9 +10193,9 @@
     "tags": [],
     "colors": [
       {
-        "name": "Light Pink",
+        "name": "Pink",
         "hex": "#D99BAB",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -10218,7 +10206,7 @@
       }
     ],
     "createdAt": "2026-01-19T06:53:09.673431Z",
-    "updatedAt": "2026-03-14T07:07:45.496700Z"
+    "updatedAt": "2026-03-15T06:53:32.027287Z"
   },
   {
     "id": "prod-091",
@@ -10708,7 +10696,7 @@
     "subcategoryId": "subcat-pin-25",
     "price": 80.0,
     "currency": "INR",
-    "stock": 30,
+    "stock": 29,
     "available": true,
     "images": [
       "assets/products/tulip-loop-claw-clip/tulip-loop-claw-clip.jpeg"
@@ -10739,12 +10727,12 @@
       {
         "name": "Coral Pink",
         "hex": "#F3B0B0",
-        "stock": 7,
+        "stock": 6,
         "available": true
       }
     ],
     "createdAt": "2026-02-08T08:01:55.879074Z",
-    "updatedAt": "2026-03-10T08:19:49.799779Z"
+    "updatedAt": "2026-03-15T06:52:44.157207Z"
   },
   {
     "id": "prod-108",
@@ -10757,7 +10745,7 @@
     "subcategoryId": "subcat-pin-26",
     "price": 90.0,
     "currency": "INR",
-    "stock": 8,
+    "stock": 7,
     "available": true,
     "images": [
       "assets/products/shelly-cards/shelly-cards.jpeg"
@@ -10767,12 +10755,6 @@
     "description": "",
     "tags": [],
     "colors": [
-      {
-        "name": "Yellow with Pink",
-        "hex": "#E4CB48",
-        "stock": 1,
-        "available": true
-      },
       {
         "name": "Peach with orange",
         "hex": "#C06F52",
@@ -10805,7 +10787,7 @@
       }
     ],
     "createdAt": "2026-02-12T09:06:52.403738Z",
-    "updatedAt": "2026-03-04T07:47:20.001765Z"
+    "updatedAt": "2026-03-15T06:48:47.628960Z"
   },
   {
     "id": "prod-109",
@@ -10994,21 +10976,21 @@
   {
     "id": "prod-116",
     "sku": "PAST-TOO-116",
-    "title": "Pastel Toon! A cute claw clip topped with sweet cartoon characters for a playful look.",
-    "slug": "pastel-toon-a-cute-claw-clip-topped-with-sweet-cartoon-characters-for-a-playful-look",
+    "title": "Pastel Toon Claw Clip",
+    "slug": "pastel-toon-claw-clip",
     "categoryIds": [
       "cat-08"
     ],
     "subcategoryId": "subcat-pin-34",
     "price": 80.0,
     "currency": "INR",
-    "stock": 24,
+    "stock": 23,
     "available": true,
     "images": [
       "assets/products/pastel-toon-claw-clip/pastel-toon-a-cute-claw-clip-topped-with-sweet-cartoon-characters-for-a-playful-look.jpeg"
     ],
     "attributes": {},
-    "shortDescription": "",
+    "shortDescription": " with Pastel Toon! A cute claw clip toppedsweet cartoon characters for a playful look",
     "description": "",
     "tags": [],
     "sizes": [
@@ -11018,7 +11000,7 @@
       {
         "name": "watermelon sorbet",
         "hex": "#F1ACBA",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
@@ -11041,7 +11023,7 @@
       }
     ],
     "createdAt": "2026-03-10T06:46:15.076606Z",
-    "updatedAt": "2026-03-10T06:46:15.076644Z"
+    "updatedAt": "2026-03-15T07:01:28.153754Z"
   },
   {
     "id": "prod-117",
@@ -11182,7 +11164,7 @@
     "subcategoryId": "subcat-pin-37",
     "price": 70.0,
     "currency": "INR",
-    "stock": 23,
+    "stock": 22,
     "available": true,
     "images": [
       "assets/products/winged-whimsy-claw-clip/winged-whimsy-claw-clip.jpeg"
@@ -11222,7 +11204,7 @@
       {
         "name": "Blue",
         "hex": "#D5EFF1",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -11233,7 +11215,7 @@
       }
     ],
     "createdAt": "2026-03-10T07:36:55.284053Z",
-    "updatedAt": "2026-03-10T07:36:55.284072Z"
+    "updatedAt": "2026-03-15T06:59:13.416651Z"
   },
   {
     "id": "prod-120",
