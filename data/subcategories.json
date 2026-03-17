@@ -1042,5 +1042,14 @@
     "parentCategoryId": "cat-07",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-pin-38",
+    "name": "Shinchan ClawClip",
+    "slug": "shinchan-clawclip",
+    "description": "Shin-chan Fun! A box-shaped claw clip topped with your favorite mischievous characters.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
   }
 ]

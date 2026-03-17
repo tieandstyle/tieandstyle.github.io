@@ -11387,5 +11387,69 @@
     ],
     "createdAt": "2026-03-11T07:01:16.645225Z",
     "updatedAt": "2026-03-11T07:01:16.645335Z"
+  },
+  {
+    "id": "prod-123",
+    "sku": "SHIN-CLA-123",
+    "title": "Shinchan ClawClip",
+    "slug": "shinchan-clawclip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-38",
+    "price": 80.0,
+    "currency": "INR",
+    "stock": 23,
+    "available": true,
+    "images": [
+      "assets/products/shinchan-clawclip/shinchan-clawclip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Action-packed! Cute Shin-chan character claw clips in a trendy box shape for a playful look.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Small"
+    ],
+    "colors": [
+      {
+        "name": "1",
+        "hex": "#FCEAE8",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "2",
+        "hex": "#E7E2F3",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "3",
+        "hex": "#EBE6D0",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "4",
+        "hex": "#FFFEFA",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "5",
+        "hex": "#BED3DA",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "6",
+        "hex": "#EEC8D6",
+        "stock": 4,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-03-17T08:17:30.385075Z",
+    "updatedAt": "2026-03-17T08:17:30.385122Z"
   }
 ]
