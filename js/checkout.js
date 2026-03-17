@@ -323,9 +323,9 @@
     if (profile.shipping_zip) document.getElementById('zip').value = profile.shipping_zip;
   }
 
-  window.handleCheckout = async function(event) {
+  window.handleCheckout = function(event) {
     event.preventDefault();
-    
+
     const cart = loadCart();
     if (cart.length === 0) {
       alert('Your cart is empty!');
@@ -345,57 +345,26 @@
       notes: document.getElementById('notes').value.trim()
     };
 
-    const totals = calculateTotals(cart);
-    const orderId = `ORD-${Date.now()}`;
-
-    // Disable button to prevent double submission
-    const placeOrderBtn = document.getElementById('placeOrderBtn');
-    placeOrderBtn.disabled = true;
-    placeOrderBtn.textContent = '⏳ Processing Order...';
-
+    // Save profile for next visit
     try {
-      // Save order to Firebase
-      const { saveOrderToFirebase } = await import('./firebase-config.js');
-      
-      // Check if any item in cart is an abroad order
-      const hasAbroadOrder = cart.some(item => item.isAbroadOrder === true);
-      
-      const orderData = {
-        orderId,
-        customer: formData,
-        items: cart,
-        totals: totals,
-        // For domestic orders set deliveryCharge now; for abroad orders admin will add later
-        deliveryCharge: hasAbroadOrder ? 0 : totals.shipping,
-        status: 'pending',
-        paymentMethod: 'UPI',
-        paymentStatus: 'pending',
-        isAbroadOrder: hasAbroadOrder // Flag if order contains international items
-      };
-      
-      const result = await saveOrderToFirebase(orderData);
-      
-      if (result.success) {
-        // Save order to local history as backup
-        saveOrderHistory(orderId, cart, totals, formData);
-        
-        // Clear cart
-        localStorage.removeItem(CART_KEY);
-        
-        // Show success message with order ID and track link
-        setTimeout(() => {
-          showOrderConfirmation(orderId);
-        }, 300);
-      } else {
-        throw new Error(result.error || 'Failed to save order');
-      }
-    } catch (error) {
-      console.error('Error placing order:', error);
-      alert('❌ Error placing order. Please try again or contact support.');
-      
-      placeOrderBtn.disabled = false;
-      placeOrderBtn.textContent = '🛒 Place Order';
-    }
+      const profile = JSON.parse(localStorage.getItem(PROFILE_KEY) || '{}');
+      profile.name = formData.name;
+      profile.phone = formData.phone;
+      profile.email = formData.email;
+      profile.shipping_address = formData.address;
+      profile.shipping_city = formData.city;
+      profile.shipping_state = formData.state;
+      profile.shipping_zip = formData.zip;
+      localStorage.setItem(PROFILE_KEY, JSON.stringify(profile));
+    } catch (e) {}
+
+    // Persist shipping data so payment page can read it
+    try {
+      localStorage.setItem('whshop_pending_shipping_v1', JSON.stringify(formData));
+    } catch (e) {}
+
+    // Navigate to payment page
+    window.location.href = 'payment.html';
   };
 
   function buildWhatsAppMessage(orderId, cart, totals, formData) {
@@ -586,23 +555,29 @@
     try {
       const response = await fetch('data/store.json', { cache: 'no-cache' });
       store = await response.json();
-      
-      document.getElementById('storeName').textContent = store.name;
-      document.getElementById('footerStoreName').textContent = store.name;
-      
-      if (store.payments?.gpayUpiId) {
-        document.getElementById('upiId').textContent = store.payments.gpayUpiId;
+
+      const storeNameEl = document.getElementById('storeName');
+      const footerEl = document.getElementById('footerStoreName');
+      if (storeNameEl) storeNameEl.textContent = store.name;
+      if (footerEl) footerEl.textContent = store.name;
+
+      // These elements only exist on payment.html — skip safely on checkout.html
+      const upiIdEl = document.getElementById('upiId');
+      if (upiIdEl && store.payments?.gpayUpiId) {
+        upiIdEl.textContent = store.payments.gpayUpiId;
       }
-      
-      if (store.payments?.gpayQrImage) {
-        document.getElementById('qrContainer').innerHTML = `
+
+      const qrContainer = document.getElementById('qrContainer');
+      if (qrContainer && store.payments?.gpayQrImage) {
+        qrContainer.innerHTML = `
           <img src="${store.payments.gpayQrImage}" alt="UPI QR Code" class="w-48 h-48 mx-auto rounded-lg border-2 border-primary"/>
           <p class="text-xs text-center mt-2 text-subtle-light dark:text-subtle-dark">Scan to pay</p>
         `;
       }
     } catch (error) {
       console.error('Error loading store:', error);
-      document.getElementById('upiId').textContent = 'Not configured';
+      const upiIdEl = document.getElementById('upiId');
+      if (upiIdEl) upiIdEl.textContent = 'Not configured';
     }
   }
 

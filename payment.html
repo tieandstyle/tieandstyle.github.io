@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Payment - My Shop</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;700;800&display=swap" rel="stylesheet"/>
+<script>
+    tailwind.config = {
+        darkMode: "class",
+        theme: {
+            extend: {
+                colors: {
+                    "primary": "#df20df",
+                    "background-light": "#f8f6f8",
+                    "background-dark": "#211121",
+                    "content-light": "#1b0e1b",
+                    "content-dark": "#f8f6f8",
+                    "subtle-light": "#955095",
+                    "subtle-dark": "#b48ab4",
+                    "border-light": "#e6d1e6",
+                    "border-dark": "#492649"
+                },
+                fontFamily: {
+                    "display": ["Plus Jakarta Sans", "sans-serif"]
+                },
+                borderRadius: {
+                    "DEFAULT": "0.5rem",
+                    "lg": "0.75rem",
+                    "xl": "1rem",
+                    "full": "9999px"
+                },
+            },
+        },
+    }
+</script>
+<style>
+/* Mobile Bottom Navigation */
+.mobile-bottom-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  border-top: 1px solid rgba(223, 32, 223, 0.2);
+  padding: 0.5rem 0;
+  z-index: 50;
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+.dark .mobile-bottom-nav {
+  background: #211121;
+  border-top-color: rgba(223, 32, 223, 0.3);
+}
+.mobile-bottom-nav-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.25rem;
+  padding: 0.5rem;
+  color: #6b7280;
+  transition: all 0.2s;
+  position: relative;
+  text-decoration: none;
+}
+.mobile-bottom-nav-item.active { color: #df20df; }
+.mobile-bottom-nav-item svg { width: 24px; height: 24px; }
+.mobile-bottom-nav-item span { font-size: 0.625rem; font-weight: 500; }
+@media (max-width: 767px) { body { padding-bottom: 70px; } }
+@media (min-width: 768px) { .mobile-bottom-nav { display: none !important; } }
+
+/* Shipping summary card */
+.shipping-summary {
+  background: linear-gradient(135deg, #fdf0fd 0%, #f8f6f8 100%);
+  border: 1px solid #e6d1e6;
+  border-radius: 0.75rem;
+  padding: 1rem 1.25rem;
+}
+.dark .shipping-summary {
+  background: linear-gradient(135deg, #2a112a 0%, #211121 100%);
+  border-color: #492649;
+}
+</style>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-content-light dark:text-content-dark">
+<div class="flex flex-col min-h-screen">
+<header class="border-b border-border-light dark:border-border-dark">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-20">
+<div class="flex items-center gap-3">
+<svg class="h-6 w-6 text-primary" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM12 20C7.59 20 4 16.41 4 12C4 7.59 7.59 4 12 4C16.41 4 20 7.59 20 12C20 16.41 16.41 20 12 20Z"></path>
+<path d="M12 6C9.79 6 8 7.79 8 10H10C10 8.9 10.9 8 12 8C13.1 8 14 8.9 14 10C14 11.1 13.1 12 12 12C10.9 12 10 12.9 10 14H12C14.21 14 16 12.21 16 10C16 7.79 14.21 6 12 6Z"></path>
+</svg>
+<h1 class="text-xl font-bold" id="storeName">My Shop</h1>
+</div>
+<nav class="hidden md:flex items-center space-x-8">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="index.html">Home</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="index.html#products">Products</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="track-order.html">Track Order</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="profile.html">Profile</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="cart.html">Cart</a>
+</nav>
+<div class="flex items-center space-x-2">
+<button class="p-2 rounded-full hover:bg-primary/10 dark:hover:bg-primary/20 transition-colors" onclick="window.location.href='index.html'">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+</svg>
+</button>
+<button class="p-2 rounded-full hover:bg-primary/10 dark:hover:bg-primary/20 transition-colors" onclick="window.location.href='cart.html'">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM176,88a48,48,0,0,1-96,0,8,8,0,0,1,16,0,32,32,0,0,0,64,0,8,8,0,0,1,16,0Z"></path>
+</svg>
+</button>
+</div>
+</div>
+</div>
+</header>
+
+<main class="flex-grow container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+<!-- Left: Payment Section -->
+<div class="lg:col-span-1">
+  <!-- Breadcrumb -->
+  <div class="text-sm text-subtle-light dark:text-subtle-dark mb-8">
+    <a class="hover:text-primary cursor-pointer" onclick="window.location.href='cart.html'">Cart</a>
+    <span> / </span>
+    <a class="hover:text-primary cursor-pointer" onclick="window.location.href='checkout.html'">Shipping</a>
+    <span> / </span>
+    <span class="text-content-light dark:text-content-dark font-medium">Payment</span>
+  </div>
+
+  <!-- Step Indicators -->
+  <div class="flex items-center gap-4 mb-8">
+    <div class="flex items-center gap-2">
+      <div class="w-8 h-8 rounded-full bg-primary/20 text-primary flex items-center justify-center text-sm font-bold">✓</div>
+      <span class="text-sm text-subtle-light dark:text-subtle-dark line-through">Shipping</span>
+    </div>
+    <div class="flex-1 h-0.5 bg-primary"></div>
+    <div class="flex items-center gap-2">
+      <div class="w-8 h-8 rounded-full bg-primary text-white flex items-center justify-center text-sm font-bold">2</div>
+      <span class="text-sm font-semibold text-primary">Payment</span>
+    </div>
+  </div>
+
+  <!-- Shipping Info Summary -->
+  <div class="shipping-summary mb-8" id="shippingSummary">
+    <div class="flex items-start justify-between">
+      <div>
+        <p class="text-xs text-subtle-light dark:text-subtle-dark font-medium uppercase tracking-wide mb-1">Delivering to</p>
+        <p class="font-semibold" id="summaryName">—</p>
+        <p class="text-sm text-subtle-light dark:text-subtle-dark" id="summaryAddress">—</p>
+        <p class="text-sm text-subtle-light dark:text-subtle-dark" id="summaryPhone">—</p>
+      </div>
+      <a href="checkout.html" class="text-xs text-primary hover:underline font-medium mt-1">Change</a>
+    </div>
+  </div>
+
+  <h2 class="text-3xl font-bold mb-8">Payment Method</h2>
+
+  <!-- UPI Payment Option -->
+  <div class="space-y-4 mb-8">
+    <div class="border-2 border-primary bg-primary/5 dark:bg-primary/10 rounded-lg p-5">
+      <div class="flex items-center gap-3 mb-4">
+        <div class="w-12 h-12 bg-white rounded-lg flex items-center justify-center shadow-sm">
+          <svg class="w-8 h-8" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="24" cy="24" r="20" fill="#5F259F"/>
+            <text x="24" y="30" fill="white" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">₹</text>
+          </svg>
+        </div>
+        <div>
+          <h3 class="font-bold">UPI Payment (GPay / PhonePe / Paytm)</h3>
+          <p class="text-sm text-subtle-light dark:text-subtle-dark">Pay manually via UPI and share screenshot</p>
+        </div>
+      </div>
+      <div class="bg-background-light dark:bg-background-dark rounded-lg p-4">
+        <div class="flex items-center justify-between mb-1">
+          <p class="text-sm"><strong>UPI ID:</strong> <span id="upiId">Loading...</span></p>
+          <button onclick="copyUpiId()" class="text-xs text-primary hover:underline font-medium" id="copyUpiBtn">Copy</button>
+        </div>
+        <p class="text-sm text-subtle-light dark:text-subtle-dark">After placing order, pay via UPI and share UTR/screenshot on WhatsApp</p>
+        <div class="mt-4 flex flex-col items-center" id="qrContainer"></div>
+      </div>
+    </div>
+
+    <!-- WhatsApp Option -->
+    <div class="border border-border-light dark:border-border-dark rounded-lg p-4">
+      <div class="flex items-center gap-3">
+        <svg class="w-8 h-8 text-green-600" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"/>
+        </svg>
+        <div>
+          <h3 class="font-bold">WhatsApp Order</h3>
+          <p class="text-sm text-subtle-light dark:text-subtle-dark">Confirm your order via WhatsApp</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Place Order Button -->
+  <button
+    type="button"
+    onclick="handlePayment()"
+    class="w-full bg-primary text-white font-bold py-4 rounded-lg hover:bg-primary/90 transition-all duration-300 flex items-center justify-center gap-2 text-lg shadow-lg"
+    id="placeOrderBtn"
+  >
+    🛒 Place Order
+  </button>
+  <button
+    type="button"
+    onclick="window.location.href='checkout.html'"
+    class="w-full mt-4 bg-background-light dark:bg-background-dark border-2 border-border-light dark:border-border-dark font-bold py-3 rounded-lg hover:bg-primary/10 dark:hover:bg-primary/20 transition-all duration-300"
+  >
+    ← Back to Shipping
+  </button>
+</div>
+
+<!-- Right: Order Summary -->
+<div class="lg:col-span-1 bg-background-light dark:bg-background-dark lg:bg-primary/5 dark:lg:bg-primary/10 p-8 rounded-lg lg:sticky lg:top-24">
+  <h2 class="text-2xl font-bold mb-6">Order Review</h2>
+
+  <div id="itemCountNotification" style="display: none;"></div>
+  <div id="abroadDeliveryNotification" style="display: none;"></div>
+
+  <div class="space-y-6" id="orderItems">
+    <div class="text-center py-8 text-subtle-light dark:text-subtle-dark">Loading cart...</div>
+  </div>
+  <div class="border-t border-border-light dark:border-border-dark my-8"></div>
+  <div class="space-y-4 text-sm">
+    <div class="flex justify-between">
+      <p class="text-subtle-light dark:text-subtle-dark">Subtotal</p>
+      <p class="font-medium" id="subtotalAmount">₹0.00</p>
+    </div>
+    <div class="flex justify-between">
+      <p class="text-subtle-light dark:text-subtle-dark" data-shipping-label>Shipping</p>
+      <p class="font-medium" id="shippingAmount">₹0.00</p>
+    </div>
+    <div class="flex justify-between" id="taxRow" style="display:none!important;">
+      <p class="text-subtle-light dark:text-subtle-dark">Tax (5%)</p>
+      <p class="font-medium" id="taxAmount">₹0.00</p>
+    </div>
+    <div class="border-t border-border-light dark:border-border-dark my-4"></div>
+    <div class="flex justify-between font-bold text-base">
+      <p>Total</p>
+      <p id="totalAmount">₹0.00</p>
+    </div>
+  </div>
+</div>
+</div>
+</main>
+
+<footer class="border-t border-border-light dark:border-border-dark mt-12">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+<p class="text-center text-sm text-subtle-light dark:text-subtle-dark">© 2024 <span id="footerStoreName">My Shop</span>. All rights reserved.</p>
+</div>
+</footer>
+</div>
+
+<!-- Mobile Bottom Navigation -->
+<nav class="mobile-bottom-nav">
+  <div class="flex items-center justify-around max-w-md mx-auto">
+    <a href="index.html" class="mobile-bottom-nav-item">
+      <svg fill="currentColor" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="index.html#products" class="mobile-bottom-nav-item">
+      <svg fill="currentColor" viewBox="0 0 24 24"><path d="M4 10.5c-.83 0-1.5.67-1.5 1.5s.67 1.5 1.5 1.5 1.5-.67 1.5-1.5-.67-1.5-1.5-1.5zm0-6c-.83 0-1.5.67-1.5 1.5S3.17 7.5 4 7.5 5.5 6.83 5.5 6 4.83 4.5 4 4.5zm0 12c-.83 0-1.5.68-1.5 1.5s.68 1.5 1.5 1.5 1.5-.68 1.5-1.5-.67-1.5-1.5-1.5zM7 19h14v-2H7v2zm0-6h14v-2H7v2zm0-8v2h14V5H7z"/></svg>
+      <span>Category</span>
+    </a>
+    <a href="track-order.html" class="mobile-bottom-nav-item">
+      <svg fill="currentColor" viewBox="0 0 24 24"><path d="M20 8h-3V4H3c-1.1 0-2 .9-2 2v11h2c0 1.66 1.34 3 3 3s3-1.34 3-3h6c0 1.66 1.34 3 3 3s3-1.34 3-3h2v-5l-3-4zM6 18.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zm13.5-9l1.96 2.5H17V9.5h2.5zm-1.5 9c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
+      <span>Track</span>
+    </a>
+    <a href="profile.html" class="mobile-bottom-nav-item">
+      <svg fill="currentColor" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+      <span>Profile</span>
+    </a>
+    <a href="cart.html" class="mobile-bottom-nav-item active">
+      <svg fill="currentColor" viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+      <span>Cart</span>
+    </a>
+  </div>
+</nav>
+
+<script src="js/payment.js"></script>
+</body></html>
