@@ -6708,7 +6708,7 @@
     "subcategoryId": "subcat-kor-16",
     "price": 20.0,
     "currency": "INR",
-    "stock": 19,
+    "stock": 18,
     "available": true,
     "images": [
       "assets/products/loop-claw-clip/loop-claw-clip.jpeg"
@@ -6721,7 +6721,7 @@
       {
         "name": "Beige",
         "hex": "#E1E4CF",
-        "stock": 8,
+        "stock": 7,
         "available": true
       },
       {
@@ -6738,7 +6738,7 @@
       }
     ],
     "createdAt": "2025-12-30T11:35:01.213154Z",
-    "updatedAt": "2026-02-25T15:25:20.315408Z"
+    "updatedAt": "2026-03-18T13:27:21.056669Z"
   },
   {
     "id": "prod-037",
@@ -9356,7 +9356,7 @@
     "subcategoryId": "subcat-cus-04",
     "price": 30.0,
     "currency": "INR",
-    "stock": 3,
+    "stock": 2,
     "available": true,
     "images": [
       "assets/products/heart-bracelet/heart-bracelet.jpeg"
@@ -9366,7 +9366,7 @@
     "description": "",
     "tags": [],
     "createdAt": "2025-12-31T16:10:44.407434Z",
-    "updatedAt": "2026-02-10T12:39:07.536057Z"
+    "updatedAt": "2026-03-18T13:23:40.124293Z"
   },
   {
     "id": "prod-075",
@@ -9508,7 +9508,7 @@
     "subcategoryId": "subcat-cus-10",
     "price": 30.0,
     "currency": "INR",
-    "stock": 32,
+    "stock": 31,
     "available": true,
     "images": [
       "assets/products/butterfly-chain/butterfly-chain.jpeg"
@@ -9521,7 +9521,7 @@
       {
         "name": "Red",
         "hex": "#AB3636",
-        "stock": 7,
+        "stock": 6,
         "available": true
       },
       {
@@ -9550,7 +9550,7 @@
       }
     ],
     "createdAt": "2025-12-31T16:44:57.417412Z",
-    "updatedAt": "2026-02-10T12:37:58.873096Z"
+    "updatedAt": "2026-03-18T13:26:24.351784Z"
   },
   {
     "id": "prod-081",
@@ -11082,7 +11082,7 @@
     "subcategoryId": "subcat-pin-36",
     "price": 60.0,
     "currency": "INR",
-    "stock": 23,
+    "stock": 22,
     "available": true,
     "images": [
       "assets/products/paw-sitive-claw-clip/paw-sitive-claw-clip.jpeg"
@@ -11128,12 +11128,12 @@
       {
         "name": "Honey Bear",
         "hex": "#F5F5DC",
-        "stock": 4,
+        "stock": 3,
         "available": true
       }
     ],
     "createdAt": "2026-03-10T07:13:04.661715Z",
-    "updatedAt": "2026-03-13T08:31:50.586459Z"
+    "updatedAt": "2026-03-18T13:23:00.853899Z"
   },
   {
     "id": "prod-119",
