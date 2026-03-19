@@ -8206,7 +8206,7 @@
     "subcategoryId": "subcat-pin-08",
     "price": 89.0,
     "currency": "INR",
-    "stock": 22,
+    "stock": 21,
     "available": true,
     "images": [
       "assets/products/furry-claw-clip/furry.jpeg"
@@ -8225,7 +8225,7 @@
       {
         "name": "White Cat",
         "hex": "#FFFFFF",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
@@ -8242,7 +8242,7 @@
       }
     ],
     "createdAt": "2025-12-31T13:41:06.412188Z",
-    "updatedAt": "2026-02-10T12:33:21.937776Z"
+    "updatedAt": "2026-03-19T15:27:24.113790Z"
   },
   {
     "id": "prod-068",
@@ -11210,7 +11210,7 @@
     "subcategoryId": "subcat--02",
     "price": 30.0,
     "currency": "INR",
-    "stock": 23,
+    "stock": 22,
     "available": true,
     "images": [
       "assets/products/heart-sprinkle-claw-clip/heart-sprinkle-claw-clip.jpeg"
@@ -11256,12 +11256,12 @@
       {
         "name": "Pink",
         "hex": "#F1C6DB",
-        "stock": 4,
+        "stock": 3,
         "available": true
       }
     ],
     "createdAt": "2026-03-10T07:46:51.039077Z",
-    "updatedAt": "2026-03-14T07:10:06.444416Z"
+    "updatedAt": "2026-03-19T15:28:04.301896Z"
   },
   {
     "id": "prod-121",
