@@ -11431,5 +11431,67 @@
     ],
     "createdAt": "2026-03-17T08:17:30.385075Z",
     "updatedAt": "2026-03-17T08:17:30.385122Z"
+  },
+  {
+    "id": "prod-124",
+    "sku": "HIBI-CAR-124",
+    "title": "Hibiscus Card",
+    "slug": "hibiscus-card",
+    "categoryIds": [
+      "cat-07"
+    ],
+    "subcategoryId": "subcat-kor-43",
+    "price": 90.0,
+    "currency": "INR",
+    "stock": 11,
+    "available": true,
+    "images": [
+      "assets/products/hibiscus-card/hibiscus-card.jpeg",
+      "assets/products/hibiscus-card/hibiscus-card-2.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Hibiscus Card! One large and two small hibiscus claw clips for a tropical hair vibe.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "1",
+        "hex": "#46AF9D",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "2",
+        "hex": "#FF6B6B",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "3",
+        "hex": "#FFFFFF",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "4",
+        "hex": "#F5E5EB",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "5",
+        "hex": "#7B427B",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "6",
+        "hex": "#FFD700",
+        "stock": 1,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-03-21T14:36:24.607758Z",
+    "updatedAt": "2026-03-21T14:36:24.607794Z"
   }
 ]

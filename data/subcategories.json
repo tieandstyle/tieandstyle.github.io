@@ -1051,5 +1051,14 @@
     "parentCategoryId": "cat-08",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-kor-43",
+    "name": "Hibiscus Card",
+    "slug": "hibiscus-card",
+    "description": "Tropical bloom! A floral card featuring three hibiscus claw clips in two different sizes.",
+    "parentCategoryId": "cat-07",
+    "order": 1,
+    "active": true
   }
 ]
