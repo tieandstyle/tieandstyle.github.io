@@ -9356,7 +9356,7 @@
     "subcategoryId": "subcat-cus-04",
     "price": 30.0,
     "currency": "INR",
-    "stock": 2,
+    "stock": 1,
     "available": true,
     "images": [
       "assets/products/heart-bracelet/heart-bracelet.jpeg"
@@ -9366,7 +9366,7 @@
     "description": "",
     "tags": [],
     "createdAt": "2025-12-31T16:10:44.407434Z",
-    "updatedAt": "2026-03-18T13:23:40.124293Z"
+    "updatedAt": "2026-03-21T13:08:30.917972Z"
   },
   {
     "id": "prod-075",
@@ -9508,7 +9508,7 @@
     "subcategoryId": "subcat-cus-10",
     "price": 30.0,
     "currency": "INR",
-    "stock": 31,
+    "stock": 30,
     "available": true,
     "images": [
       "assets/products/butterfly-chain/butterfly-chain.jpeg"
@@ -9527,7 +9527,7 @@
       {
         "name": "Pink",
         "hex": "#FF1493",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -9550,7 +9550,7 @@
       }
     ],
     "createdAt": "2025-12-31T16:44:57.417412Z",
-    "updatedAt": "2026-03-18T13:26:24.351784Z"
+    "updatedAt": "2026-03-21T13:09:00.611243Z"
   },
   {
     "id": "prod-081",
@@ -10182,7 +10182,7 @@
     "subcategoryId": "subcat-pin-12",
     "price": 40.0,
     "currency": "INR",
-    "stock": 1,
+    "stock": 0,
     "available": true,
     "images": [
       "assets/products/orchid-flower-clip/orchid-flower-clip.jpeg"
@@ -10191,16 +10191,8 @@
     "shortDescription": "Orchid Clip! A realistic, life-like flower clip that adds a tropical, elegant bloom to your hair.",
     "description": "",
     "tags": [],
-    "colors": [
-      {
-        "name": "Pink",
-        "hex": "#D99BAB",
-        "stock": 1,
-        "available": true
-      }
-    ],
     "createdAt": "2026-01-19T06:53:09.673431Z",
-    "updatedAt": "2026-03-16T07:52:57.896423Z"
+    "updatedAt": "2026-03-21T13:08:05.177064Z"
   },
   {
     "id": "prod-091",
@@ -10213,7 +10205,7 @@
     "subcategoryId": "subcat-pin-13",
     "price": 70.0,
     "currency": "INR",
-    "stock": 6,
+    "stock": 5,
     "available": true,
     "images": [
       "assets/products/mini-kitty-claw-clip/mini-kitty-claw-clip.jpeg"
@@ -10235,12 +10227,12 @@
       {
         "name": "Red Bow Kitty",
         "hex": "#E14747",
-        "stock": 4,
+        "stock": 3,
         "available": true
       }
     ],
     "createdAt": "2026-01-19T06:58:10.368549Z",
-    "updatedAt": "2026-03-13T08:29:19.499475Z"
+    "updatedAt": "2026-03-21T13:05:40.180022Z"
   },
   {
     "id": "prod-092",
@@ -10322,7 +10314,7 @@
     "subcategoryId": "subcat-pin-17",
     "price": 80.0,
     "currency": "INR",
-    "stock": 15,
+    "stock": 14,
     "available": true,
     "images": [
       "assets/products/knotheart-claw-clip/knotheart-claw-clip.jpeg"
@@ -10335,7 +10327,7 @@
       "Large"
     ],
     "createdAt": "2026-01-21T05:38:54.051499Z",
-    "updatedAt": "2026-03-13T08:31:02.040068Z",
+    "updatedAt": "2026-03-21T13:10:44.474094Z",
     "colors": [
       {
         "name": "Heart",
@@ -10346,7 +10338,7 @@
       {
         "name": "Knot",
         "hex": "#E2B6CC",
-        "stock": 7,
+        "stock": 6,
         "available": true
       }
     ]
@@ -10555,7 +10547,7 @@
     "subcategoryId": "subcat-pin-22",
     "price": 60.0,
     "currency": "INR",
-    "stock": 8,
+    "stock": 7,
     "available": true,
     "images": [
       "assets/products/sakura-box-claw-clip/sakura-box-claw-clip.jpeg"
@@ -10588,16 +10580,10 @@
         "hex": "#32CD32",
         "stock": 2,
         "available": true
-      },
-      {
-        "name": "Brown",
-        "hex": "#8B4513",
-        "stock": 1,
-        "available": true
       }
     ],
     "createdAt": "2026-02-08T07:32:46.192266Z",
-    "updatedAt": "2026-02-22T06:42:46.082257Z"
+    "updatedAt": "2026-03-21T13:11:55.525028Z"
   },
   {
     "id": "prod-105",
@@ -10733,7 +10719,7 @@
     "subcategoryId": "subcat-pin-26",
     "price": 90.0,
     "currency": "INR",
-    "stock": 6,
+    "stock": 5,
     "available": true,
     "images": [
       "assets/products/shelly-cards/shelly-cards.jpeg"
@@ -10756,12 +10742,6 @@
         "available": true
       },
       {
-        "name": "Green With Purple",
-        "hex": "#32CD32",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "Dark blue With Yellow",
         "hex": "#D6C472",
         "stock": 1,
@@ -10769,7 +10749,7 @@
       }
     ],
     "createdAt": "2026-02-12T09:06:52.403738Z",
-    "updatedAt": "2026-03-16T07:57:28.242450Z"
+    "updatedAt": "2026-03-21T13:13:16.527921Z"
   },
   {
     "id": "prod-109",
@@ -11338,7 +11318,7 @@
     "subcategoryId": "subcat-kor-42",
     "price": 90.0,
     "currency": "INR",
-    "stock": 24,
+    "stock": 23,
     "available": true,
     "images": [
       "assets/products/dreamy-flora-cards/dreamy-flora-cards.jpeg"
@@ -11369,7 +11349,7 @@
       {
         "name": "Blue",
         "hex": "#84C189",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -11386,7 +11366,7 @@
       }
     ],
     "createdAt": "2026-03-11T07:01:16.645225Z",
-    "updatedAt": "2026-03-11T07:01:16.645335Z"
+    "updatedAt": "2026-03-21T13:09:54.514502Z"
   },
   {
     "id": "prod-123",
