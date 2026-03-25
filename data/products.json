@@ -5889,7 +5889,7 @@
     "subcategoryId": "subcat-kor-03",
     "price": 40.0,
     "currency": "INR",
-    "stock": 141,
+    "stock": 140,
     "available": true,
     "images": [
       "assets/products/large-daisy-claw-clip/large-daisy-claw-clip.jpeg"
@@ -5950,7 +5950,7 @@
       {
         "name": "White - Light Yellow",
         "hex": "#FEFBE1",
-        "stock": 34,
+        "stock": 33,
         "available": true
       },
       {
@@ -5967,7 +5967,7 @@
       }
     ],
     "createdAt": "2025-12-29T10:07:48.098742Z",
-    "updatedAt": "2026-03-06T13:49:40.324171Z"
+    "updatedAt": "2026-03-25T06:58:33.584977Z"
   },
   {
     "id": "prod-024",
@@ -6108,7 +6108,7 @@
     "subcategoryId": "subcat-kor-06",
     "price": 20.0,
     "currency": "INR",
-    "stock": 43,
+    "stock": 42,
     "available": true,
     "images": [
       "assets/products/shellie-claw-clip/shellie-claw-clip.jpeg"
@@ -6145,12 +6145,12 @@
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "stock": 8,
+        "stock": 7,
         "available": true
       }
     ],
     "createdAt": "2025-12-29T11:18:51.707301Z",
-    "updatedAt": "2026-03-15T06:55:51.027964Z"
+    "updatedAt": "2026-03-25T06:59:15.726198Z"
   },
   {
     "id": "prod-027",
@@ -7766,7 +7766,7 @@
     "subcategoryId": "subcat-kor-34",
     "price": 35.0,
     "currency": "INR",
-    "stock": 208,
+    "stock": 207,
     "available": true,
     "images": [
       "assets/products/border-floral-claw-clip/border-floral-claw-clip.jpeg"
@@ -7809,12 +7809,12 @@
       {
         "name": "Pink Border With White",
         "hex": "#FF94C9",
-        "stock": 30,
+        "stock": 29,
         "available": true
       }
     ],
     "createdAt": "2025-12-31T10:58:04.705418Z",
-    "updatedAt": "2026-03-24T05:30:02.538264Z"
+    "updatedAt": "2026-03-25T06:59:59.536968Z"
   },
   {
     "id": "prod-056",
@@ -10469,7 +10469,7 @@
     "subcategoryId": "subcat--01",
     "price": 150.0,
     "currency": "INR",
-    "stock": 5,
+    "stock": 4,
     "available": true,
     "images": [
       "assets/products/tangerine-korean-hairpins/sunflower-trio-claw-clip.jpeg"
@@ -10479,7 +10479,7 @@
     "description": "",
     "tags": [],
     "createdAt": "2026-02-08T06:59:58.219232Z",
-    "updatedAt": "2026-03-01T14:57:11.669191Z"
+    "updatedAt": "2026-03-25T06:57:48.142568Z"
   },
   {
     "id": "prod-103",
@@ -10492,7 +10492,7 @@
     "subcategoryId": "subcat-pin-21",
     "price": 60.0,
     "currency": "INR",
-    "stock": 22,
+    "stock": 21,
     "available": true,
     "images": [
       "assets/products/tulip-claw-clip/tulip-box-claw-clip.jpeg"
@@ -10527,14 +10527,14 @@
         "available": true
       },
       {
-        "name": "8",
+        "name": "Brown",
         "hex": "#A26E49",
-        "stock": 8,
+        "stock": 7,
         "available": true
       }
     ],
     "createdAt": "2026-02-08T07:15:20.115405Z",
-    "updatedAt": "2026-03-16T07:55:41.628160Z"
+    "updatedAt": "2026-03-25T07:01:32.903853Z"
   },
   {
     "id": "prod-104",
