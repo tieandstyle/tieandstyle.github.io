@@ -6206,7 +6206,7 @@
     "subcategoryId": "subcat-kor-08",
     "price": 10.0,
     "currency": "INR",
-    "stock": 76,
+    "stock": 75,
     "available": true,
     "images": [
       "assets/products/glass-wings-claw-clip/glass-wings-claw-clip.jpeg"
@@ -6219,7 +6219,7 @@
       {
         "name": "Purplish-Pink",
         "hex": "#DB0FBD",
-        "stock": 8,
+        "stock": 7,
         "available": true
       },
       {
@@ -6302,7 +6302,7 @@
       }
     ],
     "createdAt": "2025-12-30T08:21:26.790988Z",
-    "updatedAt": "2026-03-04T07:45:36.607153Z"
+    "updatedAt": "2026-03-26T06:03:02.590737Z"
   },
   {
     "id": "prod-029",
@@ -6438,7 +6438,7 @@
     "subcategoryId": "subcat-kor-12",
     "price": 20.0,
     "currency": "INR",
-    "stock": 7,
+    "stock": 6,
     "available": true,
     "images": [
       "assets/products/mini-hearts-claw-clip/mini-hearts-claw-clip.jpeg"
@@ -6451,7 +6451,7 @@
       {
         "name": "Grey",
         "hex": "#5A5343",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -6474,7 +6474,7 @@
       }
     ],
     "createdAt": "2025-12-30T09:39:13.650079Z",
-    "updatedAt": "2026-02-25T15:24:46.026098Z"
+    "updatedAt": "2026-03-26T06:03:36.575716Z"
   },
   {
     "id": "prod-033",
@@ -6532,7 +6532,7 @@
     "subcategoryId": "subcat-kor-14",
     "price": 20.0,
     "currency": "INR",
-    "stock": 46,
+    "stock": 45,
     "available": true,
     "images": [
       "assets/products/matte-flora-claw-clip/matte-flora-claw-clip.jpeg"
@@ -6551,7 +6551,7 @@
       {
         "name": "Peach",
         "hex": "#F57879",
-        "stock": 8,
+        "stock": 7,
         "available": true
       },
       {
@@ -6604,7 +6604,7 @@
       }
     ],
     "createdAt": "2025-12-30T10:51:48.036122Z",
-    "updatedAt": "2026-03-07T07:03:50.528481Z"
+    "updatedAt": "2026-03-26T06:04:22.251008Z"
   },
   {
     "id": "prod-035",
@@ -9508,7 +9508,7 @@
     "subcategoryId": "subcat-cus-10",
     "price": 30.0,
     "currency": "INR",
-    "stock": 30,
+    "stock": 29,
     "available": true,
     "images": [
       "assets/products/butterfly-chain/butterfly-chain.jpeg"
@@ -9539,7 +9539,7 @@
       {
         "name": "Blue",
         "hex": "#00CED1",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -9550,7 +9550,7 @@
       }
     ],
     "createdAt": "2025-12-31T16:44:57.417412Z",
-    "updatedAt": "2026-03-21T13:09:00.611243Z"
+    "updatedAt": "2026-03-26T06:06:30.888613Z"
   },
   {
     "id": "prod-081",
@@ -10006,7 +10006,7 @@
     "subcategoryId": "subcat-kor-39",
     "price": 20.0,
     "currency": "INR",
-    "stock": 26,
+    "stock": 25,
     "available": true,
     "images": [
       "assets/products/flutter-matte-claw-clip/flutter-matte-claw-clip.jpeg"
@@ -10034,7 +10034,7 @@
       {
         "name": "Charcoal Grey",
         "hex": "#5B574E",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -10081,7 +10081,7 @@
       }
     ],
     "createdAt": "2026-01-17T08:30:42.938929Z",
-    "updatedAt": "2026-03-15T06:54:59.622516Z"
+    "updatedAt": "2026-03-26T06:05:51.583879Z"
   },
   {
     "id": "prod-089",
@@ -11443,7 +11443,7 @@
     "subcategoryId": "subcat-kor-43",
     "price": 90.0,
     "currency": "INR",
-    "stock": 11,
+    "stock": 9,
     "available": true,
     "images": [
       "assets/products/hibiscus-card/hibiscus-card.jpeg",
@@ -11473,12 +11473,6 @@
         "available": true
       },
       {
-        "name": "4",
-        "hex": "#F5E5EB",
-        "stock": 2,
-        "available": true
-      },
-      {
         "name": "5",
         "hex": "#7B427B",
         "stock": 2,
@@ -11492,6 +11486,6 @@
       }
     ],
     "createdAt": "2026-03-21T14:36:24.607758Z",
-    "updatedAt": "2026-03-21T14:36:24.607794Z"
+    "updatedAt": "2026-03-26T06:07:05.838215Z"
   }
 ]
