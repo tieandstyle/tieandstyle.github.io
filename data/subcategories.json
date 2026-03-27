@@ -1060,5 +1060,50 @@
     "parentCategoryId": "cat-07",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-pin-39",
+    "name": "Hello Kitty Garden Claw Clip",
+    "slug": "hello-kitty-garden-claw-clip",
+    "description": "Hello Kitty! A trendy box-shaped mini claw clip for a playful and iconic hair look.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-40",
+    "name": "Pup Pop Claw Clip",
+    "slug": "pup-pop-claw-clip",
+    "description": "Pup Pop! A cute loop-shaped small claw clip topped with an adorable puppy charm.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-41",
+    "name": "Bow Bestie Claw Clip",
+    "slug": "bow-bestie-claw-clip",
+    "description": "K-style bows! Medium bow-shaped claw clips featuring your favorite Sanrio besties.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat--03",
+    "name": "Fairy Flora Claw Clip",
+    "slug": "fairy-flora-claw-clip",
+    "description": "Floral magic! This small dome-shaped claw clip adds a sweet, garden touch to your hair.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-42",
+    "name": "Pastel Knot Claw Clip",
+    "slug": "pastel-knot-claw-clip",
+    "description": "K-style charm! This loop-shaped medium clip features a cute bow for a soft, pastel look",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
   }
 ]

@@ -11487,5 +11487,303 @@
     ],
     "createdAt": "2026-03-21T14:36:24.607758Z",
     "updatedAt": "2026-03-26T15:35:07.253963Z"
+  },
+  {
+    "id": "prod-125",
+    "sku": "HELL-KIT-125",
+    "title": "Hello Kitty Garden ",
+    "slug": "hello-kitty-garden",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-39",
+    "price": 80.0,
+    "currency": "INR",
+    "stock": 12,
+    "available": true,
+    "images": [
+      "assets/products/hello-kitty-garden-claw-clip/hello-kitty-garden.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Kitty Garden! A cute box-shaped small claw clip topped with a sweet Hello Kitty charm.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "SMALL"
+    ],
+    "colors": [
+      {
+        "name": "1",
+        "hex": "#F2CFE0",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "2",
+        "hex": "#EAB9BF",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "3",
+        "hex": "#B698CD",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "4",
+        "hex": "#F3ECC9",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "5",
+        "hex": "#EDDEE1",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "6",
+        "hex": "#C5E3EC",
+        "stock": 2,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-03-27T03:58:11.879445Z",
+    "updatedAt": "2026-03-27T03:58:11.879581Z"
+  },
+  {
+    "id": "prod-126",
+    "sku": "PUP-POP-126",
+    "title": "Pup Pop Claw Clip",
+    "slug": "pup-pop-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-40",
+    "price": 85.0,
+    "currency": "INR",
+    "stock": 24,
+    "available": true,
+    "images": [
+      "assets/products/pup-pop-claw-clip/pup-pop-claw-clip.jpeg",
+      "assets/products/pup-pop-claw-clip/pup-pop-claw-clip-2.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Puppy love! This trendy loop-shaped mini claw clip adds a playful pup to your hair.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "SMALL"
+    ],
+    "colors": [
+      {
+        "name": "1",
+        "hex": "#F5DBE8",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "2",
+        "hex": "#C1D5BE",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "3",
+        "hex": "#F78DAD",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "4",
+        "hex": "#F5F5DC",
+        "stock": 5,
+        "available": true
+      },
+      {
+        "name": "5",
+        "hex": "#BAAFCA",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "6",
+        "hex": "#B3BCBE",
+        "stock": 4,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-03-27T04:15:45.239661Z",
+    "updatedAt": "2026-03-27T04:15:45.239758Z"
+  },
+  {
+    "id": "prod-127",
+    "sku": "BOW-BES-127",
+    "title": "Bow Bestie Claw Clip",
+    "slug": "bow-bestie-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-41",
+    "price": 90.0,
+    "currency": "INR",
+    "stock": 24,
+    "available": true,
+    "images": [
+      "assets/products/bow-bestie-claw-clip/bow-bestie-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Bow Besties! A bow-shaped medium claw clip topped with cute Kitty and Kuromi charms.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Medium"
+    ],
+    "colors": [
+      {
+        "name": "1",
+        "hex": "#EEA5BB",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "2",
+        "hex": "#BABED9",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "3",
+        "hex": "#EACCCC",
+        "stock": 6,
+        "available": true
+      },
+      {
+        "name": "4",
+        "hex": "#98C0DA",
+        "stock": 6,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-03-27T04:25:29.074371Z",
+    "updatedAt": "2026-03-27T04:25:29.074404Z"
+  },
+  {
+    "id": "prod-128",
+    "sku": "FAIR-FLO-128",
+    "title": "Fairy Flora Claw Clip",
+    "slug": "fairy-flora-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat--03",
+    "price": 80.0,
+    "currency": "INR",
+    "stock": 23,
+    "available": true,
+    "images": [
+      "assets/products/fairy-flora-claw-clip/fairy-flora-claw-clip.jpeg",
+      "assets/products/fairy-flora-claw-clip/fairy-flora-claw-clip-2.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Fairy Flora! A cute dome-shaped mini claw clip topped with dainty, magical flowers.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "SMALL"
+    ],
+    "colors": [
+      {
+        "name": "1",
+        "hex": "#F1E8B1",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "2",
+        "hex": "#C5AABA",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "3",
+        "hex": "#FFFFFF",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "4",
+        "hex": "#EEE0DD",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "5",
+        "hex": "#FFD2C7",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "6",
+        "hex": "#BEDADA",
+        "stock": 4,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-03-27T04:39:01.747098Z",
+    "updatedAt": "2026-03-27T04:39:01.747203Z"
+  },
+  {
+    "id": "prod-129",
+    "sku": "PAST-KNO-129",
+    "title": "Pastel Knot Claw Clip",
+    "slug": "pastel-knot-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-42",
+    "price": 80.0,
+    "currency": "INR",
+    "stock": 12,
+    "available": true,
+    "images": [
+      "assets/products/pastel-knot-claw-clip/pastel-knot-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Pastel Knots! A medium loop-shaped claw clip topped with a sweet, dainty bow.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Medium"
+    ],
+    "colors": [
+      {
+        "name": "1",
+        "hex": "#C59E72",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "2",
+        "hex": "#000000",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "3",
+        "hex": "#F2D2B8",
+        "stock": 3,
+        "available": true
+      },
+      {
+        "name": "4",
+        "hex": "#F5F5DC",
+        "stock": 3,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-03-27T04:55:42.622824Z",
+    "updatedAt": "2026-03-27T04:55:42.622858Z"
   }
 ]
