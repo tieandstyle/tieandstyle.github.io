@@ -6800,7 +6800,7 @@
     "subcategoryId": "subcat-kor-18",
     "price": 20.0,
     "currency": "INR",
-    "stock": 16,
+    "stock": 14,
     "available": true,
     "images": [
       "assets/products/small-twirl-claw-clip/small-twirl-claw-clip.jpeg"
@@ -6825,18 +6825,18 @@
       {
         "name": "Mint",
         "hex": "#B3DCA8",
-        "stock": 5,
+        "stock": 4,
         "available": true
       },
       {
         "name": "Brown",
         "hex": "#63422F",
-        "stock": 4,
+        "stock": 3,
         "available": true
       }
     ],
     "createdAt": "2025-12-30T12:43:30.509174Z",
-    "updatedAt": "2026-03-29T10:08:28.864762Z"
+    "updatedAt": "2026-03-31T10:46:06.280237Z"
   },
   {
     "id": "prod-039",
@@ -7514,7 +7514,7 @@
     "subcategoryId": "subcat-kor-28",
     "price": 40.0,
     "currency": "INR",
-    "stock": 69,
+    "stock": 67,
     "available": true,
     "images": [
       "assets/products/sunset-claw-clip/sunset-claw-clip.jpeg",
@@ -7528,7 +7528,7 @@
       {
         "name": "Grey&Purple",
         "hex": "#5F6D77",
-        "stock": 23,
+        "stock": 22,
         "available": true
       },
       {
@@ -7540,12 +7540,12 @@
       {
         "name": "Black&Brown",
         "hex": "#000000",
-        "stock": 23,
+        "stock": 22,
         "available": true
       }
     ],
     "createdAt": "2025-12-31T08:50:09.591049Z",
-    "updatedAt": "2026-03-29T10:09:14.216312Z"
+    "updatedAt": "2026-03-31T10:47:25.451216Z"
   },
   {
     "id": "prod-050",
@@ -11184,7 +11184,7 @@
     "subcategoryId": "subcat--02",
     "price": 30.0,
     "currency": "INR",
-    "stock": 21,
+    "stock": 19,
     "available": true,
     "images": [
       "assets/products/heart-sprinkle-claw-clip/heart-sprinkle-claw-clip.jpeg"
@@ -11212,7 +11212,7 @@
       {
         "name": "Blue",
         "hex": "#C4CBDE",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -11230,12 +11230,12 @@
       {
         "name": "Pink",
         "hex": "#F1C6DB",
-        "stock": 2,
+        "stock": 1,
         "available": true
       }
     ],
     "createdAt": "2026-03-10T07:46:51.039077Z",
-    "updatedAt": "2026-03-29T10:07:54.364929Z"
+    "updatedAt": "2026-03-31T10:48:44.976617Z"
   },
   {
     "id": "prod-121",
