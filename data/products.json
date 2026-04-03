@@ -11431,7 +11431,7 @@
     "subcategoryId": "subcat-kor-43",
     "price": 90.0,
     "currency": "INR",
-    "stock": 3,
+    "stock": 1,
     "available": true,
     "images": [
       "assets/products/hibiscus-card/hibiscus-card.jpeg",
@@ -11443,26 +11443,14 @@
     "tags": [],
     "colors": [
       {
-        "name": "2",
-        "hex": "#FF6B6B",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "3",
         "hex": "#FFFFFF",
-        "stock": 1,
-        "available": true
-      },
-      {
-        "name": "5",
-        "hex": "#7B427B",
         "stock": 1,
         "available": true
       }
     ],
     "createdAt": "2026-03-21T14:36:24.607758Z",
-    "updatedAt": "2026-04-03T03:12:50.670887Z"
+    "updatedAt": "2026-04-03T05:59:45.856818Z"
   },
   {
     "id": "prod-125",
