@@ -7821,7 +7821,7 @@
     "subcategoryId": "subcat-kor-35",
     "price": 25.0,
     "currency": "INR",
-    "stock": 14,
+    "stock": 13,
     "available": true,
     "images": [
       "assets/products/lilly-claw-clip/lilly-claw-clip.jpeg"
@@ -7834,7 +7834,7 @@
       {
         "name": "Black",
         "hex": "#000000",
-        "stock": 5,
+        "stock": 4,
         "available": true
       },
       {
@@ -7869,7 +7869,7 @@
       }
     ],
     "createdAt": "2025-12-31T11:12:45.333456Z",
-    "updatedAt": "2026-03-07T07:03:04.759132Z"
+    "updatedAt": "2026-04-03T03:14:21.648728Z"
   },
   {
     "id": "prod-057",
@@ -11306,7 +11306,7 @@
     "subcategoryId": "subcat-kor-42",
     "price": 90.0,
     "currency": "INR",
-    "stock": 23,
+    "stock": 22,
     "available": true,
     "images": [
       "assets/products/dreamy-flora-cards/dreamy-flora-cards.jpeg"
@@ -11349,12 +11349,12 @@
       {
         "name": "Dark Purple",
         "hex": "#776178",
-        "stock": 2,
+        "stock": 1,
         "available": true
       }
     ],
     "createdAt": "2026-03-11T07:01:16.645225Z",
-    "updatedAt": "2026-03-21T13:09:54.514502Z"
+    "updatedAt": "2026-04-03T03:13:33.115886Z"
   },
   {
     "id": "prod-123",
@@ -11431,7 +11431,7 @@
     "subcategoryId": "subcat-kor-43",
     "price": 90.0,
     "currency": "INR",
-    "stock": 5,
+    "stock": 3,
     "available": true,
     "images": [
       "assets/products/hibiscus-card/hibiscus-card.jpeg",
@@ -11443,15 +11443,9 @@
     "tags": [],
     "colors": [
       {
-        "name": "1",
-        "hex": "#46AF9D",
-        "stock": 1,
-        "available": true
-      },
-      {
         "name": "2",
         "hex": "#FF6B6B",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -11468,7 +11462,7 @@
       }
     ],
     "createdAt": "2026-03-21T14:36:24.607758Z",
-    "updatedAt": "2026-04-01T15:35:08.379002Z"
+    "updatedAt": "2026-04-03T03:12:50.670887Z"
   },
   {
     "id": "prod-125",
