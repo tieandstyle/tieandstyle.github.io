@@ -10462,7 +10462,7 @@
     "subcategoryId": "subcat-pin-21",
     "price": 60.0,
     "currency": "INR",
-    "stock": 20,
+    "stock": 15,
     "available": true,
     "images": [
       "assets/products/tulip-claw-clip/tulip-box-claw-clip.jpeg"
@@ -10475,36 +10475,30 @@
       {
         "name": "Blue",
         "hex": "#00CED1",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
         "name": "Pink",
         "hex": "#FF69B4",
-        "stock": 3,
-        "available": true
-      },
-      {
-        "name": "Yellow",
-        "hex": "#FFEC80",
-        "stock": 1,
+        "stock": 2,
         "available": true
       },
       {
         "name": "Green",
         "hex": "#9FFE9F",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
         "name": "Brown",
         "hex": "#A26E49",
-        "stock": 7,
+        "stock": 6,
         "available": true
       }
     ],
     "createdAt": "2026-02-08T07:15:20.115405Z",
-    "updatedAt": "2026-04-03T10:47:50.458004Z"
+    "updatedAt": "2026-04-05T05:07:48.217703Z"
   },
   {
     "id": "prod-104",
