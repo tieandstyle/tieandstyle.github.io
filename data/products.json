@@ -10439,7 +10439,7 @@
     "subcategoryId": "subcat--01",
     "price": 150.0,
     "currency": "INR",
-    "stock": 2,
+    "stock": 1,
     "available": true,
     "images": [
       "assets/products/tangerine-korean-hairpins/sunflower-trio-claw-clip.jpeg"
@@ -10449,7 +10449,7 @@
     "description": "",
     "tags": [],
     "createdAt": "2026-02-08T06:59:58.219232Z",
-    "updatedAt": "2026-04-01T15:26:36.266398Z"
+    "updatedAt": "2026-04-06T10:53:52.297578Z"
   },
   {
     "id": "prod-103",
@@ -10462,7 +10462,7 @@
     "subcategoryId": "subcat-pin-21",
     "price": 60.0,
     "currency": "INR",
-    "stock": 15,
+    "stock": 14,
     "available": true,
     "images": [
       "assets/products/tulip-claw-clip/tulip-box-claw-clip.jpeg"
@@ -10472,12 +10472,6 @@
     "description": "",
     "tags": [],
     "colors": [
-      {
-        "name": "Blue",
-        "hex": "#00CED1",
-        "stock": 1,
-        "available": true
-      },
       {
         "name": "Pink",
         "hex": "#FF69B4",
@@ -10498,7 +10492,7 @@
       }
     ],
     "createdAt": "2026-02-08T07:15:20.115405Z",
-    "updatedAt": "2026-04-05T05:07:48.217703Z"
+    "updatedAt": "2026-04-06T11:02:54.901909Z"
   },
   {
     "id": "prod-104",
@@ -10511,7 +10505,7 @@
     "subcategoryId": "subcat-pin-22",
     "price": 60.0,
     "currency": "INR",
-    "stock": 5,
+    "stock": 4,
     "available": true,
     "images": [
       "assets/products/sakura-box-claw-clip/sakura-box-claw-clip.jpeg"
@@ -10521,12 +10515,6 @@
     "description": "",
     "tags": [],
     "colors": [
-      {
-        "name": "Purple",
-        "hex": "#D534D5",
-        "stock": 1,
-        "available": true
-      },
       {
         "name": "Blue",
         "hex": "#00CED1",
@@ -10541,7 +10529,7 @@
       }
     ],
     "createdAt": "2026-02-08T07:32:46.192266Z",
-    "updatedAt": "2026-04-03T10:46:46.606403Z"
+    "updatedAt": "2026-04-06T11:05:00.486915Z"
   },
   {
     "id": "prod-105",
@@ -10554,7 +10542,7 @@
     "subcategoryId": "subcat-pin-23",
     "price": 60.0,
     "currency": "INR",
-    "stock": 6,
+    "stock": 5,
     "available": true,
     "images": [
       "assets/products/sakura-bloom-claw-clip/sakura-bloom-claw-clip.jpeg"
@@ -10567,12 +10555,12 @@
       {
         "name": "Brown",
         "hex": "#8B4513",
-        "stock": 3,
+        "stock": 2,
         "available": true
       }
     ],
     "createdAt": "2026-02-08T07:41:15.029379Z",
-    "updatedAt": "2026-03-04T05:57:21.878695Z"
+    "updatedAt": "2026-04-06T11:04:05.727428Z"
   },
   {
     "id": "prod-106",
@@ -11331,7 +11319,7 @@
     "subcategoryId": "subcat-pin-38",
     "price": 80.0,
     "currency": "INR",
-    "stock": 23,
+    "stock": 22,
     "available": true,
     "images": [
       "assets/products/shinchan-clawclip/shinchan-clawclip.jpeg"
@@ -11371,7 +11359,7 @@
       {
         "name": "5",
         "hex": "#BED3DA",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -11382,7 +11370,7 @@
       }
     ],
     "createdAt": "2026-03-17T08:17:30.385075Z",
-    "updatedAt": "2026-03-17T08:17:30.385122Z"
+    "updatedAt": "2026-04-06T10:57:30.060708Z"
   },
   {
     "id": "prod-124",
@@ -11395,7 +11383,7 @@
     "subcategoryId": "subcat-kor-43",
     "price": 90.0,
     "currency": "INR",
-    "stock": 1,
+    "stock": 0,
     "available": true,
     "images": [
       "assets/products/hibiscus-card/hibiscus-card.jpeg",
@@ -11405,16 +11393,8 @@
     "shortDescription": "Hibiscus Card! One large and two small hibiscus claw clips for a tropical hair vibe.",
     "description": "",
     "tags": [],
-    "colors": [
-      {
-        "name": "3",
-        "hex": "#FFFFFF",
-        "stock": 1,
-        "available": true
-      }
-    ],
     "createdAt": "2026-03-21T14:36:24.607758Z",
-    "updatedAt": "2026-04-03T05:59:45.856818Z"
+    "updatedAt": "2026-04-06T10:56:26.698117Z"
   },
   {
     "id": "prod-125",
