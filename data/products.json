@@ -5713,7 +5713,7 @@
     "subcategoryId": "subcat-kor-01",
     "price": 20.0,
     "currency": "INR",
-    "stock": 111,
+    "stock": 110,
     "available": true,
     "images": [
       "assets/products/small-daisy-claw-clips/small-daisy-claw-clips.jpeg"
@@ -5768,7 +5768,7 @@
       {
         "name": "Baby Pink",
         "hex": "#CF9BB2",
-        "stock": 16,
+        "stock": 15,
         "available": true
       },
       {
@@ -5779,7 +5779,7 @@
       }
     ],
     "createdAt": "2025-12-29T07:24:13.122164Z",
-    "updatedAt": "2026-03-06T13:02:16.799443Z"
+    "updatedAt": "2026-04-11T08:41:03.502797Z"
   },
   {
     "id": "prod-022",
@@ -8133,7 +8133,7 @@
     "subcategoryId": "subcat-pin-07",
     "price": 89.0,
     "currency": "INR",
-    "stock": 4,
+    "stock": 3,
     "available": true,
     "images": [
       "assets/products/kitty-claw-clip/kitty.jpeg"
@@ -8143,12 +8143,6 @@
     "description": "",
     "tags": [],
     "colors": [
-      {
-        "name": "White",
-        "hex": "#FFFFFF",
-        "stock": 1,
-        "available": true
-      },
       {
         "name": "Peach",
         "hex": "#DBA29B",
@@ -8163,7 +8157,7 @@
       }
     ],
     "createdAt": "2025-12-31T13:26:27.687182Z",
-    "updatedAt": "2026-03-16T07:54:44.070659Z"
+    "updatedAt": "2026-04-11T08:27:13.906685Z"
   },
   {
     "id": "prod-066",
@@ -8176,7 +8170,7 @@
     "subcategoryId": "subcat-pin-08",
     "price": 89.0,
     "currency": "INR",
-    "stock": 21,
+    "stock": 20,
     "available": true,
     "images": [
       "assets/products/furry-claw-clip/furry.jpeg"
@@ -8207,12 +8201,12 @@
       {
         "name": "Polka dotted Puppy",
         "hex": "#E2D3CA",
-        "stock": 4,
+        "stock": 3,
         "available": true
       }
     ],
     "createdAt": "2025-12-31T13:41:06.412188Z",
-    "updatedAt": "2026-03-19T15:27:24.113790Z"
+    "updatedAt": "2026-04-11T08:27:54.504827Z"
   },
   {
     "id": "prod-068",
@@ -9326,7 +9320,7 @@
     "subcategoryId": "subcat-cus-04",
     "price": 30.0,
     "currency": "INR",
-    "stock": 1,
+    "stock": 0,
     "available": true,
     "images": [
       "assets/products/heart-bracelet/heart-bracelet.jpeg"
@@ -9336,7 +9330,7 @@
     "description": "",
     "tags": [],
     "createdAt": "2025-12-31T16:10:44.407434Z",
-    "updatedAt": "2026-03-21T13:08:30.917972Z"
+    "updatedAt": "2026-04-11T08:35:15.659179Z"
   },
   {
     "id": "prod-075",
@@ -9372,7 +9366,7 @@
     "subcategoryId": "subcat-cus-06",
     "price": 30.0,
     "currency": "INR",
-    "stock": 3,
+    "stock": 2,
     "available": true,
     "images": [
       "assets/products/evil-eye-bracelet/evil-eye-bracelet.jpeg"
@@ -9382,7 +9376,7 @@
     "description": "",
     "tags": [],
     "createdAt": "2025-12-31T16:27:57.724981Z",
-    "updatedAt": "2026-02-03T08:05:06.641075Z"
+    "updatedAt": "2026-04-11T08:34:19.019714Z"
   },
   {
     "id": "prod-077",
@@ -9478,7 +9472,7 @@
     "subcategoryId": "subcat-cus-10",
     "price": 30.0,
     "currency": "INR",
-    "stock": 29,
+    "stock": 28,
     "available": true,
     "images": [
       "assets/products/butterfly-chain/butterfly-chain.jpeg"
@@ -9497,7 +9491,7 @@
       {
         "name": "Pink",
         "hex": "#FF1493",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -9520,7 +9514,7 @@
       }
     ],
     "createdAt": "2025-12-31T16:44:57.417412Z",
-    "updatedAt": "2026-03-26T06:06:30.888613Z"
+    "updatedAt": "2026-04-11T08:39:20.395549Z"
   },
   {
     "id": "prod-081",
@@ -10163,7 +10157,7 @@
     "subcategoryId": "subcat-pin-13",
     "price": 70.0,
     "currency": "INR",
-    "stock": 5,
+    "stock": 4,
     "available": true,
     "images": [
       "assets/products/mini-kitty-claw-clip/mini-kitty-claw-clip.jpeg"
@@ -10179,7 +10173,7 @@
       {
         "name": "Blue Bow Kitty",
         "hex": "#9CEBED",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -10190,7 +10184,7 @@
       }
     ],
     "createdAt": "2026-01-19T06:58:10.368549Z",
-    "updatedAt": "2026-03-21T13:05:40.180022Z"
+    "updatedAt": "2026-04-11T08:25:24.731874Z"
   },
   {
     "id": "prod-092",
@@ -11246,7 +11240,7 @@
     "subcategoryId": "subcat-kor-42",
     "price": 90.0,
     "currency": "INR",
-    "stock": 21,
+    "stock": 20,
     "available": true,
     "images": [
       "assets/products/dreamy-flora-cards/dreamy-flora-cards.jpeg"
@@ -11285,16 +11279,10 @@
         "hex": "#EFF3D3",
         "stock": 2,
         "available": true
-      },
-      {
-        "name": "Dark Purple",
-        "hex": "#776178",
-        "stock": 1,
-        "available": true
       }
     ],
     "createdAt": "2026-03-11T07:01:16.645225Z",
-    "updatedAt": "2026-04-08T12:03:02.595066Z"
+    "updatedAt": "2026-04-11T08:15:52.110212Z"
   },
   {
     "id": "prod-123",
@@ -11395,7 +11383,7 @@
     "subcategoryId": "subcat-pin-39",
     "price": 80.0,
     "currency": "INR",
-    "stock": 12,
+    "stock": 11,
     "available": true,
     "images": [
       "assets/products/hello-kitty-garden-claw-clip/hello-kitty-garden.jpeg"
@@ -11423,7 +11411,7 @@
       {
         "name": "3",
         "hex": "#B698CD",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -11446,7 +11434,7 @@
       }
     ],
     "createdAt": "2026-03-27T03:58:11.879445Z",
-    "updatedAt": "2026-03-27T03:58:11.879581Z"
+    "updatedAt": "2026-04-11T08:29:08.144478Z"
   },
   {
     "id": "prod-126",
@@ -11459,7 +11447,7 @@
     "subcategoryId": "subcat-pin-40",
     "price": 85.0,
     "currency": "INR",
-    "stock": 23,
+    "stock": 22,
     "available": true,
     "images": [
       "assets/products/pup-pop-claw-clip/pup-pop-claw-clip.jpeg",
@@ -11494,7 +11482,7 @@
       {
         "name": "4",
         "hex": "#F5F5DC",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -11511,7 +11499,7 @@
       }
     ],
     "createdAt": "2026-03-27T04:15:45.239661Z",
-    "updatedAt": "2026-04-08T12:09:03.106970Z"
+    "updatedAt": "2026-04-11T08:29:43.106789Z"
   },
   {
     "id": "prod-127",
@@ -11524,7 +11512,7 @@
     "subcategoryId": "subcat-pin-41",
     "price": 90.0,
     "currency": "INR",
-    "stock": 24,
+    "stock": 23,
     "available": true,
     "images": [
       "assets/products/bow-bestie-claw-clip/bow-bestie-claw-clip.jpeg"
@@ -11540,7 +11528,7 @@
       {
         "name": "1",
         "hex": "#EEA5BB",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
@@ -11563,7 +11551,7 @@
       }
     ],
     "createdAt": "2026-03-27T04:25:29.074371Z",
-    "updatedAt": "2026-03-27T04:25:29.074404Z"
+    "updatedAt": "2026-04-11T08:26:01.063372Z"
   },
   {
     "id": "prod-128",
@@ -11576,7 +11564,7 @@
     "subcategoryId": "subcat--03",
     "price": 80.0,
     "currency": "INR",
-    "stock": 23,
+    "stock": 22,
     "available": true,
     "images": [
       "assets/products/fairy-flora-claw-clip/fairy-flora-claw-clip.jpeg",
@@ -11623,12 +11611,12 @@
       {
         "name": "6",
         "hex": "#BEDADA",
-        "stock": 4,
+        "stock": 3,
         "available": true
       }
     ],
     "createdAt": "2026-03-27T04:39:01.747098Z",
-    "updatedAt": "2026-04-08T12:01:18.372426Z"
+    "updatedAt": "2026-04-11T08:30:19.346257Z"
   },
   {
     "id": "prod-129",
@@ -11641,7 +11629,7 @@
     "subcategoryId": "subcat-pin-42",
     "price": 80.0,
     "currency": "INR",
-    "stock": 11,
+    "stock": 10,
     "available": true,
     "images": [
       "assets/products/pastel-knot-claw-clip/pastel-knot-claw-clip.jpeg"
@@ -11669,7 +11657,7 @@
       {
         "name": "3",
         "hex": "#F2D2B8",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -11680,6 +11668,6 @@
       }
     ],
     "createdAt": "2026-03-27T04:55:42.622824Z",
-    "updatedAt": "2026-04-01T15:21:46.888356Z"
+    "updatedAt": "2026-04-11T08:31:04.564451Z"
   }
 ]
