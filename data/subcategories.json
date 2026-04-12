@@ -1105,5 +1105,23 @@
     "parentCategoryId": "cat-08",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-pin-43",
+    "name": "Candy Bears Claw Clip",
+    "slug": "candy-bears-claw-clip",
+    "description": "Beary Cute! Large dome claw clip featuring a variety of sweet teddy bears for a fun look.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
+  },
+  {
+    "id": "subcat-pin-44",
+    "name": "Butterfly Trio Claw Clips",
+    "slug": "butterfly-trio-claw-clips",
+    "description": "Flutter Set! One big and two small butterfly-shaped claw clips for a magical hair look.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
   }
 ]

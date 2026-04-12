@@ -8133,7 +8133,7 @@
     "subcategoryId": "subcat-pin-07",
     "price": 89.0,
     "currency": "INR",
-    "stock": 3,
+    "stock": 2,
     "available": true,
     "images": [
       "assets/products/kitty-claw-clip/kitty.jpeg"
@@ -8148,16 +8148,10 @@
         "hex": "#DBA29B",
         "stock": 2,
         "available": true
-      },
-      {
-        "name": "Purple",
-        "hex": "#D0B4F3",
-        "stock": 1,
-        "available": true
       }
     ],
     "createdAt": "2025-12-31T13:26:27.687182Z",
-    "updatedAt": "2026-04-11T08:27:13.906685Z"
+    "updatedAt": "2026-04-12T10:05:46.705707Z"
   },
   {
     "id": "prod-066",
@@ -11669,5 +11663,172 @@
     ],
     "createdAt": "2026-03-27T04:55:42.622824Z",
     "updatedAt": "2026-04-11T08:31:04.564451Z"
+  },
+  {
+    "id": "prod-130",
+    "sku": "CAND-BEA-130",
+    "title": "Candy Bears Claw Clip",
+    "slug": "candy-bears-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-43",
+    "price": 150.0,
+    "currency": "INR",
+    "stock": 20,
+    "available": true,
+    "images": [
+      "assets/products/candy-bears-claw-clip/candy-bears-claw-clip.jpeg",
+      "assets/products/candy-bears-claw-clip/candy-bears-claw-clip-2.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Candy Bears! A big dome-shaped claw clip topped with various adorable teddy bears.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Large"
+    ],
+    "colors": [
+      {
+        "name": "1",
+        "hex": "#DFD2C3",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "2",
+        "hex": "#E5D7D7",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "3",
+        "hex": "#000000",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "4",
+        "hex": "#C6BFB9",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "5",
+        "hex": "#C7E0F0",
+        "stock": 4,
+        "available": true
+      },
+      {
+        "name": "6",
+        "hex": "#C2AEA8",
+        "stock": 2,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-04-12T10:44:23.387914Z",
+    "updatedAt": "2026-04-12T10:44:23.388021Z"
+  },
+  {
+    "id": "prod-131",
+    "sku": "BUTT-TRI-131",
+    "title": "Butterfly Trio Claw Clips",
+    "slug": "butterfly-trio-claw-clips",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-44",
+    "price": 130.0,
+    "currency": "INR",
+    "stock": 23,
+    "available": true,
+    "images": [
+      "assets/products/butterfly-trio-claw-clips/butterfly-trio-claw-clips.jpeg",
+      "assets/products/butterfly-trio-claw-clips/butterfly-trio-claw-clips-2.jpeg",
+      "assets/products/butterfly-trio-claw-clips/butterfly-trio-claw-clips-3.jpeg",
+      "assets/products/butterfly-trio-claw-clips/butterfly-trio-claw-clips-4.jpeg",
+      "assets/products/butterfly-trio-claw-clips/butterfly-trio-claw-clips-5.jpeg",
+      "assets/products/butterfly-trio-claw-clips/butterfly-trio-claw-clips-6.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "Butterfly Trio! A set of 3 butterfly clips featuring 1 large and 2 small claw clips.",
+    "description": "",
+    "tags": [],
+    "colors": [
+      {
+        "name": "1",
+        "hex": "#FFADC6",
+        "stock": 1,
+        "available": true
+      },
+      {
+        "name": "2",
+        "hex": "#FEE1F0",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "3",
+        "hex": "#DDD2BB",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "4",
+        "hex": "#E3BC78",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "5",
+        "hex": "#588471",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "6",
+        "hex": "#9B9969",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "7",
+        "hex": "#707771",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "8",
+        "hex": "#6A624C",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "9",
+        "hex": "#577F7F",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "10",
+        "hex": "#B73F2A",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "11",
+        "hex": "#E5EEFF",
+        "stock": 2,
+        "available": true
+      },
+      {
+        "name": "12",
+        "hex": "#FFFFFF",
+        "stock": 2,
+        "available": true
+      }
+    ],
+    "createdAt": "2026-04-12T11:33:56.198022Z",
+    "updatedAt": "2026-04-12T11:33:56.198619Z"
   }
 ]
