@@ -11234,7 +11234,7 @@
     "subcategoryId": "subcat-kor-42",
     "price": 90.0,
     "currency": "INR",
-    "stock": 20,
+    "stock": 17,
     "available": true,
     "images": [
       "assets/products/dreamy-flora-cards/dreamy-flora-cards.jpeg"
@@ -11247,24 +11247,18 @@
       {
         "name": "White-Pink",
         "hex": "#F4ECED",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
         "name": "Peach",
         "hex": "#E499A0",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
         "name": "Yellow",
         "hex": "#EAD663",
-        "stock": 1,
-        "available": true
-      },
-      {
-        "name": "Blue",
-        "hex": "#84C189",
         "stock": 1,
         "available": true
       },
@@ -11276,7 +11270,7 @@
       }
     ],
     "createdAt": "2026-03-11T07:01:16.645225Z",
-    "updatedAt": "2026-04-11T08:15:52.110212Z"
+    "updatedAt": "2026-04-12T11:35:13.480706Z"
   },
   {
     "id": "prod-123",
