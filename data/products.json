@@ -10684,7 +10684,7 @@
     "subcategoryId": "subcat-pin-27",
     "price": 70.0,
     "currency": "INR",
-    "stock": 8,
+    "stock": 14,
     "available": true,
     "images": [
       "assets/products/little-joy-cards/little-joy-cards.jpeg"
@@ -10703,7 +10703,7 @@
       {
         "name": "Butterfly",
         "hex": "#D265D2",
-        "stock": 2,
+        "stock": 0,
         "available": true
       },
       {
@@ -10720,7 +10720,7 @@
       }
     ],
     "createdAt": "2026-02-17T05:27:05.158290Z",
-    "updatedAt": "2026-02-17T05:27:05.213032Z"
+    "updatedAt": "2026-04-13T09:04:13.513282Z"
   },
   {
     "id": "prod-110",
