@@ -11168,7 +11168,7 @@
       "cat-07"
     ],
     "subcategoryId": "subcat-kor-41",
-    "price": 40.0,
+    "price": 29.0,
     "currency": "INR",
     "stock": 24,
     "available": true,
@@ -11221,7 +11221,7 @@
       }
     ],
     "createdAt": "2026-03-10T07:57:51.375818Z",
-    "updatedAt": "2026-03-10T07:57:51.375858Z"
+    "updatedAt": "2026-04-13T08:43:30.879416Z"
   },
   {
     "id": "prod-122",
