@@ -9521,7 +9521,7 @@
     "subcategoryId": "subcat-pin-09",
     "price": 70.0,
     "currency": "INR",
-    "stock": 20,
+    "stock": 19,
     "available": true,
     "images": [
       "assets/products/fruitsicle-cards/fruitsicle-cards.jpeg"
@@ -9543,7 +9543,7 @@
       {
         "name": "Strawberry",
         "hex": "#D54444",
-        "stock": 5,
+        "stock": 4,
         "available": true
       },
       {
@@ -9572,7 +9572,7 @@
       }
     ],
     "createdAt": "2026-01-11T06:46:11.283193Z",
-    "updatedAt": "2026-04-08T12:03:50.325585Z"
+    "updatedAt": "2026-04-14T06:46:50.675080Z"
   },
   {
     "id": "prod-082",
@@ -9585,7 +9585,7 @@
     "subcategoryId": "subcat-bou-03",
     "price": 70.0,
     "currency": "INR",
-    "stock": 10,
+    "stock": 9,
     "available": true,
     "images": [
       "assets/products/sweet-pairs-cards/sweet-pairs-card.jpeg"
@@ -9601,7 +9601,7 @@
       {
         "name": "Cherry",
         "hex": "#FF0000",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -9618,7 +9618,7 @@
       }
     ],
     "createdAt": "2026-01-11T06:52:50.544500Z",
-    "updatedAt": "2026-04-03T10:45:35.504369Z"
+    "updatedAt": "2026-04-14T06:46:07.053590Z"
   },
   {
     "id": "prod-083",
@@ -10703,13 +10703,13 @@
       {
         "name": "Butterfly",
         "hex": "#D265D2",
-        "stock": 0,
+        "stock": 2,
         "available": true
       },
       {
         "name": "Rainbow",
         "hex": "#FF0000",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -10720,7 +10720,7 @@
       }
     ],
     "createdAt": "2026-02-17T05:27:05.158290Z",
-    "updatedAt": "2026-04-13T09:04:13.513282Z"
+    "updatedAt": "2026-04-14T06:47:41.539904Z"
   },
   {
     "id": "prod-110",
@@ -11399,7 +11399,7 @@
       {
         "name": "3",
         "hex": "#B698CD",
-        "stock": 2,
+        "stock": 1,
         "available": true
       },
       {
@@ -11422,7 +11422,7 @@
       }
     ],
     "createdAt": "2026-03-27T03:58:11.879445Z",
-    "updatedAt": "2026-04-11T08:29:08.144478Z"
+    "updatedAt": "2026-04-14T06:48:22.375804Z"
   },
   {
     "id": "prod-126",
@@ -11435,7 +11435,7 @@
     "subcategoryId": "subcat-pin-40",
     "price": 85.0,
     "currency": "INR",
-    "stock": 22,
+    "stock": 21,
     "available": true,
     "images": [
       "assets/products/pup-pop-claw-clip/pup-pop-claw-clip.jpeg",
@@ -11482,12 +11482,12 @@
       {
         "name": "6",
         "hex": "#B3BCBE",
-        "stock": 4,
+        "stock": 3,
         "available": true
       }
     ],
     "createdAt": "2026-03-27T04:15:45.239661Z",
-    "updatedAt": "2026-04-11T08:29:43.106789Z"
+    "updatedAt": "2026-04-14T06:49:21.561572Z"
   },
   {
     "id": "prod-127",
