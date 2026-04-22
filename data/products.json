@@ -10438,7 +10438,7 @@
     "subcategoryId": "subcat-pin-21",
     "price": 60.0,
     "currency": "INR",
-    "stock": 13,
+    "stock": 12,
     "available": true,
     "images": [
       "assets/products/tulip-claw-clip/tulip-box-claw-clip.jpeg"
@@ -10463,12 +10463,12 @@
       {
         "name": "Brown",
         "hex": "#A26E49",
-        "stock": 5,
+        "stock": 4,
         "available": true
       }
     ],
     "createdAt": "2026-02-08T07:15:20.115405Z",
-    "updatedAt": "2026-04-08T12:13:05.998461Z"
+    "updatedAt": "2026-04-22T14:40:46.854143Z"
   },
   {
     "id": "prod-104",
@@ -10920,7 +10920,7 @@
     "subcategoryId": "subcat-pin-35",
     "price": 65.0,
     "currency": "INR",
-    "stock": 23,
+    "stock": 22,
     "available": true,
     "images": [
       "assets/products/tutti-frutti-claw-clip/tutti-frutti-claw-clip.jpeg"
@@ -10942,7 +10942,7 @@
       {
         "name": "StrawBerry",
         "hex": "#EA3A4C",
-        "stock": 4,
+        "stock": 3,
         "available": true
       },
       {
@@ -10971,7 +10971,7 @@
       }
     ],
     "createdAt": "2026-03-10T06:57:37.978650Z",
-    "updatedAt": "2026-04-01T15:25:39.941157Z"
+    "updatedAt": "2026-04-22T14:38:36.252010Z"
   },
   {
     "id": "prod-118",
@@ -11048,7 +11048,7 @@
     "subcategoryId": "subcat-pin-37",
     "price": 70.0,
     "currency": "INR",
-    "stock": 20,
+    "stock": 19,
     "available": true,
     "images": [
       "assets/products/winged-whimsy-claw-clip/winged-whimsy-claw-clip.jpeg"
@@ -11088,7 +11088,7 @@
       {
         "name": "Blue",
         "hex": "#D5EFF1",
-        "stock": 3,
+        "stock": 2,
         "available": true
       },
       {
@@ -11099,7 +11099,7 @@
       }
     ],
     "createdAt": "2026-03-10T07:36:55.284053Z",
-    "updatedAt": "2026-04-08T12:02:19.053129Z"
+    "updatedAt": "2026-04-22T14:37:59.927751Z"
   },
   {
     "id": "prod-120",
@@ -11435,7 +11435,7 @@
     "subcategoryId": "subcat-pin-40",
     "price": 85.0,
     "currency": "INR",
-    "stock": 21,
+    "stock": 20,
     "available": true,
     "images": [
       "assets/products/pup-pop-claw-clip/pup-pop-claw-clip.jpeg",
@@ -11458,7 +11458,7 @@
       {
         "name": "2",
         "hex": "#C1D5BE",
-        "stock": 5,
+        "stock": 4,
         "available": true
       },
       {
@@ -11487,7 +11487,7 @@
       }
     ],
     "createdAt": "2026-03-27T04:15:45.239661Z",
-    "updatedAt": "2026-04-14T06:49:21.561572Z"
+    "updatedAt": "2026-04-22T14:37:16.307518Z"
   },
   {
     "id": "prod-127",
@@ -11500,7 +11500,7 @@
     "subcategoryId": "subcat-pin-41",
     "price": 90.0,
     "currency": "INR",
-    "stock": 23,
+    "stock": 22,
     "available": true,
     "images": [
       "assets/products/bow-bestie-claw-clip/bow-bestie-claw-clip.jpeg"
@@ -11522,7 +11522,7 @@
       {
         "name": "2",
         "hex": "#BABED9",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
@@ -11539,7 +11539,7 @@
       }
     ],
     "createdAt": "2026-03-27T04:25:29.074371Z",
-    "updatedAt": "2026-04-11T08:26:01.063372Z"
+    "updatedAt": "2026-04-22T14:36:14.372903Z"
   },
   {
     "id": "prod-128",
