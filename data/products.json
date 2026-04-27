@@ -6151,7 +6151,7 @@
     "subcategoryId": "subcat-kor-07",
     "price": 20.0,
     "currency": "INR",
-    "stock": 4,
+    "stock": 3,
     "available": true,
     "images": [
       "assets/products/flora-pin-claw-clip/flora-pin-claw-clip.jpeg"
@@ -6161,12 +6161,6 @@
     "description": "",
     "tags": [],
     "colors": [
-      {
-        "name": "Orange",
-        "hex": "#C0785F",
-        "stock": 1,
-        "available": true
-      },
       {
         "name": "Yellow",
         "hex": "#E3CF2E",
@@ -6181,7 +6175,7 @@
       }
     ],
     "createdAt": "2025-12-29T11:32:03.603998Z",
-    "updatedAt": "2026-02-22T06:45:22.308144Z"
+    "updatedAt": "2026-04-27T05:10:32.883933Z"
   },
   {
     "id": "prod-028",
@@ -6514,7 +6508,7 @@
     "subcategoryId": "subcat-kor-14",
     "price": 20.0,
     "currency": "INR",
-    "stock": 45,
+    "stock": 44,
     "available": true,
     "images": [
       "assets/products/matte-flora-claw-clip/matte-flora-claw-clip.jpeg"
@@ -6533,7 +6527,7 @@
       {
         "name": "Peach",
         "hex": "#F57879",
-        "stock": 7,
+        "stock": 6,
         "available": true
       },
       {
@@ -6586,7 +6580,7 @@
       }
     ],
     "createdAt": "2025-12-30T10:51:48.036122Z",
-    "updatedAt": "2026-03-26T06:04:22.251008Z"
+    "updatedAt": "2026-04-27T05:11:17.033264Z"
   },
   {
     "id": "prod-035",
@@ -6690,7 +6684,7 @@
     "subcategoryId": "subcat-kor-16",
     "price": 20.0,
     "currency": "INR",
-    "stock": 18,
+    "stock": 15,
     "available": true,
     "images": [
       "assets/products/loop-claw-clip/loop-claw-clip.jpeg"
@@ -6703,24 +6697,24 @@
       {
         "name": "Beige",
         "hex": "#E1E4CF",
-        "stock": 7,
+        "stock": 6,
         "available": true
       },
       {
         "name": "Grey",
         "hex": "#908989",
-        "stock": 6,
+        "stock": 5,
         "available": true
       },
       {
         "name": "Honey",
         "hex": "#C28D42",
-        "stock": 5,
+        "stock": 4,
         "available": true
       }
     ],
     "createdAt": "2025-12-30T11:35:01.213154Z",
-    "updatedAt": "2026-03-18T13:27:21.056669Z"
+    "updatedAt": "2026-04-27T05:06:07.251256Z"
   },
   {
     "id": "prod-037",
@@ -6733,7 +6727,7 @@
     "subcategoryId": "subcat-kor-17",
     "price": 25.0,
     "currency": "INR",
-    "stock": 16,
+    "stock": 15,
     "available": true,
     "images": [
       "assets/products/twine-claw-clip/twine-claw-clip.jpeg"
@@ -6764,12 +6758,12 @@
       {
         "name": "Light Brown",
         "hex": "#A88B71",
-        "stock": 3,
+        "stock": 2,
         "available": true
       }
     ],
     "createdAt": "2025-12-30T11:49:33.071902Z",
-    "updatedAt": "2026-04-08T12:20:39.248037Z"
+    "updatedAt": "2026-04-27T05:07:30.532438Z"
   },
   {
     "id": "prod-038",
@@ -7051,7 +7045,7 @@
     "subcategoryId": "subcat-kor-22",
     "price": 20.0,
     "currency": "INR",
-    "stock": 91,
+    "stock": 90,
     "available": true,
     "images": [
       "assets/products/mallow-claw-clip/mallow-claw-clip.jpeg"
@@ -7064,7 +7058,7 @@
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "stock": 11,
+        "stock": 10,
         "available": true
       },
       {
@@ -7123,7 +7117,7 @@
       }
     ],
     "createdAt": "2025-12-30T14:50:00.427798Z",
-    "updatedAt": "2026-04-25T08:22:38.158404Z"
+    "updatedAt": "2026-04-27T05:12:15.497078Z"
   },
   {
     "id": "prod-044",
@@ -10034,7 +10028,7 @@
     "subcategoryId": "subcat-kor-40",
     "price": 20.0,
     "currency": "INR",
-    "stock": 21,
+    "stock": 20,
     "available": true,
     "images": [
       "assets/products/ribbon-snap-claw-clip/ribbon-snap-claw-clip.jpeg"
@@ -10104,12 +10098,12 @@
       {
         "name": "Royal Blue",
         "hex": "#266787",
-        "stock": 2,
+        "stock": 1,
         "available": true
       }
     ],
     "createdAt": "2026-01-17T08:56:58.365980Z",
-    "updatedAt": "2026-04-25T08:27:27.512190Z"
+    "updatedAt": "2026-04-27T05:13:17.272896Z"
   },
   {
     "id": "prod-090",
