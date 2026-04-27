@@ -11818,5 +11818,31 @@
     ],
     "createdAt": "2026-04-12T11:33:56.198022Z",
     "updatedAt": "2026-04-12T11:33:56.198619Z"
+  },
+  {
+    "id": "prod-132",
+    "sku": "FAIR-CLA-132",
+    "title": "Fairywing Claw Clip",
+    "slug": "fairywing-claw-clip",
+    "categoryIds": [
+      "cat-08"
+    ],
+    "subcategoryId": "subcat-pin-45",
+    "price": 160.0,
+    "currency": "INR",
+    "stock": 23,
+    "available": true,
+    "images": [
+      "assets/products/fairywing-claw-clip/fairywing-claw-clip.jpeg"
+    ],
+    "attributes": {},
+    "shortDescription": "FairyWing! A butterfly-shaped claw clip in a beautiful vintage hue for a classic look.",
+    "description": "",
+    "tags": [],
+    "sizes": [
+      "Small"
+    ],
+    "createdAt": "2026-04-27T05:03:07.777507Z",
+    "updatedAt": "2026-04-27T05:03:07.777903Z"
   }
 ]

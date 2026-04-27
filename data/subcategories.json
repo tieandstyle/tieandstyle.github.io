@@ -1123,5 +1123,14 @@
     "parentCategoryId": "cat-08",
     "order": 1,
     "active": true
+  },
+  {
+    "id": "subcat-pin-45",
+    "name": "Fairywing Claw Clip",
+    "slug": "fairywing-claw-clip",
+    "description": "FairyWing! A butterfly-shaped claw clip in a beautiful vintage hue for a classic look.",
+    "parentCategoryId": "cat-08",
+    "order": 1,
+    "active": true
   }
 ]
