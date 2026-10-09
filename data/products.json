@@ -10308,58 +10308,6 @@
     "updatedAt": "2026-02-22T06:25:35.288249Z"
   },
   {
-    "id": "prod-116",
-    "sku": "PAST-TOO-116",
-    "title": "Pastel Toon Claw Clip",
-    "slug": "pastel-toon-claw-clip",
-    "categoryIds": [
-      "cat-08"
-    ],
-    "subcategoryId": "subcat-pin-34",
-    "price": 80.0,
-    "currency": "INR",
-    "stock": 22,
-    "available": true,
-    "images": [
-      "assets/products/pastel-toon-claw-clip/pastel-toon-a-cute-claw-clip-topped-with-sweet-cartoon-characters-for-a-playful-look.jpeg"
-    ],
-    "attributes": {},
-    "shortDescription": " with Pastel Toon! A cute claw clip toppedsweet cartoon characters for a playful look",
-    "description": "",
-    "tags": [],
-    "sizes": [
-      "Small"
-    ],
-    "colors": [
-      {
-        "name": "watermelon sorbet",
-        "hex": "#F1ACBA",
-        "stock": 5,
-        "available": true
-      },
-      {
-        "name": "Lemon Drop Purin",
-        "hex": "#F3E94B",
-        "stock": 0,
-        "available": true
-      },
-      {
-        "name": "Grape Fizz Kuromi",
-        "hex": "#8F428F",
-        "stock": 6,
-        "available": true
-      },
-      {
-        "name": "Pink Frost Kitty",
-        "hex": "#FFF0F2",
-        "stock": 6,
-        "available": true
-      }
-    ],
-    "createdAt": "2026-03-10T06:46:15.076606Z",
-    "updatedAt": "2026-04-08T12:09:55.279540Z"
-  },
-  {
     "id": "prod-117",
     "sku": "TUTT-FRU-117",
     "title": "Tutti Frutti Claw Clip",
@@ -10653,70 +10601,6 @@
     "updatedAt": "2026-05-31T06:05:16.031735Z"
   },
   {
-    "id": "prod-123",
-    "sku": "SHIN-CLA-123",
-    "title": "Shinchan ClawClip",
-    "slug": "shinchan-clawclip",
-    "categoryIds": [
-      "cat-08"
-    ],
-    "subcategoryId": "subcat-pin-38",
-    "price": 80.0,
-    "currency": "INR",
-    "stock": 22,
-    "available": true,
-    "images": [
-      "assets/products/shinchan-clawclip/shinchan-clawclip.jpeg"
-    ],
-    "attributes": {},
-    "shortDescription": "Action-packed! Cute Shin-chan character claw clips in a trendy box shape for a playful look.",
-    "description": "",
-    "tags": [],
-    "sizes": [
-      "Small"
-    ],
-    "colors": [
-      {
-        "name": "1",
-        "hex": "#FCEAE8",
-        "stock": 3,
-        "available": true
-      },
-      {
-        "name": "2",
-        "hex": "#E7E2F3",
-        "stock": 4,
-        "available": true
-      },
-      {
-        "name": "3",
-        "hex": "#EBE6D0",
-        "stock": 4,
-        "available": true
-      },
-      {
-        "name": "4",
-        "hex": "#FFFEFA",
-        "stock": 4,
-        "available": true
-      },
-      {
-        "name": "5",
-        "hex": "#BED3DA",
-        "stock": 3,
-        "available": true
-      },
-      {
-        "name": "6",
-        "hex": "#EEC8D6",
-        "stock": 4,
-        "available": true
-      }
-    ],
-    "createdAt": "2026-03-17T08:17:30.385075Z",
-    "updatedAt": "2026-04-06T10:57:30.060708Z"
-  },
-  {
     "id": "prod-124",
     "sku": "HIBI-CAR-124",
     "title": "Hibiscus Card",
@@ -10739,70 +10623,6 @@
     "tags": [],
     "createdAt": "2026-03-21T14:36:24.607758Z",
     "updatedAt": "2026-04-06T10:56:26.698117Z"
-  },
-  {
-    "id": "prod-125",
-    "sku": "HELL-KIT-125",
-    "title": "Hello Kitty Garden ",
-    "slug": "hello-kitty-garden",
-    "categoryIds": [
-      "cat-08"
-    ],
-    "subcategoryId": "subcat-pin-39",
-    "price": 80.0,
-    "currency": "INR",
-    "stock": 11,
-    "available": true,
-    "images": [
-      "assets/products/hello-kitty-garden-claw-clip/hello-kitty-garden.jpeg"
-    ],
-    "attributes": {},
-    "shortDescription": "Kitty Garden! A cute box-shaped small claw clip topped with a sweet Hello Kitty charm.",
-    "description": "",
-    "tags": [],
-    "sizes": [
-      "SMALL"
-    ],
-    "colors": [
-      {
-        "name": "1",
-        "hex": "#F2CFE0",
-        "stock": 2,
-        "available": true
-      },
-      {
-        "name": "2",
-        "hex": "#EAB9BF",
-        "stock": 2,
-        "available": true
-      },
-      {
-        "name": "3",
-        "hex": "#B698CD",
-        "stock": 1,
-        "available": true
-      },
-      {
-        "name": "4",
-        "hex": "#F3ECC9",
-        "stock": 2,
-        "available": true
-      },
-      {
-        "name": "5",
-        "hex": "#EDDEE1",
-        "stock": 1,
-        "available": true
-      },
-      {
-        "name": "6",
-        "hex": "#C5E3EC",
-        "stock": 2,
-        "available": true
-      }
-    ],
-    "createdAt": "2026-03-27T03:58:11.879445Z",
-    "updatedAt": "2026-04-14T06:48:22.375804Z"
   },
   {
     "id": "prod-126",
